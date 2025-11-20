@@ -1,0 +1,76 @@
+{
+  "timestamp": "2025-11-20T15:47:32.843107Z",
+  "symbol": "USDJPY",
+  "timeframe": "H1",
+  "price": {
+    "bid": 157.568,
+    "ask": 157.576,
+    "last": 0.0
+  },
+  "sentiment": "NEUTRAL",
+  "analysis": "Market analysis indicates balanced conditions with no clear directional bias. RSI at 64.65 remains in neutral territory. Money Flow Index at 53.64 suggests balanced volume distribution. MACD showing trend transition, awaiting confirmation. Price maintaining above Bollinger middle band, uptrend intact. Price structure supports bullish continuation with MA and SAR confirmation. Ichimoku cloud analysis supports bullish bias. Stochastic at 80.98 warns of overbought exhaustion.",
+  "indicators": {
+    "rsi": {
+      "value": 64.65,
+      "condition": "NEUTRAL",
+      "signal": "HOLD"
+    },
+    "mfi": {
+      "value": 53.64,
+      "condition": "NEUTRAL",
+      "signal": "HOLD"
+    },
+    "stochastic": {
+      "main": 80.98,
+      "signal": 72.53,
+      "condition": "OVERBOUGHT",
+      "signal_type": "SELL"
+    },
+    "macd": {
+      "main": 0.34431,
+      "signal": 0.36733,
+      "divergence": -0.02302,
+      "histogram": "NEGATIVE",
+      "trend": "BEARISH"
+    },
+    "bollinger_bands": {
+      "upper": 157.85471,
+      "middle": 157.34305,
+      "lower": 156.83139,
+      "price_position": "ABOVE_MIDDLE",
+      "bandwidth": 1.02332
+    },
+    "moving_average": {
+      "value": 157.47064,
+      "price_position": "ABOVE",
+      "signal": "BULLISH"
+    },
+    "parabolic_sar": {
+      "value": 157.109,
+      "price_position": "ABOVE",
+      "trend": "UPTREND"
+    },
+    "ichimoku": {
+      "tenkan_sen": 157.482,
+      "kijun_sen": 156.9485,
+      "price_vs_tenkan": "ABOVE",
+      "price_vs_kijun": "ABOVE",
+      "tk_cross": "BULLISH"
+    }
+  },
+  "indicator_insights": {
+    "rsi": "Strong momentum at 64.7, trend continuation favored.",
+    "mfi": "Balanced volume flow at 53.6, institutional activity moderate.",
+    "stochastic": "Extreme overbought at 81.0, bearish divergence possible.",
+    "macd": "Bearish crossover above zero. Profit-taking phase, trend weakening.",
+    "bollinger_bands": "Price holding above midline. Bullish bias maintained, support at 157.34305.",
+    "moving_average": "Price 0.06% above MA. Uptrend confirmed, MA acting as dynamic support.",
+    "parabolic_sar": "SAR positioned below price at 157.10900. Uptrend active, trailing stop recommended.",
+    "ichimoku": "Price above cloud components. Strong bullish structure, all systems aligned for longs."
+  },
+  "signals": {
+    "primary": "NEUTRAL",
+    "strength": "MODERATE",
+    "recommendation": "OBSERVE"
+  }
+}
