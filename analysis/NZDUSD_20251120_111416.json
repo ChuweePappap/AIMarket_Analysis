@@ -1,0 +1,76 @@
+{
+  "timestamp": "2025-11-20T11:14:06.789022Z",
+  "symbol": "NZDUSD",
+  "timeframe": "H1",
+  "price": {
+    "bid": 0.5617,
+    "ask": 0.5618,
+    "last": 0.0
+  },
+  "sentiment": "STRONG_BULLISH",
+  "analysis": "Market analysis indicates strong upward momentum with multiple bullish confirmations. RSI at 62.61 remains in neutral territory. Money Flow Index at 71.59 suggests balanced volume distribution. MACD showing trend transition, awaiting confirmation. Price maintaining above Bollinger middle band, uptrend intact. Price structure supports bullish continuation with MA and SAR confirmation. Ichimoku cloud analysis supports bullish bias. Stochastic at 94.20 warns of overbought exhaustion.",
+  "indicators": {
+    "rsi": {
+      "value": 62.61,
+      "condition": "NEUTRAL",
+      "signal": "HOLD"
+    },
+    "mfi": {
+      "value": 71.59,
+      "condition": "NEUTRAL",
+      "signal": "HOLD"
+    },
+    "stochastic": {
+      "main": 94.2,
+      "signal": 81.91,
+      "condition": "OVERBOUGHT",
+      "signal_type": "SELL"
+    },
+    "macd": {
+      "main": -0.00033,
+      "signal": -0.00064,
+      "divergence": 0.00031,
+      "histogram": "POSITIVE",
+      "trend": "BULLISH"
+    },
+    "bollinger_bands": {
+      "upper": 0.56205,
+      "middle": 0.56062,
+      "lower": 0.5592,
+      "price_position": "ABOVE_MIDDLE",
+      "bandwidth": 0.00285
+    },
+    "moving_average": {
+      "value": 0.56097,
+      "price_position": "ABOVE",
+      "signal": "BULLISH"
+    },
+    "parabolic_sar": {
+      "value": 0.55952,
+      "price_position": "ABOVE",
+      "trend": "UPTREND"
+    },
+    "ichimoku": {
+      "tenkan_sen": 0.56109,
+      "kijun_sen": 0.56123,
+      "price_vs_tenkan": "ABOVE",
+      "price_vs_kijun": "ABOVE",
+      "tk_cross": "BEARISH"
+    }
+  },
+  "indicator_insights": {
+    "rsi": "Strong momentum at 62.6, trend continuation favored.",
+    "mfi": "Balanced volume flow at 71.6, institutional activity moderate.",
+    "stochastic": "Extreme overbought at 94.2, bearish divergence possible.",
+    "macd": "Early bullish crossover below zero. Recovery phase initiated, watch for confirmation.",
+    "bollinger_bands": "Price holding above midline. Bullish bias maintained, support at 0.56062.",
+    "moving_average": "Price 0.13% above MA. Uptrend confirmed, MA acting as dynamic support.",
+    "parabolic_sar": "SAR positioned below price at 0.55952. Uptrend active, trailing stop recommended.",
+    "ichimoku": "Price above cloud components. Strong bullish structure, all systems aligned for longs."
+  },
+  "signals": {
+    "primary": "BUY",
+    "strength": "STRONG",
+    "recommendation": "WAIT_FOR_CORRECTION"
+  }
+}
