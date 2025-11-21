@@ -1,0 +1,76 @@
+{
+  "timestamp": "2025-11-21T10:50:10.192134Z",
+  "symbol": "USDCHF",
+  "timeframe": "H1",
+  "price": {
+    "bid": 0.80589,
+    "ask": 0.80599,
+    "last": 0.0
+  },
+  "sentiment": "NEUTRAL",
+  "analysis": "Market analysis indicates balanced conditions with no clear directional bias. RSI at 49.38 remains in neutral territory. Money Flow Index at 50.49 suggests balanced volume distribution. MACD showing trend transition, awaiting confirmation. Price maintaining above Bollinger middle band, uptrend intact. Price structure supports bullish continuation with MA and SAR confirmation. Ichimoku cloud analysis supports bullish bias. Stochastic at 93.65 warns of overbought exhaustion.",
+  "indicators": {
+    "rsi": {
+      "value": 49.38,
+      "condition": "NEUTRAL",
+      "signal": "HOLD"
+    },
+    "mfi": {
+      "value": 50.49,
+      "condition": "NEUTRAL",
+      "signal": "HOLD"
+    },
+    "stochastic": {
+      "main": 93.65,
+      "signal": 76.68,
+      "condition": "OVERBOUGHT",
+      "signal_type": "SELL"
+    },
+    "macd": {
+      "main": -0.0,
+      "signal": 1e-05,
+      "divergence": -1e-05,
+      "histogram": "NEGATIVE",
+      "trend": "BEARISH"
+    },
+    "bollinger_bands": {
+      "upper": 0.80646,
+      "middle": 0.80531,
+      "lower": 0.80415,
+      "price_position": "ABOVE_MIDDLE",
+      "bandwidth": 0.00231
+    },
+    "moving_average": {
+      "value": 0.80513,
+      "price_position": "ABOVE",
+      "signal": "BULLISH"
+    },
+    "parabolic_sar": {
+      "value": 0.80356,
+      "price_position": "ABOVE",
+      "trend": "UPTREND"
+    },
+    "ichimoku": {
+      "tenkan_sen": 0.80482,
+      "kijun_sen": 0.80562,
+      "price_vs_tenkan": "ABOVE",
+      "price_vs_kijun": "ABOVE",
+      "tk_cross": "BEARISH"
+    }
+  },
+  "indicator_insights": {
+    "rsi": "Neutral at 49.4, consolidation or range-bound price action.",
+    "mfi": "Balanced volume flow at 50.5, institutional activity moderate.",
+    "stochastic": "Extreme overbought at 93.7, bearish divergence possible.",
+    "macd": "Bearish crossover above zero. Profit-taking phase, trend weakening.",
+    "bollinger_bands": "Price holding above midline. Bullish bias maintained, support at 0.80531.",
+    "moving_average": "Price 0.09% above MA. Uptrend confirmed, MA acting as dynamic support.",
+    "parabolic_sar": "SAR positioned below price at 0.80356. Uptrend active, trailing stop recommended.",
+    "ichimoku": "Price above cloud components. Strong bullish structure, all systems aligned for longs."
+  },
+  "signals": {
+    "primary": "NEUTRAL",
+    "strength": "MODERATE",
+    "recommendation": "WAIT_FOR_CORRECTION"
+  }
+}
