@@ -1,0 +1,76 @@
+{
+  "timestamp": "2025-11-21T10:50:10.175742Z",
+  "symbol": "USDJPY",
+  "timeframe": "H1",
+  "price": {
+    "bid": 156.732,
+    "ask": 156.74,
+    "last": 0.0
+  },
+  "sentiment": "STRONG_BEARISH",
+  "analysis": "Market analysis indicates strong downward pressure with multiple bearish signals. RSI at 21.22 signals oversold conditions, potential reversal opportunity. Money Flow Index at 22.54 suggests balanced volume distribution. MACD histogram negative with bearish crossover in effect. Price below Bollinger middle band, downside pressure present. Technical structure favors downside with price below key support levels. Ichimoku structure confirms bearish environment.",
+  "indicators": {
+    "rsi": {
+      "value": 21.22,
+      "condition": "OVERSOLD",
+      "signal": "BUY"
+    },
+    "mfi": {
+      "value": 22.54,
+      "condition": "NEUTRAL",
+      "signal": "HOLD"
+    },
+    "stochastic": {
+      "main": 27.83,
+      "signal": 29.02,
+      "condition": "NEUTRAL",
+      "signal_type": "HOLD"
+    },
+    "macd": {
+      "main": -0.10063,
+      "signal": 0.01276,
+      "divergence": -0.11339,
+      "histogram": "NEGATIVE",
+      "trend": "BEARISH"
+    },
+    "bollinger_bands": {
+      "upper": 157.88016,
+      "middle": 157.28335,
+      "lower": 156.68654,
+      "price_position": "BELOW_MIDDLE",
+      "bandwidth": 1.19362
+    },
+    "moving_average": {
+      "value": 157.1755,
+      "price_position": "BELOW",
+      "signal": "BEARISH"
+    },
+    "parabolic_sar": {
+      "value": 157.497,
+      "price_position": "BELOW",
+      "trend": "DOWNTREND"
+    },
+    "ichimoku": {
+      "tenkan_sen": 157.024,
+      "kijun_sen": 157.2265,
+      "price_vs_tenkan": "BELOW",
+      "price_vs_kijun": "BELOW",
+      "tk_cross": "BEARISH"
+    }
+  },
+  "indicator_insights": {
+    "rsi": "Deeply oversold at 21.2, strong reversal potential. Buyers may step in soon.",
+    "mfi": "Balanced volume flow at 22.5, institutional activity moderate.",
+    "stochastic": "Mid-range at 27.8, no extreme momentum detected.",
+    "macd": "Strong bearish momentum. Histogram expanding negative (-0.11339), downtrend intact.",
+    "bollinger_bands": "Price below midline. Bearish pressure dominant, resistance at 157.28335.",
+    "moving_average": "Price 0.28% below MA. Downtrend confirmed, MA acting as dynamic resistance.",
+    "parabolic_sar": "SAR positioned above price at 157.49700. Downtrend active, short positions favored.",
+    "ichimoku": "Price below cloud components. Strong bearish structure, shorts technically favored."
+  },
+  "signals": {
+    "primary": "SELL",
+    "strength": "STRONG",
+    "recommendation": "WAIT_FOR_CONFIRMATION"
+  }
+}
