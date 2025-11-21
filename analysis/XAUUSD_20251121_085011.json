@@ -1,0 +1,76 @@
+{
+  "timestamp": "2025-11-21T08:50:10.943793Z",
+  "symbol": "XAUUSD",
+  "timeframe": "H1",
+  "price": {
+    "bid": 4070.0,
+    "ask": 4070.17,
+    "last": 0.0
+  },
+  "sentiment": "NEUTRAL",
+  "analysis": "Market analysis indicates balanced conditions with no clear directional bias. RSI at 53.02 remains in neutral territory. Money Flow Index at 67.10 suggests balanced volume distribution. MACD showing trend transition, awaiting confirmation. Price below Bollinger middle band, downside pressure present. Technical structure favors downside with price below key support levels.",
+  "indicators": {
+    "rsi": {
+      "value": 53.02,
+      "condition": "NEUTRAL",
+      "signal": "HOLD"
+    },
+    "mfi": {
+      "value": 67.1,
+      "condition": "NEUTRAL",
+      "signal": "HOLD"
+    },
+    "stochastic": {
+      "main": 41.6,
+      "signal": 60.55,
+      "condition": "NEUTRAL",
+      "signal_type": "HOLD"
+    },
+    "macd": {
+      "main": -1.07742,
+      "signal": -1.76833,
+      "divergence": 0.69091,
+      "histogram": "POSITIVE",
+      "trend": "BULLISH"
+    },
+    "bollinger_bands": {
+      "upper": 4091.40766,
+      "middle": 4070.33,
+      "lower": 4049.25234,
+      "price_position": "BELOW_MIDDLE",
+      "bandwidth": 42.15532
+    },
+    "moving_average": {
+      "value": 4073.09357,
+      "price_position": "BELOW",
+      "signal": "BEARISH"
+    },
+    "parabolic_sar": {
+      "value": 4098.85,
+      "price_position": "BELOW",
+      "trend": "DOWNTREND"
+    },
+    "ichimoku": {
+      "tenkan_sen": 4066.285,
+      "kijun_sen": 4074.62,
+      "price_vs_tenkan": "ABOVE",
+      "price_vs_kijun": "BELOW",
+      "tk_cross": "BEARISH"
+    }
+  },
+  "indicator_insights": {
+    "rsi": "Neutral at 53.0, consolidation or range-bound price action.",
+    "mfi": "Balanced volume flow at 67.1, institutional activity moderate.",
+    "stochastic": "Mid-range at 41.6, no extreme momentum detected.",
+    "macd": "Early bullish crossover below zero. Recovery phase initiated, watch for confirmation.",
+    "bollinger_bands": "Price below midline. Bearish pressure dominant, resistance at 4070.33000.",
+    "moving_average": "Price 0.08% below MA. Downtrend confirmed, MA acting as dynamic resistance.",
+    "parabolic_sar": "SAR positioned above price at 4098.85000. Downtrend active, short positions favored.",
+    "ichimoku": "Tenkan/Kijun bearish cross detected. Trend reversal warning, risk management critical."
+  },
+  "signals": {
+    "primary": "NEUTRAL",
+    "strength": "MODERATE",
+    "recommendation": "OBSERVE"
+  }
+}
