@@ -1,0 +1,76 @@
+{
+  "timestamp": "2025-11-21T03:00:38.434088Z",
+  "symbol": "EURJPY",
+  "timeframe": "H1",
+  "price": {
+    "bid": 181.539,
+    "ask": 181.549,
+    "last": 0.0
+  },
+  "sentiment": "BEARISH",
+  "analysis": "Market analysis indicates negative pressure with sellers in control. RSI at 50.46 remains in neutral territory. Money Flow Index at 61.45 suggests balanced volume distribution. MACD showing trend transition, awaiting confirmation. Price below Bollinger middle band, downside pressure present. Technical structure favors downside with price below key support levels.",
+  "indicators": {
+    "rsi": {
+      "value": 50.46,
+      "condition": "NEUTRAL",
+      "signal": "HOLD"
+    },
+    "mfi": {
+      "value": 61.45,
+      "condition": "NEUTRAL",
+      "signal": "HOLD"
+    },
+    "stochastic": {
+      "main": 68.21,
+      "signal": 56.13,
+      "condition": "NEUTRAL",
+      "signal_type": "HOLD"
+    },
+    "macd": {
+      "main": 0.12759,
+      "signal": 0.1724,
+      "divergence": -0.04481,
+      "histogram": "NEGATIVE",
+      "trend": "BEARISH"
+    },
+    "bollinger_bands": {
+      "upper": 181.91193,
+      "middle": 181.54155,
+      "lower": 181.17117,
+      "price_position": "BELOW_MIDDLE",
+      "bandwidth": 0.74076
+    },
+    "moving_average": {
+      "value": 181.62921,
+      "price_position": "BELOW",
+      "signal": "BEARISH"
+    },
+    "parabolic_sar": {
+      "value": 181.839,
+      "price_position": "BELOW",
+      "trend": "DOWNTREND"
+    },
+    "ichimoku": {
+      "tenkan_sen": 181.5625,
+      "kijun_sen": 181.5145,
+      "price_vs_tenkan": "BELOW",
+      "price_vs_kijun": "ABOVE",
+      "tk_cross": "BULLISH"
+    }
+  },
+  "indicator_insights": {
+    "rsi": "Neutral at 50.5, consolidation or range-bound price action.",
+    "mfi": "Balanced volume flow at 61.5, institutional activity moderate.",
+    "stochastic": "Mid-range at 68.2, no extreme momentum detected.",
+    "macd": "Bearish crossover above zero. Profit-taking phase, trend weakening.",
+    "bollinger_bands": "Price below midline. Bearish pressure dominant, resistance at 181.54155.",
+    "moving_average": "Price 0.05% below MA. Downtrend confirmed, MA acting as dynamic resistance.",
+    "parabolic_sar": "SAR positioned above price at 181.83900. Downtrend active, short positions favored.",
+    "ichimoku": "Tenkan/Kijun bullish cross detected. Early trend reversal signal, monitoring required."
+  },
+  "signals": {
+    "primary": "SELL",
+    "strength": "MODERATE",
+    "recommendation": "CONSIDER_SHORT"
+  }
+}
