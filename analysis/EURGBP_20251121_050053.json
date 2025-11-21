@@ -1,0 +1,76 @@
+{
+  "timestamp": "2025-11-21T05:00:38.426527Z",
+  "symbol": "EURGBP",
+  "timeframe": "H1",
+  "price": {
+    "bid": 0.88142,
+    "ask": 0.88152,
+    "last": 0.0
+  },
+  "sentiment": "STRONG_BULLISH",
+  "analysis": "Market analysis indicates strong upward momentum with multiple bullish confirmations. RSI at 68.95 remains in neutral territory. Money Flow Index at 68.78 suggests balanced volume distribution. MACD showing trend transition, awaiting confirmation. Price below Bollinger middle band, downside pressure present. Price action mixed with conflicting signals from trend indicators. Ichimoku cloud analysis supports bullish bias.",
+  "indicators": {
+    "rsi": {
+      "value": 68.95,
+      "condition": "NEUTRAL",
+      "signal": "HOLD"
+    },
+    "mfi": {
+      "value": 68.78,
+      "condition": "NEUTRAL",
+      "signal": "HOLD"
+    },
+    "stochastic": {
+      "main": 52.75,
+      "signal": 67.55,
+      "condition": "NEUTRAL",
+      "signal_type": "HOLD"
+    },
+    "macd": {
+      "main": -8e-05,
+      "signal": -0.00011,
+      "divergence": 3e-05,
+      "histogram": "POSITIVE",
+      "trend": "BULLISH"
+    },
+    "bollinger_bands": {
+      "upper": 0.88277,
+      "middle": 0.88147,
+      "lower": 0.88018,
+      "price_position": "BELOW_MIDDLE",
+      "bandwidth": 0.00259
+    },
+    "moving_average": {
+      "value": 0.88167,
+      "price_position": "BELOW",
+      "signal": "BEARISH"
+    },
+    "parabolic_sar": {
+      "value": 0.88017,
+      "price_position": "ABOVE",
+      "trend": "UPTREND"
+    },
+    "ichimoku": {
+      "tenkan_sen": 0.88113,
+      "kijun_sen": 0.88122,
+      "price_vs_tenkan": "ABOVE",
+      "price_vs_kijun": "ABOVE",
+      "tk_cross": "BEARISH"
+    }
+  },
+  "indicator_insights": {
+    "rsi": "Strong momentum at 69.0, trend continuation favored.",
+    "mfi": "Balanced volume flow at 68.8, institutional activity moderate.",
+    "stochastic": "Mid-range at 52.8, no extreme momentum detected.",
+    "macd": "Early bullish crossover below zero. Recovery phase initiated, watch for confirmation.",
+    "bollinger_bands": "Price below midline. Bearish pressure dominant, resistance at 0.88147.",
+    "moving_average": "Price 0.03% below MA. Downtrend confirmed, MA acting as dynamic resistance.",
+    "parabolic_sar": "SAR positioned below price at 0.88017. Uptrend active, trailing stop recommended.",
+    "ichimoku": "Price above cloud components. Strong bullish structure, all systems aligned for longs."
+  },
+  "signals": {
+    "primary": "BUY",
+    "strength": "STRONG",
+    "recommendation": "ENTER_LONG"
+  }
+}
