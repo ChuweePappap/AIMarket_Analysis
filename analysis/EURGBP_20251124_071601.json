@@ -1,0 +1,76 @@
+{
+  "timestamp": "2025-11-24T07:15:42.643586Z",
+  "symbol": "EURGBP",
+  "timeframe": "H1",
+  "price": {
+    "bid": 0.87957,
+    "ask": 0.8797,
+    "last": 0.0
+  },
+  "sentiment": "STRONG_BULLISH",
+  "analysis": "Market analysis indicates strong upward momentum with multiple bullish confirmations. RSI at 72.46 indicates overbought territory, suggesting caution for long positions. Money Flow Index at 70.41 suggests balanced volume distribution. MACD showing trend transition, awaiting confirmation. Price maintaining above Bollinger middle band, uptrend intact. Price structure supports bullish continuation with MA and SAR confirmation.",
+  "indicators": {
+    "rsi": {
+      "value": 72.46,
+      "condition": "OVERBOUGHT",
+      "signal": "SELL"
+    },
+    "mfi": {
+      "value": 70.41,
+      "condition": "NEUTRAL",
+      "signal": "HOLD"
+    },
+    "stochastic": {
+      "main": 66.99,
+      "signal": 77.86,
+      "condition": "NEUTRAL",
+      "signal_type": "HOLD"
+    },
+    "macd": {
+      "main": -0.00045,
+      "signal": -0.00058,
+      "divergence": 0.00013,
+      "histogram": "POSITIVE",
+      "trend": "BULLISH"
+    },
+    "bollinger_bands": {
+      "upper": 0.88105,
+      "middle": 0.87928,
+      "lower": 0.87752,
+      "price_position": "ABOVE_MIDDLE",
+      "bandwidth": 0.00353
+    },
+    "moving_average": {
+      "value": 0.87897,
+      "price_position": "ABOVE",
+      "signal": "BULLISH"
+    },
+    "parabolic_sar": {
+      "value": 0.87792,
+      "price_position": "ABOVE",
+      "trend": "UPTREND"
+    },
+    "ichimoku": {
+      "tenkan_sen": 0.87877,
+      "kijun_sen": 0.88052,
+      "price_vs_tenkan": "ABOVE",
+      "price_vs_kijun": "BELOW",
+      "tk_cross": "BEARISH"
+    }
+  },
+  "indicator_insights": {
+    "rsi": "Overbought at 72.5, profit-taking likely. Caution for new longs.",
+    "mfi": "Balanced volume flow at 70.4, institutional activity moderate.",
+    "stochastic": "Mid-range at 67.0, no extreme momentum detected.",
+    "macd": "Early bullish crossover below zero. Recovery phase initiated, watch for confirmation.",
+    "bollinger_bands": "Price holding above midline. Bullish bias maintained, support at 0.87928.",
+    "moving_average": "Price 0.07% above MA. Uptrend confirmed, MA acting as dynamic support.",
+    "parabolic_sar": "SAR positioned below price at 0.87792. Uptrend active, trailing stop recommended.",
+    "ichimoku": "Tenkan/Kijun bearish cross detected. Trend reversal warning, risk management critical."
+  },
+  "signals": {
+    "primary": "BUY",
+    "strength": "STRONG",
+    "recommendation": "ENTER_LONG"
+  }
+}
