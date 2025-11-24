@@ -1,0 +1,76 @@
+{
+  "timestamp": "2025-11-24T12:15:42.662674Z",
+  "symbol": "EURGBP",
+  "timeframe": "H1",
+  "price": {
+    "bid": 0.88135,
+    "ask": 0.88145,
+    "last": 0.0
+  },
+  "sentiment": "STRONG_BEARISH",
+  "analysis": "Market analysis indicates strong downward pressure with multiple bearish signals. RSI at 93.31 indicates overbought territory, suggesting caution for long positions. Money Flow Index at 86.47 indicates strong buying activity. MACD histogram positive with bullish crossover confirmed. Price extended above Bollinger upper band, reversal risk elevated. Price structure supports bullish continuation with MA and SAR confirmation. Ichimoku cloud analysis supports bullish bias. Stochastic at 96.73 warns of overbought exhaustion.",
+  "indicators": {
+    "rsi": {
+      "value": 93.31,
+      "condition": "OVERBOUGHT",
+      "signal": "SELL"
+    },
+    "mfi": {
+      "value": 86.47,
+      "condition": "OVERBOUGHT",
+      "signal": "SELL"
+    },
+    "stochastic": {
+      "main": 96.73,
+      "signal": 87.64,
+      "condition": "OVERBOUGHT",
+      "signal_type": "SELL"
+    },
+    "macd": {
+      "main": 0.00013,
+      "signal": -0.00025,
+      "divergence": 0.00038,
+      "histogram": "POSITIVE",
+      "trend": "BULLISH"
+    },
+    "bollinger_bands": {
+      "upper": 0.88132,
+      "middle": 0.87939,
+      "lower": 0.87746,
+      "price_position": "ABOVE_UPPER",
+      "bandwidth": 0.00386
+    },
+    "moving_average": {
+      "value": 0.87975,
+      "price_position": "ABOVE",
+      "signal": "BULLISH"
+    },
+    "parabolic_sar": {
+      "value": 0.87912,
+      "price_position": "ABOVE",
+      "trend": "UPTREND"
+    },
+    "ichimoku": {
+      "tenkan_sen": 0.8804,
+      "kijun_sen": 0.88032,
+      "price_vs_tenkan": "ABOVE",
+      "price_vs_kijun": "ABOVE",
+      "tk_cross": "BULLISH"
+    }
+  },
+  "indicator_insights": {
+    "rsi": "Overbought at 93.3, profit-taking likely. Caution for new longs.",
+    "mfi": "Heavy money inflow at 86.5, euphoric buying. Reversal risk elevated.",
+    "stochastic": "Extreme overbought at 96.7, bearish divergence possible.",
+    "macd": "Strong bullish momentum. Histogram expanding positive (0.00038), trend strength confirmed.",
+    "bollinger_bands": "Price extended above upper band. Parabolic move detected, exhaustion imminent.",
+    "moving_average": "Price 0.18% above MA. Uptrend confirmed, MA acting as dynamic support.",
+    "parabolic_sar": "SAR positioned below price at 0.87912. Uptrend active, trailing stop recommended.",
+    "ichimoku": "Price above cloud components. Strong bullish structure, all systems aligned for longs."
+  },
+  "signals": {
+    "primary": "SELL",
+    "strength": "STRONG",
+    "recommendation": "WAIT_FOR_CORRECTION"
+  }
+}
