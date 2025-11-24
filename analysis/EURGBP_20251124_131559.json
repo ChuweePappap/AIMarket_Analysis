@@ -1,0 +1,76 @@
+{
+  "timestamp": "2025-11-24T13:15:42.653480Z",
+  "symbol": "EURGBP",
+  "timeframe": "H1",
+  "price": {
+    "bid": 0.88042,
+    "ask": 0.88052,
+    "last": 0.0
+  },
+  "sentiment": "BULLISH",
+  "analysis": "Market analysis indicates positive momentum favoring buyers. RSI at 69.05 remains in neutral territory. Money Flow Index at 83.79 indicates strong buying activity. MACD histogram positive with bullish crossover confirmed. Price maintaining above Bollinger middle band, uptrend intact. Price structure supports bullish continuation with MA and SAR confirmation. Stochastic at 80.58 warns of overbought exhaustion.",
+  "indicators": {
+    "rsi": {
+      "value": 69.05,
+      "condition": "NEUTRAL",
+      "signal": "HOLD"
+    },
+    "mfi": {
+      "value": 83.79,
+      "condition": "OVERBOUGHT",
+      "signal": "SELL"
+    },
+    "stochastic": {
+      "main": 80.58,
+      "signal": 88.91,
+      "condition": "OVERBOUGHT",
+      "signal_type": "SELL"
+    },
+    "macd": {
+      "main": 0.00016,
+      "signal": -0.00016,
+      "divergence": 0.00032,
+      "histogram": "POSITIVE",
+      "trend": "BULLISH"
+    },
+    "bollinger_bands": {
+      "upper": 0.88151,
+      "middle": 0.87951,
+      "lower": 0.87751,
+      "price_position": "ABOVE_MIDDLE",
+      "bandwidth": 0.004
+    },
+    "moving_average": {
+      "value": 0.8799,
+      "price_position": "ABOVE",
+      "signal": "BULLISH"
+    },
+    "parabolic_sar": {
+      "value": 0.87912,
+      "price_position": "ABOVE",
+      "trend": "UPTREND"
+    },
+    "ichimoku": {
+      "tenkan_sen": 0.88056,
+      "kijun_sen": 0.8801,
+      "price_vs_tenkan": "BELOW",
+      "price_vs_kijun": "ABOVE",
+      "tk_cross": "BULLISH"
+    }
+  },
+  "indicator_insights": {
+    "rsi": "Strong momentum at 69.0, trend continuation favored.",
+    "mfi": "Heavy money inflow at 83.8, euphoric buying. Reversal risk elevated.",
+    "stochastic": "Extreme overbought at 80.6, bearish divergence possible.",
+    "macd": "Strong bullish momentum. Histogram expanding positive (0.00032), trend strength confirmed.",
+    "bollinger_bands": "Price holding above midline. Bullish bias maintained, support at 0.87951.",
+    "moving_average": "Price 0.06% above MA. Uptrend confirmed, MA acting as dynamic support.",
+    "parabolic_sar": "SAR positioned below price at 0.87912. Uptrend active, trailing stop recommended.",
+    "ichimoku": "Tenkan/Kijun bullish cross detected. Early trend reversal signal, monitoring required."
+  },
+  "signals": {
+    "primary": "BUY",
+    "strength": "MODERATE",
+    "recommendation": "CONSIDER_LONG"
+  }
+}
