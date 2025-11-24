@@ -1,0 +1,76 @@
+{
+  "timestamp": "2025-11-24T09:15:42.670863Z",
+  "symbol": "EURJPY",
+  "timeframe": "H1",
+  "price": {
+    "bid": 180.899,
+    "ask": 180.909,
+    "last": 0.0
+  },
+  "sentiment": "NEUTRAL",
+  "analysis": "Market analysis indicates balanced conditions with no clear directional bias. RSI at 74.05 indicates overbought territory, suggesting caution for long positions. Money Flow Index at 74.63 suggests balanced volume distribution. MACD showing trend transition, awaiting confirmation. Price extended above Bollinger upper band, reversal risk elevated. Price structure supports bullish continuation with MA and SAR confirmation. Ichimoku cloud analysis supports bullish bias. Stochastic at 85.90 warns of overbought exhaustion.",
+  "indicators": {
+    "rsi": {
+      "value": 74.05,
+      "condition": "OVERBOUGHT",
+      "signal": "SELL"
+    },
+    "mfi": {
+      "value": 74.63,
+      "condition": "NEUTRAL",
+      "signal": "HOLD"
+    },
+    "stochastic": {
+      "main": 85.9,
+      "signal": 80.03,
+      "condition": "OVERBOUGHT",
+      "signal_type": "SELL"
+    },
+    "macd": {
+      "main": -0.07632,
+      "signal": -0.16795,
+      "divergence": 0.09163,
+      "histogram": "POSITIVE",
+      "trend": "BULLISH"
+    },
+    "bollinger_bands": {
+      "upper": 180.76902,
+      "middle": 180.32525,
+      "lower": 179.88148,
+      "price_position": "ABOVE_UPPER",
+      "bandwidth": 0.88754
+    },
+    "moving_average": {
+      "value": 180.34929,
+      "price_position": "ABOVE",
+      "signal": "BULLISH"
+    },
+    "parabolic_sar": {
+      "value": 180.149,
+      "price_position": "ABOVE",
+      "trend": "UPTREND"
+    },
+    "ichimoku": {
+      "tenkan_sen": 180.552,
+      "kijun_sen": 180.596,
+      "price_vs_tenkan": "ABOVE",
+      "price_vs_kijun": "ABOVE",
+      "tk_cross": "BEARISH"
+    }
+  },
+  "indicator_insights": {
+    "rsi": "Overbought at 74.0, profit-taking likely. Caution for new longs.",
+    "mfi": "Balanced volume flow at 74.6, institutional activity moderate.",
+    "stochastic": "Extreme overbought at 85.9, bearish divergence possible.",
+    "macd": "Early bullish crossover below zero. Recovery phase initiated, watch for confirmation.",
+    "bollinger_bands": "Price extended above upper band. Parabolic move detected, exhaustion imminent.",
+    "moving_average": "Price 0.30% above MA. Uptrend confirmed, MA acting as dynamic support.",
+    "parabolic_sar": "SAR positioned below price at 180.14900. Uptrend active, trailing stop recommended.",
+    "ichimoku": "Price above cloud components. Strong bullish structure, all systems aligned for longs."
+  },
+  "signals": {
+    "primary": "NEUTRAL",
+    "strength": "MODERATE",
+    "recommendation": "WAIT_FOR_CORRECTION"
+  }
+}
