@@ -1,0 +1,76 @@
+{
+  "timestamp": "2025-11-24T06:15:42.661654Z",
+  "symbol": "EURJPY",
+  "timeframe": "H1",
+  "price": {
+    "bid": 180.488,
+    "ask": 180.498,
+    "last": 0.0
+  },
+  "sentiment": "STRONG_BULLISH",
+  "analysis": "Market analysis indicates strong upward momentum with multiple bullish confirmations. RSI at 65.65 remains in neutral territory. Money Flow Index at 68.26 suggests balanced volume distribution. MACD showing trend transition, awaiting confirmation. Price maintaining above Bollinger middle band, uptrend intact. Price structure supports bullish continuation with MA and SAR confirmation.",
+  "indicators": {
+    "rsi": {
+      "value": 65.65,
+      "condition": "NEUTRAL",
+      "signal": "HOLD"
+    },
+    "mfi": {
+      "value": 68.26,
+      "condition": "NEUTRAL",
+      "signal": "HOLD"
+    },
+    "stochastic": {
+      "main": 64.9,
+      "signal": 76.85,
+      "condition": "NEUTRAL",
+      "signal_type": "HOLD"
+    },
+    "macd": {
+      "main": -0.1684,
+      "signal": -0.22795,
+      "divergence": 0.05955,
+      "histogram": "POSITIVE",
+      "trend": "BULLISH"
+    },
+    "bollinger_bands": {
+      "upper": 180.73375,
+      "middle": 180.31695,
+      "lower": 179.90015,
+      "price_position": "ABOVE_MIDDLE",
+      "bandwidth": 0.8336
+    },
+    "moving_average": {
+      "value": 180.242,
+      "price_position": "ABOVE",
+      "signal": "BULLISH"
+    },
+    "parabolic_sar": {
+      "value": 179.945,
+      "price_position": "ABOVE",
+      "trend": "UPTREND"
+    },
+    "ichimoku": {
+      "tenkan_sen": 180.2015,
+      "kijun_sen": 180.643,
+      "price_vs_tenkan": "ABOVE",
+      "price_vs_kijun": "BELOW",
+      "tk_cross": "BEARISH"
+    }
+  },
+  "indicator_insights": {
+    "rsi": "Strong momentum at 65.7, trend continuation favored.",
+    "mfi": "Balanced volume flow at 68.3, institutional activity moderate.",
+    "stochastic": "Mid-range at 64.9, no extreme momentum detected.",
+    "macd": "Early bullish crossover below zero. Recovery phase initiated, watch for confirmation.",
+    "bollinger_bands": "Price holding above midline. Bullish bias maintained, support at 180.31695.",
+    "moving_average": "Price 0.14% above MA. Uptrend confirmed, MA acting as dynamic support.",
+    "parabolic_sar": "SAR positioned below price at 179.94500. Uptrend active, trailing stop recommended.",
+    "ichimoku": "Tenkan/Kijun bearish cross detected. Trend reversal warning, risk management critical."
+  },
+  "signals": {
+    "primary": "BUY",
+    "strength": "STRONG",
+    "recommendation": "ENTER_LONG"
+  }
+}
