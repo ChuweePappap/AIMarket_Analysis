@@ -1,0 +1,76 @@
+{
+  "timestamp": "2025-11-25T23:54:03.150636Z",
+  "symbol": "AUDUSD",
+  "timeframe": "H1",
+  "price": {
+    "bid": 0.6469,
+    "ask": 0.64698,
+    "last": 0.0
+  },
+  "sentiment": "NEUTRAL",
+  "analysis": "Market analysis indicates balanced conditions with no clear directional bias. RSI at 42.72 remains in neutral territory. Money Flow Index at 54.94 suggests balanced volume distribution. MACD histogram negative with bearish crossover in effect. Price maintaining above Bollinger middle band, uptrend intact. Price structure supports bullish continuation with MA and SAR confirmation. Ichimoku cloud analysis supports bullish bias.",
+  "indicators": {
+    "rsi": {
+      "value": 42.72,
+      "condition": "NEUTRAL",
+      "signal": "HOLD"
+    },
+    "mfi": {
+      "value": 54.94,
+      "condition": "NEUTRAL",
+      "signal": "HOLD"
+    },
+    "stochastic": {
+      "main": 44.04,
+      "signal": 48.48,
+      "condition": "NEUTRAL",
+      "signal_type": "HOLD"
+    },
+    "macd": {
+      "main": -0.0001,
+      "signal": -2e-05,
+      "divergence": -8e-05,
+      "histogram": "NEGATIVE",
+      "trend": "BEARISH"
+    },
+    "bollinger_bands": {
+      "upper": 0.647,
+      "middle": 0.64589,
+      "lower": 0.64478,
+      "price_position": "ABOVE_MIDDLE",
+      "bandwidth": 0.00222
+    },
+    "moving_average": {
+      "value": 0.6457,
+      "price_position": "ABOVE",
+      "signal": "BULLISH"
+    },
+    "parabolic_sar": {
+      "value": 0.64672,
+      "price_position": "ABOVE",
+      "trend": "UPTREND"
+    },
+    "ichimoku": {
+      "tenkan_sen": 0.64538,
+      "kijun_sen": 0.64566,
+      "price_vs_tenkan": "ABOVE",
+      "price_vs_kijun": "ABOVE",
+      "tk_cross": "BEARISH"
+    }
+  },
+  "indicator_insights": {
+    "rsi": "Neutral at 42.7, consolidation or range-bound price action.",
+    "mfi": "Balanced volume flow at 54.9, institutional activity moderate.",
+    "stochastic": "Mid-range at 44.0, no extreme momentum detected.",
+    "macd": "Strong bearish momentum. Histogram expanding negative (-0.00008), downtrend intact.",
+    "bollinger_bands": "Price holding above midline. Bullish bias maintained, support at 0.64589.",
+    "moving_average": "Price 0.19% above MA. Uptrend confirmed, MA acting as dynamic support.",
+    "parabolic_sar": "SAR positioned below price at 0.64672. Uptrend active, trailing stop recommended.",
+    "ichimoku": "Price above cloud components. Strong bullish structure, all systems aligned for longs."
+  },
+  "signals": {
+    "primary": "NEUTRAL",
+    "strength": "MODERATE",
+    "recommendation": "OBSERVE"
+  }
+}
