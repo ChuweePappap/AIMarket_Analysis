@@ -1,0 +1,76 @@
+{
+  "timestamp": "2025-11-25T07:27:03.481113Z",
+  "symbol": "USDJPY",
+  "timeframe": "H1",
+  "price": {
+    "bid": 156.617,
+    "ask": 156.625,
+    "last": 0.0
+  },
+  "sentiment": "STRONG_BULLISH",
+  "analysis": "Market analysis indicates strong upward momentum with multiple bullish confirmations. RSI at 65.37 remains in neutral territory. Money Flow Index at 58.98 suggests balanced volume distribution. MACD histogram positive with bullish crossover confirmed. Price below Bollinger middle band, downside pressure present. Price action mixed with conflicting signals from trend indicators. Ichimoku structure confirms bearish environment.",
+  "indicators": {
+    "rsi": {
+      "value": 65.37,
+      "condition": "NEUTRAL",
+      "signal": "HOLD"
+    },
+    "mfi": {
+      "value": 58.98,
+      "condition": "NEUTRAL",
+      "signal": "HOLD"
+    },
+    "stochastic": {
+      "main": 76.31,
+      "signal": 69.23,
+      "condition": "NEUTRAL",
+      "signal_type": "HOLD"
+    },
+    "macd": {
+      "main": 0.02662,
+      "signal": -0.02976,
+      "divergence": 0.05638,
+      "histogram": "POSITIVE",
+      "trend": "BULLISH"
+    },
+    "bollinger_bands": {
+      "upper": 157.08468,
+      "middle": 156.6885,
+      "lower": 156.29232,
+      "price_position": "BELOW_MIDDLE",
+      "bandwidth": 0.79236
+    },
+    "moving_average": {
+      "value": 156.77221,
+      "price_position": "BELOW",
+      "signal": "BEARISH"
+    },
+    "parabolic_sar": {
+      "value": 156.498,
+      "price_position": "ABOVE",
+      "trend": "UPTREND"
+    },
+    "ichimoku": {
+      "tenkan_sen": 156.854,
+      "kijun_sen": 156.682,
+      "price_vs_tenkan": "BELOW",
+      "price_vs_kijun": "BELOW",
+      "tk_cross": "BULLISH"
+    }
+  },
+  "indicator_insights": {
+    "rsi": "Strong momentum at 65.4, trend continuation favored.",
+    "mfi": "Balanced volume flow at 59.0, institutional activity moderate.",
+    "stochastic": "Mid-range at 76.3, no extreme momentum detected.",
+    "macd": "Strong bullish momentum. Histogram expanding positive (0.05638), trend strength confirmed.",
+    "bollinger_bands": "Price below midline. Bearish pressure dominant, resistance at 156.68850.",
+    "moving_average": "Price 0.10% below MA. Downtrend confirmed, MA acting as dynamic resistance.",
+    "parabolic_sar": "SAR positioned below price at 156.49800. Uptrend active, trailing stop recommended.",
+    "ichimoku": "Price below cloud components. Strong bearish structure, shorts technically favored."
+  },
+  "signals": {
+    "primary": "BUY",
+    "strength": "STRONG",
+    "recommendation": "ENTER_LONG"
+  }
+}
