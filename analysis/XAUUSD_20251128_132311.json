@@ -1,0 +1,76 @@
+{
+  "timestamp": "2025-11-28T13:23:11.205084Z",
+  "symbol": "XAUUSD",
+  "timeframe": "H1",
+  "price": {
+    "bid": 4153.5,
+    "ask": 4153.67,
+    "last": 0.0
+  },
+  "sentiment": "STRONG_BEARISH",
+  "analysis": "Market analysis indicates strong downward pressure with multiple bearish signals. RSI at 41.24 remains in neutral territory. Money Flow Index at 41.67 suggests balanced volume distribution. MACD showing trend transition, awaiting confirmation. Price below Bollinger middle band, downside pressure present. Technical structure favors downside with price below key support levels. Ichimoku structure confirms bearish environment.",
+  "indicators": {
+    "rsi": {
+      "value": 41.24,
+      "condition": "NEUTRAL",
+      "signal": "HOLD"
+    },
+    "mfi": {
+      "value": 41.67,
+      "condition": "NEUTRAL",
+      "signal": "HOLD"
+    },
+    "stochastic": {
+      "main": 33.07,
+      "signal": 37.55,
+      "condition": "NEUTRAL",
+      "signal_type": "HOLD"
+    },
+    "macd": {
+      "main": 0.64963,
+      "signal": 1.59067,
+      "divergence": -0.94104,
+      "histogram": "NEGATIVE",
+      "trend": "BEARISH"
+    },
+    "bollinger_bands": {
+      "upper": 4170.38629,
+      "middle": 4157.454,
+      "lower": 4144.52171,
+      "price_position": "BELOW_MIDDLE",
+      "bandwidth": 25.86458
+    },
+    "moving_average": {
+      "value": 4154.55714,
+      "price_position": "BELOW",
+      "signal": "BEARISH"
+    },
+    "parabolic_sar": {
+      "value": 4167.13,
+      "price_position": "BELOW",
+      "trend": "DOWNTREND"
+    },
+    "ichimoku": {
+      "tenkan_sen": 4157.105,
+      "kijun_sen": 4155.015,
+      "price_vs_tenkan": "BELOW",
+      "price_vs_kijun": "BELOW",
+      "tk_cross": "BULLISH"
+    }
+  },
+  "indicator_insights": {
+    "rsi": "Neutral at 41.2, consolidation or range-bound price action.",
+    "mfi": "Balanced volume flow at 41.7, institutional activity moderate.",
+    "stochastic": "Mid-range at 33.1, no extreme momentum detected.",
+    "macd": "Bearish crossover above zero. Profit-taking phase, trend weakening.",
+    "bollinger_bands": "Price below midline. Bearish pressure dominant, resistance at 4157.45400.",
+    "moving_average": "Price 0.03% below MA. Downtrend confirmed, MA acting as dynamic resistance.",
+    "parabolic_sar": "SAR positioned above price at 4167.13000. Downtrend active, short positions favored.",
+    "ichimoku": "Price below cloud components. Strong bearish structure, shorts technically favored."
+  },
+  "signals": {
+    "primary": "SELL",
+    "strength": "STRONG",
+    "recommendation": "ENTER_SHORT"
+  }
+}
