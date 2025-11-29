@@ -1,0 +1,76 @@
+{
+  "timestamp": "2025-11-29T03:27:48.739736Z",
+  "symbol": "EURJPY",
+  "timeframe": "H1",
+  "price": {
+    "bid": 181.048,
+    "ask": 181.234,
+    "last": 0.0
+  },
+  "sentiment": "BULLISH",
+  "analysis": "Market analysis indicates positive momentum favoring buyers. RSI at 26.93 signals oversold conditions, potential reversal opportunity. Money Flow Index at 42.43 suggests balanced volume distribution. MACD histogram negative with bearish crossover in effect. Price maintaining above Bollinger middle band, uptrend intact. Price action mixed with conflicting signals from trend indicators. Ichimoku cloud analysis supports bullish bias. Stochastic at 17.16 signals potential reversal from oversold levels.",
+  "indicators": {
+    "rsi": {
+      "value": 26.93,
+      "condition": "OVERSOLD",
+      "signal": "BUY"
+    },
+    "mfi": {
+      "value": 42.43,
+      "condition": "NEUTRAL",
+      "signal": "HOLD"
+    },
+    "stochastic": {
+      "main": 17.16,
+      "signal": 13.93,
+      "condition": "OVERSOLD",
+      "signal_type": "BUY"
+    },
+    "macd": {
+      "main": -0.13014,
+      "signal": -0.06658,
+      "divergence": -0.06356,
+      "histogram": "NEGATIVE",
+      "trend": "BEARISH"
+    },
+    "bollinger_bands": {
+      "upper": 181.53257,
+      "middle": 181.0415,
+      "lower": 180.55043,
+      "price_position": "ABOVE_MIDDLE",
+      "bandwidth": 0.98214
+    },
+    "moving_average": {
+      "value": 180.95271,
+      "price_position": "ABOVE",
+      "signal": "BULLISH"
+    },
+    "parabolic_sar": {
+      "value": 181.284,
+      "price_position": "BELOW",
+      "trend": "DOWNTREND"
+    },
+    "ichimoku": {
+      "tenkan_sen": 180.902,
+      "kijun_sen": 181.017,
+      "price_vs_tenkan": "ABOVE",
+      "price_vs_kijun": "ABOVE",
+      "tk_cross": "BEARISH"
+    }
+  },
+  "indicator_insights": {
+    "rsi": "Deeply oversold at 26.9, strong reversal potential. Buyers may step in soon.",
+    "mfi": "Balanced volume flow at 42.4, institutional activity moderate.",
+    "stochastic": "Extreme oversold at 17.2, bullish divergence watch active.",
+    "macd": "Strong bearish momentum. Histogram expanding negative (-0.06356), downtrend intact.",
+    "bollinger_bands": "Price holding above midline. Bullish bias maintained, support at 181.04150.",
+    "moving_average": "Price 0.05% above MA. Uptrend confirmed, MA acting as dynamic support.",
+    "parabolic_sar": "SAR positioned above price at 181.28400. Downtrend active, short positions favored.",
+    "ichimoku": "Price above cloud components. Strong bullish structure, all systems aligned for longs."
+  },
+  "signals": {
+    "primary": "BUY",
+    "strength": "MODERATE",
+    "recommendation": "CONSIDER_LONG"
+  }
+}
