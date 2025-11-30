@@ -1,0 +1,76 @@
+{
+  "timestamp": "2025-11-30T02:22:21.093250Z",
+  "symbol": "EURJPY",
+  "timeframe": "H1",
+  "price": {
+    "bid": 181.048,
+    "ask": 181.234,
+    "last": 0.0
+  },
+  "sentiment": "STRONG_BULLISH",
+  "analysis": "Market analysis indicates strong upward momentum with multiple bullish confirmations. RSI at 51.63 remains in neutral territory. Money Flow Index at 22.22 suggests balanced volume distribution. MACD histogram positive with bullish crossover confirmed. Price maintaining above Bollinger middle band, uptrend intact. Price structure supports bullish continuation with MA and SAR confirmation. Ichimoku cloud analysis supports bullish bias.",
+  "indicators": {
+    "rsi": {
+      "value": 51.63,
+      "condition": "NEUTRAL",
+      "signal": "HOLD"
+    },
+    "mfi": {
+      "value": 22.22,
+      "condition": "NEUTRAL",
+      "signal": "HOLD"
+    },
+    "stochastic": {
+      "main": 45.53,
+      "signal": 64.69,
+      "condition": "NEUTRAL",
+      "signal_type": "HOLD"
+    },
+    "macd": {
+      "main": 0.00312,
+      "signal": -0.02817,
+      "divergence": 0.03129,
+      "histogram": "POSITIVE",
+      "trend": "BULLISH"
+    },
+    "bollinger_bands": {
+      "upper": 181.40327,
+      "middle": 180.9869,
+      "lower": 180.57053,
+      "price_position": "ABOVE_MIDDLE",
+      "bandwidth": 0.83274
+    },
+    "moving_average": {
+      "value": 180.94479,
+      "price_position": "ABOVE",
+      "signal": "BULLISH"
+    },
+    "parabolic_sar": {
+      "value": 180.516,
+      "price_position": "ABOVE",
+      "trend": "UPTREND"
+    },
+    "ichimoku": {
+      "tenkan_sen": 180.8945,
+      "kijun_sen": 181.015,
+      "price_vs_tenkan": "ABOVE",
+      "price_vs_kijun": "ABOVE",
+      "tk_cross": "BEARISH"
+    }
+  },
+  "indicator_insights": {
+    "rsi": "Neutral at 51.6, consolidation or range-bound price action.",
+    "mfi": "Balanced volume flow at 22.2, institutional activity moderate.",
+    "stochastic": "Mid-range at 45.5, no extreme momentum detected.",
+    "macd": "Strong bullish momentum. Histogram expanding positive (0.03129), trend strength confirmed.",
+    "bollinger_bands": "Price holding above midline. Bullish bias maintained, support at 180.98690.",
+    "moving_average": "Price 0.06% above MA. Uptrend confirmed, MA acting as dynamic support.",
+    "parabolic_sar": "SAR positioned below price at 180.51600. Uptrend active, trailing stop recommended.",
+    "ichimoku": "Price above cloud components. Strong bullish structure, all systems aligned for longs."
+  },
+  "signals": {
+    "primary": "BUY",
+    "strength": "STRONG",
+    "recommendation": "ENTER_LONG"
+  }
+}
