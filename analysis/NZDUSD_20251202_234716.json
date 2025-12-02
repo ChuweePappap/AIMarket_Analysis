@@ -1,0 +1,76 @@
+{
+  "timestamp": "2025-12-02T23:47:04.023828Z",
+  "symbol": "NZDUSD",
+  "timeframe": "H1",
+  "price": {
+    "bid": 0.57403,
+    "ask": 0.57413,
+    "last": 0.0
+  },
+  "sentiment": "NEUTRAL",
+  "analysis": "Market analysis indicates balanced conditions with no clear directional bias. RSI at 57.07 remains in neutral territory. Money Flow Index at 66.06 suggests balanced volume distribution. MACD showing trend transition, awaiting confirmation. Price maintaining above Bollinger middle band, uptrend intact. Price action mixed with conflicting signals from trend indicators. Ichimoku cloud analysis supports bullish bias.",
+  "indicators": {
+    "rsi": {
+      "value": 57.07,
+      "condition": "NEUTRAL",
+      "signal": "HOLD"
+    },
+    "mfi": {
+      "value": 66.06,
+      "condition": "NEUTRAL",
+      "signal": "HOLD"
+    },
+    "stochastic": {
+      "main": 47.92,
+      "signal": 56.59,
+      "condition": "NEUTRAL",
+      "signal_type": "HOLD"
+    },
+    "macd": {
+      "main": 0.00044,
+      "signal": 0.00047,
+      "divergence": -3e-05,
+      "histogram": "NEGATIVE",
+      "trend": "BEARISH"
+    },
+    "bollinger_bands": {
+      "upper": 0.57508,
+      "middle": 0.57265,
+      "lower": 0.57023,
+      "price_position": "ABOVE_MIDDLE",
+      "bandwidth": 0.00485
+    },
+    "moving_average": {
+      "value": 0.57335,
+      "price_position": "ABOVE",
+      "signal": "BULLISH"
+    },
+    "parabolic_sar": {
+      "value": 0.57444,
+      "price_position": "BELOW",
+      "trend": "DOWNTREND"
+    },
+    "ichimoku": {
+      "tenkan_sen": 0.57338,
+      "kijun_sen": 0.57241,
+      "price_vs_tenkan": "ABOVE",
+      "price_vs_kijun": "ABOVE",
+      "tk_cross": "BULLISH"
+    }
+  },
+  "indicator_insights": {
+    "rsi": "Neutral at 57.1, consolidation or range-bound price action.",
+    "mfi": "Balanced volume flow at 66.1, institutional activity moderate.",
+    "stochastic": "Mid-range at 47.9, no extreme momentum detected.",
+    "macd": "Bearish crossover above zero. Profit-taking phase, trend weakening.",
+    "bollinger_bands": "Price holding above midline. Bullish bias maintained, support at 0.57265.",
+    "moving_average": "Price 0.12% above MA. Uptrend confirmed, MA acting as dynamic support.",
+    "parabolic_sar": "SAR positioned above price at 0.57444. Downtrend active, short positions favored.",
+    "ichimoku": "Price above cloud components. Strong bullish structure, all systems aligned for longs."
+  },
+  "signals": {
+    "primary": "NEUTRAL",
+    "strength": "MODERATE",
+    "recommendation": "OBSERVE"
+  }
+}
