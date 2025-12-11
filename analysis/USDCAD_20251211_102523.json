@@ -1,0 +1,76 @@
+{
+  "timestamp": "2025-12-11T10:25:13.444076Z",
+  "symbol": "USDCAD",
+  "timeframe": "H1",
+  "price": {
+    "bid": 1.38058,
+    "ask": 1.38067,
+    "last": 0.0
+  },
+  "sentiment": "BULLISH",
+  "analysis": "Market analysis indicates positive momentum favoring buyers. RSI at 49.81 remains in neutral territory. Money Flow Index at 58.04 suggests balanced volume distribution. MACD showing trend transition, awaiting confirmation. Price below Bollinger middle band, downside pressure present. Price structure supports bullish continuation with MA and SAR confirmation. Ichimoku structure confirms bearish environment.",
+  "indicators": {
+    "rsi": {
+      "value": 49.81,
+      "condition": "NEUTRAL",
+      "signal": "HOLD"
+    },
+    "mfi": {
+      "value": 58.04,
+      "condition": "NEUTRAL",
+      "signal": "HOLD"
+    },
+    "stochastic": {
+      "main": 40.27,
+      "signal": 64.12,
+      "condition": "NEUTRAL",
+      "signal_type": "HOLD"
+    },
+    "macd": {
+      "main": -0.00073,
+      "signal": -0.00091,
+      "divergence": 0.00018,
+      "histogram": "POSITIVE",
+      "trend": "BULLISH"
+    },
+    "bollinger_bands": {
+      "upper": 1.3854,
+      "middle": 1.38147,
+      "lower": 1.37754,
+      "price_position": "BELOW_MIDDLE",
+      "bandwidth": 0.00786
+    },
+    "moving_average": {
+      "value": 1.38052,
+      "price_position": "ABOVE",
+      "signal": "BULLISH"
+    },
+    "parabolic_sar": {
+      "value": 1.37851,
+      "price_position": "ABOVE",
+      "trend": "UPTREND"
+    },
+    "ichimoku": {
+      "tenkan_sen": 1.38076,
+      "kijun_sen": 1.38279,
+      "price_vs_tenkan": "BELOW",
+      "price_vs_kijun": "BELOW",
+      "tk_cross": "BEARISH"
+    }
+  },
+  "indicator_insights": {
+    "rsi": "Neutral at 49.8, consolidation or range-bound price action.",
+    "mfi": "Balanced volume flow at 58.0, institutional activity moderate.",
+    "stochastic": "Mid-range at 40.3, no extreme momentum detected.",
+    "macd": "Early bullish crossover below zero. Recovery phase initiated, watch for confirmation.",
+    "bollinger_bands": "Price below midline. Bearish pressure dominant, resistance at 1.38147.",
+    "moving_average": "Price 0.00% above MA. Uptrend confirmed, MA acting as dynamic support.",
+    "parabolic_sar": "SAR positioned below price at 1.37851. Uptrend active, trailing stop recommended.",
+    "ichimoku": "Price below cloud components. Strong bearish structure, shorts technically favored."
+  },
+  "signals": {
+    "primary": "BUY",
+    "strength": "MODERATE",
+    "recommendation": "CONSIDER_LONG"
+  }
+}
