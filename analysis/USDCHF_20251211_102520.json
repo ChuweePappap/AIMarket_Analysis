@@ -1,0 +1,76 @@
+{
+  "timestamp": "2025-12-11T10:25:13.412928Z",
+  "symbol": "USDCHF",
+  "timeframe": "H1",
+  "price": {
+    "bid": 0.79751,
+    "ask": 0.79761,
+    "last": 0.0
+  },
+  "sentiment": "NEUTRAL",
+  "analysis": "Market analysis indicates balanced conditions with no clear directional bias. RSI at 23.85 signals oversold conditions, potential reversal opportunity. Money Flow Index at 15.11 shows extreme selling pressure. MACD showing trend transition, awaiting confirmation. Price below Bollinger middle band, downside pressure present. Technical structure favors downside with price below key support levels. Ichimoku structure confirms bearish environment. Stochastic at 87.28 warns of overbought exhaustion.",
+  "indicators": {
+    "rsi": {
+      "value": 23.85,
+      "condition": "OVERSOLD",
+      "signal": "BUY"
+    },
+    "mfi": {
+      "value": 15.11,
+      "condition": "OVERSOLD",
+      "signal": "BUY"
+    },
+    "stochastic": {
+      "main": 87.28,
+      "signal": 69.56,
+      "condition": "OVERBOUGHT",
+      "signal_type": "SELL"
+    },
+    "macd": {
+      "main": -0.00145,
+      "signal": -0.00149,
+      "divergence": 4e-05,
+      "histogram": "POSITIVE",
+      "trend": "BULLISH"
+    },
+    "bollinger_bands": {
+      "upper": 0.80493,
+      "middle": 0.80106,
+      "lower": 0.79719,
+      "price_position": "BELOW_MIDDLE",
+      "bandwidth": 0.00774
+    },
+    "moving_average": {
+      "value": 0.80001,
+      "price_position": "BELOW",
+      "signal": "BEARISH"
+    },
+    "parabolic_sar": {
+      "value": 0.7987,
+      "price_position": "BELOW",
+      "trend": "DOWNTREND"
+    },
+    "ichimoku": {
+      "tenkan_sen": 0.79934,
+      "kijun_sen": 0.80247,
+      "price_vs_tenkan": "BELOW",
+      "price_vs_kijun": "BELOW",
+      "tk_cross": "BEARISH"
+    }
+  },
+  "indicator_insights": {
+    "rsi": "Deeply oversold at 23.9, strong reversal potential. Buyers may step in soon.",
+    "mfi": "Severe money outflow at 15.1, capitulation phase. Contrarian opportunity.",
+    "stochastic": "Extreme overbought at 87.3, bearish divergence possible.",
+    "macd": "Early bullish crossover below zero. Recovery phase initiated, watch for confirmation.",
+    "bollinger_bands": "Price below midline. Bearish pressure dominant, resistance at 0.80106.",
+    "moving_average": "Price 0.31% below MA. Downtrend confirmed, MA acting as dynamic resistance.",
+    "parabolic_sar": "SAR positioned above price at 0.79870. Downtrend active, short positions favored.",
+    "ichimoku": "Price below cloud components. Strong bearish structure, shorts technically favored."
+  },
+  "signals": {
+    "primary": "NEUTRAL",
+    "strength": "MODERATE",
+    "recommendation": "WAIT_FOR_CONFIRMATION"
+  }
+}
