@@ -1,0 +1,76 @@
+{
+  "timestamp": "2025-12-11T22:27:30.814887Z",
+  "symbol": "USDCAD",
+  "timeframe": "H1",
+  "price": {
+    "bid": 1.37696,
+    "ask": 1.37774,
+    "last": 0.0
+  },
+  "sentiment": "BEARISH",
+  "analysis": "Market analysis indicates negative pressure with sellers in control. RSI at 35.08 remains in neutral territory. Money Flow Index at 36.24 suggests balanced volume distribution. MACD histogram negative with bearish crossover in effect. Price trading below Bollinger lower band, indicating potential oversold bounce. Technical structure favors downside with price below key support levels. Ichimoku structure confirms bearish environment. Stochastic at 16.43 signals potential reversal from oversold levels.",
+  "indicators": {
+    "rsi": {
+      "value": 35.08,
+      "condition": "NEUTRAL",
+      "signal": "HOLD"
+    },
+    "mfi": {
+      "value": 36.24,
+      "condition": "NEUTRAL",
+      "signal": "HOLD"
+    },
+    "stochastic": {
+      "main": 16.43,
+      "signal": 13.16,
+      "condition": "OVERSOLD",
+      "signal_type": "BUY"
+    },
+    "macd": {
+      "main": -0.00129,
+      "signal": -0.00101,
+      "divergence": -0.00028,
+      "histogram": "NEGATIVE",
+      "trend": "BEARISH"
+    },
+    "bollinger_bands": {
+      "upper": 1.3828,
+      "middle": 1.37997,
+      "lower": 1.37713,
+      "price_position": "BELOW_LOWER",
+      "bandwidth": 0.00567
+    },
+    "moving_average": {
+      "value": 1.38021,
+      "price_position": "BELOW",
+      "signal": "BEARISH"
+    },
+    "parabolic_sar": {
+      "value": 1.38228,
+      "price_position": "BELOW",
+      "trend": "DOWNTREND"
+    },
+    "ichimoku": {
+      "tenkan_sen": 1.37914,
+      "kijun_sen": 1.38161,
+      "price_vs_tenkan": "BELOW",
+      "price_vs_kijun": "BELOW",
+      "tk_cross": "BEARISH"
+    }
+  },
+  "indicator_insights": {
+    "rsi": "Moderately oversold at 35.1, accumulation phase detected.",
+    "mfi": "Balanced volume flow at 36.2, institutional activity moderate.",
+    "stochastic": "Extreme oversold at 16.4, bullish divergence watch active.",
+    "macd": "Strong bearish momentum. Histogram expanding negative (-0.00028), downtrend intact.",
+    "bollinger_bands": "Price squeezed below lower band. Mean reversion expected, oversold bounce likely.",
+    "moving_average": "Price 0.24% below MA. Downtrend confirmed, MA acting as dynamic resistance.",
+    "parabolic_sar": "SAR positioned above price at 1.38228. Downtrend active, short positions favored.",
+    "ichimoku": "Price below cloud components. Strong bearish structure, shorts technically favored."
+  },
+  "signals": {
+    "primary": "SELL",
+    "strength": "MODERATE",
+    "recommendation": "CONSIDER_SHORT"
+  }
+}
