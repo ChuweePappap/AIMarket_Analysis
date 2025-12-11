@@ -1,0 +1,76 @@
+{
+  "timestamp": "2025-12-11T06:19:16.237873Z",
+  "symbol": "USDJPY",
+  "timeframe": "H1",
+  "price": {
+    "bid": 156.704,
+    "ask": 156.713,
+    "last": 0.0
+  },
+  "sentiment": "STRONG_BEARISH",
+  "analysis": "Market analysis indicates strong downward pressure with multiple bearish signals. RSI at 71.23 indicates overbought territory, suggesting caution for long positions. Money Flow Index at 83.68 indicates strong buying activity. MACD showing trend transition, awaiting confirmation. Price maintaining above Bollinger middle band, uptrend intact. Technical structure favors downside with price below key support levels. Stochastic at 8.30 signals potential reversal from oversold levels.",
+  "indicators": {
+    "rsi": {
+      "value": 71.23,
+      "condition": "OVERBOUGHT",
+      "signal": "SELL"
+    },
+    "mfi": {
+      "value": 83.68,
+      "condition": "OVERBOUGHT",
+      "signal": "SELL"
+    },
+    "stochastic": {
+      "main": 8.3,
+      "signal": 18.28,
+      "condition": "OVERSOLD",
+      "signal_type": "BUY"
+    },
+    "macd": {
+      "main": 0.24281,
+      "signal": 0.27016,
+      "divergence": -0.02735,
+      "histogram": "NEGATIVE",
+      "trend": "BEARISH"
+    },
+    "bollinger_bands": {
+      "upper": 157.22135,
+      "middle": 156.55815,
+      "lower": 155.89495,
+      "price_position": "ABOVE_MIDDLE",
+      "bandwidth": 1.3264
+    },
+    "moving_average": {
+      "value": 156.73493,
+      "price_position": "BELOW",
+      "signal": "BEARISH"
+    },
+    "parabolic_sar": {
+      "value": 156.955,
+      "price_position": "BELOW",
+      "trend": "DOWNTREND"
+    },
+    "ichimoku": {
+      "tenkan_sen": 156.814,
+      "kijun_sen": 156.3485,
+      "price_vs_tenkan": "BELOW",
+      "price_vs_kijun": "ABOVE",
+      "tk_cross": "BULLISH"
+    }
+  },
+  "indicator_insights": {
+    "rsi": "Overbought at 71.2, profit-taking likely. Caution for new longs.",
+    "mfi": "Heavy money inflow at 83.7, euphoric buying. Reversal risk elevated.",
+    "stochastic": "Extreme oversold at 8.3, bullish divergence watch active.",
+    "macd": "Bearish crossover above zero. Profit-taking phase, trend weakening.",
+    "bollinger_bands": "Price holding above midline. Bullish bias maintained, support at 156.55815.",
+    "moving_average": "Price 0.02% below MA. Downtrend confirmed, MA acting as dynamic resistance.",
+    "parabolic_sar": "SAR positioned above price at 156.95500. Downtrend active, short positions favored.",
+    "ichimoku": "Tenkan/Kijun bullish cross detected. Early trend reversal signal, monitoring required."
+  },
+  "signals": {
+    "primary": "SELL",
+    "strength": "STRONG",
+    "recommendation": "WAIT_FOR_CONFIRMATION"
+  }
+}
