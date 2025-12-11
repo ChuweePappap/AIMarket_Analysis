@@ -1,0 +1,76 @@
+{
+  "timestamp": "2025-12-11T06:19:16.284413Z",
+  "symbol": "USDCAD",
+  "timeframe": "H1",
+  "price": {
+    "bid": 1.38153,
+    "ask": 1.38162,
+    "last": 0.0
+  },
+  "sentiment": "STRONG_BULLISH",
+  "analysis": "Market analysis indicates strong upward momentum with multiple bullish confirmations. RSI at 63.77 remains in neutral territory. Money Flow Index at 57.38 suggests balanced volume distribution. MACD histogram positive with bullish crossover confirmed. Price trading below Bollinger lower band, indicating potential oversold bounce. Technical structure favors downside with price below key support levels. Ichimoku structure confirms bearish environment.",
+  "indicators": {
+    "rsi": {
+      "value": 63.77,
+      "condition": "NEUTRAL",
+      "signal": "HOLD"
+    },
+    "mfi": {
+      "value": 57.38,
+      "condition": "NEUTRAL",
+      "signal": "HOLD"
+    },
+    "stochastic": {
+      "main": 50.15,
+      "signal": 69.0,
+      "condition": "NEUTRAL",
+      "signal_type": "HOLD"
+    },
+    "macd": {
+      "main": 0.00018,
+      "signal": 0.00012,
+      "divergence": 6e-05,
+      "histogram": "POSITIVE",
+      "trend": "BULLISH"
+    },
+    "bollinger_bands": {
+      "upper": 1.38622,
+      "middle": 1.38474,
+      "lower": 1.38326,
+      "price_position": "BELOW_LOWER",
+      "bandwidth": 0.00296
+    },
+    "moving_average": {
+      "value": 1.38509,
+      "price_position": "BELOW",
+      "signal": "BEARISH"
+    },
+    "parabolic_sar": {
+      "value": 1.38392,
+      "price_position": "BELOW",
+      "trend": "DOWNTREND"
+    },
+    "ichimoku": {
+      "tenkan_sen": 1.38484,
+      "kijun_sen": 1.38422,
+      "price_vs_tenkan": "BELOW",
+      "price_vs_kijun": "BELOW",
+      "tk_cross": "BULLISH"
+    }
+  },
+  "indicator_insights": {
+    "rsi": "Strong momentum at 63.8, trend continuation favored.",
+    "mfi": "Balanced volume flow at 57.4, institutional activity moderate.",
+    "stochastic": "Mid-range at 50.1, no extreme momentum detected.",
+    "macd": "Strong bullish momentum. Histogram expanding positive (0.00006), trend strength confirmed.",
+    "bollinger_bands": "Price squeezed below lower band. Mean reversion expected, oversold bounce likely.",
+    "moving_average": "Price 0.26% below MA. Downtrend confirmed, MA acting as dynamic resistance.",
+    "parabolic_sar": "SAR positioned above price at 1.38392. Downtrend active, short positions favored.",
+    "ichimoku": "Price below cloud components. Strong bearish structure, shorts technically favored."
+  },
+  "signals": {
+    "primary": "BUY",
+    "strength": "STRONG",
+    "recommendation": "ENTER_LONG"
+  }
+}
