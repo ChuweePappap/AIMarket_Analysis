@@ -1,0 +1,76 @@
+{
+  "timestamp": "2025-12-19T08:23:19.118325Z",
+  "symbol": "NZDUSD",
+  "timeframe": "H1",
+  "price": {
+    "bid": 0.57482,
+    "ask": 0.57492,
+    "last": 0.0
+  },
+  "sentiment": "STRONG_BEARISH",
+  "analysis": "Market analysis indicates strong downward pressure with multiple bearish signals. RSI at 41.03 remains in neutral territory. Money Flow Index at 45.61 suggests balanced volume distribution. MACD histogram negative with bearish crossover in effect. Price trading below Bollinger lower band, indicating potential oversold bounce. Technical structure favors downside with price below key support levels. Ichimoku structure confirms bearish environment.",
+  "indicators": {
+    "rsi": {
+      "value": 41.03,
+      "condition": "NEUTRAL",
+      "signal": "HOLD"
+    },
+    "mfi": {
+      "value": 45.61,
+      "condition": "NEUTRAL",
+      "signal": "HOLD"
+    },
+    "stochastic": {
+      "main": 41.71,
+      "signal": 45.25,
+      "condition": "NEUTRAL",
+      "signal_type": "HOLD"
+    },
+    "macd": {
+      "main": -3e-05,
+      "signal": 4e-05,
+      "divergence": -7e-05,
+      "histogram": "NEGATIVE",
+      "trend": "BEARISH"
+    },
+    "bollinger_bands": {
+      "upper": 0.57988,
+      "middle": 0.57861,
+      "lower": 0.57734,
+      "price_position": "BELOW_LOWER",
+      "bandwidth": 0.00254
+    },
+    "moving_average": {
+      "value": 0.57879,
+      "price_position": "BELOW",
+      "signal": "BEARISH"
+    },
+    "parabolic_sar": {
+      "value": 0.58071,
+      "price_position": "BELOW",
+      "trend": "DOWNTREND"
+    },
+    "ichimoku": {
+      "tenkan_sen": 0.57892,
+      "kijun_sen": 0.57826,
+      "price_vs_tenkan": "BELOW",
+      "price_vs_kijun": "BELOW",
+      "tk_cross": "BULLISH"
+    }
+  },
+  "indicator_insights": {
+    "rsi": "Neutral at 41.0, consolidation or range-bound price action.",
+    "mfi": "Balanced volume flow at 45.6, institutional activity moderate.",
+    "stochastic": "Mid-range at 41.7, no extreme momentum detected.",
+    "macd": "Strong bearish momentum. Histogram expanding negative (-0.00007), downtrend intact.",
+    "bollinger_bands": "Price squeezed below lower band. Mean reversion expected, oversold bounce likely.",
+    "moving_average": "Price 0.69% below MA. Downtrend confirmed, MA acting as dynamic resistance.",
+    "parabolic_sar": "SAR positioned above price at 0.58071. Downtrend active, short positions favored.",
+    "ichimoku": "Price below cloud components. Strong bearish structure, shorts technically favored."
+  },
+  "signals": {
+    "primary": "SELL",
+    "strength": "STRONG",
+    "recommendation": "ENTER_SHORT"
+  }
+}
