@@ -1,0 +1,76 @@
+{
+  "timestamp": "2025-12-29T22:50:19.337466Z",
+  "symbol": "EURGBP",
+  "timeframe": "H1",
+  "price": {
+    "bid": 0.8713,
+    "ask": 0.87176,
+    "last": 0.0
+  },
+  "sentiment": "NEUTRAL",
+  "analysis": "Market analysis indicates balanced conditions with no clear directional bias. RSI at 56.23 remains in neutral territory. Money Flow Index at 56.24 suggests balanced volume distribution. MACD histogram positive with bullish crossover confirmed. Price below Bollinger middle band, downside pressure present. Technical structure favors downside with price below key support levels. Ichimoku structure confirms bearish environment.",
+  "indicators": {
+    "rsi": {
+      "value": 56.23,
+      "condition": "NEUTRAL",
+      "signal": "HOLD"
+    },
+    "mfi": {
+      "value": 56.24,
+      "condition": "NEUTRAL",
+      "signal": "HOLD"
+    },
+    "stochastic": {
+      "main": 33.28,
+      "signal": 42.41,
+      "condition": "NEUTRAL",
+      "signal_type": "HOLD"
+    },
+    "macd": {
+      "main": 2e-05,
+      "signal": -2e-05,
+      "divergence": 4e-05,
+      "histogram": "POSITIVE",
+      "trend": "BULLISH"
+    },
+    "bollinger_bands": {
+      "upper": 0.87338,
+      "middle": 0.87218,
+      "lower": 0.87098,
+      "price_position": "BELOW_MIDDLE",
+      "bandwidth": 0.0024
+    },
+    "moving_average": {
+      "value": 0.87226,
+      "price_position": "BELOW",
+      "signal": "BEARISH"
+    },
+    "parabolic_sar": {
+      "value": 0.87398,
+      "price_position": "BELOW",
+      "trend": "DOWNTREND"
+    },
+    "ichimoku": {
+      "tenkan_sen": 0.87249,
+      "kijun_sen": 0.87236,
+      "price_vs_tenkan": "BELOW",
+      "price_vs_kijun": "BELOW",
+      "tk_cross": "BULLISH"
+    }
+  },
+  "indicator_insights": {
+    "rsi": "Neutral at 56.2, consolidation or range-bound price action.",
+    "mfi": "Balanced volume flow at 56.2, institutional activity moderate.",
+    "stochastic": "Mid-range at 33.3, no extreme momentum detected.",
+    "macd": "Strong bullish momentum. Histogram expanding positive (0.00004), trend strength confirmed.",
+    "bollinger_bands": "Price below midline. Bearish pressure dominant, resistance at 0.87218.",
+    "moving_average": "Price 0.11% below MA. Downtrend confirmed, MA acting as dynamic resistance.",
+    "parabolic_sar": "SAR positioned above price at 0.87398. Downtrend active, short positions favored.",
+    "ichimoku": "Price below cloud components. Strong bearish structure, shorts technically favored."
+  },
+  "signals": {
+    "primary": "NEUTRAL",
+    "strength": "MODERATE",
+    "recommendation": "OBSERVE"
+  }
+}
