@@ -1,0 +1,76 @@
+{
+  "timestamp": "2025-12-31T11:10:57.800089Z",
+  "symbol": "EURUSD",
+  "timeframe": "H1",
+  "price": {
+    "bid": 1.17397,
+    "ask": 1.17405,
+    "last": 0.0
+  },
+  "sentiment": "NEUTRAL",
+  "analysis": "Market analysis indicates balanced conditions with no clear directional bias. RSI at 43.46 remains in neutral territory. Money Flow Index at 47.72 suggests balanced volume distribution. MACD showing trend transition, awaiting confirmation. Price below Bollinger middle band, downside pressure present. Price structure supports bullish continuation with MA and SAR confirmation. Stochastic at 80.45 warns of overbought exhaustion.",
+  "indicators": {
+    "rsi": {
+      "value": 43.46,
+      "condition": "NEUTRAL",
+      "signal": "HOLD"
+    },
+    "mfi": {
+      "value": 47.72,
+      "condition": "NEUTRAL",
+      "signal": "HOLD"
+    },
+    "stochastic": {
+      "main": 80.45,
+      "signal": 61.55,
+      "condition": "OVERBOUGHT",
+      "signal_type": "SELL"
+    },
+    "macd": {
+      "main": -0.00071,
+      "signal": -0.00075,
+      "divergence": 4e-05,
+      "histogram": "POSITIVE",
+      "trend": "BULLISH"
+    },
+    "bollinger_bands": {
+      "upper": 1.17602,
+      "middle": 1.17429,
+      "lower": 1.17257,
+      "price_position": "BELOW_MIDDLE",
+      "bandwidth": 0.00345
+    },
+    "moving_average": {
+      "value": 1.17392,
+      "price_position": "ABOVE",
+      "signal": "BULLISH"
+    },
+    "parabolic_sar": {
+      "value": 1.172,
+      "price_position": "ABOVE",
+      "trend": "UPTREND"
+    },
+    "ichimoku": {
+      "tenkan_sen": 1.17319,
+      "kijun_sen": 1.17488,
+      "price_vs_tenkan": "ABOVE",
+      "price_vs_kijun": "BELOW",
+      "tk_cross": "BEARISH"
+    }
+  },
+  "indicator_insights": {
+    "rsi": "Neutral at 43.5, consolidation or range-bound price action.",
+    "mfi": "Balanced volume flow at 47.7, institutional activity moderate.",
+    "stochastic": "Extreme overbought at 80.5, bearish divergence possible.",
+    "macd": "Early bullish crossover below zero. Recovery phase initiated, watch for confirmation.",
+    "bollinger_bands": "Price below midline. Bearish pressure dominant, resistance at 1.17429.",
+    "moving_average": "Price 0.00% above MA. Uptrend confirmed, MA acting as dynamic support.",
+    "parabolic_sar": "SAR positioned below price at 1.17200. Uptrend active, trailing stop recommended.",
+    "ichimoku": "Tenkan/Kijun bearish cross detected. Trend reversal warning, risk management critical."
+  },
+  "signals": {
+    "primary": "NEUTRAL",
+    "strength": "MODERATE",
+    "recommendation": "OBSERVE"
+  }
+}
