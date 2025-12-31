@@ -1,0 +1,76 @@
+{
+  "timestamp": "2025-12-31T01:06:40.751692Z",
+  "symbol": "USDCHF",
+  "timeframe": "H1",
+  "price": {
+    "bid": 0.79179,
+    "ask": 0.79189,
+    "last": 0.0
+  },
+  "sentiment": "BEARISH",
+  "analysis": "Market analysis indicates negative pressure with sellers in control. RSI at 52.03 remains in neutral territory. Money Flow Index at 44.36 suggests balanced volume distribution. MACD showing trend transition, awaiting confirmation. Price extended above Bollinger upper band, reversal risk elevated. Price structure supports bullish continuation with MA and SAR confirmation. Ichimoku cloud analysis supports bullish bias.",
+  "indicators": {
+    "rsi": {
+      "value": 52.03,
+      "condition": "NEUTRAL",
+      "signal": "HOLD"
+    },
+    "mfi": {
+      "value": 44.36,
+      "condition": "NEUTRAL",
+      "signal": "HOLD"
+    },
+    "stochastic": {
+      "main": 24.18,
+      "signal": 24.59,
+      "condition": "NEUTRAL",
+      "signal_type": "HOLD"
+    },
+    "macd": {
+      "main": 3e-05,
+      "signal": 0.00017,
+      "divergence": -0.00014,
+      "histogram": "NEGATIVE",
+      "trend": "BEARISH"
+    },
+    "bollinger_bands": {
+      "upper": 0.79093,
+      "middle": 0.78953,
+      "lower": 0.78814,
+      "price_position": "ABOVE_UPPER",
+      "bandwidth": 0.00279
+    },
+    "moving_average": {
+      "value": 0.78968,
+      "price_position": "ABOVE",
+      "signal": "BULLISH"
+    },
+    "parabolic_sar": {
+      "value": 0.79097,
+      "price_position": "ABOVE",
+      "trend": "UPTREND"
+    },
+    "ichimoku": {
+      "tenkan_sen": 0.7894,
+      "kijun_sen": 0.78936,
+      "price_vs_tenkan": "ABOVE",
+      "price_vs_kijun": "ABOVE",
+      "tk_cross": "BULLISH"
+    }
+  },
+  "indicator_insights": {
+    "rsi": "Neutral at 52.0, consolidation or range-bound price action.",
+    "mfi": "Balanced volume flow at 44.4, institutional activity moderate.",
+    "stochastic": "Mid-range at 24.2, no extreme momentum detected.",
+    "macd": "Bearish crossover above zero. Profit-taking phase, trend weakening.",
+    "bollinger_bands": "Price extended above upper band. Parabolic move detected, exhaustion imminent.",
+    "moving_average": "Price 0.27% above MA. Uptrend confirmed, MA acting as dynamic support.",
+    "parabolic_sar": "SAR positioned below price at 0.79097. Uptrend active, trailing stop recommended.",
+    "ichimoku": "Price above cloud components. Strong bullish structure, all systems aligned for longs."
+  },
+  "signals": {
+    "primary": "SELL",
+    "strength": "MODERATE",
+    "recommendation": "CONSIDER_SHORT"
+  }
+}
