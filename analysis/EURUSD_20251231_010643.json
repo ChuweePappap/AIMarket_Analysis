@@ -1,0 +1,76 @@
+{
+  "timestamp": "2025-12-31T01:06:40.505416Z",
+  "symbol": "EURUSD",
+  "timeframe": "H1",
+  "price": {
+    "bid": 1.17455,
+    "ask": 1.17463,
+    "last": 0.0
+  },
+  "sentiment": "BEARISH",
+  "analysis": "Market analysis indicates negative pressure with sellers in control. RSI at 42.09 remains in neutral territory. Money Flow Index at 52.90 suggests balanced volume distribution. MACD histogram negative with bearish crossover in effect. Price below Bollinger middle band, downside pressure present. Technical structure favors downside with price below key support levels. Ichimoku structure confirms bearish environment. Stochastic at 10.43 signals potential reversal from oversold levels.",
+  "indicators": {
+    "rsi": {
+      "value": 42.09,
+      "condition": "NEUTRAL",
+      "signal": "HOLD"
+    },
+    "mfi": {
+      "value": 52.9,
+      "condition": "NEUTRAL",
+      "signal": "HOLD"
+    },
+    "stochastic": {
+      "main": 10.43,
+      "signal": 17.36,
+      "condition": "OVERSOLD",
+      "signal_type": "BUY"
+    },
+    "macd": {
+      "main": -0.00063,
+      "signal": -0.00043,
+      "divergence": -0.0002,
+      "histogram": "NEGATIVE",
+      "trend": "BEARISH"
+    },
+    "bollinger_bands": {
+      "upper": 1.17884,
+      "middle": 1.17641,
+      "lower": 1.17397,
+      "price_position": "BELOW_MIDDLE",
+      "bandwidth": 0.00487
+    },
+    "moving_average": {
+      "value": 1.17607,
+      "price_position": "BELOW",
+      "signal": "BEARISH"
+    },
+    "parabolic_sar": {
+      "value": 1.17745,
+      "price_position": "BELOW",
+      "trend": "DOWNTREND"
+    },
+    "ichimoku": {
+      "tenkan_sen": 1.17588,
+      "kijun_sen": 1.17661,
+      "price_vs_tenkan": "BELOW",
+      "price_vs_kijun": "BELOW",
+      "tk_cross": "BEARISH"
+    }
+  },
+  "indicator_insights": {
+    "rsi": "Neutral at 42.1, consolidation or range-bound price action.",
+    "mfi": "Balanced volume flow at 52.9, institutional activity moderate.",
+    "stochastic": "Extreme oversold at 10.4, bullish divergence watch active.",
+    "macd": "Strong bearish momentum. Histogram expanding negative (-0.00020), downtrend intact.",
+    "bollinger_bands": "Price below midline. Bearish pressure dominant, resistance at 1.17641.",
+    "moving_average": "Price 0.13% below MA. Downtrend confirmed, MA acting as dynamic resistance.",
+    "parabolic_sar": "SAR positioned above price at 1.17745. Downtrend active, short positions favored.",
+    "ichimoku": "Price below cloud components. Strong bearish structure, shorts technically favored."
+  },
+  "signals": {
+    "primary": "SELL",
+    "strength": "MODERATE",
+    "recommendation": "WAIT_FOR_CONFIRMATION"
+  }
+}
