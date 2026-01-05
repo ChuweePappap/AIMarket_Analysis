@@ -1,304 +1,228 @@
 {
-  "timestamp": "2026-01-02T01:25:02.333847Z",
+  "timestamp": "2026-01-05T23:34:14.152590Z",
   "timeframe": "H1",
   "total_symbols": 10,
   "analyses": [
     {
-      "timestamp": "2026-01-02T01:24:21.938788Z",
+      "timestamp": "2026-01-05T23:33:55.391362Z",
       "symbol": "XAUUSD",
       "timeframe": "H1",
       "price": {
-        "bid": 4346.67,
-        "ask": 4346.82,
+        "bid": 4440.29,
+        "ask": 4440.51,
         "last": 0.0
       },
-      "sentiment": "NEUTRAL",
-      "analysis": "Market analysis indicates balanced conditions with no clear directional bias. RSI at 45.99 remains in neutral territory. Money Flow Index at 36.76 suggests balanced volume distribution. MACD showing trend transition, awaiting confirmation. Price maintaining above Bollinger middle band, uptrend intact. Price structure supports bullish continuation with MA and SAR confirmation. Ichimoku cloud analysis supports bullish bias. Stochastic at 90.70 warns of overbought exhaustion.",
+      "sentiment": "BULLISH",
+      "analysis": "Market analysis indicates positive momentum favoring buyers. RSI at 54.60 remains in neutral territory. Money Flow Index at 49.88 suggests balanced volume distribution. MACD showing trend transition, awaiting confirmation. Price maintaining above Bollinger middle band, uptrend intact. Price structure supports bullish continuation with MA and SAR confirmation. Ichimoku cloud analysis supports bullish bias.",
       "indicators": {
         "rsi": {
-          "value": 45.99,
+          "value": 54.6,
           "condition": "NEUTRAL",
           "signal": "HOLD"
         },
         "mfi": {
-          "value": 36.76,
+          "value": 49.88,
           "condition": "NEUTRAL",
           "signal": "HOLD"
         },
         "stochastic": {
-          "main": 90.7,
-          "signal": 69.93,
-          "condition": "OVERBOUGHT",
-          "signal_type": "SELL"
+          "main": 58.44,
+          "signal": 58.98,
+          "condition": "NEUTRAL",
+          "signal_type": "HOLD"
         },
         "macd": {
-          "main": -8.66999,
-          "signal": -13.46406,
-          "divergence": 4.79407,
-          "histogram": "POSITIVE",
-          "trend": "BULLISH"
+          "main": 17.77951,
+          "signal": 18.66612,
+          "divergence": -0.88661,
+          "histogram": "NEGATIVE",
+          "trend": "BEARISH"
         },
         "bollinger_bands": {
-          "upper": 4372.97419,
-          "middle": 4333.202,
-          "lower": 4293.42981,
+          "upper": 4461.17822,
+          "middle": 4429.9645,
+          "lower": 4398.75078,
           "price_position": "ABOVE_MIDDLE",
-          "bandwidth": 79.54438
+          "bandwidth": 62.42744
         },
         "moving_average": {
-          "value": 4327.67929,
+          "value": 4436.45286,
           "price_position": "ABOVE",
           "signal": "BULLISH"
         },
         "parabolic_sar": {
-          "value": 4274.68,
+          "value": 4396.4,
           "price_position": "ABOVE",
           "trend": "UPTREND"
         },
         "ichimoku": {
-          "tenkan_sen": 4329.71,
-          "kijun_sen": 4339.465,
+          "tenkan_sen": 4438.535,
+          "kijun_sen": 4388.655,
           "price_vs_tenkan": "ABOVE",
           "price_vs_kijun": "ABOVE",
-          "tk_cross": "BEARISH"
+          "tk_cross": "BULLISH"
         }
       },
       "indicator_insights": {
-        "rsi": "Neutral at 46.0, consolidation or range-bound price action.",
-        "mfi": "Balanced volume flow at 36.8, institutional activity moderate.",
-        "stochastic": "Extreme overbought at 90.7, bearish divergence possible.",
-        "macd": "Early bullish crossover below zero. Recovery phase initiated, watch for confirmation.",
-        "bollinger_bands": "Price holding above midline. Bullish bias maintained, support at 4333.20200.",
-        "moving_average": "Price 0.44% above MA. Uptrend confirmed, MA acting as dynamic support.",
-        "parabolic_sar": "SAR positioned below price at 4274.68000. Uptrend active, trailing stop recommended.",
+        "rsi": "Neutral at 54.6, consolidation or range-bound price action.",
+        "mfi": "Balanced volume flow at 49.9, institutional activity moderate.",
+        "stochastic": "Mid-range at 58.4, no extreme momentum detected.",
+        "macd": "Bearish crossover above zero. Profit-taking phase, trend weakening.",
+        "bollinger_bands": "Price holding above midline. Bullish bias maintained, support at 4429.96450.",
+        "moving_average": "Price 0.09% above MA. Uptrend confirmed, MA acting as dynamic support.",
+        "parabolic_sar": "SAR positioned below price at 4396.40000. Uptrend active, trailing stop recommended.",
         "ichimoku": "Price above cloud components. Strong bullish structure, all systems aligned for longs."
       },
       "signals": {
-        "primary": "NEUTRAL",
+        "primary": "BUY",
         "strength": "MODERATE",
-        "recommendation": "WAIT_FOR_CORRECTION"
+        "recommendation": "CONSIDER_LONG"
       }
     },
     {
-      "timestamp": "2026-01-02T01:24:21.942260Z",
+      "timestamp": "2026-01-05T23:33:55.508395Z",
       "symbol": "EURUSD",
       "timeframe": "H1",
       "price": {
-        "bid": 1.1759,
-        "ask": 1.17598,
+        "bid": 1.17171,
+        "ask": 1.17179,
         "last": 0.0
       },
       "sentiment": "STRONG_BULLISH",
-      "analysis": "Market analysis indicates strong upward momentum with multiple bullish confirmations. RSI at 62.83 remains in neutral territory. Money Flow Index at 63.16 suggests balanced volume distribution. MACD showing trend transition, awaiting confirmation. Price maintaining above Bollinger middle band, uptrend intact. Price structure supports bullish continuation with MA and SAR confirmation. Ichimoku cloud analysis supports bullish bias. Stochastic at 97.86 warns of overbought exhaustion.",
+      "analysis": "Market analysis indicates strong upward momentum with multiple bullish confirmations. RSI at 68.77 remains in neutral territory. Money Flow Index at 65.89 suggests balanced volume distribution. MACD histogram positive with bullish crossover confirmed. Price maintaining above Bollinger middle band, uptrend intact. Price structure supports bullish continuation with MA and SAR confirmation. Ichimoku cloud analysis supports bullish bias.",
       "indicators": {
         "rsi": {
-          "value": 62.83,
+          "value": 68.77,
           "condition": "NEUTRAL",
           "signal": "HOLD"
         },
         "mfi": {
-          "value": 63.16,
+          "value": 65.89,
           "condition": "NEUTRAL",
           "signal": "HOLD"
         },
         "stochastic": {
-          "main": 97.86,
-          "signal": 95.84,
-          "condition": "OVERBOUGHT",
-          "signal_type": "SELL"
+          "main": 51.23,
+          "signal": 65.0,
+          "condition": "NEUTRAL",
+          "signal_type": "HOLD"
         },
         "macd": {
-          "main": -0.0001,
-          "signal": -0.00044,
-          "divergence": 0.00034,
+          "main": 0.00033,
+          "signal": -0.00012,
+          "divergence": 0.00045,
           "histogram": "POSITIVE",
           "trend": "BULLISH"
         },
         "bollinger_bands": {
-          "upper": 1.17597,
-          "middle": 1.17433,
-          "lower": 1.1727,
+          "upper": 1.17375,
+          "middle": 1.1699,
+          "lower": 1.16605,
           "price_position": "ABOVE_MIDDLE",
-          "bandwidth": 0.00327
+          "bandwidth": 0.0077
         },
         "moving_average": {
-          "value": 1.17426,
+          "value": 1.1705,
           "price_position": "ABOVE",
           "signal": "BULLISH"
         },
         "parabolic_sar": {
-          "value": 1.172,
+          "value": 1.16732,
           "price_position": "ABOVE",
           "trend": "UPTREND"
         },
         "ichimoku": {
-          "tenkan_sen": 1.17402,
-          "kijun_sen": 1.17432,
+          "tenkan_sen": 1.17072,
+          "kijun_sen": 1.1694,
           "price_vs_tenkan": "ABOVE",
           "price_vs_kijun": "ABOVE",
-          "tk_cross": "BEARISH"
+          "tk_cross": "BULLISH"
         }
       },
       "indicator_insights": {
-        "rsi": "Strong momentum at 62.8, trend continuation favored.",
-        "mfi": "Balanced volume flow at 63.2, institutional activity moderate.",
-        "stochastic": "Extreme overbought at 97.9, bearish divergence possible.",
-        "macd": "Early bullish crossover below zero. Recovery phase initiated, watch for confirmation.",
-        "bollinger_bands": "Price holding above midline. Bullish bias maintained, support at 1.17433.",
-        "moving_average": "Price 0.14% above MA. Uptrend confirmed, MA acting as dynamic support.",
-        "parabolic_sar": "SAR positioned below price at 1.17200. Uptrend active, trailing stop recommended.",
+        "rsi": "Strong momentum at 68.8, trend continuation favored.",
+        "mfi": "Balanced volume flow at 65.9, institutional activity moderate.",
+        "stochastic": "Mid-range at 51.2, no extreme momentum detected.",
+        "macd": "Strong bullish momentum. Histogram expanding positive (0.00045), trend strength confirmed.",
+        "bollinger_bands": "Price holding above midline. Bullish bias maintained, support at 1.16990.",
+        "moving_average": "Price 0.10% above MA. Uptrend confirmed, MA acting as dynamic support.",
+        "parabolic_sar": "SAR positioned below price at 1.16732. Uptrend active, trailing stop recommended.",
         "ichimoku": "Price above cloud components. Strong bullish structure, all systems aligned for longs."
       },
       "signals": {
         "primary": "BUY",
         "strength": "STRONG",
-        "recommendation": "WAIT_FOR_CORRECTION"
+        "recommendation": "ENTER_LONG"
       }
     },
     {
-      "timestamp": "2026-01-02T01:24:22.095342Z",
+      "timestamp": "2026-01-05T23:33:55.557904Z",
       "symbol": "GBPUSD",
       "timeframe": "H1",
       "price": {
-        "bid": 1.34824,
-        "ask": 1.34833,
-        "last": 0.0
-      },
-      "sentiment": "BEARISH",
-      "analysis": "Market analysis indicates negative pressure with sellers in control. RSI at 40.54 remains in neutral territory. Money Flow Index at 34.39 suggests balanced volume distribution. MACD histogram negative with bearish crossover in effect. Price maintaining above Bollinger middle band, uptrend intact. Price structure supports bullish continuation with MA and SAR confirmation. Ichimoku cloud analysis supports bullish bias.",
-      "indicators": {
-        "rsi": {
-          "value": 40.54,
-          "condition": "NEUTRAL",
-          "signal": "HOLD"
-        },
-        "mfi": {
-          "value": 34.39,
-          "condition": "NEUTRAL",
-          "signal": "HOLD"
-        },
-        "stochastic": {
-          "main": 43.01,
-          "signal": 29.96,
-          "condition": "NEUTRAL",
-          "signal_type": "HOLD"
-        },
-        "macd": {
-          "main": -0.0012,
-          "signal": -0.00113,
-          "divergence": -7e-05,
-          "histogram": "NEGATIVE",
-          "trend": "BEARISH"
-        },
-        "bollinger_bands": {
-          "upper": 1.34825,
-          "middle": 1.34591,
-          "lower": 1.34358,
-          "price_position": "ABOVE_MIDDLE",
-          "bandwidth": 0.00467
-        },
-        "moving_average": {
-          "value": 1.34551,
-          "price_position": "ABOVE",
-          "signal": "BULLISH"
-        },
-        "parabolic_sar": {
-          "value": 1.34259,
-          "price_position": "ABOVE",
-          "trend": "UPTREND"
-        },
-        "ichimoku": {
-          "tenkan_sen": 1.34457,
-          "kijun_sen": 1.34782,
-          "price_vs_tenkan": "ABOVE",
-          "price_vs_kijun": "ABOVE",
-          "tk_cross": "BEARISH"
-        }
-      },
-      "indicator_insights": {
-        "rsi": "Neutral at 40.5, consolidation or range-bound price action.",
-        "mfi": "Balanced volume flow at 34.4, institutional activity moderate.",
-        "stochastic": "Mid-range at 43.0, no extreme momentum detected.",
-        "macd": "Strong bearish momentum. Histogram expanding negative (-0.00007), downtrend intact.",
-        "bollinger_bands": "Price holding above midline. Bullish bias maintained, support at 1.34591.",
-        "moving_average": "Price 0.20% above MA. Uptrend confirmed, MA acting as dynamic support.",
-        "parabolic_sar": "SAR positioned below price at 1.34259. Uptrend active, trailing stop recommended.",
-        "ichimoku": "Price above cloud components. Strong bullish structure, all systems aligned for longs."
-      },
-      "signals": {
-        "primary": "SELL",
-        "strength": "MODERATE",
-        "recommendation": "CONSIDER_SHORT"
-      }
-    },
-    {
-      "timestamp": "2026-01-02T01:24:22.120871Z",
-      "symbol": "USDJPY",
-      "timeframe": "H1",
-      "price": {
-        "bid": 156.57,
-        "ask": 156.578,
+        "bid": 1.35354,
+        "ask": 1.3536299999999999,
         "last": 0.0
       },
       "sentiment": "BULLISH",
-      "analysis": "Market analysis indicates positive momentum favoring buyers. RSI at 72.10 indicates overbought territory, suggesting caution for long positions. Money Flow Index at 68.74 suggests balanced volume distribution. MACD histogram positive with bullish crossover confirmed. Price maintaining above Bollinger middle band, uptrend intact. Price structure supports bullish continuation with MA and SAR confirmation. Ichimoku cloud analysis supports bullish bias. Stochastic at 85.41 warns of overbought exhaustion.",
+      "analysis": "Market analysis indicates positive momentum favoring buyers. RSI at 61.22 remains in neutral territory. Money Flow Index at 58.27 suggests balanced volume distribution. MACD histogram positive with bullish crossover confirmed. Price extended above Bollinger upper band, reversal risk elevated. Price structure supports bullish continuation with MA and SAR confirmation. Ichimoku cloud analysis supports bullish bias. Stochastic at 85.19 warns of overbought exhaustion.",
       "indicators": {
         "rsi": {
-          "value": 72.1,
-          "condition": "OVERBOUGHT",
-          "signal": "SELL"
+          "value": 61.22,
+          "condition": "NEUTRAL",
+          "signal": "HOLD"
         },
         "mfi": {
-          "value": 68.74,
+          "value": 58.27,
           "condition": "NEUTRAL",
           "signal": "HOLD"
         },
         "stochastic": {
-          "main": 85.41,
-          "signal": 77.82,
+          "main": 85.19,
+          "signal": 72.52,
           "condition": "OVERBOUGHT",
           "signal_type": "SELL"
         },
         "macd": {
-          "main": 0.1132,
-          "signal": 0.10296,
-          "divergence": 0.01024,
+          "main": 0.00028,
+          "signal": -0.00022,
+          "divergence": 0.0005,
           "histogram": "POSITIVE",
           "trend": "BULLISH"
         },
         "bollinger_bands": {
-          "upper": 156.72669,
-          "middle": 156.49355,
-          "lower": 156.26041,
-          "price_position": "ABOVE_MIDDLE",
-          "bandwidth": 0.46628
+          "upper": 1.34898,
+          "middle": 1.34575,
+          "lower": 1.34253,
+          "price_position": "ABOVE_UPPER",
+          "bandwidth": 0.00645
         },
         "moving_average": {
-          "value": 156.53471,
+          "value": 1.34626,
           "price_position": "ABOVE",
           "signal": "BULLISH"
         },
         "parabolic_sar": {
-          "value": 156.425,
+          "value": 1.34374,
           "price_position": "ABOVE",
           "trend": "UPTREND"
         },
         "ichimoku": {
-          "tenkan_sen": 156.564,
-          "kijun_sen": 156.2105,
+          "tenkan_sen": 1.3463,
+          "kijun_sen": 1.34447,
           "price_vs_tenkan": "ABOVE",
           "price_vs_kijun": "ABOVE",
           "tk_cross": "BULLISH"
         }
       },
       "indicator_insights": {
-        "rsi": "Overbought at 72.1, profit-taking likely. Caution for new longs.",
-        "mfi": "Balanced volume flow at 68.7, institutional activity moderate.",
-        "stochastic": "Extreme overbought at 85.4, bearish divergence possible.",
-        "macd": "Strong bullish momentum. Histogram expanding positive (0.01024), trend strength confirmed.",
-        "bollinger_bands": "Price holding above midline. Bullish bias maintained, support at 156.49355.",
-        "moving_average": "Price 0.02% above MA. Uptrend confirmed, MA acting as dynamic support.",
-        "parabolic_sar": "SAR positioned below price at 156.42500. Uptrend active, trailing stop recommended.",
+        "rsi": "Strong momentum at 61.2, trend continuation favored.",
+        "mfi": "Balanced volume flow at 58.3, institutional activity moderate.",
+        "stochastic": "Extreme overbought at 85.2, bearish divergence possible.",
+        "macd": "Strong bullish momentum. Histogram expanding positive (0.00050), trend strength confirmed.",
+        "bollinger_bands": "Price extended above upper band. Parabolic move detected, exhaustion imminent.",
+        "moving_average": "Price 0.54% above MA. Uptrend confirmed, MA acting as dynamic support.",
+        "parabolic_sar": "SAR positioned below price at 1.34374. Uptrend active, trailing stop recommended.",
         "ichimoku": "Price above cloud components. Strong bullish structure, all systems aligned for longs."
       },
       "signals": {
@@ -308,150 +232,74 @@
       }
     },
     {
-      "timestamp": "2026-01-02T01:24:22.150150Z",
-      "symbol": "USDCHF",
+      "timestamp": "2026-01-05T23:33:55.588711Z",
+      "symbol": "USDJPY",
       "timeframe": "H1",
       "price": {
-        "bid": 0.79112,
-        "ask": 0.79122,
-        "last": 0.0
-      },
-      "sentiment": "NEUTRAL",
-      "analysis": "Market analysis indicates balanced conditions with no clear directional bias. RSI at 61.41 remains in neutral territory. Money Flow Index at 58.33 suggests balanced volume distribution. MACD histogram positive with bullish crossover confirmed. Price below Bollinger middle band, downside pressure present. Technical structure favors downside with price below key support levels.",
-      "indicators": {
-        "rsi": {
-          "value": 61.41,
-          "condition": "NEUTRAL",
-          "signal": "HOLD"
-        },
-        "mfi": {
-          "value": 58.33,
-          "condition": "NEUTRAL",
-          "signal": "HOLD"
-        },
-        "stochastic": {
-          "main": 38.77,
-          "signal": 59.26,
-          "condition": "NEUTRAL",
-          "signal_type": "HOLD"
-        },
-        "macd": {
-          "main": 0.00086,
-          "signal": 0.00084,
-          "divergence": 2e-05,
-          "histogram": "POSITIVE",
-          "trend": "BULLISH"
-        },
-        "bollinger_bands": {
-          "upper": 0.79394,
-          "middle": 0.79227,
-          "lower": 0.79061,
-          "price_position": "BELOW_MIDDLE",
-          "bandwidth": 0.00333
-        },
-        "moving_average": {
-          "value": 0.7926,
-          "price_position": "BELOW",
-          "signal": "BEARISH"
-        },
-        "parabolic_sar": {
-          "value": 0.79424,
-          "price_position": "BELOW",
-          "trend": "DOWNTREND"
-        },
-        "ichimoku": {
-          "tenkan_sen": 0.79314,
-          "kijun_sen": 0.79092,
-          "price_vs_tenkan": "BELOW",
-          "price_vs_kijun": "ABOVE",
-          "tk_cross": "BULLISH"
-        }
-      },
-      "indicator_insights": {
-        "rsi": "Strong momentum at 61.4, trend continuation favored.",
-        "mfi": "Balanced volume flow at 58.3, institutional activity moderate.",
-        "stochastic": "Mid-range at 38.8, no extreme momentum detected.",
-        "macd": "Strong bullish momentum. Histogram expanding positive (0.00002), trend strength confirmed.",
-        "bollinger_bands": "Price below midline. Bearish pressure dominant, resistance at 0.79227.",
-        "moving_average": "Price 0.19% below MA. Downtrend confirmed, MA acting as dynamic resistance.",
-        "parabolic_sar": "SAR positioned above price at 0.79424. Downtrend active, short positions favored.",
-        "ichimoku": "Tenkan/Kijun bullish cross detected. Early trend reversal signal, monitoring required."
-      },
-      "signals": {
-        "primary": "NEUTRAL",
-        "strength": "MODERATE",
-        "recommendation": "OBSERVE"
-      }
-    },
-    {
-      "timestamp": "2026-01-02T01:24:22.227285Z",
-      "symbol": "AUDUSD",
-      "timeframe": "H1",
-      "price": {
-        "bid": 0.66887,
-        "ask": 0.66895,
+        "bid": 156.53,
+        "ask": 156.538,
         "last": 0.0
       },
       "sentiment": "STRONG_BEARISH",
-      "analysis": "Market analysis indicates strong downward pressure with multiple bearish signals. RSI at 39.91 remains in neutral territory. Money Flow Index at 21.72 suggests balanced volume distribution. MACD histogram negative with bearish crossover in effect. Price below Bollinger middle band, downside pressure present. Price action mixed with conflicting signals from trend indicators.",
+      "analysis": "Market analysis indicates strong downward pressure with multiple bearish signals. RSI at 51.44 remains in neutral territory. Money Flow Index at 42.92 suggests balanced volume distribution. MACD showing trend transition, awaiting confirmation. Price below Bollinger middle band, downside pressure present. Technical structure favors downside with price below key support levels. Ichimoku structure confirms bearish environment.",
       "indicators": {
         "rsi": {
-          "value": 39.91,
+          "value": 51.44,
           "condition": "NEUTRAL",
           "signal": "HOLD"
         },
         "mfi": {
-          "value": 21.72,
+          "value": 42.92,
           "condition": "NEUTRAL",
           "signal": "HOLD"
         },
         "stochastic": {
-          "main": 40.45,
-          "signal": 26.36,
+          "main": 27.24,
+          "signal": 27.24,
           "condition": "NEUTRAL",
           "signal_type": "HOLD"
         },
         "macd": {
-          "main": -0.00045,
-          "signal": -0.00035,
-          "divergence": -0.0001,
+          "main": 0.05912,
+          "signal": 0.09185,
+          "divergence": -0.03273,
           "histogram": "NEGATIVE",
           "trend": "BEARISH"
         },
         "bollinger_bands": {
-          "upper": 0.67054,
-          "middle": 0.66926,
-          "lower": 0.66798,
+          "upper": 156.91407,
+          "middle": 156.6993,
+          "lower": 156.48453,
           "price_position": "BELOW_MIDDLE",
-          "bandwidth": 0.00256
+          "bandwidth": 0.42954
         },
         "moving_average": {
-          "value": 0.66903,
+          "value": 156.73629,
           "price_position": "BELOW",
           "signal": "BEARISH"
         },
         "parabolic_sar": {
-          "value": 0.66757,
-          "price_position": "ABOVE",
-          "trend": "UPTREND"
+          "value": 156.923,
+          "price_position": "BELOW",
+          "trend": "DOWNTREND"
         },
         "ichimoku": {
-          "tenkan_sen": 0.66871,
-          "kijun_sen": 0.6694,
-          "price_vs_tenkan": "ABOVE",
+          "tenkan_sen": 156.7215,
+          "kijun_sen": 156.6635,
+          "price_vs_tenkan": "BELOW",
           "price_vs_kijun": "BELOW",
-          "tk_cross": "BEARISH"
+          "tk_cross": "BULLISH"
         }
       },
       "indicator_insights": {
-        "rsi": "Moderately oversold at 39.9, accumulation phase detected.",
-        "mfi": "Balanced volume flow at 21.7, institutional activity moderate.",
-        "stochastic": "Mid-range at 40.5, no extreme momentum detected.",
-        "macd": "Strong bearish momentum. Histogram expanding negative (-0.00010), downtrend intact.",
-        "bollinger_bands": "Price below midline. Bearish pressure dominant, resistance at 0.66926.",
-        "moving_average": "Price 0.02% below MA. Downtrend confirmed, MA acting as dynamic resistance.",
-        "parabolic_sar": "SAR positioned below price at 0.66757. Uptrend active, trailing stop recommended.",
-        "ichimoku": "Tenkan/Kijun bearish cross detected. Trend reversal warning, risk management critical."
+        "rsi": "Neutral at 51.4, consolidation or range-bound price action.",
+        "mfi": "Balanced volume flow at 42.9, institutional activity moderate.",
+        "stochastic": "Mid-range at 27.2, no extreme momentum detected.",
+        "macd": "Bearish crossover above zero. Profit-taking phase, trend weakening.",
+        "bollinger_bands": "Price below midline. Bearish pressure dominant, resistance at 156.69930.",
+        "moving_average": "Price 0.13% below MA. Downtrend confirmed, MA acting as dynamic resistance.",
+        "parabolic_sar": "SAR positioned above price at 156.92300. Downtrend active, short positions favored.",
+        "ichimoku": "Price below cloud components. Strong bearish structure, shorts technically favored."
       },
       "signals": {
         "primary": "SELL",
@@ -460,307 +308,459 @@
       }
     },
     {
-      "timestamp": "2026-01-02T01:24:22.288280Z",
-      "symbol": "USDCAD",
+      "timestamp": "2026-01-05T23:33:55.620624Z",
+      "symbol": "USDCHF",
       "timeframe": "H1",
       "price": {
-        "bid": 1.37087,
-        "ask": 1.37097,
+        "bid": 0.79192,
+        "ask": 0.79202,
         "last": 0.0
       },
-      "sentiment": "STRONG_BULLISH",
-      "analysis": "Market analysis indicates strong upward momentum with multiple bullish confirmations. RSI at 61.52 remains in neutral territory. Money Flow Index at 61.45 suggests balanced volume distribution. MACD histogram positive with bullish crossover confirmed. Price maintaining above Bollinger middle band, uptrend intact. Price structure supports bullish continuation with MA and SAR confirmation. Ichimoku cloud analysis supports bullish bias.",
+      "sentiment": "STRONG_BEARISH",
+      "analysis": "Market analysis indicates strong downward pressure with multiple bearish signals. RSI at 40.40 remains in neutral territory. Money Flow Index at 60.72 suggests balanced volume distribution. MACD showing trend transition, awaiting confirmation. Price below Bollinger middle band, downside pressure present. Technical structure favors downside with price below key support levels. Ichimoku structure confirms bearish environment.",
       "indicators": {
         "rsi": {
-          "value": 61.52,
+          "value": 40.4,
           "condition": "NEUTRAL",
           "signal": "HOLD"
         },
         "mfi": {
-          "value": 61.45,
+          "value": 60.72,
           "condition": "NEUTRAL",
           "signal": "HOLD"
         },
         "stochastic": {
-          "main": 56.89,
-          "signal": 64.61,
+          "main": 27.04,
+          "signal": 28.83,
           "condition": "NEUTRAL",
           "signal_type": "HOLD"
         },
         "macd": {
-          "main": 0.00043,
-          "signal": 0.00037,
-          "divergence": 6e-05,
-          "histogram": "POSITIVE",
-          "trend": "BULLISH"
-        },
-        "bollinger_bands": {
-          "upper": 1.37116,
-          "middle": 1.36979,
-          "lower": 1.36842,
-          "price_position": "ABOVE_MIDDLE",
-          "bandwidth": 0.00274
-        },
-        "moving_average": {
-          "value": 1.37006,
-          "price_position": "ABOVE",
-          "signal": "BULLISH"
-        },
-        "parabolic_sar": {
-          "value": 1.36955,
-          "price_position": "ABOVE",
-          "trend": "UPTREND"
-        },
-        "ichimoku": {
-          "tenkan_sen": 1.3704,
-          "kijun_sen": 1.36962,
-          "price_vs_tenkan": "ABOVE",
-          "price_vs_kijun": "ABOVE",
-          "tk_cross": "BULLISH"
-        }
-      },
-      "indicator_insights": {
-        "rsi": "Strong momentum at 61.5, trend continuation favored.",
-        "mfi": "Balanced volume flow at 61.5, institutional activity moderate.",
-        "stochastic": "Mid-range at 56.9, no extreme momentum detected.",
-        "macd": "Strong bullish momentum. Histogram expanding positive (0.00006), trend strength confirmed.",
-        "bollinger_bands": "Price holding above midline. Bullish bias maintained, support at 1.36979.",
-        "moving_average": "Price 0.06% above MA. Uptrend confirmed, MA acting as dynamic support.",
-        "parabolic_sar": "SAR positioned below price at 1.36955. Uptrend active, trailing stop recommended.",
-        "ichimoku": "Price above cloud components. Strong bullish structure, all systems aligned for longs."
-      },
-      "signals": {
-        "primary": "BUY",
-        "strength": "STRONG",
-        "recommendation": "ENTER_LONG"
-      }
-    },
-    {
-      "timestamp": "2026-01-02T01:24:22.319884Z",
-      "symbol": "NZDUSD",
-      "timeframe": "H1",
-      "price": {
-        "bid": 0.57643,
-        "ask": 0.57653,
-        "last": 0.0
-      },
-      "sentiment": "BEARISH",
-      "analysis": "Market analysis indicates negative pressure with sellers in control. RSI at 23.14 signals oversold conditions, potential reversal opportunity. Money Flow Index at 17.37 shows extreme selling pressure. MACD histogram negative with bearish crossover in effect. Price below Bollinger middle band, downside pressure present. Technical structure favors downside with price below key support levels. Ichimoku structure confirms bearish environment.",
-      "indicators": {
-        "rsi": {
-          "value": 23.14,
-          "condition": "OVERSOLD",
-          "signal": "BUY"
-        },
-        "mfi": {
-          "value": 17.37,
-          "condition": "OVERSOLD",
-          "signal": "BUY"
-        },
-        "stochastic": {
-          "main": 29.25,
-          "signal": 22.76,
-          "condition": "NEUTRAL",
-          "signal_type": "HOLD"
-        },
-        "macd": {
-          "main": -0.00099,
-          "signal": -0.00087,
-          "divergence": -0.00012,
+          "main": 1e-05,
+          "signal": 0.0003,
+          "divergence": -0.00029,
           "histogram": "NEGATIVE",
           "trend": "BEARISH"
         },
         "bollinger_bands": {
-          "upper": 0.58066,
-          "middle": 0.5782,
-          "lower": 0.57573,
+          "upper": 0.79421,
+          "middle": 0.79266,
+          "lower": 0.79111,
           "price_position": "BELOW_MIDDLE",
-          "bandwidth": 0.00493
+          "bandwidth": 0.0031
         },
         "moving_average": {
-          "value": 0.5776,
+          "value": 0.79244,
           "price_position": "BELOW",
           "signal": "BEARISH"
         },
         "parabolic_sar": {
-          "value": 0.57839,
+          "value": 0.79402,
           "price_position": "BELOW",
           "trend": "DOWNTREND"
         },
         "ichimoku": {
-          "tenkan_sen": 0.57719,
-          "kijun_sen": 0.5786,
+          "tenkan_sen": 0.79248,
+          "kijun_sen": 0.79261,
           "price_vs_tenkan": "BELOW",
           "price_vs_kijun": "BELOW",
           "tk_cross": "BEARISH"
         }
       },
       "indicator_insights": {
-        "rsi": "Deeply oversold at 23.1, strong reversal potential. Buyers may step in soon.",
-        "mfi": "Severe money outflow at 17.4, capitulation phase. Contrarian opportunity.",
-        "stochastic": "Mid-range at 29.2, no extreme momentum detected.",
-        "macd": "Strong bearish momentum. Histogram expanding negative (-0.00012), downtrend intact.",
-        "bollinger_bands": "Price below midline. Bearish pressure dominant, resistance at 0.57820.",
-        "moving_average": "Price 0.20% below MA. Downtrend confirmed, MA acting as dynamic resistance.",
-        "parabolic_sar": "SAR positioned above price at 0.57839. Downtrend active, short positions favored.",
+        "rsi": "Neutral at 40.4, consolidation or range-bound price action.",
+        "mfi": "Balanced volume flow at 60.7, institutional activity moderate.",
+        "stochastic": "Mid-range at 27.0, no extreme momentum detected.",
+        "macd": "Bearish crossover above zero. Profit-taking phase, trend weakening.",
+        "bollinger_bands": "Price below midline. Bearish pressure dominant, resistance at 0.79266.",
+        "moving_average": "Price 0.07% below MA. Downtrend confirmed, MA acting as dynamic resistance.",
+        "parabolic_sar": "SAR positioned above price at 0.79402. Downtrend active, short positions favored.",
         "ichimoku": "Price below cloud components. Strong bearish structure, shorts technically favored."
       },
       "signals": {
         "primary": "SELL",
-        "strength": "MODERATE",
-        "recommendation": "WAIT_FOR_CONFIRMATION"
-      }
-    },
-    {
-      "timestamp": "2026-01-02T01:24:22.350410Z",
-      "symbol": "EURGBP",
-      "timeframe": "H1",
-      "price": {
-        "bid": 0.87213,
-        "ask": 0.87223,
-        "last": 0.0
-      },
-      "sentiment": "STRONG_BULLISH",
-      "analysis": "Market analysis indicates strong upward momentum with multiple bullish confirmations. RSI at 63.64 remains in neutral territory. Money Flow Index at 65.12 suggests balanced volume distribution. MACD histogram positive with bullish crossover confirmed. Price below Bollinger middle band, downside pressure present. Price action mixed with conflicting signals from trend indicators. Ichimoku structure confirms bearish environment.",
-      "indicators": {
-        "rsi": {
-          "value": 63.64,
-          "condition": "NEUTRAL",
-          "signal": "HOLD"
-        },
-        "mfi": {
-          "value": 65.12,
-          "condition": "NEUTRAL",
-          "signal": "HOLD"
-        },
-        "stochastic": {
-          "main": 73.1,
-          "signal": 82.63,
-          "condition": "NEUTRAL",
-          "signal_type": "HOLD"
-        },
-        "macd": {
-          "main": 0.00028,
-          "signal": 0.00018,
-          "divergence": 0.0001,
-          "histogram": "POSITIVE",
-          "trend": "BULLISH"
-        },
-        "bollinger_bands": {
-          "upper": 0.87338,
-          "middle": 0.87248,
-          "lower": 0.87157,
-          "price_position": "BELOW_MIDDLE",
-          "bandwidth": 0.00181
-        },
-        "moving_average": {
-          "value": 0.87247,
-          "price_position": "BELOW",
-          "signal": "BEARISH"
-        },
-        "parabolic_sar": {
-          "value": 0.87172,
-          "price_position": "ABOVE",
-          "trend": "UPTREND"
-        },
-        "ichimoku": {
-          "tenkan_sen": 0.8729,
-          "kijun_sen": 0.87218,
-          "price_vs_tenkan": "BELOW",
-          "price_vs_kijun": "BELOW",
-          "tk_cross": "BULLISH"
-        }
-      },
-      "indicator_insights": {
-        "rsi": "Strong momentum at 63.6, trend continuation favored.",
-        "mfi": "Balanced volume flow at 65.1, institutional activity moderate.",
-        "stochastic": "Mid-range at 73.1, no extreme momentum detected.",
-        "macd": "Strong bullish momentum. Histogram expanding positive (0.00010), trend strength confirmed.",
-        "bollinger_bands": "Price below midline. Bearish pressure dominant, resistance at 0.87248.",
-        "moving_average": "Price 0.04% below MA. Downtrend confirmed, MA acting as dynamic resistance.",
-        "parabolic_sar": "SAR positioned below price at 0.87172. Uptrend active, trailing stop recommended.",
-        "ichimoku": "Price below cloud components. Strong bearish structure, shorts technically favored."
-      },
-      "signals": {
-        "primary": "BUY",
         "strength": "STRONG",
-        "recommendation": "ENTER_LONG"
+        "recommendation": "ENTER_SHORT"
       }
     },
     {
-      "timestamp": "2026-01-02T01:24:22.364554Z",
-      "symbol": "EURJPY",
+      "timestamp": "2026-01-05T23:33:55.682031Z",
+      "symbol": "AUDUSD",
       "timeframe": "H1",
       "price": {
-        "bid": 184.113,
-        "ask": 184.125,
+        "bid": 0.67117,
+        "ask": 0.67125,
         "last": 0.0
       },
       "sentiment": "BULLISH",
-      "analysis": "Market analysis indicates positive momentum favoring buyers. RSI at 60.33 remains in neutral territory. Money Flow Index at 70.79 suggests balanced volume distribution. MACD histogram positive with bullish crossover confirmed. Price extended above Bollinger upper band, reversal risk elevated. Price structure supports bullish continuation with MA and SAR confirmation. Ichimoku cloud analysis supports bullish bias. Stochastic at 89.71 warns of overbought exhaustion.",
+      "analysis": "Market analysis indicates positive momentum favoring buyers. RSI at 55.82 remains in neutral territory. Money Flow Index at 57.98 suggests balanced volume distribution. MACD showing trend transition, awaiting confirmation. Price extended above Bollinger upper band, reversal risk elevated. Price structure supports bullish continuation with MA and SAR confirmation. Ichimoku cloud analysis supports bullish bias. Stochastic at 93.74 warns of overbought exhaustion.",
       "indicators": {
         "rsi": {
-          "value": 60.33,
+          "value": 55.82,
           "condition": "NEUTRAL",
           "signal": "HOLD"
         },
         "mfi": {
-          "value": 70.79,
+          "value": 57.98,
           "condition": "NEUTRAL",
           "signal": "HOLD"
         },
         "stochastic": {
-          "main": 89.71,
-          "signal": 66.58,
+          "main": 93.74,
+          "signal": 77.16,
           "condition": "OVERBOUGHT",
           "signal_type": "SELL"
         },
         "macd": {
-          "main": 0.02041,
-          "signal": -0.00336,
-          "divergence": 0.02377,
+          "main": -0.00031,
+          "signal": -0.00054,
+          "divergence": 0.00023,
           "histogram": "POSITIVE",
           "trend": "BULLISH"
         },
         "bollinger_bands": {
-          "upper": 183.96828,
-          "middle": 183.78875,
-          "lower": 183.60922,
+          "upper": 0.66949,
+          "middle": 0.66786,
+          "lower": 0.66622,
           "price_position": "ABOVE_UPPER",
-          "bandwidth": 0.35906
+          "bandwidth": 0.00327
         },
         "moving_average": {
-          "value": 183.77279,
+          "value": 0.66761,
           "price_position": "ABOVE",
           "signal": "BULLISH"
         },
         "parabolic_sar": {
-          "value": 183.536,
+          "value": 0.66604,
           "price_position": "ABOVE",
           "trend": "UPTREND"
         },
         "ichimoku": {
-          "tenkan_sen": 183.7725,
-          "kijun_sen": 183.712,
+          "tenkan_sen": 0.66776,
+          "kijun_sen": 0.66806,
           "price_vs_tenkan": "ABOVE",
           "price_vs_kijun": "ABOVE",
-          "tk_cross": "BULLISH"
+          "tk_cross": "BEARISH"
         }
       },
       "indicator_insights": {
-        "rsi": "Strong momentum at 60.3, trend continuation favored.",
-        "mfi": "Balanced volume flow at 70.8, institutional activity moderate.",
-        "stochastic": "Extreme overbought at 89.7, bearish divergence possible.",
-        "macd": "Strong bullish momentum. Histogram expanding positive (0.02377), trend strength confirmed.",
+        "rsi": "Neutral at 55.8, consolidation or range-bound price action.",
+        "mfi": "Balanced volume flow at 58.0, institutional activity moderate.",
+        "stochastic": "Extreme overbought at 93.7, bearish divergence possible.",
+        "macd": "Early bullish crossover below zero. Recovery phase initiated, watch for confirmation.",
         "bollinger_bands": "Price extended above upper band. Parabolic move detected, exhaustion imminent.",
-        "moving_average": "Price 0.19% above MA. Uptrend confirmed, MA acting as dynamic support.",
-        "parabolic_sar": "SAR positioned below price at 183.53600. Uptrend active, trailing stop recommended.",
+        "moving_average": "Price 0.53% above MA. Uptrend confirmed, MA acting as dynamic support.",
+        "parabolic_sar": "SAR positioned below price at 0.66604. Uptrend active, trailing stop recommended.",
         "ichimoku": "Price above cloud components. Strong bullish structure, all systems aligned for longs."
       },
       "signals": {
         "primary": "BUY",
         "strength": "MODERATE",
         "recommendation": "WAIT_FOR_CORRECTION"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T23:33:55.742759Z",
+      "symbol": "USDCAD",
+      "timeframe": "H1",
+      "price": {
+        "bid": 1.3771900000000001,
+        "ask": 1.3773,
+        "last": 0.0
+      },
+      "sentiment": "BULLISH",
+      "analysis": "Market analysis indicates positive momentum favoring buyers. RSI at 51.96 remains in neutral territory. Money Flow Index at 67.69 suggests balanced volume distribution. MACD showing trend transition, awaiting confirmation. Price extended above Bollinger upper band, reversal risk elevated. Price structure supports bullish continuation with MA and SAR confirmation. Ichimoku cloud analysis supports bullish bias. Stochastic at 14.15 signals potential reversal from oversold levels.",
+      "indicators": {
+        "rsi": {
+          "value": 51.96,
+          "condition": "NEUTRAL",
+          "signal": "HOLD"
+        },
+        "mfi": {
+          "value": 67.69,
+          "condition": "NEUTRAL",
+          "signal": "HOLD"
+        },
+        "stochastic": {
+          "main": 14.15,
+          "signal": 30.68,
+          "condition": "OVERSOLD",
+          "signal_type": "BUY"
+        },
+        "macd": {
+          "main": 0.00051,
+          "signal": 0.00059,
+          "divergence": -8e-05,
+          "histogram": "NEGATIVE",
+          "trend": "BEARISH"
+        },
+        "bollinger_bands": {
+          "upper": 1.37303,
+          "middle": 1.37108,
+          "lower": 1.36913,
+          "price_position": "ABOVE_UPPER",
+          "bandwidth": 0.0039
+        },
+        "moving_average": {
+          "value": 1.37132,
+          "price_position": "ABOVE",
+          "signal": "BULLISH"
+        },
+        "parabolic_sar": {
+          "value": 1.37282,
+          "price_position": "ABOVE",
+          "trend": "UPTREND"
+        },
+        "ichimoku": {
+          "tenkan_sen": 1.37175,
+          "kijun_sen": 1.37082,
+          "price_vs_tenkan": "ABOVE",
+          "price_vs_kijun": "ABOVE",
+          "tk_cross": "BULLISH"
+        }
+      },
+      "indicator_insights": {
+        "rsi": "Neutral at 52.0, consolidation or range-bound price action.",
+        "mfi": "Balanced volume flow at 67.7, institutional activity moderate.",
+        "stochastic": "Extreme oversold at 14.2, bullish divergence watch active.",
+        "macd": "Bearish crossover above zero. Profit-taking phase, trend weakening.",
+        "bollinger_bands": "Price extended above upper band. Parabolic move detected, exhaustion imminent.",
+        "moving_average": "Price 0.43% above MA. Uptrend confirmed, MA acting as dynamic support.",
+        "parabolic_sar": "SAR positioned below price at 1.37282. Uptrend active, trailing stop recommended.",
+        "ichimoku": "Price above cloud components. Strong bullish structure, all systems aligned for longs."
+      },
+      "signals": {
+        "primary": "BUY",
+        "strength": "MODERATE",
+        "recommendation": "WAIT_FOR_CONFIRMATION"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T23:33:55.772929Z",
+      "symbol": "NZDUSD",
+      "timeframe": "H1",
+      "price": {
+        "bid": 0.57854,
+        "ask": 0.57864,
+        "last": 0.0
+      },
+      "sentiment": "NEUTRAL",
+      "analysis": "Market analysis indicates balanced conditions with no clear directional bias. RSI at 49.71 remains in neutral territory. Money Flow Index at 53.38 suggests balanced volume distribution. MACD showing trend transition, awaiting confirmation. Price extended above Bollinger upper band, reversal risk elevated. Price structure supports bullish continuation with MA and SAR confirmation. Ichimoku cloud analysis supports bullish bias. Stochastic at 82.03 warns of overbought exhaustion.",
+      "indicators": {
+        "rsi": {
+          "value": 49.71,
+          "condition": "NEUTRAL",
+          "signal": "HOLD"
+        },
+        "mfi": {
+          "value": 53.38,
+          "condition": "NEUTRAL",
+          "signal": "HOLD"
+        },
+        "stochastic": {
+          "main": 82.03,
+          "signal": 66.97,
+          "condition": "OVERBOUGHT",
+          "signal_type": "SELL"
+        },
+        "macd": {
+          "main": -0.00066,
+          "signal": -0.00089,
+          "divergence": 0.00023,
+          "histogram": "POSITIVE",
+          "trend": "BULLISH"
+        },
+        "bollinger_bands": {
+          "upper": 0.57757,
+          "middle": 0.57609,
+          "lower": 0.57462,
+          "price_position": "ABOVE_UPPER",
+          "bandwidth": 0.00295
+        },
+        "moving_average": {
+          "value": 0.57581,
+          "price_position": "ABOVE",
+          "signal": "BULLISH"
+        },
+        "parabolic_sar": {
+          "value": 0.57485,
+          "price_position": "ABOVE",
+          "trend": "UPTREND"
+        },
+        "ichimoku": {
+          "tenkan_sen": 0.57604,
+          "kijun_sen": 0.57661,
+          "price_vs_tenkan": "ABOVE",
+          "price_vs_kijun": "ABOVE",
+          "tk_cross": "BEARISH"
+        }
+      },
+      "indicator_insights": {
+        "rsi": "Neutral at 49.7, consolidation or range-bound price action.",
+        "mfi": "Balanced volume flow at 53.4, institutional activity moderate.",
+        "stochastic": "Extreme overbought at 82.0, bearish divergence possible.",
+        "macd": "Early bullish crossover below zero. Recovery phase initiated, watch for confirmation.",
+        "bollinger_bands": "Price extended above upper band. Parabolic move detected, exhaustion imminent.",
+        "moving_average": "Price 0.47% above MA. Uptrend confirmed, MA acting as dynamic support.",
+        "parabolic_sar": "SAR positioned below price at 0.57485. Uptrend active, trailing stop recommended.",
+        "ichimoku": "Price above cloud components. Strong bullish structure, all systems aligned for longs."
+      },
+      "signals": {
+        "primary": "NEUTRAL",
+        "strength": "MODERATE",
+        "recommendation": "OBSERVE"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T23:33:55.787797Z",
+      "symbol": "EURGBP",
+      "timeframe": "H1",
+      "price": {
+        "bid": 0.86562,
+        "ask": 0.86572,
+        "last": 0.0
+      },
+      "sentiment": "BEARISH",
+      "analysis": "Market analysis indicates negative pressure with sellers in control. RSI at 33.45 remains in neutral territory. Money Flow Index at 45.50 suggests balanced volume distribution. MACD histogram negative with bearish crossover in effect. Price trading below Bollinger lower band, indicating potential oversold bounce. Technical structure favors downside with price below key support levels. Ichimoku structure confirms bearish environment.",
+      "indicators": {
+        "rsi": {
+          "value": 33.45,
+          "condition": "NEUTRAL",
+          "signal": "HOLD"
+        },
+        "mfi": {
+          "value": 45.5,
+          "condition": "NEUTRAL",
+          "signal": "HOLD"
+        },
+        "stochastic": {
+          "main": 70.67,
+          "signal": 60.28,
+          "condition": "NEUTRAL",
+          "signal_type": "HOLD"
+        },
+        "macd": {
+          "main": -0.0001,
+          "signal": -0.0,
+          "divergence": -0.0001,
+          "histogram": "NEGATIVE",
+          "trend": "BEARISH"
+        },
+        "bollinger_bands": {
+          "upper": 0.87361,
+          "middle": 0.87252,
+          "lower": 0.87143,
+          "price_position": "BELOW_LOWER",
+          "bandwidth": 0.00218
+        },
+        "moving_average": {
+          "value": 0.87237,
+          "price_position": "BELOW",
+          "signal": "BEARISH"
+        },
+        "parabolic_sar": {
+          "value": 0.87339,
+          "price_position": "BELOW",
+          "trend": "DOWNTREND"
+        },
+        "ichimoku": {
+          "tenkan_sen": 0.87201,
+          "kijun_sen": 0.87276,
+          "price_vs_tenkan": "BELOW",
+          "price_vs_kijun": "BELOW",
+          "tk_cross": "BEARISH"
+        }
+      },
+      "indicator_insights": {
+        "rsi": "Moderately oversold at 33.5, accumulation phase detected.",
+        "mfi": "Balanced volume flow at 45.5, institutional activity moderate.",
+        "stochastic": "Mid-range at 70.7, no extreme momentum detected.",
+        "macd": "Strong bearish momentum. Histogram expanding negative (-0.00010), downtrend intact.",
+        "bollinger_bands": "Price squeezed below lower band. Mean reversion expected, oversold bounce likely.",
+        "moving_average": "Price 0.77% below MA. Downtrend confirmed, MA acting as dynamic resistance.",
+        "parabolic_sar": "SAR positioned above price at 0.87339. Downtrend active, short positions favored.",
+        "ichimoku": "Price below cloud components. Strong bearish structure, shorts technically favored."
+      },
+      "signals": {
+        "primary": "SELL",
+        "strength": "MODERATE",
+        "recommendation": "CONSIDER_SHORT"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T23:33:55.804216Z",
+      "symbol": "EURJPY",
+      "timeframe": "H1",
+      "price": {
+        "bid": 183.412,
+        "ask": 183.426,
+        "last": 0.0
+      },
+      "sentiment": "BULLISH",
+      "analysis": "Market analysis indicates positive momentum favoring buyers. RSI at 62.69 remains in neutral territory. Money Flow Index at 40.06 suggests balanced volume distribution. MACD histogram positive with bullish crossover confirmed. Price trading below Bollinger lower band, indicating potential oversold bounce. Technical structure favors downside with price below key support levels. Ichimoku structure confirms bearish environment.",
+      "indicators": {
+        "rsi": {
+          "value": 62.69,
+          "condition": "NEUTRAL",
+          "signal": "HOLD"
+        },
+        "mfi": {
+          "value": 40.06,
+          "condition": "NEUTRAL",
+          "signal": "HOLD"
+        },
+        "stochastic": {
+          "main": 58.46,
+          "signal": 49.06,
+          "condition": "NEUTRAL",
+          "signal_type": "HOLD"
+        },
+        "macd": {
+          "main": 0.08476,
+          "signal": 0.07562,
+          "divergence": 0.00914,
+          "histogram": "POSITIVE",
+          "trend": "BULLISH"
+        },
+        "bollinger_bands": {
+          "upper": 184.31968,
+          "middle": 184.00895,
+          "lower": 183.69822,
+          "price_position": "BELOW_LOWER",
+          "bandwidth": 0.62146
+        },
+        "moving_average": {
+          "value": 184.09207,
+          "price_position": "BELOW",
+          "signal": "BEARISH"
+        },
+        "parabolic_sar": {
+          "value": 183.936,
+          "price_position": "BELOW",
+          "trend": "DOWNTREND"
+        },
+        "ichimoku": {
+          "tenkan_sen": 184.126,
+          "kijun_sen": 183.9105,
+          "price_vs_tenkan": "BELOW",
+          "price_vs_kijun": "BELOW",
+          "tk_cross": "BULLISH"
+        }
+      },
+      "indicator_insights": {
+        "rsi": "Strong momentum at 62.7, trend continuation favored.",
+        "mfi": "Balanced volume flow at 40.1, institutional activity moderate.",
+        "stochastic": "Mid-range at 58.5, no extreme momentum detected.",
+        "macd": "Strong bullish momentum. Histogram expanding positive (0.00914), trend strength confirmed.",
+        "bollinger_bands": "Price squeezed below lower band. Mean reversion expected, oversold bounce likely.",
+        "moving_average": "Price 0.37% below MA. Downtrend confirmed, MA acting as dynamic resistance.",
+        "parabolic_sar": "SAR positioned above price at 183.93600. Downtrend active, short positions favored.",
+        "ichimoku": "Price below cloud components. Strong bearish structure, shorts technically favored."
+      },
+      "signals": {
+        "primary": "BUY",
+        "strength": "MODERATE",
+        "recommendation": "CONSIDER_LONG"
       }
     }
   ]
