@@ -1,0 +1,76 @@
+{
+  "timestamp": "2026-01-06T06:49:19.618109Z",
+  "symbol": "NZDUSD",
+  "timeframe": "H1",
+  "price": {
+    "bid": 0.58055,
+    "ask": 0.58065,
+    "last": 0.0
+  },
+  "sentiment": "NEUTRAL",
+  "analysis": "Market analysis indicates balanced conditions with no clear directional bias. RSI at 80.23 indicates overbought territory, suggesting caution for long positions. Money Flow Index at 73.80 suggests balanced volume distribution. MACD histogram positive with bullish crossover confirmed. Price extended above Bollinger upper band, reversal risk elevated. Price structure supports bullish continuation with MA and SAR confirmation. Ichimoku cloud analysis supports bullish bias.",
+  "indicators": {
+    "rsi": {
+      "value": 80.23,
+      "condition": "OVERBOUGHT",
+      "signal": "SELL"
+    },
+    "mfi": {
+      "value": 73.8,
+      "condition": "NEUTRAL",
+      "signal": "HOLD"
+    },
+    "stochastic": {
+      "main": 38.89,
+      "signal": 54.41,
+      "condition": "NEUTRAL",
+      "signal_type": "HOLD"
+    },
+    "macd": {
+      "main": 0.00076,
+      "signal": 0.00053,
+      "divergence": 0.00023,
+      "histogram": "POSITIVE",
+      "trend": "BULLISH"
+    },
+    "bollinger_bands": {
+      "upper": 0.58029,
+      "middle": 0.57696,
+      "lower": 0.57363,
+      "price_position": "ABOVE_UPPER",
+      "bandwidth": 0.00666
+    },
+    "moving_average": {
+      "value": 0.57771,
+      "price_position": "ABOVE",
+      "signal": "BULLISH"
+    },
+    "parabolic_sar": {
+      "value": 0.57553,
+      "price_position": "ABOVE",
+      "trend": "UPTREND"
+    },
+    "ichimoku": {
+      "tenkan_sen": 0.57778,
+      "kijun_sen": 0.57611,
+      "price_vs_tenkan": "ABOVE",
+      "price_vs_kijun": "ABOVE",
+      "tk_cross": "BULLISH"
+    }
+  },
+  "indicator_insights": {
+    "rsi": "Overbought at 80.2, profit-taking likely. Caution for new longs.",
+    "mfi": "Balanced volume flow at 73.8, institutional activity moderate.",
+    "stochastic": "Mid-range at 38.9, no extreme momentum detected.",
+    "macd": "Strong bullish momentum. Histogram expanding positive (0.00023), trend strength confirmed.",
+    "bollinger_bands": "Price extended above upper band. Parabolic move detected, exhaustion imminent.",
+    "moving_average": "Price 0.49% above MA. Uptrend confirmed, MA acting as dynamic support.",
+    "parabolic_sar": "SAR positioned below price at 0.57553. Uptrend active, trailing stop recommended.",
+    "ichimoku": "Price above cloud components. Strong bullish structure, all systems aligned for longs."
+  },
+  "signals": {
+    "primary": "NEUTRAL",
+    "strength": "MODERATE",
+    "recommendation": "WAIT_FOR_CORRECTION"
+  }
+}
