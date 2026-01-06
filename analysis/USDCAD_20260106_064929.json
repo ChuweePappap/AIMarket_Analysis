@@ -1,0 +1,76 @@
+{
+  "timestamp": "2026-01-06T06:49:19.587537Z",
+  "symbol": "USDCAD",
+  "timeframe": "H1",
+  "price": {
+    "bid": 1.37586,
+    "ask": 1.37595,
+    "last": 0.0
+  },
+  "sentiment": "STRONG_BEARISH",
+  "analysis": "Market analysis indicates strong downward pressure with multiple bearish signals. RSI at 47.85 remains in neutral territory. Money Flow Index at 35.66 suggests balanced volume distribution. MACD showing trend transition, awaiting confirmation. Price below Bollinger middle band, downside pressure present. Technical structure favors downside with price below key support levels. Ichimoku structure confirms bearish environment. Stochastic at 88.70 warns of overbought exhaustion.",
+  "indicators": {
+    "rsi": {
+      "value": 47.85,
+      "condition": "NEUTRAL",
+      "signal": "HOLD"
+    },
+    "mfi": {
+      "value": 35.66,
+      "condition": "NEUTRAL",
+      "signal": "HOLD"
+    },
+    "stochastic": {
+      "main": 88.7,
+      "signal": 80.06,
+      "condition": "OVERBOUGHT",
+      "signal_type": "SELL"
+    },
+    "macd": {
+      "main": 0.00056,
+      "signal": 0.00073,
+      "divergence": -0.00017,
+      "histogram": "NEGATIVE",
+      "trend": "BEARISH"
+    },
+    "bollinger_bands": {
+      "upper": 1.37938,
+      "middle": 1.37705,
+      "lower": 1.37472,
+      "price_position": "BELOW_MIDDLE",
+      "bandwidth": 0.00466
+    },
+    "moving_average": {
+      "value": 1.37689,
+      "price_position": "BELOW",
+      "signal": "BEARISH"
+    },
+    "parabolic_sar": {
+      "value": 1.38002,
+      "price_position": "BELOW",
+      "trend": "DOWNTREND"
+    },
+    "ichimoku": {
+      "tenkan_sen": 1.37663,
+      "kijun_sen": 1.37702,
+      "price_vs_tenkan": "BELOW",
+      "price_vs_kijun": "BELOW",
+      "tk_cross": "BEARISH"
+    }
+  },
+  "indicator_insights": {
+    "rsi": "Neutral at 47.9, consolidation or range-bound price action.",
+    "mfi": "Balanced volume flow at 35.7, institutional activity moderate.",
+    "stochastic": "Extreme overbought at 88.7, bearish divergence possible.",
+    "macd": "Bearish crossover above zero. Profit-taking phase, trend weakening.",
+    "bollinger_bands": "Price below midline. Bearish pressure dominant, resistance at 1.37705.",
+    "moving_average": "Price 0.07% below MA. Downtrend confirmed, MA acting as dynamic resistance.",
+    "parabolic_sar": "SAR positioned above price at 1.38002. Downtrend active, short positions favored.",
+    "ichimoku": "Price below cloud components. Strong bearish structure, shorts technically favored."
+  },
+  "signals": {
+    "primary": "SELL",
+    "strength": "STRONG",
+    "recommendation": "WAIT_FOR_CORRECTION"
+  }
+}
