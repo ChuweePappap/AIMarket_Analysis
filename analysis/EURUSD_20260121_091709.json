@@ -1,0 +1,112 @@
+{
+  "timestamp": "2026-01-21T09:12:55.279274Z",
+  "symbol": "EURUSD",
+  "timeframe": "H1",
+  "price": {
+    "bid": 1.17105,
+    "ask": 1.17113,
+    "last": 0.0
+  },
+  "sentiment": "STRONG_BEARISH",
+  "analysis": "Market shows strong downward pressure. RSI: 49.0, MFI: 31.5, Stochastic: 30.8",
+  "indicators": {
+    "rsi": {
+      "value": 48.98,
+      "condition": "NEUTRAL"
+    },
+    "mfi": {
+      "value": 31.51,
+      "condition": "NEUTRAL"
+    },
+    "stochastic": {
+      "main": 30.82,
+      "condition": "NEUTRAL"
+    },
+    "macd": {
+      "main": 0.00069,
+      "signal": 0.00114,
+      "trend": "BEARISH"
+    },
+    "bollinger_bands": {
+      "upper": 1.17367,
+      "middle": 1.17222,
+      "lower": 1.17078
+    },
+    "moving_average": {
+      "value": 1.17206
+    },
+    "parabolic_sar": {
+      "value": 1.17343,
+      "trend": "DOWNTREND"
+    },
+    "ichimoku": {
+      "tenkan_sen": 1.17197,
+      "kijun_sen": 1.1728
+    }
+  },
+  "signals": {
+    "primary": "SELL",
+    "strength": "STRONG",
+    "recommendation": "ENTER_SHORT"
+  },
+  "ai_web_research": {
+    "ai_enabled": true,
+    "model": "gpt-5-nano",
+    "symbol": "EURUSD",
+    "timestamp": "2026-01-21T09:14:02.264465Z",
+    "web_search_used": true,
+    "ai_response": "## Market News Summary\n- Latest news (24-48 hours): EURUSD has been hovering around the 1.17 level with headlines stressing mixed near-term drivers and US CPI risk. A recent broker note highlighted EURUSD trading below 1.17 ahead of upcoming US data, suggesting muted momentum and a chop/blend around current levels. Source: XTB article noting EURUSD below 1.17 ahead of US CPI. ([xtb.com](https://www.xtb.com/int/market-analysis/news-and-research/eurusd-below-1-17-ahead-of-us-cpi?utm_source=openai))\n\n- Central bank announcements: The ECB appears to be on a paused/steady-rate path for now, with ECB officials signaling no immediate move unless the data diverge from the forecast. Separately, the Fed has indicated it could keep policy cautious, with expectations for limited further cuts in 2026 and ongoing debate about policy independence and the trajectory of rates. These themes have been echoed by Reuters/market commentary in recent days. ([investing.com](https://www.investing.com/news/economy-news/ecb-on-a-steady-rate-path-for-now-but-fed-tussle-a-risk-chief-economist-warns-4450948?utm_source=openai))\n\n- Market sentiment: The euro has shown resilience around the 1.17 area when eurozone data are supportive and US policy uncertainty remains; sentiment indicators/fluid risk-on versus risk-off dynamics continue to keep EURUSD in a tight range near current levels. An updated market synthesis noted the euro trading around 1.17 amid data and tariff/geo-political considerations. ([tradingeconomics.com](https://tradingeconomics.com/euro-area/currency%3Feref%3D2017-11-09t1700%26staging%3D1?utm_source=openai))\n\n- Analyst predictions: A broad set of 2026 forecasts place EURUSD in a higher-for-longer euro scenario with targets around 1.20\u20131.25 by year-end 2026 (with some banks seeing 1.25 as a high-end target) as the Fed\u2019s easing cycle interacts with an expected ECB pause. Examples include multi-bank outlooks and market analyses that cite 1.20\u20131.25 as plausible for 2026. ([fxempire.com](https://www.fxempire.com/forecasts/article/eurusd-forecast-2026-outlook-points-to-extended-euro-strength-ahead-1568596?utm_source=openai))\n\n## AI RECOMMENDATION: NEUTRAL\nReasoning: \n- The current price is 1.17105 with a neutral-to-mid RSI (approximately 49) and a technical sentiment flagged as STRONG_BEARISH by your data, yet the latest 24\u201348 hour news cycle points to a pause in major ECB moves and a cautious Fed trajectory. This combination tends to keep EURUSD in a wide, data-dependent range rather than a clear breakout or breakdown in the immediate horizon. Central banks appear to be holding/pause modes, which reduces imminent directional catalysts. The mixed analyst forecasts (some long-way targets above 1.20, some closer to 1.17\u20131.20) reinforce a backdrop where near-term momentum is hard to justify as clearly bullish or bearish. ([investing.com](https://www.investing.com/news/economy-news/ecb-on-a-steady-rate-path-for-now-but-fed-tussle-a-risk-chief-economist-warns-4450948?utm_source=openai))\n\n- Data-dependent setup: With the Fed potentially delivering only modest cuts in 2026 and the ECB on hold, the pair could drift with macro data, risk sentiment, and policy surprises. Until a decisive breakout occurs above ~1.1800\u20131.1850 or below ~1.1600, risk-reward favors a neutral stance in the short run. ([investing.com](https://www.investing.com/news/economy-news/divided-fed-cuts-rates-as-expected-but-sees-only-one-reduction-in-2026-4401600?utm_source=openai))\n\nConfidence Level: MEDIUM\n\nNotes:\n- If you want, I can recheck with a broader 0\u20137 day window or pull real-time feeds from specific outlets (Reuters, Bloomberg, CNBC) to refine the default stance as new data arrive (e.g., US CPI, PCE, ECB press conferences, or Fed/ECB statements).",
+    "ai_recommendation": "NEUTRAL",
+    "ai_recommendation_reasoning": "",
+    "confidence": "MEDIUM",
+    "sources": [
+      {
+        "url": "https://www.xtb.com/int/market-analysis/news-and-research/eurusd-below-1-17-ahead-of-us-cpi?utm_source=openai",
+        "title": "\u27a1\ufe0fEURUSD below 1.17 ahead of US CPI | XTB"
+      },
+      {
+        "url": "https://www.investing.com/news/economy-news/ecb-on-a-steady-rate-path-for-now-but-fed-tussle-a-risk-chief-economist-warns-4450948?utm_source=openai",
+        "title": "ECB on a steady rate path for now but Fed tussle a risk, chief economist warns By Reuters"
+      },
+      {
+        "url": "https://tradingeconomics.com/euro-area/currency%3Feref%3D2017-11-09t1700%26staging%3D1?utm_source=openai",
+        "title": "Euro US Dollar Exchange Rate - EUR/USD - Quote - Chart - Historical Data - News"
+      },
+      {
+        "url": "https://www.fxempire.com/forecasts/article/eurusd-forecast-2026-outlook-points-to-extended-euro-strength-ahead-1568596?utm_source=openai",
+        "title": "EURUSD Forecast 2026: Outlook Points to Extended Euro Strength Ahead | FXEmpire"
+      },
+      {
+        "url": "https://www.investing.com/news/economy-news/divided-fed-cuts-rates-as-expected-but-sees-only-one-reduction-in-2026-4401600?utm_source=openai",
+        "title": "Fed sees only one rate cut in 2026; no hike ahead, says Powell By Reuters"
+      }
+    ],
+    "citations": [
+      {
+        "url": "https://www.xtb.com/int/market-analysis/news-and-research/eurusd-below-1-17-ahead-of-us-cpi?utm_source=openai",
+        "title": "\u27a1\ufe0fEURUSD below 1.17 ahead of US CPI | XTB"
+      },
+      {
+        "url": "https://www.investing.com/news/economy-news/ecb-on-a-steady-rate-path-for-now-but-fed-tussle-a-risk-chief-economist-warns-4450948?utm_source=openai",
+        "title": "ECB on a steady rate path for now but Fed tussle a risk, chief economist warns By Reuters"
+      },
+      {
+        "url": "https://tradingeconomics.com/euro-area/currency%3Feref%3D2017-11-09t1700%26staging%3D1?utm_source=openai",
+        "title": "Euro US Dollar Exchange Rate - EUR/USD - Quote - Chart - Historical Data - News"
+      },
+      {
+        "url": "https://www.fxempire.com/forecasts/article/eurusd-forecast-2026-outlook-points-to-extended-euro-strength-ahead-1568596?utm_source=openai",
+        "title": "EURUSD Forecast 2026: Outlook Points to Extended Euro Strength Ahead | FXEmpire"
+      },
+      {
+        "url": "https://www.investing.com/news/economy-news/ecb-on-a-steady-rate-path-for-now-but-fed-tussle-a-risk-chief-economist-warns-4450948?utm_source=openai",
+        "title": "ECB on a steady rate path for now but Fed tussle a risk, chief economist warns By Reuters"
+      },
+      {
+        "url": "https://www.investing.com/news/economy-news/divided-fed-cuts-rates-as-expected-but-sees-only-one-reduction-in-2026-4401600?utm_source=openai",
+        "title": "Fed sees only one rate cut in 2026; no hike ahead, says Powell By Reuters"
+      }
+    ],
+    "recommendation_based_on_search": true
+  }
+}
