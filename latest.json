@@ -1,285 +1,221 @@
 {
-  "timestamp": "2026-01-22T07:55:42.692275Z",
+  "timestamp": "2026-01-22T22:20:57.907255Z",
   "timeframe": "H1",
   "total_symbols": 4,
   "ai_enabled": true,
   "analyses": [
     {
-      "timestamp": "2026-01-22T07:51:48.465081Z",
+      "timestamp": "2026-01-22T22:15:17.310495Z",
       "symbol": "XAUUSD",
       "timeframe": "H1",
       "price": {
-        "bid": 4792.95,
-        "ask": 4793.1,
+        "bid": 4823.88,
+        "ask": 4824.09,
         "last": 0.0
       },
-      "sentiment": "STRONG_BEARISH",
-      "analysis": "Market shows strong downward pressure. RSI: 37.8, MFI: 39.0, Stochastic: 32.2",
+      "sentiment": "BEARISH",
+      "analysis": "Market shows negative pressure. RSI: 49.6, MFI: 65.0, Stochastic: 83.4",
       "indicators": {
         "rsi": {
-          "value": 37.78,
+          "value": 49.57,
           "condition": "NEUTRAL"
         },
         "mfi": {
-          "value": 39.04,
+          "value": 65.05,
           "condition": "NEUTRAL"
         },
         "stochastic": {
-          "main": 32.25,
-          "condition": "NEUTRAL"
+          "main": 83.37,
+          "condition": "OVERBOUGHT"
         },
         "macd": {
-          "main": -1.07724,
-          "signal": 9.05808,
+          "main": 2.68948,
+          "signal": 3.76264,
           "trend": "BEARISH"
         },
         "bollinger_bands": {
-          "upper": 4896.53668,
-          "middle": 4832.477,
-          "lower": 4768.41732
+          "upper": 4878.90122,
+          "middle": 4822.8,
+          "lower": 4766.69878
         },
         "moving_average": {
-          "value": 4820.36357
+          "value": 4810.83
         },
         "parabolic_sar": {
-          "value": 4854.05,
-          "trend": "DOWNTREND"
+          "value": 4772.34,
+          "trend": "UPTREND"
         },
         "ichimoku": {
-          "tenkan_sen": 4804.96,
+          "tenkan_sen": 4805.685,
           "kijun_sen": 4822.11
         }
       },
       "signals": {
         "primary": "SELL",
-        "strength": "STRONG",
-        "recommendation": "ENTER_SHORT"
+        "strength": "MODERATE",
+        "recommendation": "CONSIDER_SHORT"
       },
       "ai_web_research": {
         "ai_enabled": true,
         "model": "gpt-5-nano",
         "symbol": "XAUUSD",
-        "timestamp": "2026-01-22T07:52:53.082016Z",
+        "timestamp": "2026-01-22T22:16:44.502377Z",
         "web_search_used": true,
-        "ai_response": "## Market News Summary\n- Goldman Sachs raised its end-2026 gold price forecast to $5,400/oz, citing stronger private-sector diversification and ongoing central-bank demand. This upgrade was reported in late January 2026 and tied to Reuters coverage echoed by outlets like The Straits Times. ([straitstimes.com](https://www.straitstimes.com/business/companies-markets/goldman-says-gold-to-hit-us5400-an-ounce-by-end-2026?utm_source=openai))\n- Gold traded near multi-month highs around the $4,800\u2013$4,900/oz area in the January 21\u201322, 2026 window, supported by safe-haven demand and ongoing geopolitical uncertainty (e.g., developments around Greenland tariffs). Some outlets noted intraday highs approaching or surpassing $4,800. ([marketwatch.com](https://www.marketwatch.com/story/as-gold-retreats-heres-whats-needed-to-push-prices-back-toward-5-000-4c7f47c6?utm_source=openai))\n- China\u2019s central bank continued its gold purchases, marking a 14th consecutive month of accumulation, a sign of persistent official demand underpinning bullion markets. ([mining.com](https://www.mining.com/web/chinas-central-bank-buys-gold-for-14th-consecutive-month/?utm_source=openai))\n- A Reuters-backed forecast round-up (summarized by sources like Investing.com) shows continued high-bullion expectations across major banks, with targets often in the $4,000\u2013$5,000+ range for 2026, and several banks highlighting central-bank buying as a key driver. ([ts2.tech](https://ts2.tech/en/gold-price-today-dec-18-2025-0955-xau-usd-holds-near-4330-as-softer-u-s-cpi-revives-fed-cut-bets/?utm_source=openai))\n\n## AI RECOMMENDATION: NEUTRAL\nReasoning: Near-term technicals remain bearish (price around 4,793 and RSI ~37.8), suggesting a possible near-term pullback. However, the fundamental backdrop has shifted notably bullish in 2026: central-bank buying, persistent demand from private investors, and a sharp upgrade to a higher end-2026 forecast from Goldman Sachs point to meaningful upside potential over the medium term. Given the conflicting signals\u2014weakish short-term momentum vs. strong longer-term catalysts\u2014a neutral stance is appropriate for the immediate horizon, with potential upside if central-bank demand and risk-off flows persist. ([marketwatch.com](https://www.marketwatch.com/story/as-gold-retreats-heres-whats-needed-to-push-prices-back-toward-5-000-4c7f47c6?utm_source=openai))\n**Confidence Level**: MEDIUM",
-        "ai_recommendation": "NEUTRAL",
+        "ai_response": "## Market News Summary\n\nLatest news (24-48 hours)\n- Goldman Sachs raised its end-2026 gold price forecast to $5,400/oz, citing ongoing private-sector diversification into gold and continued central-bank demand. The firm also noted spot gold had climbed toward multi\u2011year highs in the 4,800s\u20134,900s range as part of the rally. Published reporting around Jan 21\u201322, 2026 highlighted the upgrade and the price context. ([uk.finance.yahoo.com](https://uk.finance.yahoo.com/news/goldman-sachs-raises-2026-end-035447198.html?utm_source=openai))\n- Related coverage showed gold trading near record highs, with spot prices lifting toward $4,880\u2013$4,900/oz in the session surrounding the forecast upgrade. This reinforced a view of persistent upside momentum into 2026. ([sg.finance.yahoo.com](https://sg.finance.yahoo.com/news/gold-hovers-near-record-highs-as-goldman-sachs-lifts-year-end-forecast-to-5400-163500012.html?utm_source=openai))\n\nCentral bank announcements\n- Market expectations as of late January 2026 point to the U.S. Federal Reserve holding rates at the 3.50%\u20133.75% range at the upcoming January 27\u201328 FOMC meeting, with potential cuts expected later in 2026. This view is reflected in Reuters polls and financial research notes circulating in the week of Jan 21, 2026. ([fxstreet.com](https://www.fxstreet.com/news/reuters-poll-shows-fed-expected-to-keep-rates-unchanged-at-january-meeting-202601211249?utm_source=openai))\n- The Federal Reserve\u2019s own December 2025 minutes indicated the next meeting would be January 27\u201328, 2026, reinforcing expectations for a hold rather than an immediate hike/cut at that meeting. ([federalreserve.gov](https://www.federalreserve.gov/monetarypolicy/fomcminutes20251210.htm?utm_source=openai))\n\nMarket sentiment\n- CFTC data and broker\u2011market commentary around mid\u2011January 2026 showed non\u2011commercial (speculative) traders net long on gold, consistent with a bullish tilt that has supported the rally into 2026. A representative data point showed net long exposure around 251k contracts in early January 2026, with price confirmations around 4,580\u20134,600+ on XAUUSD in that period. ([research.titanfx.com](https://research.titanfx.com/cftc/cot-gold?utm_source=openai))\n- World Gold Council\u2019s 2026 outlook notes that a combination of lower rates, a weaker dollar, and ongoing central\u2011bank buying could sustain a constructive environment for gold, with a potential 5%\u201315% rise in 2026 depending on policy actions. This provides a fundamental backdrop for the current move. ([gold.org](https://www.gold.org/goldhub/research/gold-outlook-2026?utm_source=openai))\n\nAnalyst predictions\n- Goldman Sachs: end-2026 forecast raised to $5,400/oz (bullish multi\u2011year view). ([uk.finance.yahoo.com](https://uk.finance.yahoo.com/news/goldman-sachs-raises-2026-end-035447198.html?utm_source=openai))\n- JPMorgan: remains one of the more bullish voices, with a long\u2011run target around $5,055/oz by late 2026. ([marketwatch.com](https://www.marketwatch.com/story/gold-may-come-close-to-5000-in-2026-and-surpass-that-in-2027-predicts-deutsche-bank-e88e9277?utm_source=openai))\n- UBS: year\u2011end 2026 target around the $4,450\u2013$4,587 area (up from prior baselines). ([naga.com](https://naga.com/eu/news-and-analysis/articles/gold-price-prediction?utm_source=openai))\n- Citi Research: around $5,000/oz in the near\u2011to\u2011mid term (with 6\u201312 month horizon noted in coverage). ([aol.com](https://www.aol.com/finance/every-major-analysts-gold-price-000300544.html?utm_source=openai))\n- Deutsche Bank / other peers: diverse views but several forecasters map $4,400\u2013$4,950 as the 2026 average/ceiling depending on policy, central\u2011bank demand, and macro risk. ([marketwatch.com](https://www.marketwatch.com/story/gold-may-come-close-to-5000-in-2026-and-surpass-that-in-2027-predicts-deutsche-bank-e88e9277?utm_source=openai))\n\nCurrent price context\n- Price shown to you: 4,823.88. News flow in the last 24\u201348 hours has nudged sentiment toward upside in the intermediate term, with forecasts suggesting a path toward 5,000+ and near\u2011record prints, even as near\u2011term momentum signs (RSI near mid\u2011range and asymmetric technicals) remain mixed. For reference, breakouts to the high-4,800s and above were reported in the latest coverage around the forecast upgrade. ([sg.finance.yahoo.com](https://sg.finance.yahoo.com/news/gold-hovers-near-record-highs-as-goldman-sachs-lifts-year-end-forecast-to-5400-163500012.html?utm_source=openai))\n\nAI RECOMMENDATION: BULLISH\nReasoning: The latest primary coverage shows a clear bullish catalyst stack for gold into 2026:\n- Major banks (notably Goldman Sachs) have lifted their 2026-end targets to around $5,400/oz, signaling a strong structural\u2011demand thesis from central banks and private sector diversification. This is a high\u2011confidence, widely reported signal in the last 24\u201348 hours. ([uk.finance.yahoo.com](https://uk.finance.yahoo.com/news/goldman-sachs-raises-2026-end-035447198.html?utm_source=openai))\n- Spot prices have moved into the 4,800s and even higher in recent sessions as the upgrade hit, with near\u2011term prints suggesting upside potential if central\u2011bank demand persists and Fed policy remains on hold with a later path to cuts. ([sg.finance.yahoo.com](https://sg.finance.yahoo.com/news/gold-hovers-near-record-highs-as-goldman-sachs-lifts-year-end-forecast-to-5400-163500012.html?utm_source=openai))\n- The Fed is broadly expected to hold in the Jan 27\u201328 meeting, which is typically supportive for gold in the context of policy uncertainty and rate\u2011cut expectations later in 2026. This follows a Dec 2025 minutes reference to the upcoming meeting. ([fxstreet.com](https://www.fxstreet.com/news/reuters-poll-shows-fed-expected-to-keep-rates-unchanged-at-january-meeting-202601211249?utm_source=openai))\n- Market sentiment indicators (CFTC data on net long positions) still show a large speculative long exposure, consistent with ongoing bullish positioning in gold. ([research.titanfx.com](https://research.titanfx.com/cftc/cot-gold?utm_source=openai))\n\nConfidence Level: MEDIUM\n- Why MEDIUM: The fundamental catalysts are clearly constructive (central-bank demand, higher price targets by top banks), but near\u2011term momentum is mixed and the price sits in the high 4,800s/low 4,900s with a bearish technical sentiment signal in your data (Bearish sentiment, RSI ~50). If risk appetite shifts or US\u2011dollar dynamics change, the near term could see a pullback even as the longer\u2011term thesis remains bullish. The news supports a favorable long\u2011setup, but execution depends on data flow and policy signals in the next few sessions.",
+        "ai_recommendation": "BULLISH",
         "ai_recommendation_reasoning": "",
         "confidence": "MEDIUM",
         "sources": [
           {
-            "url": "https://www.straitstimes.com/business/companies-markets/goldman-says-gold-to-hit-us5400-an-ounce-by-end-2026?utm_source=openai",
-            "title": "Goldman says gold to hit US$5,400 an ounce by end 2026 | The Straits Times"
+            "url": "https://uk.finance.yahoo.com/news/goldman-sachs-raises-2026-end-035447198.html?utm_source=openai",
+            "title": "Goldman Sachs raises 2026-end gold price forecast by $500 to $5,400/oz"
           },
           {
-            "url": "https://www.marketwatch.com/story/as-gold-retreats-heres-whats-needed-to-push-prices-back-toward-5-000-4c7f47c6?utm_source=openai",
-            "title": "As gold retreats, here's what's needed to push prices back toward $5,000"
+            "url": "https://sg.finance.yahoo.com/news/gold-hovers-near-record-highs-as-goldman-sachs-lifts-year-end-forecast-to-5400-163500012.html?utm_source=openai",
+            "title": "Gold hovers near record highs as Goldman Sachs lifts year-end forecast to $5,400"
           },
           {
-            "url": "https://www.mining.com/web/chinas-central-bank-buys-gold-for-14th-consecutive-month/?utm_source=openai",
-            "title": "China's central bank buys gold for 14th consecutive month - MINING.COM"
+            "url": "https://www.fxstreet.com/news/reuters-poll-shows-fed-expected-to-keep-rates-unchanged-at-january-meeting-202601211249?utm_source=openai",
+            "title": "Reuters Poll shows Fed expected to keep rates unchanged at January meeting"
           },
           {
-            "url": "https://ts2.tech/en/gold-price-today-dec-18-2025-0955-xau-usd-holds-near-4330-as-softer-u-s-cpi-revives-fed-cut-bets/?utm_source=openai",
-            "title": "Gold Price Today (Dec. 18, 2025, 09:55): XAU/USD Holds Near $4,330 as Softer U.S. CPI Revives Fed-Cut Bets"
+            "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20251210.htm?utm_source=openai",
+            "title": "The Fed - Monetary Policy:"
+          },
+          {
+            "url": "https://research.titanfx.com/cftc/cot-gold?utm_source=openai",
+            "title": "Gold (XAU) CFTC Futures Positions and Gold Price Chart | Titan FX Research Hub"
+          },
+          {
+            "url": "https://www.gold.org/goldhub/research/gold-outlook-2026?utm_source=openai",
+            "title": "Gold Outlook 2026: Push ahead or pull back | World Gold Council"
+          },
+          {
+            "url": "https://www.marketwatch.com/story/gold-may-come-close-to-5000-in-2026-and-surpass-that-in-2027-predicts-deutsche-bank-e88e9277?utm_source=openai",
+            "title": "Gold may come close to $5000 in 2026 and surpass that in 2027, predicts Deutsche Bank."
+          },
+          {
+            "url": "https://naga.com/eu/news-and-analysis/articles/gold-price-prediction?utm_source=openai",
+            "title": "Gold Forecast &amp; Price Prediction for 2026"
+          },
+          {
+            "url": "https://www.aol.com/finance/every-major-analysts-gold-price-000300544.html?utm_source=openai",
+            "title": "Every major analyst's gold price forecast for 2026"
           }
         ],
         "citations": [
           {
-            "url": "https://www.straitstimes.com/business/companies-markets/goldman-says-gold-to-hit-us5400-an-ounce-by-end-2026?utm_source=openai",
-            "title": "Goldman says gold to hit US$5,400 an ounce by end 2026 | The Straits Times"
+            "url": "https://uk.finance.yahoo.com/news/goldman-sachs-raises-2026-end-035447198.html?utm_source=openai",
+            "title": "Goldman Sachs raises 2026-end gold price forecast by $500 to $5,400/oz"
           },
           {
-            "url": "https://www.marketwatch.com/story/as-gold-retreats-heres-whats-needed-to-push-prices-back-toward-5-000-4c7f47c6?utm_source=openai",
-            "title": "As gold retreats, here's what's needed to push prices back toward $5,000"
+            "url": "https://sg.finance.yahoo.com/news/gold-hovers-near-record-highs-as-goldman-sachs-lifts-year-end-forecast-to-5400-163500012.html?utm_source=openai",
+            "title": "Gold hovers near record highs as Goldman Sachs lifts year-end forecast to $5,400"
           },
           {
-            "url": "https://www.mining.com/web/chinas-central-bank-buys-gold-for-14th-consecutive-month/?utm_source=openai",
-            "title": "China's central bank buys gold for 14th consecutive month - MINING.COM"
+            "url": "https://www.fxstreet.com/news/reuters-poll-shows-fed-expected-to-keep-rates-unchanged-at-january-meeting-202601211249?utm_source=openai",
+            "title": "Reuters Poll shows Fed expected to keep rates unchanged at January meeting"
           },
           {
-            "url": "https://ts2.tech/en/gold-price-today-dec-18-2025-0955-xau-usd-holds-near-4330-as-softer-u-s-cpi-revives-fed-cut-bets/?utm_source=openai",
-            "title": "Gold Price Today (Dec. 18, 2025, 09:55): XAU/USD Holds Near $4,330 as Softer U.S. CPI Revives Fed-Cut Bets"
+            "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20251210.htm?utm_source=openai",
+            "title": "The Fed - Monetary Policy:"
           },
           {
-            "url": "https://www.marketwatch.com/story/as-gold-retreats-heres-whats-needed-to-push-prices-back-toward-5-000-4c7f47c6?utm_source=openai",
-            "title": "As gold retreats, here's what's needed to push prices back toward $5,000"
+            "url": "https://research.titanfx.com/cftc/cot-gold?utm_source=openai",
+            "title": "Gold (XAU) CFTC Futures Positions and Gold Price Chart | Titan FX Research Hub"
+          },
+          {
+            "url": "https://www.gold.org/goldhub/research/gold-outlook-2026?utm_source=openai",
+            "title": "Gold Outlook 2026: Push ahead or pull back | World Gold Council"
+          },
+          {
+            "url": "https://uk.finance.yahoo.com/news/goldman-sachs-raises-2026-end-035447198.html?utm_source=openai",
+            "title": "Goldman Sachs raises 2026-end gold price forecast by $500 to $5,400/oz"
+          },
+          {
+            "url": "https://www.marketwatch.com/story/gold-may-come-close-to-5000-in-2026-and-surpass-that-in-2027-predicts-deutsche-bank-e88e9277?utm_source=openai",
+            "title": "Gold may come close to $5000 in 2026 and surpass that in 2027, predicts Deutsche Bank."
+          },
+          {
+            "url": "https://naga.com/eu/news-and-analysis/articles/gold-price-prediction?utm_source=openai",
+            "title": "Gold Forecast &amp; Price Prediction for 2026"
+          },
+          {
+            "url": "https://www.aol.com/finance/every-major-analysts-gold-price-000300544.html?utm_source=openai",
+            "title": "Every major analyst's gold price forecast for 2026"
+          },
+          {
+            "url": "https://www.marketwatch.com/story/gold-may-come-close-to-5000-in-2026-and-surpass-that-in-2027-predicts-deutsche-bank-e88e9277?utm_source=openai",
+            "title": "Gold may come close to $5000 in 2026 and surpass that in 2027, predicts Deutsche Bank."
+          },
+          {
+            "url": "https://sg.finance.yahoo.com/news/gold-hovers-near-record-highs-as-goldman-sachs-lifts-year-end-forecast-to-5400-163500012.html?utm_source=openai",
+            "title": "Gold hovers near record highs as Goldman Sachs lifts year-end forecast to $5,400"
+          },
+          {
+            "url": "https://uk.finance.yahoo.com/news/goldman-sachs-raises-2026-end-035447198.html?utm_source=openai",
+            "title": "Goldman Sachs raises 2026-end gold price forecast by $500 to $5,400/oz"
+          },
+          {
+            "url": "https://sg.finance.yahoo.com/news/gold-hovers-near-record-highs-as-goldman-sachs-lifts-year-end-forecast-to-5400-163500012.html?utm_source=openai",
+            "title": "Gold hovers near record highs as Goldman Sachs lifts year-end forecast to $5,400"
+          },
+          {
+            "url": "https://www.fxstreet.com/news/reuters-poll-shows-fed-expected-to-keep-rates-unchanged-at-january-meeting-202601211249?utm_source=openai",
+            "title": "Reuters Poll shows Fed expected to keep rates unchanged at January meeting"
+          },
+          {
+            "url": "https://research.titanfx.com/cftc/cot-gold?utm_source=openai",
+            "title": "Gold (XAU) CFTC Futures Positions and Gold Price Chart | Titan FX Research Hub"
           }
         ],
         "recommendation_based_on_search": true
       }
     },
     {
-      "timestamp": "2026-01-22T07:52:53.119828Z",
+      "timestamp": "2026-01-22T22:16:44.530005Z",
       "symbol": "EURUSD",
       "timeframe": "H1",
       "price": {
-        "bid": 1.16944,
-        "ask": 1.16953,
-        "last": 0.0
-      },
-      "sentiment": "STRONG_BEARISH",
-      "analysis": "Market shows strong downward pressure. RSI: 37.5, MFI: 29.5, Stochastic: 30.6",
-      "indicators": {
-        "rsi": {
-          "value": 37.49,
-          "condition": "NEUTRAL"
-        },
-        "mfi": {
-          "value": 29.53,
-          "condition": "NEUTRAL"
-        },
-        "stochastic": {
-          "main": 30.61,
-          "condition": "NEUTRAL"
-        },
-        "macd": {
-          "main": -0.00052,
-          "signal": -4e-05,
-          "trend": "BEARISH"
-        },
-        "bollinger_bands": {
-          "upper": 1.17403,
-          "middle": 1.17093,
-          "lower": 1.16783
-        },
-        "moving_average": {
-          "value": 1.17057
-        },
-        "parabolic_sar": {
-          "value": 1.1743,
-          "trend": "DOWNTREND"
-        },
-        "ichimoku": {
-          "tenkan_sen": 1.17085,
-          "kijun_sen": 1.17096
-        }
-      },
-      "signals": {
-        "primary": "SELL",
-        "strength": "STRONG",
-        "recommendation": "ENTER_SHORT"
-      },
-      "ai_web_research": {
-        "ai_enabled": true,
-        "model": "gpt-5-nano",
-        "symbol": "EURUSD",
-        "timestamp": "2026-01-22T07:54:00.397812Z",
-        "web_search_used": true,
-        "ai_response": "## Market News Summary\n\n- Greenland tariffs tension eases; dollar weakness resumes. Financial Times reported that Trump withdrew tariff threats aimed at several European allies over Greenland, helping lift the euro versus the dollar in the latest session. Publication date: January 19, 2026. This news supported a softer dollar and helped EURUSD hover around the 1.17 area. ([ft.com](https://www.ft.com/content/4e5440f3-e0e8-44c1-83b4-a7a131647278?utm_source=openai))\n\n- EURUSD stabilising near 1.168\u20131.170 as geopolitical headlines fade a bit. VT Markets published a note on January 22, 2026 indicating EURUSD traded around 1.1685 after a brief rebound, with the pair capped below 1.1700 amid lighter near-term momentum. ([vtmarkets.com](https://www.vtmarkets.com/analysis/eurusd-stabilises-as-political-shock-reverses/?utm_source=openai))\n\n- ECB policy backdrop remains cautious and data-dependent. The ECB\u2019s December 18, 2025 decision kept policy rates unchanged and reinforced a data-dependent, meeting-by-meeting approach to policy. This backdrop supports the view that rate differentials may stay one-sided for a while. ([ecb.europa.eu](https://www.ecb.europa.eu/press/pr/date/2025/html/ecb.mp251218~58b0e415a6.en.html?utm_source=openai))\n\n- Bears seen in near-term euro outlook by some major banks. BNP Paribas Wealth Management\u2019s January 2026 currencies focus maintains a bearish EUR/USD view, implying a 3-month target near 1.16 and a 12-month target around 1.24. This aligns with a cautious near-term USD-driven dynamic. ([wealthmanagement.bnpparibas](https://wealthmanagement.bnpparibas/ch/en/insights/markets-and-analysis/market-strategy/currencies-focus-january-2026.html?utm_source=openai))\n\n- Some houses still see upside risk in 2026 before a later pullback. Morgan Stanley\u2019s year-ahead FX outlook has suggested an early 2026 peak for EUR/USD (around the low-to-mid 1.20s in some reports) before a potential retreat toward the low 1.16 area by year-end, reflecting a two-stage view tied to ECB easing versus Fed policy. Note: this framing has appeared in multiple 2025\u2013early-2026 summaries. ([investing.com](https://www.investing.com/news/forex-news/morgan-stanley-forecasts-eurusd-to-reach-123-by-spring-before-falling-93CH-4374471?utm_source=openai))\n\n- ECB/US policy expectations frame the currency path. With the ECB\u2019s easing cycle likely behind it for now and the Fed\u2019s path still priced in by markets (as of late Jan 2026), analysts continue to debate the pace and magnitude of convergence in policy rates\u2014keeping EURUSD vulnerable to headlines and data surprises. ([ecb.europa.eu](https://www.ecb.europa.eu/press/pr/date/2025/html/ecb.mp251218~58b0e415a6.en.html?utm_source=openai))\n\nCurrent data you provided:\n- Price: 1.16944\n- Technical Sentiment: STRONG_BEARISH\n- RSI: 37.49\n\nNotes: The above reflects notable developments in the last 24\u201348 hours and relevant central bank signals that can influence EURUSD directions.\n\n## AI RECOMMENDATION: BEARISH\nReasoning: \n- The near-term technical setup (price around 1.169 with RSI ~37) and the continued bearish tilt in professional views (BNP Paribas\u2019 January 2026 currency focus assigns a 3-month EURUSD target near 1.16) point to downside risk in the immediate horizon. ([wealthmanagement.bnpparibas](https://wealthmanagement.bnpparibas/ch/en/insights/markets-and-analysis/market-strategy/currencies-focus-january-2026.html?utm_source=openai))\n- A number of credible forecasts for 2026 still envisage EURUSD ranging lower than current levels in the medium term, with several analysts pointing to a late-2026 trough near 1.16 as ECB easing and US-policy dynamics diverge. This aligns with a bearish bias for the near term rather than a sustained breakout higher. ([investing.com](https://www.investing.com/news/forex-news/morgan-stanley-forecasts-eurusd-to-reach-123-by-spring-before-falling-93CH-4374471?utm_source=openai))\n- Recent headlines around US\u2013EU policy headlines (tariff headlines around Greenland) have influenced dollar sentiment; even as some headlines eased, the dominant theme remains policy-differential risk with the ECB and Fed paths likely to keep EURUSD under pressure in the near term. ([ft.com](https://www.ft.com/content/4e5440f3-e0e8-44c1-83b4-a7a131647278?utm_source=openai))\n- ECB stance remains data-dependent and cautious; with the ECB already in a hold phase and Fed policy path uncertain, a gradual drift lower in EURUSD is consistent with the prevailing narrative from several major banks. ([ecb.europa.eu](https://www.ecb.europa.eu/press/pr/date/2025/html/ecb.mp251218~58b0e415a6.en.html?utm_source=openai))\n\nConfidence Level: MEDIUM\n\nIf you\u2019d like, I can pull a tighter set of sources (e.g., Reuters and Bloomberg pieces specifically dated within the last 48 hours) and tailor the summary to a shorter list of headlines.",
-        "ai_recommendation": "BEARISH",
-        "ai_recommendation_reasoning": "",
-        "confidence": "MEDIUM",
-        "sources": [
-          {
-            "url": "https://www.ft.com/content/4e5440f3-e0e8-44c1-83b4-a7a131647278?utm_source=openai",
-            "title": "Dollar slips as Donald Trump's Greenland threats reawaken 'sell America' fears"
-          },
-          {
-            "url": "https://www.vtmarkets.com/analysis/eurusd-stabilises-as-political-shock-reverses/?utm_source=openai",
-            "title": "EURUSD Stabilises as Political Shock Reverses - VT Markets"
-          },
-          {
-            "url": "https://www.ecb.europa.eu/press/pr/date/2025/html/ecb.mp251218~58b0e415a6.en.html?utm_source=openai",
-            "title": "Monetary policy decisions"
-          },
-          {
-            "url": "https://wealthmanagement.bnpparibas/ch/en/insights/markets-and-analysis/market-strategy/currencies-focus-january-2026.html?utm_source=openai",
-            "title": "Currencies Focus - January 2026"
-          },
-          {
-            "url": "https://www.investing.com/news/forex-news/morgan-stanley-forecasts-eurusd-to-reach-123-by-spring-before-falling-93CH-4374471?utm_source=openai",
-            "title": "Morgan Stanley forecasts EUR/USD to reach 1.23 by spring before falling By Investing.com"
-          }
-        ],
-        "citations": [
-          {
-            "url": "https://www.ft.com/content/4e5440f3-e0e8-44c1-83b4-a7a131647278?utm_source=openai",
-            "title": "Dollar slips as Donald Trump's Greenland threats reawaken 'sell America' fears"
-          },
-          {
-            "url": "https://www.vtmarkets.com/analysis/eurusd-stabilises-as-political-shock-reverses/?utm_source=openai",
-            "title": "EURUSD Stabilises as Political Shock Reverses - VT Markets"
-          },
-          {
-            "url": "https://www.ecb.europa.eu/press/pr/date/2025/html/ecb.mp251218~58b0e415a6.en.html?utm_source=openai",
-            "title": "Monetary policy decisions"
-          },
-          {
-            "url": "https://wealthmanagement.bnpparibas/ch/en/insights/markets-and-analysis/market-strategy/currencies-focus-january-2026.html?utm_source=openai",
-            "title": "Currencies Focus - January 2026"
-          },
-          {
-            "url": "https://www.investing.com/news/forex-news/morgan-stanley-forecasts-eurusd-to-reach-123-by-spring-before-falling-93CH-4374471?utm_source=openai",
-            "title": "Morgan Stanley forecasts EUR/USD to reach 1.23 by spring before falling By Investing.com"
-          },
-          {
-            "url": "https://www.ecb.europa.eu/press/pr/date/2025/html/ecb.mp251218~58b0e415a6.en.html?utm_source=openai",
-            "title": "Monetary policy decisions"
-          },
-          {
-            "url": "https://wealthmanagement.bnpparibas/ch/en/insights/markets-and-analysis/market-strategy/currencies-focus-january-2026.html?utm_source=openai",
-            "title": "Currencies Focus - January 2026"
-          },
-          {
-            "url": "https://www.investing.com/news/forex-news/morgan-stanley-forecasts-eurusd-to-reach-123-by-spring-before-falling-93CH-4374471?utm_source=openai",
-            "title": "Morgan Stanley forecasts EUR/USD to reach 1.23 by spring before falling By Investing.com"
-          },
-          {
-            "url": "https://www.ft.com/content/4e5440f3-e0e8-44c1-83b4-a7a131647278?utm_source=openai",
-            "title": "Dollar slips as Donald Trump's Greenland threats reawaken 'sell America' fears"
-          },
-          {
-            "url": "https://www.ecb.europa.eu/press/pr/date/2025/html/ecb.mp251218~58b0e415a6.en.html?utm_source=openai",
-            "title": "Monetary policy decisions"
-          }
-        ],
-        "recommendation_based_on_search": true
-      }
-    },
-    {
-      "timestamp": "2026-01-22T07:54:00.405337Z",
-      "symbol": "GBPUSD",
-      "timeframe": "H1",
-      "price": {
-        "bid": 1.34355,
-        "ask": 1.34364,
+        "bid": 1.17532,
+        "ask": 1.17561,
         "last": 0.0
       },
       "sentiment": "BULLISH",
-      "analysis": "Market shows positive momentum. RSI: 55.7, MFI: 37.9, Stochastic: 49.3",
+      "analysis": "Market shows positive momentum. RSI: 45.4, MFI: 57.0, Stochastic: 49.3",
       "indicators": {
         "rsi": {
-          "value": 55.67,
+          "value": 45.37,
           "condition": "NEUTRAL"
         },
         "mfi": {
-          "value": 37.86,
+          "value": 57.03,
           "condition": "NEUTRAL"
         },
         "stochastic": {
-          "main": 49.28,
+          "main": 49.27,
           "condition": "NEUTRAL"
         },
         "macd": {
-          "main": -9e-05,
-          "signal": -0.00021,
+          "main": -0.0005,
+          "signal": -0.00054,
           "trend": "BULLISH"
         },
         "bollinger_bands": {
-          "upper": 1.34436,
-          "middle": 1.34293,
-          "lower": 1.34149
+          "upper": 1.17242,
+          "middle": 1.16947,
+          "lower": 1.16652
         },
         "moving_average": {
-          "value": 1.34275
+          "value": 1.16875
         },
         "parabolic_sar": {
-          "value": 1.34169,
+          "value": 1.167,
           "trend": "UPTREND"
         },
         "ichimoku": {
-          "tenkan_sen": 1.34282,
-          "kijun_sen": 1.34302
+          "tenkan_sen": 1.16851,
+          "kijun_sen": 1.17065
         }
       },
       "signals": {
@@ -290,112 +226,280 @@
       "ai_web_research": {
         "ai_enabled": true,
         "model": "gpt-5-nano",
-        "symbol": "GBPUSD",
-        "timestamp": "2026-01-22T07:54:42.467396Z",
+        "symbol": "EURUSD",
+        "timestamp": "2026-01-22T22:18:15.989043Z",
         "web_search_used": true,
-        "ai_response": "## Market News Summary\n\n- UK inflation for December 2025 came in hotter than some expectations at 3.4% year-over-year, with economists expecting a move back toward the 2% target in 2026. This has fed expectations for a cautious path of monetary easing by the BoE, rather than an outright rapid cut in early 2026. Markets and analysts have been pricing in a gradual easing trajectory, including a February meeting where a rate decision is anticipated to be held before further cuts later in the year. ([apnews.com](https://apnews.com/article/22023905efd245316a0cb909df587899?utm_source=openai))\n\n- The Bank of England reduced Bank Rate to 3.75% in December 2025 (a 25 bp cut) on a narrow 5\u20134 MPC vote, underscoring the contested balance between easing inflation and supporting growth. The next BoE decision is due in early February 2026. This backdrop helps explain why GBPUSD has traded around the 1.34 area as markets price further easing in 2026. ([wwwtest.bankofengland.co.uk](https://wwwtest.bankofengland.co.uk/monetary-policy-summary-and-minutes/2025/december-2025?utm_source=openai))\n\n- Market expectations around BoE policy remain modestly dovish, with many economists and traders seeing further rate cuts later in 2026, though the pace and timing depend on incoming data. For example, UBS recently spoke of a path toward 1.40 for GBP/USD in 2026, illustrating continued upside potential if UK inflation cools and the BoE acts gradually. ([uk.finance.yahoo.com](https://uk.finance.yahoo.com/news/pound-dollar-outlook-ubs-sees-100209252.html?utm_source=openai))\n\n- GBP/USD trading activity in the last 24\u201348 hours has hovered around the 1.34 level, with recent intraday readings showing the pair in a tight range as investors weigh the BoE\u2019s policy path against U.S. dollar dynamics. A representative near-term level cited in market feeds was around 1.34, consistent with a cautiously constructive stance for Sterling if UK inflation cools and BoE easing expectations persist. ([tradingeconomics.com](https://tradingeconomics.com/united-kingdom/currency%3Ffbclid%3Dpazxh0bgnhzw0cmteaaazx_trolftktfrlixoh40odhzdeai3jcbbxbd0l8jglexghqcu77r-oxg8_aem_kclbcn5h4jhm0cw25xb5wg%26lang%3Dde?utm_source=openai))\n\n- Central bank communications and narratives from major outlets point to a continued focus on inflation dynamics and theBoE\u2019s gradual easing path, rather than abrupt policy shifts. This environment supports a cautiously bullish stance for GBP in the near term, especially if U.S. monetary policy remains supportive of a weaker dollar coming into 2026. ([ft.com](https://www.ft.com/content/df1b7436-35fe-4b64-954a-9009b371c444?utm_source=openai))\n\n- Analyst predictions across the street remain mixed but broadly more constructive on GBP than not, with several banks projecting GBP/USD moving higher into mid-2026 as BoE easing weighs on the dollar and UK inflation trends improve. UBS, for example, has GBP/USD targets around 1.39\u20131.40 for 2026 in various notes. ([uk.finance.yahoo.com](https://uk.finance.yahoo.com/news/pound-dollar-outlook-ubs-sees-100209252.html?utm_source=openai))\n\n## AI RECOMMENDATION: BULLISH\n**Reasoning**: The most recent news flow shows BoE policy shifting toward a more gradual easing path after the December 2025 cut, with markets pricing in additional cuts through 2026. This dynamic tends to support the pound as the BoE\u2019s easing becomes more anticipated and the dollar response fades. In addition, analyst forecasts (e.g., UBS) point to upside for GBP/USD if UK inflation continues to trend lower and the BoE keeps policy on a gradual easing track. The current price around 1.343\u20131.345 and a neutral-to-bullish RSI backdrop (55.7) are consistent with a mild bullish bias, especially if UK inflation cools faster than expected and risk appetite improves. ([wwwtest.bankofengland.co.uk](https://wwwtest.bankofengland.co.uk/monetary-policy-summary-and-minutes/2025/december-2025?utm_source=openai))\n\n**Confidence Level**: MEDIUM\n\nIf you\u2019d like, I can:\n\n- Pull a fresh 24\u201348 hour news clip bundle with direct quotes from BoE officials and top analysts.\n- Add an alert for GBPUSD breaks of key levels (e.g., 1.3350 support, 1.3500 resistance).\n- Provide a one-page data snapshot (CPI, wage data, PMIs) to track if the coming data reinforces this outlook.",
+        "ai_response": "## Market News Summary\nScope: latest developments on EURUSD over the last 24\u201348 hours (as of Jan 22, 2026), plus central-bank context and top analyst views.\n\n- Dollar vs Euro moves after Davos remarks: The dollar edged higher against the euro in early New York trading on Jan 22, 2026, after President Trump\u2019s Davos speech and tariff-talk headlines; EURUSD traded near 1.17, having touched about 1.1770 in recent sessions. This reflects shifting risk sentiment around US policy and trade headlines rather than a fresh ECB shift. ([brecorder.com](https://www.brecorder.com/news/40403393/dollar-edges-up-against-euro-franc?utm_source=openai))\n\n- German ZEW sentiment improves, supporting euro near current levels: Germany\u2019s ZEW Economic Sentiment index for January 2026 jumped to +59.6, signaling a brighter near-term backdrop for Europe and contributing to euro support in the backdrop of US policy uncertainty. This positive regional signal helps underpin EUR/USD in the 1.17 area. ([zew.de](https://www.zew.de/en/press/latest-press-releases/zew-indicator-strongly-rises-at-beginning-of-year?utm_source=openai))\n\n- Euro still trading in the 1.17 neighborhood with recent strength seen on data: Market data around Jan 20\u201321 showed EURUSD hovering around the 1.17 handle, with intraday moves testing above and below that level as traders weigh eurozone data against US policy expectations. (Examples: EURUSD around 1.1738\u20131.1770 in mid-late Jan; German data cited as a driver.) ([tradingeconomics.com](https://tradingeconomics.com/euro-area/currency%3Feref%3D2017-11-09t1700%26staging%3D1?utm_source=openai))\n\n- Central-bank context and policy expectations: The ECB\u2019s next policy decision is scheduled for February 5, 2026, with markets broadly expecting the bank to hold rates in the near term. This backdrop supports the euro if US policy also looks to ease more gradually, though forecasts remain data-dependent. ([fortrade.com](https://www.fortrade.com/analysis/special-reports/eur-usd-455732?utm_source=openai))\n\n- Analyst predictions and forecasts (2026 outlook, euro strength case): \n  - Goldman Sachs and other major banks have published bullish-ish euro calls for 2026, with Goldman pointing to a potential move toward the 1.25 area by year-end on a weaker USD and improving global growth dynamics. ([goldmansachs.com](https://www.goldmansachs.com/insights/articles/the-global-economy-forecast-to-post-sturdy-growth-in-2026?utm_source=openai))\n  - JPMorgan Global Research\u2019s 2026 outlook suggests a constructive stance on the euro, reflecting expectations of a softer dollar and favorable eurozone dynamics; their research notes general currency resilience for the euro in 2026. ([jpmorgan.com](https://www.jpmorgan.com/insights/markets-and-economy/outlook/2026-market-outlook?utm_source=openai))\n  - BNP Paribas Wealth Management released a January 2026 currencies focus noting a bearish near-term EURUSD view (target ~1.16 in 3 months) but acknowledging a longer-term recovery path in 2026. ([wealthmanagement.bnpparibas](https://wealthmanagement.bnpparibas/en/insights/market-strategy/currencies-focus-january-2026.html?utm_source=openai))\n\n- Market sentiment indicators (CFTC positioning and external signals): Weekly CFTC-style sentiment signals and futures-position data around mid-January showed euro-related positioning shifting in response to US policy expectations; investors were weighing a potential US rate path against euro-area dynamics. (CFTC and related updates cited in sentiment trackers.) ([uk.investing.com](https://uk.investing.com/economic-calendar/cftc-eur-speculative-net-positions-1611?utm_source=openai))\n\nNotes:\n- All specific dates and figures above reflect sources published in the 24\u201348 hour window around Jan 22, 2026, or data released shortly before that window. The ECB\u2019s next meeting is Feb 5, 2026, and no immediate ECB policy move was announced in the last 24\u201348 hours. ([fortrade.com](https://www.fortrade.com/analysis/special-reports/eur-usd-455732?utm_source=openai))\n\n## AI RECOMMENDATION: BULLISH\nReasoning: \n- The euro has shown resilience around 1.17 with fresh regional data (Germany\u2019s ZEW) signaling improving euro-area sentiment, which tends to support EURUSD when US policy remains in a gradual-easing path. This is reinforced by credible bank outlooks that expect euro strength to re-emerge as the USD softens and as Europe\u2019s growth backdrop stabilizes. Goldman Sachs and JPMorgan have highlighted a constructive euro view for 2026, while BNP Paribas\u2019 January note supports a longer-term euro upside despite a near-term range. Together, these factors tilt risk toward continued euro strength vs the dollar in the coming months, provided US data and trade headlines don\u2019t surprise to the downside. ([goldmansachs.com](https://www.goldmansachs.com/insights/articles/the-global-economy-forecast-to-post-sturdy-growth-in-2026?utm_source=openai))\n\n- Technical/price context: The price remains well within a range around 1.17, with RSI in a neutral zone (not overbought), leaving room for upside if eurozone data and global risk sentiment stay constructive. The absence of an imminent ECB move keeps the focus on US policy and euro-area data, which currently looks more constructive than in prior months. ([brecorder.com](https://www.brecorder.com/news/40403393/dollar-edges-up-against-euro-franc?utm_source=openai))\n\n- Central-bank backdrop: The ECB is not expected to announce a shift in policy at the immediate next meeting, keeping the euro buoyant if US policy remains on a gradual easing path. This lends support to a constructive bias for EURUSD in the near term. ([fortrade.com](https://www.fortrade.com/analysis/special-reports/eur-usd-455732?utm_source=openai))\n\nConfidence Level: MEDIUM\n- Why not HIGH: While the near-term setup leans bullish for EURUSD given euro-area sentiment and bank forecasts, the drivers are still mixed (US tariff headlines, USD policy risk, and general macro uncertainty). A surprise from US data or a shift in Fed policy could quickly alter the path. The sources cited are credible but contain varying views on timing and magnitude of euro strength. ([brecorder.com](https://www.brecorder.com/news/40403393/dollar-edges-up-against-euro-franc?utm_source=openai))\n\nIf you\u2019d like, I can tailor a scenario-based plan (bullish/bearish/neutral) with entry/exit levels aligned to specific news triggers (e.g., US CPI, Fed reaction, ECB press conference).",
         "ai_recommendation": "BULLISH",
         "ai_recommendation_reasoning": "",
         "confidence": "MEDIUM",
         "sources": [
           {
-            "url": "https://apnews.com/article/22023905efd245316a0cb909df587899?utm_source=openai",
-            "title": "UK inflation inches up in December but a decline toward 2% is expected in 2026"
+            "url": "https://www.brecorder.com/news/40403393/dollar-edges-up-against-euro-franc?utm_source=openai",
+            "title": "Dollar edges up against euro, franc - Markets - Business Recorder"
           },
           {
-            "url": "https://wwwtest.bankofengland.co.uk/monetary-policy-summary-and-minutes/2025/december-2025?utm_source=openai",
-            "title": "Bank Rate reduced to 3.75% - December 2025 Monetary Policy Summary and Minutes | Bank of England"
+            "url": "https://www.zew.de/en/press/latest-press-releases/zew-indicator-strongly-rises-at-beginning-of-year?utm_source=openai",
+            "title": "Press Release: ZEW Indicator Strongly Rises at Beginning of Year | ZEW"
           },
           {
-            "url": "https://uk.finance.yahoo.com/news/pound-dollar-outlook-ubs-sees-100209252.html?utm_source=openai",
-            "title": "Pound to dollar outlook: UBS sees GBP/USD rising to 1.40"
+            "url": "https://tradingeconomics.com/euro-area/currency%3Feref%3D2017-11-09t1700%26staging%3D1?utm_source=openai",
+            "title": "Euro US Dollar Exchange Rate - EUR/USD - Quote - Chart - Historical Data - News"
           },
           {
-            "url": "https://tradingeconomics.com/united-kingdom/currency%3Ffbclid%3Dpazxh0bgnhzw0cmteaaazx_trolftktfrlixoh40odhzdeai3jcbbxbd0l8jglexghqcu77r-oxg8_aem_kclbcn5h4jhm0cw25xb5wg%26lang%3Dde?utm_source=openai",
-            "title": "British Pound - Quote - Chart - Historical Data - News"
+            "url": "https://www.fortrade.com/analysis/special-reports/eur-usd-455732?utm_source=openai",
+            "title": "EUR/USD - Fortrade"
           },
           {
-            "url": "https://www.ft.com/content/df1b7436-35fe-4b64-954a-9009b371c444?utm_source=openai",
-            "title": "UK inflation rises more than expected to 3.4% in December"
+            "url": "https://www.goldmansachs.com/insights/articles/the-global-economy-forecast-to-post-sturdy-growth-in-2026?utm_source=openai",
+            "title": "The Global Economy Is Forecast to Post \u2018Sturdy\u2019 Growth of 2.8% in 2026 | Goldman Sachs"
+          },
+          {
+            "url": "https://www.jpmorgan.com/insights/markets-and-economy/outlook/2026-market-outlook?utm_source=openai",
+            "title": "2026 Market Outlook | J.P. Morgan Global Research"
+          },
+          {
+            "url": "https://wealthmanagement.bnpparibas/en/insights/market-strategy/currencies-focus-january-2026.html?utm_source=openai",
+            "title": "Currencies Focus - January 2026"
+          },
+          {
+            "url": "https://uk.investing.com/economic-calendar/cftc-eur-speculative-net-positions-1611?utm_source=openai",
+            "title": "CFTC EUR speculative net positions"
           }
         ],
         "citations": [
           {
-            "url": "https://apnews.com/article/22023905efd245316a0cb909df587899?utm_source=openai",
-            "title": "UK inflation inches up in December but a decline toward 2% is expected in 2026"
+            "url": "https://www.brecorder.com/news/40403393/dollar-edges-up-against-euro-franc?utm_source=openai",
+            "title": "Dollar edges up against euro, franc - Markets - Business Recorder"
           },
           {
-            "url": "https://wwwtest.bankofengland.co.uk/monetary-policy-summary-and-minutes/2025/december-2025?utm_source=openai",
-            "title": "Bank Rate reduced to 3.75% - December 2025 Monetary Policy Summary and Minutes | Bank of England"
+            "url": "https://www.zew.de/en/press/latest-press-releases/zew-indicator-strongly-rises-at-beginning-of-year?utm_source=openai",
+            "title": "Press Release: ZEW Indicator Strongly Rises at Beginning of Year | ZEW"
           },
           {
-            "url": "https://uk.finance.yahoo.com/news/pound-dollar-outlook-ubs-sees-100209252.html?utm_source=openai",
-            "title": "Pound to dollar outlook: UBS sees GBP/USD rising to 1.40"
+            "url": "https://tradingeconomics.com/euro-area/currency%3Feref%3D2017-11-09t1700%26staging%3D1?utm_source=openai",
+            "title": "Euro US Dollar Exchange Rate - EUR/USD - Quote - Chart - Historical Data - News"
           },
           {
-            "url": "https://tradingeconomics.com/united-kingdom/currency%3Ffbclid%3Dpazxh0bgnhzw0cmteaaazx_trolftktfrlixoh40odhzdeai3jcbbxbd0l8jglexghqcu77r-oxg8_aem_kclbcn5h4jhm0cw25xb5wg%26lang%3Dde?utm_source=openai",
-            "title": "British Pound - Quote - Chart - Historical Data - News"
+            "url": "https://www.fortrade.com/analysis/special-reports/eur-usd-455732?utm_source=openai",
+            "title": "EUR/USD - Fortrade"
           },
           {
-            "url": "https://www.ft.com/content/df1b7436-35fe-4b64-954a-9009b371c444?utm_source=openai",
-            "title": "UK inflation rises more than expected to 3.4% in December"
+            "url": "https://www.goldmansachs.com/insights/articles/the-global-economy-forecast-to-post-sturdy-growth-in-2026?utm_source=openai",
+            "title": "The Global Economy Is Forecast to Post \u2018Sturdy\u2019 Growth of 2.8% in 2026 | Goldman Sachs"
           },
           {
-            "url": "https://uk.finance.yahoo.com/news/pound-dollar-outlook-ubs-sees-100209252.html?utm_source=openai",
-            "title": "Pound to dollar outlook: UBS sees GBP/USD rising to 1.40"
+            "url": "https://www.jpmorgan.com/insights/markets-and-economy/outlook/2026-market-outlook?utm_source=openai",
+            "title": "2026 Market Outlook | J.P. Morgan Global Research"
           },
           {
-            "url": "https://wwwtest.bankofengland.co.uk/monetary-policy-summary-and-minutes/2025/december-2025?utm_source=openai",
-            "title": "Bank Rate reduced to 3.75% - December 2025 Monetary Policy Summary and Minutes | Bank of England"
+            "url": "https://wealthmanagement.bnpparibas/en/insights/market-strategy/currencies-focus-january-2026.html?utm_source=openai",
+            "title": "Currencies Focus - January 2026"
+          },
+          {
+            "url": "https://uk.investing.com/economic-calendar/cftc-eur-speculative-net-positions-1611?utm_source=openai",
+            "title": "CFTC EUR speculative net positions"
+          },
+          {
+            "url": "https://www.fortrade.com/analysis/special-reports/eur-usd-455732?utm_source=openai",
+            "title": "EUR/USD - Fortrade"
+          },
+          {
+            "url": "https://www.goldmansachs.com/insights/articles/the-global-economy-forecast-to-post-sturdy-growth-in-2026?utm_source=openai",
+            "title": "The Global Economy Is Forecast to Post \u2018Sturdy\u2019 Growth of 2.8% in 2026 | Goldman Sachs"
+          },
+          {
+            "url": "https://www.brecorder.com/news/40403393/dollar-edges-up-against-euro-franc?utm_source=openai",
+            "title": "Dollar edges up against euro, franc - Markets - Business Recorder"
+          },
+          {
+            "url": "https://www.fortrade.com/analysis/special-reports/eur-usd-455732?utm_source=openai",
+            "title": "EUR/USD - Fortrade"
+          },
+          {
+            "url": "https://www.brecorder.com/news/40403393/dollar-edges-up-against-euro-franc?utm_source=openai",
+            "title": "Dollar edges up against euro, franc - Markets - Business Recorder"
           }
         ],
         "recommendation_based_on_search": true
       }
     },
     {
-      "timestamp": "2026-01-22T07:54:42.490414Z",
-      "symbol": "USDJPY",
+      "timestamp": "2026-01-22T22:18:15.994749Z",
+      "symbol": "GBPUSD",
       "timeframe": "H1",
       "price": {
-        "bid": 0.0,
-        "ask": 0.0,
+        "bid": 1.34969,
+        "ask": 1.3502399999999999,
         "last": 0.0
       },
-      "sentiment": "BULLISH",
-      "analysis": "Market shows positive momentum. RSI: 66.2, MFI: 66.3, Stochastic: 51.8",
+      "sentiment": "STRONG_BULLISH",
+      "analysis": "Market shows strong upward momentum. RSI: 74.6, MFI: 64.0, Stochastic: 71.1",
       "indicators": {
         "rsi": {
-          "value": 66.21,
-          "condition": "NEUTRAL"
+          "value": 74.63,
+          "condition": "OVERBOUGHT"
         },
         "mfi": {
-          "value": 66.3,
+          "value": 64.03,
           "condition": "NEUTRAL"
         },
         "stochastic": {
-          "main": 51.75,
+          "main": 71.1,
           "condition": "NEUTRAL"
         },
         "macd": {
-          "main": 0.07356,
-          "signal": 0.04268,
+          "main": 0.00183,
+          "signal": 0.00125,
           "trend": "BULLISH"
         },
         "bollinger_bands": {
-          "upper": 158.44165,
-          "middle": 158.10435,
-          "lower": 157.76705
+          "upper": 1.35205,
+          "middle": 1.3456,
+          "lower": 1.33916
         },
         "moving_average": {
-          "value": 158.12921
+          "value": 1.3468
         },
         "parabolic_sar": {
-          "value": 157.764,
-          "trend": "DOWNTREND"
+          "value": 1.34033,
+          "trend": "UPTREND"
         },
         "ichimoku": {
-          "tenkan_sen": 158.2045,
-          "kijun_sen": 158.141
+          "tenkan_sen": 1.34647,
+          "kijun_sen": 1.34542
+        }
+      },
+      "signals": {
+        "primary": "BUY",
+        "strength": "STRONG",
+        "recommendation": "ENTER_LONG"
+      },
+      "ai_web_research": {
+        "ai_enabled": true,
+        "model": "gpt-5-nano",
+        "symbol": "GBPUSD",
+        "timestamp": "2026-01-22T22:19:38.983809Z",
+        "web_search_used": true,
+        "ai_response": "## Market News Summary\n\n- UK inflation rose to 3.4% in December 2025, higher than many forecasts, according to Reuters reporting (via Investing.com). The data reinforces the challenge for cooling price pressures and has kept the timing of BoE policy moves in focus, with markets pricing some Bank of England rate cuts in 2026. ([investing.com](https://www.investing.com/news/economy-news/uk-inflation-rises-more-than-expected-to-34-4456802))\n\n- Markets are pricing the BoE to cut rates in 2026, though the pace and size remain a point of debate among economists and investors. This takeaway comes from the same Reuters coverage of the December inflation print and the ensuing rate-cut expectations. ([investing.com](https://www.investing.com/news/economy-news/uk-inflation-rises-more-than-expected-to-34-4456802))\n\n- The upcoming U.S. Federal Reserve meeting (Jan 27\u201328, 2026) is anticipated by markets to hold rates steady in January, with communications suggesting a cautious path on further cuts. This view is reflected in Reuters-derived market commentary cited by FX/analyst outlets, ahead of Fed decisions. ([fxstreet.com](https://www.fxstreet.com/amp/news/reuters-poll-shows-fed-expected-to-keep-rates-unchanged-at-january-meeting-202601211249/?utm_source=openai))\n\n- Market sentiment around GBPUSD has been shifting in favor of the pound in early 2026, with FX commentary noting improving sterling sentiment and a reduction in net short positioning against the dollar in early January (CFTC data context). This is captured in FXStreet\u2019s market note. ([fxstreet.com](https://www.fxstreet.com/analysis/gbp-usd-stable-sentiment-shifts-in-favour-of-sterling-202601150919?utm_source=openai))\n\n- Analyst forecasts for 2026 remain mixed but generally constructive for sterling relative to the backdrop of divergent central-bank paths. JPMorgan\u2019s 2026 market outlook and related coverage highlight a multi-year framework where currency trajectories depend on inflation dynamics, growth, and policy timing. ([jpmorgan.com](https://www.jpmorgan.com/insights/markets-and-economy/outlook/2026-market-outlook?utm_source=openai))\n\n- Contextual BoE policy backdrop: the BoE cut Bank Rate to 3.75% in December 2025 amid a fragile growth backdrop, as summarized by the Bank of England December 2025 Monetary Policy Summary and Minutes. This history provides context for current expectations around the pace of future easing. ([bankofengland.co.uk](https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2025/december-2025?utm_source=openai))\n\nNotes:\n- I prioritized sources with near-term relevance to a Jan 21\u201322, 2026 window and used primary central-bank or widely-covered outlets where possible. Some sites republished Reuters/AP coverage (e.g., Investing.com, Yahoo Finance) to preserve accessibility for readers. See the linked items above for source specifics.\n\n## AI RECOMMENDATION: BULLISH\nReasoning: \n- The technical setup you provided shows a STRONG_BULLISH signal with price around 1.3497 and RSI at 74.6, indicating sustained upside momentum despite overbought conditions. This aligns with recent market chatter that sentiment for the pound was improving early in 2026. ([fxstreet.com](https://www.fxstreet.com/analysis/gbp-usd-stable-sentiment-shifts-in-favour-of-sterling-202601150919?utm_source=openai))\n- The UK inflation data released around Jan 21, 2026 showed December inflation at 3.4%, which keeps BoE policy dynamics in focus and supports a narrative of gradual policy easing rather than immediate, aggressive tightening. Markets have been pricing in a slower easing path for the BoE in 2026, which can sustain pound carry and support higher GBPUSD levels if USD upside remains capped by Fed guidance. ([investing.com](https://www.investing.com/news/economy-news/uk-inflation-rises-more-than-expected-to-34-4456802))\n- The broader consensus from major institutions (e.g., JPMorgan\u2019s 2026 market framework and related commentary) suggests a multi-step pattern of policy adjustments and currency trajectories, with GBPUSD likely to take its cue from inflation-outlook timing and relative policy paths between BoE and Fed. This environment can favor further upside for the pound if UK inflation continues to move toward target quicker relative to expectations for the Fed. ([jpmorgan.com](https://www.jpmorgan.com/insights/markets-and-economy/outlook/2026-market-outlook?utm_source=openai))\n- Market sentiment signals (CFTC-position context) have shown shifts toward more constructive sterling positioning in early 2026, which supports a sustained bid for GBPUSD against a steadying dollar backdrop. ([fxstreet.com](https://www.fxstreet.com/analysis/gbp-usd-stable-sentiment-shifts-in-favour-of-sterling-202601150919?utm_source=openai))\n\nConfidence Level: MEDIUM\n- The view is supported by solid momentum signals and credible near-term news (inflation data and Fed/BoE expectations), but the news also contains headwinds (inflation still above target, potential for BoE/USD policy divergence). The conflicting signals mean the upside is plausible but not guaranteed in the very short horizon. ([investing.com](https://www.investing.com/news/economy-news/uk-inflation-rises-more-than-expected-to-34-4456802))",
+        "ai_recommendation": "BULLISH",
+        "ai_recommendation_reasoning": "",
+        "confidence": "MEDIUM",
+        "sources": [
+          {
+            "url": "https://www.investing.com/news/economy-news/uk-inflation-rises-more-than-expected-to-34-4456802",
+            "title": "Surprise jump in UK inflation not expected to derail rate cuts By Reuters"
+          },
+          {
+            "url": "https://www.fxstreet.com/amp/news/reuters-poll-shows-fed-expected-to-keep-rates-unchanged-at-january-meeting-202601211249/?utm_source=openai",
+            "title": "Reuters Poll shows Fed expected to keep rates unchanged at January meeting"
+          },
+          {
+            "url": "https://www.fxstreet.com/analysis/gbp-usd-stable-sentiment-shifts-in-favour-of-sterling-202601150919?utm_source=openai",
+            "title": "GBP/USD stable: Sentiment shifts in favour of Sterling"
+          },
+          {
+            "url": "https://www.jpmorgan.com/insights/markets-and-economy/outlook/2026-market-outlook?utm_source=openai",
+            "title": "2026 Market Outlook | J.P. Morgan Global Research"
+          },
+          {
+            "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2025/december-2025?utm_source=openai",
+            "title": "Bank Rate reduced to 3.75% - December 2025 Monetary Policy Summary and Minutes | Bank of England"
+          }
+        ],
+        "citations": [
+          {
+            "url": "https://www.investing.com/news/economy-news/uk-inflation-rises-more-than-expected-to-34-4456802",
+            "title": "Surprise jump in UK inflation not expected to derail rate cuts By Reuters"
+          },
+          {
+            "url": "https://www.investing.com/news/economy-news/uk-inflation-rises-more-than-expected-to-34-4456802",
+            "title": "Surprise jump in UK inflation not expected to derail rate cuts By Reuters"
+          },
+          {
+            "url": "https://www.fxstreet.com/amp/news/reuters-poll-shows-fed-expected-to-keep-rates-unchanged-at-january-meeting-202601211249/?utm_source=openai",
+            "title": "Reuters Poll shows Fed expected to keep rates unchanged at January meeting"
+          },
+          {
+            "url": "https://www.fxstreet.com/analysis/gbp-usd-stable-sentiment-shifts-in-favour-of-sterling-202601150919?utm_source=openai",
+            "title": "GBP/USD stable: Sentiment shifts in favour of Sterling"
+          },
+          {
+            "url": "https://www.jpmorgan.com/insights/markets-and-economy/outlook/2026-market-outlook?utm_source=openai",
+            "title": "2026 Market Outlook | J.P. Morgan Global Research"
+          },
+          {
+            "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2025/december-2025?utm_source=openai",
+            "title": "Bank Rate reduced to 3.75% - December 2025 Monetary Policy Summary and Minutes | Bank of England"
+          },
+          {
+            "url": "https://www.fxstreet.com/analysis/gbp-usd-stable-sentiment-shifts-in-favour-of-sterling-202601150919?utm_source=openai",
+            "title": "GBP/USD stable: Sentiment shifts in favour of Sterling"
+          },
+          {
+            "url": "https://www.investing.com/news/economy-news/uk-inflation-rises-more-than-expected-to-34-4456802",
+            "title": "Surprise jump in UK inflation not expected to derail rate cuts By Reuters"
+          },
+          {
+            "url": "https://www.jpmorgan.com/insights/markets-and-economy/outlook/2026-market-outlook?utm_source=openai",
+            "title": "2026 Market Outlook | J.P. Morgan Global Research"
+          },
+          {
+            "url": "https://www.fxstreet.com/analysis/gbp-usd-stable-sentiment-shifts-in-favour-of-sterling-202601150919?utm_source=openai",
+            "title": "GBP/USD stable: Sentiment shifts in favour of Sterling"
+          },
+          {
+            "url": "https://www.investing.com/news/economy-news/uk-inflation-rises-more-than-expected-to-34-4456802",
+            "title": "Surprise jump in UK inflation not expected to derail rate cuts By Reuters"
+          }
+        ],
+        "recommendation_based_on_search": true
+      }
+    },
+    {
+      "timestamp": "2026-01-22T22:19:39.132020Z",
+      "symbol": "USDJPY",
+      "timeframe": "H1",
+      "price": {
+        "bid": 158.371,
+        "ask": 158.445,
+        "last": 0.0
+      },
+      "sentiment": "BULLISH",
+      "analysis": "Market shows positive momentum. RSI: 72.9, MFI: 76.9, Stochastic: 75.4",
+      "indicators": {
+        "rsi": {
+          "value": 72.93,
+          "condition": "OVERBOUGHT"
+        },
+        "mfi": {
+          "value": 76.93,
+          "condition": "NEUTRAL"
+        },
+        "stochastic": {
+          "main": 75.43,
+          "condition": "NEUTRAL"
+        },
+        "macd": {
+          "main": 0.17956,
+          "signal": 0.13535,
+          "trend": "BULLISH"
+        },
+        "bollinger_bands": {
+          "upper": 158.89605,
+          "middle": 158.3929,
+          "lower": 157.88975
+        },
+        "moving_average": {
+          "value": 158.50757
+        },
+        "parabolic_sar": {
+          "value": 158.178,
+          "trend": "UPTREND"
+        },
+        "ichimoku": {
+          "tenkan_sen": 158.536,
+          "kijun_sen": 158.321
         }
       },
       "signals": {
@@ -407,54 +511,78 @@
         "ai_enabled": true,
         "model": "gpt-5-nano",
         "symbol": "USDJPY",
-        "timestamp": "2026-01-22T07:55:42.689986Z",
+        "timestamp": "2026-01-22T22:20:57.906745Z",
         "web_search_used": true,
-        "ai_response": "## Market News Summary\n- USD/JPY traded around the high-158s area in Asia-Pacific sessions, with traders eyeing intervention risk near the 160 level as the BoJ policy path remains a focal point. ([mnimarkets.com](https://www.mnimarkets.com/articles/usdjpy-consolidates-around-15800-as-market-preps-for-boj-1768971368475?utm_source=openai))\n- Citi\u2019s Japan desk flagged a risk of three BoJ rate hikes in 2026 if yen weakness persists, noting that a move above 160 could trigger further tightening and push USD/JPY higher in 2026. ([investinglive.com](https://investinglive.com/centralbank/citi-flags-risk-of-three-boj-hikes-in-2026-if-yen-weakness-persists-watch-usdjpy-160-20260120/?utm_source=openai))\n- MUFG\u2019s January 2026 FX Outlook lays out a path where near-term USD/JPY could soften (they forecast USD/JPY around 152 in Q1 2026, then 150 in Q2, 148 in Q3, and 146 by Q4), reflecting expectations for a more balanced policy stance over the year. ([mufgresearch.com](https://www.mufgresearch.com/fx/monthly-foreign-exchange-outlook-january-2026/?utm_source=openai))\n- BNP Paribas Wealth Management\u2019s January 2026 currencies focus suggests a 12-month target around 148 for USD/JPY, highlighting continued yen weakness risk but with a longer-dated path to modest appreciation depending on policy timing. ([wealthmanagement.bnpparibas](https://wealthmanagement.bnpparibas/en/insights/market-strategy/currencies-focus-january-2026.html?utm_source=openai))\n\nNote: The input \u201cPrice: 0.0\u201d doesn\u2019t reflect real-time pricing. Market coverage above references recent reporting indicating USD/JPY was near 158 in late Jan 2026 and faces an intervention risk zone around 160. ([mnimarkets.com](https://www.mnimarkets.com/articles/usdjpy-consolidates-around-15800-as-market-preps-for-boj-1768971368475?utm_source=openai))\n\n## AI RECOMMENDATION: BULLISH\n**Reasoning**: Near-term momentum appears positive (prices around the 158 area with upside remaining before potential intervention resistance near 160). The latest discussion from Citi emphasizes that yen weakness could keep driving USD/JPY higher if the BoJ tightens further, creating upside catalysts into 160+. At the same time, credible forecasts (MUFG) warn of a potential easing path later in 2026, suggesting the trend could reverse or stall, which tempers the near-term upside. The mixed but leaning bullish setup is consistent with the current RSI reading and constructive short-term price action, while acknowledging notable risks from BoJ policy shifts and possible intervention. ([investinglive.com](https://investinglive.com/centralbank/citi-flags-risk-of-three-boj-hikes-in-2026-if-yen-weakness-persists-watch-usdjpy-160-20260120/?utm_source=openai))\n**Confidence Level**: MEDIUM\n\nIf you\u2019d like, I can pull a few more sources (e.g., specific central-bank statements or intra-week price levels) to refine the near-term trade plan (entry, stop, and target levels).",
-        "ai_recommendation": "BULLISH",
+        "ai_response": "## Market News Summary\n- MUFG Research (January 2026 FX Outlook) flags a path of USD depreciation against the JPY in 2026, with the Bank of Japan expected to do more to normalize policy. They forecast USD/JPY around 152 by Q1 2026, 150 by Q2, and 146 by year-end, implying a stronger yen backdrop versus the dollar. This supports a bearish bias for USDJPY from a macro-policy perspective. ([mufgresearch.com](https://www.mufgresearch.com/fx/monthly-foreign-exchange-outlook-january-2026/))\n- In the near term (late Jan 2026), USD/JPY has been trading around the mid-to-high 150s, with price data suggesting the pair hovered near 158 in the Jan 21\u201322 window. For example, historical observations show USD/JPY trading around 157.9\u2013158.2 on Jan 21, 2026. This aligns with a stretched level that some analysts expect to ease if BoJ tightening expectations persist. ([poundsterlinglive.com](https://www.poundsterlinglive.com/history/USD-JPY-2026?utm_source=openai))\n- JP Morgan has been cited by market sources as revising its USD/JPY forecast higher in the short term but still anticipating a move lower toward the 148 area by mid-2026, highlighting a near-term risk of dollar strength before a longer-term yen rebound. (Note: this is reported by third-party FX news aggregators summarizing bank views.) ([exchangerates.org.uk](https://www.exchangerates.org.uk/news/45026/2026-01-21-jp-morgan-us-dollar-to-yen-forecast-usd-jpy-tipped-at-148-by-mid-2026.html?utm_source=openai))\n- Optional analyst view: an Investing.com piece from early January 2026 discusses potential for the USD/JPY to move higher in the short term on solid U.S. data, though the longer-term path remains highly conditional on BoJ policy and U.S. rate differentials. This provides a competing near-term view to the BoJ-tightening narrative. ([investing.com](https://www.investing.com/analysis/usdjpy-earlyyear-positive-us-data-could-reignite-the-next-leg-higher-200672847?utm_source=openai))\n\nCentral bank announcements in the window appear to be more about anticipated BoJ policy evolution and external factors (e.g., U.S. rate path) rather than a fresh BoJ decision released in the last 24\u201348 hours, with MUFG outlining the expected BoJ tightening path and its impact on USDJPY. ([mufgresearch.com](https://www.mufgresearch.com/fx/monthly-foreign-exchange-outlook-january-2026/))\n\nMarket sentiment indicators circulating in the coverage emphasize policy divergence (BoJ tightening vs. Fed easing) as a key driver of the USD/JPY dynamic in 2026, consistent with the headline takeaway from MUFG\u2019s outlook. ([mufgresearch.com](https://www.mufgresearch.com/fx/monthly-foreign-exchange-outlook-january-2026/))\n\nAnalyst predictions (latest available in coverage):\n- MUFG: USD depreciation to extend; BoJ to do more; USD/JPY end-2026 around lower levels than today. ([mufgresearch.com](https://www.mufgresearch.com/fx/monthly-foreign-exchange-outlook-january-2026/))\n- JP Morgan (via market summaries): near-term upside risk to USD/JPY before a longer-run move lower toward the 148 area by mid-2026. ([exchangerates.org.uk](https://www.exchangerates.org.uk/news/45026/2026-01-21-jp-morgan-us-dollar-to-yen-forecast-usd-jpy-tipped-at-148-by-mid-2026.html?utm_source=openai))\n- Early-Jan 2026 analysis highlights potential near-term upside if U.S. data stays strong, but the broader view remains sensitive to BoJ policy and yield differentials. ([investing.com](https://www.investing.com/analysis/usdjpy-earlyyear-positive-us-data-could-reignite-the-next-leg-higher-200672847?utm_source=openai))\n\nNote: The exact BoJ decision status in the last 24\u201348 hours isn\u2019t corroborated by a widely cited primary-source article in this window; the takeaway is that expectations for BoJ tightening and policy normalization are driving the near-to-medium-term USDJPY trajectory, per MUFG and other market commentary. ([mufgresearch.com](https://www.mufgresearch.com/fx/monthly-foreign-exchange-outlook-january-2026/))\n\n## AI RECOMMENDATION: BEARISH\n**Reasoning**: The latest credible forecast from MUFG\u2019s January 2026 FX Outlook indicates USD depreciation against the yen with the BoJ likely to do more to tighten/policy-normalize, projecting USD/JPY moving down from current levels (e.g., 156.59 at end-Q1 2026, 150 by Q2, 148 by Q3, 146 by Q4). This is reinforced by third-party briefings that JP Morgan is aiming for lower USD/JPY by mid-2026, despite near-term volatility. The current price around 158 (late-Jan window) sits within a region that market consensus expects to be tested as the BoJ path materializes. Together, these imply a downward bias for USDJPY from here. ([mufgresearch.com](https://www.mufgresearch.com/fx/monthly-foreign-exchange-outlook-january-2026/))\n- Current price context (158.37) and overbought-style reading (RSI ~72 in your data) can be consistent with a short-term pullback into a BoJ-tightening-driven yen-strengthening phase. The macro backdrop from MUFG supports that scenario. ([poundsterlinglive.com](https://www.poundsterlinglive.com/history/USD-JPY-2026?utm_source=openai))\n\n**Confidence Level**: MEDIUM\n\nIf you\u2019d like, I can refine this with live, up-to-the-minute feeds from Reuters/Bloomberg or pull a short list of the most recent central-bank-related headlines to confirm any fresh BoJ announcements that could alter the near-term path.",
+        "ai_recommendation": "BEARISH",
         "ai_recommendation_reasoning": "",
         "confidence": "MEDIUM",
         "sources": [
           {
-            "url": "https://www.mnimarkets.com/articles/usdjpy-consolidates-around-15800-as-market-preps-for-boj-1768971368475?utm_source=openai",
-            "title": "JPY: USD/JPY - Consolidates Around 158.00, As Mar...- 01-21-2026 | MNI"
-          },
-          {
-            "url": "https://investinglive.com/centralbank/citi-flags-risk-of-three-boj-hikes-in-2026-if-yen-weakness-persists-watch-usdjpy-160-20260120/?utm_source=openai",
-            "title": "Citi flags risk of three BOJ hikes in 2026 if yen weakness persists. Watch USD/JPY 160 | investingLive"
-          },
-          {
-            "url": "https://www.mufgresearch.com/fx/monthly-foreign-exchange-outlook-january-2026/?utm_source=openai",
+            "url": "https://www.mufgresearch.com/fx/monthly-foreign-exchange-outlook-january-2026/",
             "title": "2026 Annual Foreign Exchange Outlook - MUFG Research"
           },
           {
-            "url": "https://wealthmanagement.bnpparibas/en/insights/market-strategy/currencies-focus-january-2026.html?utm_source=openai",
-            "title": "Currencies Focus - January 2026"
+            "url": "https://www.poundsterlinglive.com/history/USD-JPY-2026?utm_source=openai",
+            "title": "U.S. Dollar-Japanese Yen History: 2026"
+          },
+          {
+            "url": "https://www.exchangerates.org.uk/news/45026/2026-01-21-jp-morgan-us-dollar-to-yen-forecast-usd-jpy-tipped-at-148-by-mid-2026.html?utm_source=openai",
+            "title": "JP Morgan US Dollar To Yen Forecast: USD/JPY Tipped At 148 By Mid 2026"
+          },
+          {
+            "url": "https://www.investing.com/analysis/usdjpy-earlyyear-positive-us-data-could-reignite-the-next-leg-higher-200672847?utm_source=openai",
+            "title": "USD/JPY: Early-Year Positive US Data Could Reignite the Next Leg Higher | Investing.com"
           }
         ],
         "citations": [
           {
-            "url": "https://www.mnimarkets.com/articles/usdjpy-consolidates-around-15800-as-market-preps-for-boj-1768971368475?utm_source=openai",
-            "title": "JPY: USD/JPY - Consolidates Around 158.00, As Mar...- 01-21-2026 | MNI"
-          },
-          {
-            "url": "https://investinglive.com/centralbank/citi-flags-risk-of-three-boj-hikes-in-2026-if-yen-weakness-persists-watch-usdjpy-160-20260120/?utm_source=openai",
-            "title": "Citi flags risk of three BOJ hikes in 2026 if yen weakness persists. Watch USD/JPY 160 | investingLive"
-          },
-          {
-            "url": "https://www.mufgresearch.com/fx/monthly-foreign-exchange-outlook-january-2026/?utm_source=openai",
+            "url": "https://www.mufgresearch.com/fx/monthly-foreign-exchange-outlook-january-2026/",
             "title": "2026 Annual Foreign Exchange Outlook - MUFG Research"
           },
           {
-            "url": "https://wealthmanagement.bnpparibas/en/insights/market-strategy/currencies-focus-january-2026.html?utm_source=openai",
-            "title": "Currencies Focus - January 2026"
+            "url": "https://www.poundsterlinglive.com/history/USD-JPY-2026?utm_source=openai",
+            "title": "U.S. Dollar-Japanese Yen History: 2026"
           },
           {
-            "url": "https://www.mnimarkets.com/articles/usdjpy-consolidates-around-15800-as-market-preps-for-boj-1768971368475?utm_source=openai",
-            "title": "JPY: USD/JPY - Consolidates Around 158.00, As Mar...- 01-21-2026 | MNI"
+            "url": "https://www.exchangerates.org.uk/news/45026/2026-01-21-jp-morgan-us-dollar-to-yen-forecast-usd-jpy-tipped-at-148-by-mid-2026.html?utm_source=openai",
+            "title": "JP Morgan US Dollar To Yen Forecast: USD/JPY Tipped At 148 By Mid 2026"
           },
           {
-            "url": "https://investinglive.com/centralbank/citi-flags-risk-of-three-boj-hikes-in-2026-if-yen-weakness-persists-watch-usdjpy-160-20260120/?utm_source=openai",
-            "title": "Citi flags risk of three BOJ hikes in 2026 if yen weakness persists. Watch USD/JPY 160 | investingLive"
+            "url": "https://www.investing.com/analysis/usdjpy-earlyyear-positive-us-data-could-reignite-the-next-leg-higher-200672847?utm_source=openai",
+            "title": "USD/JPY: Early-Year Positive US Data Could Reignite the Next Leg Higher | Investing.com"
+          },
+          {
+            "url": "https://www.mufgresearch.com/fx/monthly-foreign-exchange-outlook-january-2026/",
+            "title": "2026 Annual Foreign Exchange Outlook - MUFG Research"
+          },
+          {
+            "url": "https://www.mufgresearch.com/fx/monthly-foreign-exchange-outlook-january-2026/",
+            "title": "2026 Annual Foreign Exchange Outlook - MUFG Research"
+          },
+          {
+            "url": "https://www.mufgresearch.com/fx/monthly-foreign-exchange-outlook-january-2026/",
+            "title": "2026 Annual Foreign Exchange Outlook - MUFG Research"
+          },
+          {
+            "url": "https://www.exchangerates.org.uk/news/45026/2026-01-21-jp-morgan-us-dollar-to-yen-forecast-usd-jpy-tipped-at-148-by-mid-2026.html?utm_source=openai",
+            "title": "JP Morgan US Dollar To Yen Forecast: USD/JPY Tipped At 148 By Mid 2026"
+          },
+          {
+            "url": "https://www.investing.com/analysis/usdjpy-earlyyear-positive-us-data-could-reignite-the-next-leg-higher-200672847?utm_source=openai",
+            "title": "USD/JPY: Early-Year Positive US Data Could Reignite the Next Leg Higher | Investing.com"
+          },
+          {
+            "url": "https://www.mufgresearch.com/fx/monthly-foreign-exchange-outlook-january-2026/",
+            "title": "2026 Annual Foreign Exchange Outlook - MUFG Research"
+          },
+          {
+            "url": "https://www.mufgresearch.com/fx/monthly-foreign-exchange-outlook-january-2026/",
+            "title": "2026 Annual Foreign Exchange Outlook - MUFG Research"
+          },
+          {
+            "url": "https://www.poundsterlinglive.com/history/USD-JPY-2026?utm_source=openai",
+            "title": "U.S. Dollar-Japanese Yen History: 2026"
           }
         ],
         "recommendation_based_on_search": true
