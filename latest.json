@@ -1,53 +1,297 @@
 {
-  "timestamp": "2026-01-26T00:53:07.082843Z",
+  "timestamp": "2026-01-26T00:58:57.117171Z",
   "timeframe": "H1",
-  "total_symbols": 1,
+  "total_symbols": 4,
   "ai_enabled": true,
   "analyses": [
     {
-      "timestamp": "2026-01-26T00:51:43.082648Z",
+      "timestamp": "2026-01-26T00:53:23.217921Z",
       "symbol": "XAUUSD",
       "timeframe": "H1",
       "price": {
-        "bid": 4987.93,
-        "ask": 4988.43,
+        "bid": 5047.26,
+        "ask": 5047.48,
         "last": 0.0
       },
-      "sentiment": "STRONG_BULLISH",
-      "analysis": "Market shows strong upward momentum. RSI: 64.1, MFI: 56.8, Stochastic: 86.0",
+      "sentiment": "NEUTRAL",
+      "analysis": "Market shows balanced conditions. RSI: 86.2, MFI: 71.3, Stochastic: 96.2",
       "indicators": {
         "rsi": {
-          "value": 64.11,
-          "condition": "NEUTRAL"
+          "value": 86.18,
+          "condition": "OVERBOUGHT"
         },
         "mfi": {
-          "value": 56.81,
+          "value": 71.35,
           "condition": "NEUTRAL"
         },
         "stochastic": {
-          "main": 85.97,
+          "main": 96.16,
           "condition": "OVERBOUGHT"
         },
         "macd": {
-          "main": 23.06218,
-          "signal": 22.1799,
+          "main": 31.03626,
+          "signal": 24.7826,
           "trend": "BULLISH"
         },
         "bollinger_bands": {
-          "upper": 4996.34142,
-          "middle": 4952.8585,
-          "lower": 4909.37558
+          "upper": 5032.70585,
+          "middle": 4961.837,
+          "lower": 4890.96815
         },
         "moving_average": {
-          "value": 4952.46071
+          "value": 4970.65929
         },
         "parabolic_sar": {
-          "value": 4918.42,
+          "value": 4932.94,
           "trend": "UPTREND"
         },
         "ichimoku": {
-          "tenkan_sen": 4956.775,
-          "kijun_sen": 4944.595
+          "tenkan_sen": 4995.225,
+          "kijun_sen": 4975.77
+        }
+      },
+      "signals": {
+        "primary": "NEUTRAL",
+        "strength": "MODERATE",
+        "recommendation": "OBSERVE"
+      },
+      "ai_web_research": {
+        "ai_enabled": true,
+        "model": "gpt-5-nano",
+        "symbol": "XAUUSD",
+        "timestamp": "2026-01-26T00:54:50.162208Z",
+        "web_search_used": true,
+        "ai_response": "## Market News Summary\n\n- Goldman Sachs raises its end-2026 gold price forecast to $5,400/oz, citing stronger private-sector demand and ongoing central-bank diversification into gold. Spot gold recently traded near the $4,900s range and even touched intraday highs around $4,888/oz in late Jan 2026. This upgrade reinforces a bullish bias for XAU/USD into year-end 2026. Source: Reuters via Yahoo Finance / Market coverage (posted Jan 22, 2026). ([sg.finance.yahoo.com](https://sg.finance.yahoo.com/news/goldman-sachs-raises-2026-end-035447198.html?utm_source=openai))\n\n- Spot gold has traded at multi-thousand-dollar levels in January 2026, with intraday highs in the $4,800\u2013$4,900 area and occasional forays toward $5,000 as Fed-cut bets and geopolitical risk boost demand for safe-haven assets. For example, gold peaked near $4,888/oz on Jan 22, 2026. Price commentary and timing are widely reported in financial press. ([sg.finance.yahoo.com](https://sg.finance.yahoo.com/news/goldman-sachs-raises-2026-end-035447198.html?utm_source=openai))\n\n- The World Gold Council\u2019s Gold Outlook 2026 highlights a moderately bullish backdrop for gold in 2026, driven by a softer dollar, potential Fed easing, and ongoing central-bank purchases. The report estimates gold could rise 5%\u201315% in 2026 under favorable policy and risk conditions. This underpins a constructive market sentiment toward gold. ([gold.org](https://www.gold.org/goldhub/research/gold-outlook-2026?utm_source=openai))\n\n- Deutsche Bank and other banks have published constructive long-run gold views for 2026 (DB: around $4,000 on average for 2026; Goldman and others seeing higher via ongoing central-bank buying and ETF inflows). These forecasts underscore a broad consensus among major banks that gold remains supported by macro/risk-off dynamics, even as near-term moves can be volatile. ([investing.com](https://www.investing.com/news/economy-news/deutsche-bank-raises-2026-gold-forecast-to-4000-as-bullion-hits-record-highs-4242027?utm_source=openai))\n\n- In market context, analysts have noted a continued lift from central-bank purchases and ETF-related inflows, with several firms highlighting that private-sector diversification into gold is a key driver of the rally. This theme supports a bullish longer-term thesis, even if near-term momentum is tested by overbought measures. Sources include Goldman\u2019s price-target upgrade commentary and related coverage. ([sg.finance.yahoo.com](https://sg.finance.yahoo.com/news/goldman-sachs-raises-2026-end-035447198.html?utm_source=openai))\n\nNote: The window covered here is in the 24\u201348 hours around January 24\u201326, 2026, with the most actionable item in that span being Goldman Sachs\u2019 upgrade to a $5,400/oz end-2026 target (announced around Jan 21\u201322, 2026) and ongoing reporting of very elevated gold prices in the $4,8xx\u2013$4,9xx zone in mid-late January. Prices cited come from reputable outlets tracking intraday and close levels (e.g., Reuters via multiple outlets and AP/NASDAQ coverage). If you\u2019d like, I can pull exact timestamps for each item in your local time zone. ([sg.finance.yahoo.com](https://sg.finance.yahoo.com/news/goldman-sachs-raises-2026-end-035447198.html?utm_source=openai))\n\nCentral bank announcements\n- There were no major, schedule-style central-bank policy decisions reported in the last 24\u201348 hours within the sources I found. However, central-bank demand remains a central driver for gold in 2026, per World Gold Council commentary and the Goldman Sachs note that private-sector and EM central-bank buying are underpinning the rally. ([gold.org](https://www.gold.org/goldhub/research/gold-outlook-2026?utm_source=openai))\n\nMarket sentiment\n- Overall sentiment leans bullish over the medium term, supported by elevated central-bank buying and persistent ETF inflows, even as the pace of gains can be volatile in the near term given overbought technicals (RSI readings cited by market participants and analysts). This aligns with the World Gold Council outlook and the latest Goldman/Sachs-positioned forecasts. ([gold.org](https://www.gold.org/goldhub/research/gold-outlook-2026?utm_source=openai))\n\nAnalyst predictions\n- Very near-term/2026-end: Goldman Sachs raised its 2026-end forecast to $5,400/oz (from $4,900/oz), driven by continuing private-sector demand and central-bank diversification into gold. This is one of the most prominent recent bullish updates. ([sg.finance.yahoo.com](https://sg.finance.yahoo.com/news/goldman-sachs-raises-2026-end-035447198.html?utm_source=openai))\n- Others with credible views: Deutsche Bank has forecast around $4,000/oz on average for 2026 (with upside potential in bull scenarios), reflecting strong safe-haven demand and macro uncertainty. ([investing.com](https://www.investing.com/news/economy-news/deutsche-bank-raises-2026-gold-forecast-to-4000-as-bullion-hits-record-highs-4242027?utm_source=openai))\n- Additional context: The World Gold Council expects a favorable but not explosive path for gold in 2026, with potential 5%\u201315% upside depending on rate paths and dollar moves. ([gold.org](https://www.gold.org/goldhub/research/gold-outlook-2026?utm_source=openai))\n\nAI RECOMMENDATION: NEUTRAL\nReasoning: The latest high-profile forecast (Goldman Sachs) points to a still-bullish longer-term trajectory for gold through 2026, supported by ongoing central-bank demand and ETF flows. However, near-term conditions show overbought momentum (RSI well above typical neutral levels) and very strong upside in a short span, which increases the risk of a near-term pullback or consolidation. In light of these mixed signals \u2014 strong fundamental/demand drivers vs. near-term technical overextension \u2014 a neutral stance is prudent for risk control while still acknowledging the upside potential.\n\nConfidence Level: MEDIUM\n\nWould you like me to tailor a short-term trading plan (e.g., support/resistance levels, stop-loss, potential breakout/mean-reversion ideas) based on the latest price data and your risk preferences?",
+        "ai_recommendation": "NEUTRAL",
+        "ai_recommendation_reasoning": "",
+        "confidence": "MEDIUM",
+        "sources": [
+          {
+            "url": "https://sg.finance.yahoo.com/news/goldman-sachs-raises-2026-end-035447198.html?utm_source=openai",
+            "title": "Goldman Sachs raises 2026-end gold price forecast by $500 to $5,400/oz"
+          },
+          {
+            "url": "https://www.gold.org/goldhub/research/gold-outlook-2026?utm_source=openai",
+            "title": "Gold Outlook 2026: Push ahead or pull back | World Gold Council"
+          },
+          {
+            "url": "https://www.investing.com/news/economy-news/deutsche-bank-raises-2026-gold-forecast-to-4000-as-bullion-hits-record-highs-4242027?utm_source=openai",
+            "title": "Deutsche Bank raises 2026 gold forecast to $4,000 as bullion hits record highs By Reuters"
+          }
+        ],
+        "citations": [
+          {
+            "url": "https://sg.finance.yahoo.com/news/goldman-sachs-raises-2026-end-035447198.html?utm_source=openai",
+            "title": "Goldman Sachs raises 2026-end gold price forecast by $500 to $5,400/oz"
+          },
+          {
+            "url": "https://sg.finance.yahoo.com/news/goldman-sachs-raises-2026-end-035447198.html?utm_source=openai",
+            "title": "Goldman Sachs raises 2026-end gold price forecast by $500 to $5,400/oz"
+          },
+          {
+            "url": "https://www.gold.org/goldhub/research/gold-outlook-2026?utm_source=openai",
+            "title": "Gold Outlook 2026: Push ahead or pull back | World Gold Council"
+          },
+          {
+            "url": "https://www.investing.com/news/economy-news/deutsche-bank-raises-2026-gold-forecast-to-4000-as-bullion-hits-record-highs-4242027?utm_source=openai",
+            "title": "Deutsche Bank raises 2026 gold forecast to $4,000 as bullion hits record highs By Reuters"
+          },
+          {
+            "url": "https://sg.finance.yahoo.com/news/goldman-sachs-raises-2026-end-035447198.html?utm_source=openai",
+            "title": "Goldman Sachs raises 2026-end gold price forecast by $500 to $5,400/oz"
+          },
+          {
+            "url": "https://sg.finance.yahoo.com/news/goldman-sachs-raises-2026-end-035447198.html?utm_source=openai",
+            "title": "Goldman Sachs raises 2026-end gold price forecast by $500 to $5,400/oz"
+          },
+          {
+            "url": "https://www.gold.org/goldhub/research/gold-outlook-2026?utm_source=openai",
+            "title": "Gold Outlook 2026: Push ahead or pull back | World Gold Council"
+          },
+          {
+            "url": "https://www.gold.org/goldhub/research/gold-outlook-2026?utm_source=openai",
+            "title": "Gold Outlook 2026: Push ahead or pull back | World Gold Council"
+          },
+          {
+            "url": "https://sg.finance.yahoo.com/news/goldman-sachs-raises-2026-end-035447198.html?utm_source=openai",
+            "title": "Goldman Sachs raises 2026-end gold price forecast by $500 to $5,400/oz"
+          },
+          {
+            "url": "https://www.investing.com/news/economy-news/deutsche-bank-raises-2026-gold-forecast-to-4000-as-bullion-hits-record-highs-4242027?utm_source=openai",
+            "title": "Deutsche Bank raises 2026 gold forecast to $4,000 as bullion hits record highs By Reuters"
+          },
+          {
+            "url": "https://www.gold.org/goldhub/research/gold-outlook-2026?utm_source=openai",
+            "title": "Gold Outlook 2026: Push ahead or pull back | World Gold Council"
+          }
+        ],
+        "recommendation_based_on_search": true
+      }
+    },
+    {
+      "timestamp": "2026-01-26T00:54:50.182873Z",
+      "symbol": "EURUSD",
+      "timeframe": "H1",
+      "price": {
+        "bid": 1.1862,
+        "ask": 1.18628,
+        "last": 0.0
+      },
+      "sentiment": "BEARISH",
+      "analysis": "Market shows negative pressure. RSI: 86.8, MFI: 81.0, Stochastic: 92.7",
+      "indicators": {
+        "rsi": {
+          "value": 86.8,
+          "condition": "OVERBOUGHT"
+        },
+        "mfi": {
+          "value": 80.97,
+          "condition": "OVERBOUGHT"
+        },
+        "stochastic": {
+          "main": 92.69,
+          "condition": "OVERBOUGHT"
+        },
+        "macd": {
+          "main": 0.00216,
+          "signal": 0.00138,
+          "trend": "BULLISH"
+        },
+        "bollinger_bands": {
+          "upper": 1.18223,
+          "middle": 1.17607,
+          "lower": 1.1699
+        },
+        "moving_average": {
+          "value": 1.17675
+        },
+        "parabolic_sar": {
+          "value": 1.17318,
+          "trend": "UPTREND"
+        },
+        "ichimoku": {
+          "tenkan_sen": 1.17827,
+          "kijun_sen": 1.17809
+        }
+      },
+      "signals": {
+        "primary": "SELL",
+        "strength": "MODERATE",
+        "recommendation": "CONSIDER_SHORT"
+      },
+      "ai_web_research": {
+        "ai_enabled": true,
+        "model": "gpt-5-nano",
+        "symbol": "EURUSD",
+        "timestamp": "2026-01-26T00:56:08.983214Z",
+        "web_search_used": true,
+        "ai_response": "## Market News Summary\n- Federal Reserve meeting ahead: The FOMC is scheduled for January 27\u201328, 2026, with the policy decision on January 28 and a press conference by Chair Powell. Markets broadly expect the Fed to hold the target range at 3.50%\u20133.75%, with guidance potentially shaping the dollar in coming weeks. This setup is a key near-term driver for EURUSD. ([kiplinger.com](https://www.kiplinger.com/investing/when-is-the-next-fed-meeting?utm_source=openai))\n- ECB timing in view but no rate move yet in this window: The next ECB decision is expected around February 5, 2026; the 24\u201348 hour window ahead of that event is typically characterized by data-dependence with no imminent rate change. This keeps EURUSD sensitive to euro-area data and core narratives during the interim. ([fortrade.com](https://www.fortrade.com/analysis/special-reports/eur-usd-455732?utm_source=openai))\n- Political/central-bank headlines affecting euro sentiment: A notable opinion piece from Le Monde (Jan 24, 2026) argues that President Macron\u2019s critiques of the ECB\u2019s independence could influence market trust in euro-area policy signaling. These headlines can feed euro-implied volatility even if they don\u2019t translate into immediate policy moves. ([lemonde.fr](https://www.lemonde.fr/en/opinion/article/2026/01/24/macron-should-not-target-the-european-central-bank_6749747_23.html?utm_source=openai))\n- Background risk factors from the broader political backdrop: Tariff threats and transatlantic policy tensions around Greenland have been cited as sources of volatility that can spill into currency markets, affecting risk sentiment and USD/EUR dynamics. ([marketwatch.com](https://www.marketwatch.com/story/one-wall-street-bank-wastes-no-time-downgrading-europe-over-greenland-threat-822b7b2b?utm_source=openai))\n- Analyst forecasts for EURUSD (longer horizon): A cluster of fresh forecasts for 2026 targets sits around 1.20\u20131.25, with Goldman Sachs at ~1.25 by year-end and JP Morgan around 1.20, among others. These views illustrate a wide range of base-case scenarios for EURUSD in 2026. ([fxempire.com](https://www.fxempire.com/forecasts/article/eurusd-forecast-2026-outlook-points-to-extended-euro-strength-ahead-1568596?utm_source=openai))\n\nNote: Sources above reflect the most recent material available in the last 24\u201348 hours and surrounding context. If you\u2019d like, I can pull more granular quotes or pull additional outlets (e.g., Reuters/Bloomberg) for verification.\n\n## AI RECOMMENDATION: BEARISH\n**Reasoning**: \n- The near-term catalyst remains the Fed\u2019s January 27\u201328 meeting, with the market largely pricing a hold but where guidance could tilt the dollar in either direction. If the Fed\u2019s guidance remains intransigent on tighter-for-longer or signals later cuts are data-dependent, EURUSD could face downside pressure in the immediate aftermath, especially given EUR\u2019s mixed macro backdrop. This aligns with the current price action hinting at a potential pullback from the 1.18 area and a continued bearish tilt in some near-term analyses. ([kiplinger.com](https://www.kiplinger.com/investing/when-is-the-next-fed-meeting?utm_source=openai))\n- Structural euro-area concerns (e.g., political-risk narratives around ECB independence) add an additional layer of euro-weakening risk in the event of uncertain policy signaling, as highlighted by the Jan 24 Le Monde piece. This supports a cautious stance on EURUSD in the very near term. ([lemonde.fr](https://www.lemonde.fr/en/opinion/article/2026/01/24/macron-should-not-target-the-european-central-bank_6749747_23.html?utm_source=openai))\n- External risk factors (tariff/Geopolitical headlines) have historically injected volatility that can push EURUSD lower when risk-off dynamics rise, providing a tail risk to the upside of the euro that is not yet clearly realized in the current window. ([marketwatch.com](https://www.marketwatch.com/story/one-wall-street-bank-wastes-no-time-downgrading-europe-over-greenland-threat-822b7b2b?utm_source=openai))\n\n**Confidence Level**: MEDIUM\n\nIf you want, I can tighten this to a purely data-driven view once the Fed press conference details (or any unexpected ECB cues) are out, and I can monitor the price action for a potential change in the immediate post-FOMC direction.",
+        "ai_recommendation": "BEARISH",
+        "ai_recommendation_reasoning": "",
+        "confidence": "MEDIUM",
+        "sources": [
+          {
+            "url": "https://www.kiplinger.com/investing/when-is-the-next-fed-meeting?utm_source=openai",
+            "title": "When Is the Next Fed Meeting?"
+          },
+          {
+            "url": "https://www.fortrade.com/analysis/special-reports/eur-usd-455732?utm_source=openai",
+            "title": "EUR/USD - Fortrade"
+          },
+          {
+            "url": "https://www.lemonde.fr/en/opinion/article/2026/01/24/macron-should-not-target-the-european-central-bank_6749747_23.html?utm_source=openai",
+            "title": "Macron should not target the European Central Bank"
+          },
+          {
+            "url": "https://www.marketwatch.com/story/one-wall-street-bank-wastes-no-time-downgrading-europe-over-greenland-threat-822b7b2b?utm_source=openai",
+            "title": "One Wall Street bank wastes no time downgrading Europe over Greenland threat"
+          },
+          {
+            "url": "https://www.fxempire.com/forecasts/article/eurusd-forecast-2026-outlook-points-to-extended-euro-strength-ahead-1568596?utm_source=openai",
+            "title": "EURUSD Forecast 2026: Outlook Points to Extended Euro Strength Ahead | FXEmpire"
+          }
+        ],
+        "citations": [
+          {
+            "url": "https://www.kiplinger.com/investing/when-is-the-next-fed-meeting?utm_source=openai",
+            "title": "When Is the Next Fed Meeting?"
+          },
+          {
+            "url": "https://www.fortrade.com/analysis/special-reports/eur-usd-455732?utm_source=openai",
+            "title": "EUR/USD - Fortrade"
+          },
+          {
+            "url": "https://www.lemonde.fr/en/opinion/article/2026/01/24/macron-should-not-target-the-european-central-bank_6749747_23.html?utm_source=openai",
+            "title": "Macron should not target the European Central Bank"
+          },
+          {
+            "url": "https://www.marketwatch.com/story/one-wall-street-bank-wastes-no-time-downgrading-europe-over-greenland-threat-822b7b2b?utm_source=openai",
+            "title": "One Wall Street bank wastes no time downgrading Europe over Greenland threat"
+          },
+          {
+            "url": "https://www.fxempire.com/forecasts/article/eurusd-forecast-2026-outlook-points-to-extended-euro-strength-ahead-1568596?utm_source=openai",
+            "title": "EURUSD Forecast 2026: Outlook Points to Extended Euro Strength Ahead | FXEmpire"
+          },
+          {
+            "url": "https://www.kiplinger.com/investing/when-is-the-next-fed-meeting?utm_source=openai",
+            "title": "When Is the Next Fed Meeting?"
+          },
+          {
+            "url": "https://www.lemonde.fr/en/opinion/article/2026/01/24/macron-should-not-target-the-european-central-bank_6749747_23.html?utm_source=openai",
+            "title": "Macron should not target the European Central Bank"
+          },
+          {
+            "url": "https://www.marketwatch.com/story/one-wall-street-bank-wastes-no-time-downgrading-europe-over-greenland-threat-822b7b2b?utm_source=openai",
+            "title": "One Wall Street bank wastes no time downgrading Europe over Greenland threat"
+          }
+        ],
+        "recommendation_based_on_search": true
+      }
+    },
+    {
+      "timestamp": "2026-01-26T00:56:08.996955Z",
+      "symbol": "GBPUSD",
+      "timeframe": "H1",
+      "price": {
+        "bid": 1.36597,
+        "ask": 1.36606,
+        "last": 0.0
+      },
+      "sentiment": "STRONG_BULLISH",
+      "analysis": "Market shows strong upward momentum. RSI: 83.5, MFI: 68.7, Stochastic: 78.9",
+      "indicators": {
+        "rsi": {
+          "value": 83.54,
+          "condition": "OVERBOUGHT"
+        },
+        "mfi": {
+          "value": 68.71,
+          "condition": "NEUTRAL"
+        },
+        "stochastic": {
+          "main": 78.9,
+          "condition": "NEUTRAL"
+        },
+        "macd": {
+          "main": 0.0047,
+          "signal": 0.0038,
+          "trend": "BULLISH"
+        },
+        "bollinger_bands": {
+          "upper": 1.36992,
+          "middle": 1.35706,
+          "lower": 1.3442
+        },
+        "moving_average": {
+          "value": 1.35985
+        },
+        "parabolic_sar": {
+          "value": 1.35346,
+          "trend": "UPTREND"
+        },
+        "ichimoku": {
+          "tenkan_sen": 1.36214,
+          "kijun_sen": 1.35822
         }
       },
       "signals": {
@@ -58,75 +302,211 @@
       "ai_web_research": {
         "ai_enabled": true,
         "model": "gpt-5-nano",
-        "symbol": "XAUUSD",
-        "timestamp": "2026-01-26T00:53:07.078548Z",
+        "symbol": "GBPUSD",
+        "timestamp": "2026-01-26T00:57:45.091356Z",
         "web_search_used": true,
-        "ai_response": "## Market News Summary\n\n- Goldman Sachs raises its end-2026 gold price forecast to $5,400/oz from $4,900/oz, citing stronger private-sector demand and ongoing central-bank diversification into gold. The move was reported in late January 2026 (note dated Jan 21, 2026; widely covered Jan 22). This is the clearest recent driver of bullish sentiment for XAUUSD. ([uk.finance.yahoo.com](https://uk.finance.yahoo.com/news/goldman-sachs-raises-2026-end-035447198.html?utm_source=openai))\n\n- Gold has continued its rally into early 2026, trading near the $4,900\u2013$5,000 area at times in January, with futures prints and mainstream coverage highlighting fresh record highs and extended strength driven by macro risk, rate-cut expectations, and central-bank buying. For example, reports and coverage around mid-to-late January show spot around the high $4,800s to just under $5,000. ([apnews.org](https://www.apnews.org/gold-price-hits-high/?utm_source=openai))\n\n- China\u2019s central bank has been a persistent purchaser of gold, with a note on ongoing purchases and December 2025 reserve composition showing continued accumulation (the latest formal report noted as of January 7, 2026). This backdrop supports the structural bullish case for gold over 2026. ([mining.com](https://www.mining.com/web/chinas-central-bank-buys-gold-for-14th-consecutive-month/?utm_source=openai))\n\n- JP Morgan Global Research has been one of the more prominent bullish banks, with a long-standing view that gold could average around $5,055/oz by the fourth quarter of 2026 (illustrating a multi-quarter upside thesis driven by investor demand and central-bank purchases). This is part of the broader consensus among major banks showing strong 2026 upside risk. ([investing.com](https://www.investing.com/news/stock-market-news/jp-morgan-sees-gold-averaging-5055oz-by-late-2026-4304430?utm_source=openai))\n\n- HSBC\u2019s 2026 outlook (released in late 2025) also framed gold as a potential multi-thousand-dollar performer in 2026, with scenarios ending near $5,000/oz depending on geopolitics, dollar strength, and rate paths. This provides further confirmation of the bullish regional/global bank consensus around 2026. ([investing.com](https://www.investing.com/news/economy-news/gold-could-hit-5000-an-ounce-in-first-half-of-2026-says-hsbc-4436601?utm_source=openai))\n\nNotes on the 24\u201348 hour window you asked for:\n- Within the precise last 24\u201348 hours before today (as of Jan 26, 2026), there were no major new, widely reported headlines beyond the late-January Goldman note and contemporaneous coverage. The most visible \u201clatest\u201d headline still rests on Goldman\u2019s Jan 21\u201322 update to a $5,400 end-2026 target, which is the freshest widely-cited development in this window. ([uk.finance.yahoo.com](https://uk.finance.yahoo.com/news/goldman-sachs-raises-2026-end-035447198.html?utm_source=openai))\n\nCentral bank announcements of note in the period (not just price moves):\n- China\u2019s central bank has continued gold purchases, with December 2025 reserves data showing ongoing accumulation and December holding levels cited in early January 2026 reporting. This underscores the ongoing central-bank demand backdrop behind the price action. ([mining.com](https://www.mining.com/web/chinas-central-bank-buys-gold-for-14th-consecutive-month/?utm_source=openai))\n\nCurrent data context (for reference):\n- XAUUSD price around 4,987.93 and technical sentiment remains bullish in your snapshot, with RSI ~64. These readings align with a market that has momentum but is not yet overbought, consistent with the recent bank-driven upgrade cycle described above. The market narrative in the sources above supports a continuation of upside risk into 2026.\n\n## AI RECOMMENDATION: BULLISH\n**Reasoning**: \n- The freshest widely-covered update is Goldman Sachs\u2019 end-2026 gold price forecast raised to $5,400/oz (late Jan 2026), signaling continued price optimism driven by persistent private-sector demand and ongoing central-bank purchases. This aligns with your current bullish technical stance and supports a continued upside path toward the high-$5,000s for the period ahead. ([uk.finance.yahoo.com](https://uk.finance.yahoo.com/news/goldman-sachs-raises-2026-end-035447198.html?utm_source=openai))\n- A corroborating macro backdrop includes ongoing central-bank buying (notably in China) and a track record of elevated gold demand from both official sector and private investors, reinforcing the structural bull case for gold into 2026. ([mining.com](https://www.mining.com/web/chinas-central-bank-buys-gold-for-14th-consecutive-month/?utm_source=openai))\n- The market\u2019s directional tone in January 2026 has generally been positive for gold, with prices flirting with fresh multi-year highs and consensus among major banks forecasting higher average levels for 2026. This is consistent with a continued bullish tilt rather than a quick reversal. ([investing.com](https://www.investing.com/news/stock-market-news/jp-morgan-sees-gold-averaging-5055oz-by-late-2026-4304430?utm_source=openai))\n\n**Confidence Level**: HIGH\n\nIf you\u2019d like, I can:\n- Pull a tighter 24\u201348 hour snapshot from specific feeds (e.g., Reuters, MarketWatch, CNBC) if you want to confirm any micro-movements on Jan 24\u201325, 2026.\n- Add price targets or scenario maps from additional banks (e.g., Citi, HSBC, Societe Generale) if you want a broader set of forecasts.",
+        "ai_response": "## Market News Summary\n- UK PMI data for January 2026 showed the composite index at 53.9, signaling the strongest private-sector growth in about 21 months and improving optimism for economic momentum in early 2026. Services led the upturn, with manufacturing also recovering, though employment remained soft. Date: January 23, 2026. ([theguardian.com](https://www.theguardian.com/business/2026/jan/23/pay-growth-limit-interest-rate-cuts-bank-policymaker-megan-greene))\n- Inflation data for December 2025 showed CPI at 3.4% (CPIH at 3.6%), with the Bank of England projecting inflation to trend down toward the 2% target in the medium term; latest official release date: January 21, 2026. This supports a glidepath for gradual monetary easing. ([cy.ons.gov.uk](https://cy.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/december2025))\n- Bank Rate was cut to 3.75% in December 2025 (last decision), with next due date for a policy decision on February 5, 2026; the BoE emphasised policy would continue to adjust gradually as inflation evolves. ([bankofengland.co.uk](https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2025/december-2025))\n- BoE policymaker Megan Greene warned that stronger-than-expected wage growth could limit the scope of rate cuts in 2026, highlighting the risk that US policy divergence could feed UK inflation pressures. Date: January 23, 2026. ([theguardian.com](https://www.theguardian.com/business/2026/jan/23/pay-growth-limit-interest-rate-cuts-bank-policymaker-megan-greene))\n- Analysts\u2019 and banks\u2019 forecasts for GBP/USD remain constructive, with JPMorgan seeing a path to about 1.39 early 2026, Morgan Stanley around 1.47 by year-end, Goldman Sachs around 1.36 by end-2026, and MUFG aiming near 1.40 by mid-2026. These calls reflect expected divergence between UK and US policy and a gradually weaker USD into 2026. ([naga.com](https://naga.com/en/news-and-analysis/articles/british-pound-gbp-price-prediction))\n\nNotes:\n- Current price data provided by user: GBPUSD 1.36597, RSI 83.54 (overbought territory). The news above reflects the latest publicly available reporting around late Jan 2026 and context for near-term moves. If you\u2019d like, I can fetch any fresh items from the exact 24-48 hour window and add them here.\n\n## AI RECOMMENDATION: BULLISH\nReasoning:\n- The January 2026 PMI shows robust UK private-sector momentum (53.9), supporting a firmer UK growth backdrop that can sustain the pound against the dollar in the short term. ([spglobal.com](https://www.spglobal.com/marketintelligence/en/mi/research-analysis/flash-pmi-shows-uk-business-growth-at-21month-high-in-january-as-optimism-builds-jan26.html))\n- Inflation is expected to continue trending toward the 2% target, enabling the BoE to maintain a gradual rate-cut path. The December 2025 inflation print (3.4% CPI) reinforces the case for easing, which historically can support GBP when the UK economy stabilizes. ([cy.ons.gov.uk](https://cy.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/december2025))\n- Market consensus from major banks remains constructive for GBP/USD, with several prominent banks modeling higher levels into 2026 (e.g., 1.39 by early 2026, up to mid-1.40s by mid/late 2026). This suggests upside risk remains supported by policy and growth dynamics. ([naga.com](https://naga.com/en/news-and-analysis/articles/british-pound-gbp-price-prediction))\n- However, there is a caveat: RSI is currently very overbought (83.54). If momentum fades or US policy becomes more aggressive relative to the BoE path, GBPUSD could pull back in the near term. The BoE also signals a data-dependent, gradual easing path, which could cap rapid upside. ([bankofengland.co.uk](https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate.%C2%A0))\n\nConfidence Level: MEDIUM\n\nIf you\u2019d like, I can add a live 1-page risk checklist (key levels, potential trigger events, and a short scenario table) to complement this view.",
         "ai_recommendation": "BULLISH",
         "ai_recommendation_reasoning": "",
         "confidence": "MEDIUM",
         "sources": [
           {
-            "url": "https://uk.finance.yahoo.com/news/goldman-sachs-raises-2026-end-035447198.html?utm_source=openai",
-            "title": "Goldman Sachs raises 2026-end gold price forecast by $500 to $5,400/oz"
+            "url": "https://www.theguardian.com/business/2026/jan/23/pay-growth-limit-interest-rate-cuts-bank-policymaker-megan-greene",
+            "title": "Strong UK pay growth could limit interest rate cuts, Bank policymaker warns | Interest rates | The Guardian"
           },
           {
-            "url": "https://www.apnews.org/gold-price-hits-high/?utm_source=openai",
-            "title": "Gold Price Hits All-Time High $4,822 January 21 2026"
+            "url": "https://cy.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/december2025",
+            "title": "Consumer price inflation, UK - Office for National Statistics"
           },
           {
-            "url": "https://www.mining.com/web/chinas-central-bank-buys-gold-for-14th-consecutive-month/?utm_source=openai",
-            "title": "China's central bank buys gold for 14th consecutive month - MINING.COM"
+            "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2025/december-2025",
+            "title": "Bank Rate reduced to 3.75% - December 2025 Monetary Policy Summary and Minutes | Bank of England"
           },
           {
-            "url": "https://www.investing.com/news/stock-market-news/jp-morgan-sees-gold-averaging-5055oz-by-late-2026-4304430?utm_source=openai",
-            "title": "JP Morgan sees gold prices averaging $5,055 per ounce by late 2026 By Reuters"
+            "url": "https://naga.com/en/news-and-analysis/articles/british-pound-gbp-price-prediction",
+            "title": "British Pound (GBP) Forecast &amp; Price Predictions 2026, 2027-2030"
           },
           {
-            "url": "https://www.investing.com/news/economy-news/gold-could-hit-5000-an-ounce-in-first-half-of-2026-says-hsbc-4436601?utm_source=openai",
-            "title": "Gold could hit $5,000 an ounce in first half of 2026, says HSBC By Reuters"
+            "url": "https://www.spglobal.com/marketintelligence/en/mi/research-analysis/flash-pmi-shows-uk-business-growth-at-21month-high-in-january-as-optimism-builds-jan26.html",
+            "title": "Flash PMI shows UK business growth at 21-month high in January as optimism builds | S&P Global "
+          },
+          {
+            "url": "https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate.%C2%A0",
+            "title": "Interest rates and Bank Rate: our latest decision | Bank of England"
           }
         ],
         "citations": [
           {
-            "url": "https://uk.finance.yahoo.com/news/goldman-sachs-raises-2026-end-035447198.html?utm_source=openai",
-            "title": "Goldman Sachs raises 2026-end gold price forecast by $500 to $5,400/oz"
+            "url": "https://www.theguardian.com/business/2026/jan/23/pay-growth-limit-interest-rate-cuts-bank-policymaker-megan-greene",
+            "title": "Strong UK pay growth could limit interest rate cuts, Bank policymaker warns | Interest rates | The Guardian"
           },
           {
-            "url": "https://www.apnews.org/gold-price-hits-high/?utm_source=openai",
-            "title": "Gold Price Hits All-Time High $4,822 January 21 2026"
+            "url": "https://cy.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/december2025",
+            "title": "Consumer price inflation, UK - Office for National Statistics"
           },
           {
-            "url": "https://www.mining.com/web/chinas-central-bank-buys-gold-for-14th-consecutive-month/?utm_source=openai",
-            "title": "China's central bank buys gold for 14th consecutive month - MINING.COM"
+            "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2025/december-2025",
+            "title": "Bank Rate reduced to 3.75% - December 2025 Monetary Policy Summary and Minutes | Bank of England"
           },
           {
-            "url": "https://www.investing.com/news/stock-market-news/jp-morgan-sees-gold-averaging-5055oz-by-late-2026-4304430?utm_source=openai",
-            "title": "JP Morgan sees gold prices averaging $5,055 per ounce by late 2026 By Reuters"
+            "url": "https://www.theguardian.com/business/2026/jan/23/pay-growth-limit-interest-rate-cuts-bank-policymaker-megan-greene",
+            "title": "Strong UK pay growth could limit interest rate cuts, Bank policymaker warns | Interest rates | The Guardian"
           },
           {
-            "url": "https://www.investing.com/news/economy-news/gold-could-hit-5000-an-ounce-in-first-half-of-2026-says-hsbc-4436601?utm_source=openai",
-            "title": "Gold could hit $5,000 an ounce in first half of 2026, says HSBC By Reuters"
+            "url": "https://naga.com/en/news-and-analysis/articles/british-pound-gbp-price-prediction",
+            "title": "British Pound (GBP) Forecast &amp; Price Predictions 2026, 2027-2030"
           },
           {
-            "url": "https://uk.finance.yahoo.com/news/goldman-sachs-raises-2026-end-035447198.html?utm_source=openai",
-            "title": "Goldman Sachs raises 2026-end gold price forecast by $500 to $5,400/oz"
+            "url": "https://www.spglobal.com/marketintelligence/en/mi/research-analysis/flash-pmi-shows-uk-business-growth-at-21month-high-in-january-as-optimism-builds-jan26.html",
+            "title": "Flash PMI shows UK business growth at 21-month high in January as optimism builds | S&P Global "
           },
           {
-            "url": "https://www.mining.com/web/chinas-central-bank-buys-gold-for-14th-consecutive-month/?utm_source=openai",
-            "title": "China's central bank buys gold for 14th consecutive month - MINING.COM"
+            "url": "https://cy.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/december2025",
+            "title": "Consumer price inflation, UK - Office for National Statistics"
           },
           {
-            "url": "https://uk.finance.yahoo.com/news/goldman-sachs-raises-2026-end-035447198.html?utm_source=openai",
-            "title": "Goldman Sachs raises 2026-end gold price forecast by $500 to $5,400/oz"
+            "url": "https://naga.com/en/news-and-analysis/articles/british-pound-gbp-price-prediction",
+            "title": "British Pound (GBP) Forecast &amp; Price Predictions 2026, 2027-2030"
           },
           {
-            "url": "https://www.mining.com/web/chinas-central-bank-buys-gold-for-14th-consecutive-month/?utm_source=openai",
-            "title": "China's central bank buys gold for 14th consecutive month - MINING.COM"
+            "url": "https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate.%C2%A0",
+            "title": "Interest rates and Bank Rate: our latest decision | Bank of England"
+          }
+        ],
+        "recommendation_based_on_search": true
+      }
+    },
+    {
+      "timestamp": "2026-01-26T00:57:45.103948Z",
+      "symbol": "USDJPY",
+      "timeframe": "H1",
+      "price": {
+        "bid": 154.862,
+        "ask": 154.87,
+        "last": 0.0
+      },
+      "sentiment": "STRONG_BEARISH",
+      "analysis": "Market shows strong downward pressure. RSI: 16.1, MFI: 23.0, Stochastic: 32.0",
+      "indicators": {
+        "rsi": {
+          "value": 16.11,
+          "condition": "OVERSOLD"
+        },
+        "mfi": {
+          "value": 22.97,
+          "condition": "NEUTRAL"
+        },
+        "stochastic": {
+          "main": 31.96,
+          "condition": "NEUTRAL"
+        },
+        "macd": {
+          "main": -0.8965,
+          "signal": -0.60316,
+          "trend": "BEARISH"
+        },
+        "bollinger_bands": {
+          "upper": 159.99761,
+          "middle": 157.1617,
+          "lower": 154.32579
+        },
+        "moving_average": {
+          "value": 156.64371
+        },
+        "parabolic_sar": {
+          "value": 158.308,
+          "trend": "DOWNTREND"
+        },
+        "ichimoku": {
+          "tenkan_sen": 156.212,
+          "kijun_sen": 156.712
+        }
+      },
+      "signals": {
+        "primary": "SELL",
+        "strength": "STRONG",
+        "recommendation": "ENTER_SHORT"
+      },
+      "ai_web_research": {
+        "ai_enabled": true,
+        "model": "gpt-5-nano",
+        "symbol": "USDJPY",
+        "timestamp": "2026-01-26T00:58:57.115401Z",
+        "web_search_used": true,
+        "ai_response": "## Market News Summary\n\nLatest 24\u201348 hours (Jan 23\u201326, 2026)\n- Yen volatility fueled by rate-check signals and potential FX intervention. The New York Fed reportedly conducted rate checks on USD/JPY at the Treasury\u2019s request, and the dollar weakened notably against the yen (about a 1.6\u20131.7% drop for the session). This comes amid market chatter that authorities could act to curb excessive Yen moves. Source: Wall Street Journal (Jan 24, 2026) and Reuters-based coverage summarized by outlets like FT. ([wsj.com](https://www.wsj.com/finance/currencies/treasury-rate-check-boosts-yen-weakens-dollar-c98a44e5?utm_source=openai))\n- In the same window, the yen briefly surged toward the 155\u2013156 per dollar area after the rate-checks, with chatter of possible official action. Market observers warned that Tokyo could coordinate with Washington if moves persisted. Source: Financial Times and Reuters summaries. ([ft.com](https://www.ft.com/content/0cff24f9-3c5e-4aff-966a-ff34ef448a2d?utm_source=openai))\n\nCentral bank announcements and policy signals\n- Bank of Japan: warning over rapid rises in JGB yields and a readiness to act as market volatility intensified. BoJ signaled it could tighten further in 2026 if inflationary pressures persisted, while keeping policy rates at or near the 0.50\u20130.75% range in late 2025\u2013early 2026. This backdrop helps explain renewed yen volatility. Source: Financial Times (Jan 23\u201324, 2026) and related reporting. ([ft.com](https://www.ft.com/content/dd223012-dbec-4895-a32a-e0395d2bfb80?utm_source=openai))\n- The BoJ policy path remains a focal point for USD/JPY, with analysts and banks parsing when and how aggressively the BoJ might tighten given mixed inflation signals and fiscal dynamics in Japan. Source: general market coverage (e.g., FT, Bloomberg notes). ([bloomberg.com](https://www.bloomberg.com/news/articles/2025-12-25/yen-bearish-voices-build-for-2026-on-cautious-boj-policy-path?utm_source=openai))\n\nMarket sentiment and positioning\n- The FX market has been on edge around USD/JPY, with intervention chatter and rate-checks contributing to sharp intraday moves and a risk-off tone in some sessions. Several pieces note that traders are weighing the risk of official action against continued policy divergence between the Fed and BoJ. Source: FT, WSJ, and Reuters-equivalent summaries. ([ft.com](https://www.ft.com/content/0cff24f9-3c5e-4aff-966a-ff34ef448a2d?utm_source=openai))\n- The aggressive move in USD/JPY in late Jan (with the yen briefly strengthening) underlines ongoing uncertainty about official commitments to defend the yen, reinforcing a highly volatile near-term backdrop. Source: Market-watch/WSJ-style coverage and FT reports. ([marketwatch.com](https://www.marketwatch.com/story/this-is-what-caused-fridays-sudden-spike-in-the-japanese-yen-4b4089bc?utm_source=openai))\n\nAnalyst predictions and takeaways\n- A broad group of economists and strategists have argued for a still-volatile USD/JPY path, with some forecasting further yen strength as policy divergence persists and intervention risk remains elevated. In late 2025, major banks and strategists had circulated scenarios where USD/JPY could test the 160 level or higher if the BoJ continues to tighten while the Fed remains less aggressive, though the near term has shown a pendulum of moves around intervention fears. Source: Bloomberg notes (Dec 25, 2025) and ongoing market commentary in late Jan 2026. ([bloomberg.com](https://www.bloomberg.com/news/articles/2025-12-25/yen-bearish-voices-build-for-2026-on-cautious-boj-policy-path?utm_source=openai))\n- In addition, market-commentary sites and weekly updates from market analysts emphasize that intervention risk and policy expectations could keep USD/JPY in a wide, highly reactive range (roughly mid-150s to near-160) in the near term. Source: Marc to Market and related market commentary. ([marctomarket.com](https://www.marctomarket.com/2026/01/january-2026-monthly.html?utm_source=openai))\n\nNotes on currency context\n- Current data given: Price 154.862, Technical Sentiment STRONG_BEARISH, RSI 16.11. The recent news flow around rate checks, BoJ yield concerns, and potential FX intervention supports a bearish view for USDJPY in the near term, even if the RSI suggests an oversold condition could provoke a bounce later. The market has been oscillating between yen-supportive interventions and policy signals that could push USDJPY back toward the 150s or the 160s depending on the trajectory of rate differentials and any coordinated action.\n\nSources cited reflect recent reporting from the Financial Times, Wall Street Journal, and Reuters outlets and approximate the 24\u201348 hour window around Jan 23\u201326, 2026. Some outlets syndicate Reuters material (e.g., Jan 24\u201325, 2026) and other pieces provide context on BoJ policy signals and intervention risk.\n\n## AI RECOMMENDATION: BEARISH\n**Reasoning**: \n- The most recent news cycle (Jan 23\u201325, 2026) centered on rate-checks coordinated by the NY Fed at the Treasury\u2019s request and widespread speculation of potential FX intervention to defend the yen. These developments typically press USDJPY lower in the near term as USD weakens relative to JPY. The price action around 154.86 in the current data aligns with a corrective move after the yen\u2019s spike higher on intervention-risk chatter. ([wsj.com](https://www.wsj.com/finance/currencies/treasury-rate-check-boosts-yen-weakens-dollar-c98a44e5?utm_source=openai))\n- BoJ messaging around yield risks and readiness to tighten further in 2026 adds to a complex but tilt-toward-yen-supportive dynamics in the near term, supporting a bearish view for USDJPY in the immediate horizon. ([ft.com](https://www.ft.com/content/dd223012-dbec-4895-a32a-e0395d2bfb80?utm_source=openai))\n- Analyst and strategist commentary, while diverse for the longer horizon, frequently notes elevated intervention risk and volatile policy signaling as a defining characteristic of USD/JPY in early 2026, implying a continuation of a range with downside pressure for the USD when risk-off or intervention fears rise. ([bloomberg.com](https://www.bloomberg.com/news/articles/2025-12-25/yen-bearish-voices-build-for-2026-on-cautious-boj-policy-path?utm_source=openai))\n\n**Confidence Level**: HIGH\n\nIf you\u2019d like, I can convert this into a concise 1-page briefing with a numeric price target range for the next 1\u20132 days and provide a short list of key levels to watch (e.g., support near 154, resistance near 156\u2013158, and an upper-band look near 160 if intervention fears recede).",
+        "ai_recommendation": "BEARISH",
+        "ai_recommendation_reasoning": "",
+        "confidence": "MEDIUM",
+        "sources": [
+          {
+            "url": "https://www.wsj.com/finance/currencies/treasury-rate-check-boosts-yen-weakens-dollar-c98a44e5?utm_source=openai",
+            "title": "Treasury 'Rate Check' Boosts Yen, Weakens Dollar"
           },
           {
-            "url": "https://www.investing.com/news/stock-market-news/jp-morgan-sees-gold-averaging-5055oz-by-late-2026-4304430?utm_source=openai",
-            "title": "JP Morgan sees gold prices averaging $5,055 per ounce by late 2026 By Reuters"
+            "url": "https://www.ft.com/content/0cff24f9-3c5e-4aff-966a-ff34ef448a2d?utm_source=openai",
+            "title": "Yen rallies as 'rate check' sparks intervention speculation"
+          },
+          {
+            "url": "https://www.ft.com/content/dd223012-dbec-4895-a32a-e0395d2bfb80?utm_source=openai",
+            "title": "Bank of Japan warns over rapid rise in bond yields as Takaichi dissolves parliament for snap poll"
+          },
+          {
+            "url": "https://www.bloomberg.com/news/articles/2025-12-25/yen-bearish-voices-build-for-2026-on-cautious-boj-policy-path?utm_source=openai",
+            "title": "Yen Bearish Voices Build for 2026 on Cautious BOJ Policy Path - Bloomberg"
+          },
+          {
+            "url": "https://www.marketwatch.com/story/this-is-what-caused-fridays-sudden-spike-in-the-japanese-yen-4b4089bc?utm_source=openai",
+            "title": "This is what caused Friday's sudden spike in the Japanese yen"
+          },
+          {
+            "url": "https://www.marctomarket.com/2026/01/january-2026-monthly.html?utm_source=openai",
+            "title": "January 2026 Monthly - Marc to Market"
+          }
+        ],
+        "citations": [
+          {
+            "url": "https://www.wsj.com/finance/currencies/treasury-rate-check-boosts-yen-weakens-dollar-c98a44e5?utm_source=openai",
+            "title": "Treasury 'Rate Check' Boosts Yen, Weakens Dollar"
+          },
+          {
+            "url": "https://www.ft.com/content/0cff24f9-3c5e-4aff-966a-ff34ef448a2d?utm_source=openai",
+            "title": "Yen rallies as 'rate check' sparks intervention speculation"
+          },
+          {
+            "url": "https://www.ft.com/content/dd223012-dbec-4895-a32a-e0395d2bfb80?utm_source=openai",
+            "title": "Bank of Japan warns over rapid rise in bond yields as Takaichi dissolves parliament for snap poll"
+          },
+          {
+            "url": "https://www.bloomberg.com/news/articles/2025-12-25/yen-bearish-voices-build-for-2026-on-cautious-boj-policy-path?utm_source=openai",
+            "title": "Yen Bearish Voices Build for 2026 on Cautious BOJ Policy Path - Bloomberg"
+          },
+          {
+            "url": "https://www.ft.com/content/0cff24f9-3c5e-4aff-966a-ff34ef448a2d?utm_source=openai",
+            "title": "Yen rallies as 'rate check' sparks intervention speculation"
+          },
+          {
+            "url": "https://www.marketwatch.com/story/this-is-what-caused-fridays-sudden-spike-in-the-japanese-yen-4b4089bc?utm_source=openai",
+            "title": "This is what caused Friday's sudden spike in the Japanese yen"
+          },
+          {
+            "url": "https://www.bloomberg.com/news/articles/2025-12-25/yen-bearish-voices-build-for-2026-on-cautious-boj-policy-path?utm_source=openai",
+            "title": "Yen Bearish Voices Build for 2026 on Cautious BOJ Policy Path - Bloomberg"
+          },
+          {
+            "url": "https://www.marctomarket.com/2026/01/january-2026-monthly.html?utm_source=openai",
+            "title": "January 2026 Monthly - Marc to Market"
+          },
+          {
+            "url": "https://www.wsj.com/finance/currencies/treasury-rate-check-boosts-yen-weakens-dollar-c98a44e5?utm_source=openai",
+            "title": "Treasury 'Rate Check' Boosts Yen, Weakens Dollar"
+          },
+          {
+            "url": "https://www.ft.com/content/dd223012-dbec-4895-a32a-e0395d2bfb80?utm_source=openai",
+            "title": "Bank of Japan warns over rapid rise in bond yields as Takaichi dissolves parliament for snap poll"
+          },
+          {
+            "url": "https://www.bloomberg.com/news/articles/2025-12-25/yen-bearish-voices-build-for-2026-on-cautious-boj-policy-path?utm_source=openai",
+            "title": "Yen Bearish Voices Build for 2026 on Cautious BOJ Policy Path - Bloomberg"
           }
         ],
         "recommendation_based_on_search": true
