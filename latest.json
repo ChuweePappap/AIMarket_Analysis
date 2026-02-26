@@ -1,153 +1,145 @@
 {
-  "timestamp": "2026-02-26T03:25:29.555175+03:00",
+  "timestamp": "2026-02-26T07:57:47.848973+03:00",
   "timeframe": "H1",
   "total_symbols": 4,
   "ai_enabled": true,
   "analyses": [
     {
-      "timestamp": "2026-02-26T03:21:30.082140+03:00",
+      "timestamp": "2026-02-26T07:52:56.014560+03:00",
       "symbol": "XAUUSD",
       "timeframe": "H1",
       "price": {
-        "bid": 5173.89,
-        "ask": 5174.03,
+        "bid": 5191.93,
+        "ask": 5192.02,
         "last": 0.0
       },
-      "sentiment": "STRONG_BEARISH",
-      "analysis": "Market shows strong downward pressure. RSI: 43.2, MFI: 48.3, Stochastic: 32.0",
+      "sentiment": "NEUTRAL",
+      "analysis": "Market shows balanced conditions. RSI: 52.2, MFI: 57.0, Stochastic: 80.4",
       "indicators": {
         "rsi": {
-          "value": 43.25,
+          "value": 52.21,
           "condition": "NEUTRAL"
         },
         "mfi": {
-          "value": 48.29,
+          "value": 57.05,
           "condition": "NEUTRAL"
         },
         "stochastic": {
-          "main": 31.99,
-          "condition": "NEUTRAL"
+          "main": 80.42,
+          "condition": "OVERBOUGHT"
         },
         "macd": {
-          "main": 0.46719,
-          "signal": 4.4419,
+          "main": 2.99155,
+          "signal": 3.43952,
           "trend": "BEARISH"
         },
         "bollinger_bands": {
-          "upper": 5218.10738,
-          "middle": 5186.6685,
-          "lower": 5155.22962
+          "upper": 5217.32917,
+          "middle": 5187.2225,
+          "lower": 5157.11583
         },
         "moving_average": {
-          "value": 5185.01214
+          "value": 5188.61286
         },
         "parabolic_sar": {
-          "value": 5217.8,
-          "trend": "DOWNTREND"
+          "value": 5146.34,
+          "trend": "UPTREND"
         },
         "ichimoku": {
-          "tenkan_sen": 5182.07,
-          "kijun_sen": 5168.92
+          "tenkan_sen": 5177.33,
+          "kijun_sen": 5182.07
         }
       },
       "signals": {
-        "primary": "SELL",
-        "strength": "STRONG",
-        "recommendation": "ENTER_SHORT"
+        "primary": "NEUTRAL",
+        "strength": "MODERATE",
+        "recommendation": "OBSERVE"
       },
       "ai_web_research": {
         "ai_enabled": true,
         "model": "gpt-5-nano",
         "symbol": "XAUUSD",
-        "timestamp": "2026-02-26T03:22:38.605814+03:00",
+        "timestamp": "2026-02-26T07:53:54.157532+03:00",
         "web_search_used": true,
-        "ai_response": "## News Summary\n- JP Morgan raised its long-term gold price forecast to $4,500/oz and kept its 2026 year-end forecast at $6,300, citing stronger central-bank buying and diversification away from the dollar. This Reuters-derived update circulated on Feb 25, 2026. ([mining.com](https://www.mining.com/web/jp-morgan-raises-long-term-gold-price-forecast-to-4500/?utm_source=openai))\n- Macquarie Group also lifted near-term 2026 forecasts earlier in February, boosting its first-quarter 2026 view to around $4,590/oz and raising the 2026 average to about $4,323/oz. (Reported in early Feb 2026; part of the same forecast-upbeat narrative around central-bank demand.) ([investing.com](https://www.investing.com/news/economy-news/factboxmacquarie-hikes-gold-forecasts-for-2026-4488571?utm_source=openai))\n- A compiled Reuters/Markets snapshot around that period listed multiple major banks\u2019 targets for 2026 (e.g., JPMorgan, Deutsche Bank, UBS, Wells Fargo, Goldman Sachs, etc.), illustrating a broad bullish consensus for gold into 2026. End-of-2026 targets ranged roughly from the mid-$4,000s to above $6,000/oz among these forecasts. ([investing.com](https://www.investing.com/news/economy-news/factboxjp-morgan-raises-longterm-gold-price-forecast-15-to-4500-an-ounce-4523574?utm_source=openai))\n\nNotes:\n- I couldn\u2019t reliably find credible outlets publishing a fully \u201cTODAY, February 26, 2026\u201d article specifically about XAUUSD/gold news in English on major sites in my search. The closest, most-cited items are from Feb 25, 2026 and summarize ongoing bullish forecasts from several banks. If you\u2019d like, I can widen the search to other languages or regional outlets to try to capture any today-date pieces that might have appeared elsewhere. The current-price cue you gave (5173.89) aligns with the same bullish backdrop described in the Feb 25\u201326 period.\n\n## Sentiment\n- Neutral to mildly bullish.\n\nRationale: With central-bank demand cited as a key supportive driver and major banks publishing elevated forecasts for 2026, the backdrop remains bullish for gold, even though there were no clearly dated \u201ctoday\u201d headlines found in top outlets during Feb 26, 2026 in English. This suggests a lack of a fresh, definitive market-moving trigger today, leaving price action largely range-bound around psychological levels. Closest available signal comes from the Feb 25 Reuters-derived coverage of JPMorgan\u2019s upgrade and the broader bank consensus. ([mining.com](https://www.mining.com/web/jp-morgan-raises-long-term-gold-price-forecast-to-4500/?utm_source=openai))\n\n## AI RECOMMENDATION: NEUTRAL\n**Reasoning**: There are no explicit \u201ctoday\u201d news catalysts found in major outlets, and the most concrete near-term catalysts come from Feb 25 coverage of bank forecasts (central-bank demand and diversification themes). While the longer-run forecast picture (e.g., JPMorgan at $6,300 by year-end 2026) remains bullish, the absence of today-specific news implies no fresh momentum driver at this exact moment. Price is relatively high but not decisively broken in either direction based on today\u2019s news cadence. ([mining.com](https://www.mining.com/web/jp-morgan-raises-long-term-gold-price-forecast-to-4500/?utm_source=openai))\n**Confidence Level**: MEDIUM\n\nIf you want, I can:\n- broaden the scan to include non-English outlets or regional sources that might have published today\u2019s items.\n- pull in live price action and any intraday central-bank commentary as soon as it appears in feeds.",
-        "ai_recommendation": "NEUTRAL",
+        "ai_response": "## News Summary\n- JP Morgan raises its long-term gold price forecast to $4,500/oz, while keeping its 2026 year-end target at $6,300 per ounce. The bank attributes the move to ongoing central-bank buying and a broad \u201creserve currency paradigm shift,\u201d with spot gold recently trading near the $5,200 area. This update was reported on Feb 25, 2026. ([investing.com](https://www.investing.com/news/economy-news/jp-morgan-raises-longterm-gold-price-forecast-to-4500-4524848?utm_source=openai))\n- A Reuters-factbox summarizing multiple banks\u2019 forecasts (also published Feb 25, 2026) shows a generally bullish tone for 2026: UBS at around $6,200, Deutsche Bank near $6,000, and other major banks outlining higher targets for the year. JPMorgan\u2019s revised long-term call is cited alongside these peers, reflecting widespread expectations of ongoing central-bank and investor demand for gold. ([investing.com](https://www.investing.com/news/economy-news/factboxjp-morgan-raises-longterm-gold-price-forecast-15-to-4500-an-ounce-4523574))\n- The broader sentiment notes that central-bank buying and inflation/geo-political uncertainty remain key drivers for gold, with several banks boosting their price targets for 2026. While near-term volatility can persist, the consensus among major banks in the window points to a firmer gold backdrop through 2026. ([investing.com](https://www.investing.com/news/economy-news/factboxjp-morgan-raises-longterm-gold-price-forecast-15-to-4500-an-ounce-4523574))\n\n## Sentiment\nBullish overall. The pace of bullish forecasts from major banks and the emphasis on continued central-bank demand suggest upside potential into 2026, even as near-term price swings and policy headlines linger.\n\n## AI RECOMMENDATION: BULLISH\n**Reasoning**: Within the Feb 25\u201326 window, JPMorgan raised its long-term gold target to $4,500/oz and kept a strong year-end call at $6,300, highlighting ongoing central-bank diversification and demand as a key driver. Other large banks echoed a bullish stance for 2026, reinforcing a constructive longer-term setup for XAUUSD. With current price around the mid-$5,000s, upside potential remains supported by these updated forecasts and structural demand factors. ([investing.com](https://www.investing.com/news/economy-news/jp-morgan-raises-longterm-gold-price-forecast-to-4500-4524848?utm_source=openai))\n**Confidence Level**: MEDIUM\n\nNote: If you want, I can monitor for any fresh Feb 26 updates (or intraday changes) and refresh the summary with new central-bank announcements or revised forecasts.",
+        "ai_recommendation": "BULLISH",
         "ai_recommendation_reasoning": "",
         "confidence": "MEDIUM",
         "sources": [
           {
-            "url": "https://www.mining.com/web/jp-morgan-raises-long-term-gold-price-forecast-to-4500/?utm_source=openai",
-            "title": "JP Morgan raises long-term gold price forecast to $4,500 - MINING.COM"
+            "url": "https://www.investing.com/news/economy-news/jp-morgan-raises-longterm-gold-price-forecast-to-4500-4524848?utm_source=openai",
+            "title": "JP Morgan raises long-term gold price forecast to $4,500 By Reuters"
           },
           {
-            "url": "https://www.investing.com/news/economy-news/factboxmacquarie-hikes-gold-forecasts-for-2026-4488571?utm_source=openai",
-            "title": "Factbox-Macquarie hikes gold forecasts for 2026 By Reuters"
-          },
-          {
-            "url": "https://www.investing.com/news/economy-news/factboxjp-morgan-raises-longterm-gold-price-forecast-15-to-4500-an-ounce-4523574?utm_source=openai",
+            "url": "https://www.investing.com/news/economy-news/factboxjp-morgan-raises-longterm-gold-price-forecast-15-to-4500-an-ounce-4523574",
             "title": "Factbox-JP Morgan raises long-term gold price forecast 15% to $4,500 an ounce By Reuters"
           }
         ],
         "citations": [
           {
-            "url": "https://www.mining.com/web/jp-morgan-raises-long-term-gold-price-forecast-to-4500/?utm_source=openai",
-            "title": "JP Morgan raises long-term gold price forecast to $4,500 - MINING.COM"
+            "url": "https://www.investing.com/news/economy-news/jp-morgan-raises-longterm-gold-price-forecast-to-4500-4524848?utm_source=openai",
+            "title": "JP Morgan raises long-term gold price forecast to $4,500 By Reuters"
           },
           {
-            "url": "https://www.investing.com/news/economy-news/factboxmacquarie-hikes-gold-forecasts-for-2026-4488571?utm_source=openai",
-            "title": "Factbox-Macquarie hikes gold forecasts for 2026 By Reuters"
-          },
-          {
-            "url": "https://www.investing.com/news/economy-news/factboxjp-morgan-raises-longterm-gold-price-forecast-15-to-4500-an-ounce-4523574?utm_source=openai",
+            "url": "https://www.investing.com/news/economy-news/factboxjp-morgan-raises-longterm-gold-price-forecast-15-to-4500-an-ounce-4523574",
             "title": "Factbox-JP Morgan raises long-term gold price forecast 15% to $4,500 an ounce By Reuters"
           },
           {
-            "url": "https://www.mining.com/web/jp-morgan-raises-long-term-gold-price-forecast-to-4500/?utm_source=openai",
-            "title": "JP Morgan raises long-term gold price forecast to $4,500 - MINING.COM"
+            "url": "https://www.investing.com/news/economy-news/factboxjp-morgan-raises-longterm-gold-price-forecast-15-to-4500-an-ounce-4523574",
+            "title": "Factbox-JP Morgan raises long-term gold price forecast 15% to $4,500 an ounce By Reuters"
           },
           {
-            "url": "https://www.mining.com/web/jp-morgan-raises-long-term-gold-price-forecast-to-4500/?utm_source=openai",
-            "title": "JP Morgan raises long-term gold price forecast to $4,500 - MINING.COM"
+            "url": "https://www.investing.com/news/economy-news/jp-morgan-raises-longterm-gold-price-forecast-to-4500-4524848?utm_source=openai",
+            "title": "JP Morgan raises long-term gold price forecast to $4,500 By Reuters"
           }
         ],
         "recommendation_based_on_search": true
       }
     },
     {
-      "timestamp": "2026-02-26T03:22:38.624593+03:00",
+      "timestamp": "2026-02-26T07:53:54.170850+03:00",
       "symbol": "EURUSD",
       "timeframe": "H1",
       "price": {
-        "bid": 1.18153,
-        "ask": 1.18157,
+        "bid": 1.18155,
+        "ask": 1.18159,
         "last": 0.0
       },
       "sentiment": "NEUTRAL",
-      "analysis": "Market shows balanced conditions. RSI: 73.6, MFI: 71.7, Stochastic: 83.0",
+      "analysis": "Market shows balanced conditions. RSI: 75.3, MFI: 74.4, Stochastic: 35.7",
       "indicators": {
         "rsi": {
-          "value": 73.61,
+          "value": 75.3,
           "condition": "OVERBOUGHT"
         },
         "mfi": {
-          "value": 71.74,
+          "value": 74.41,
           "condition": "NEUTRAL"
         },
         "stochastic": {
-          "main": 83.05,
-          "condition": "OVERBOUGHT"
+          "main": 35.66,
+          "condition": "NEUTRAL"
         },
         "macd": {
-          "main": 0.00074,
-          "signal": 0.00053,
+          "main": 0.00084,
+          "signal": 0.00073,
           "trend": "BULLISH"
         },
         "bollinger_bands": {
-          "upper": 1.18237,
-          "middle": 1.17979,
-          "lower": 1.17721
+          "upper": 1.18337,
+          "middle": 1.18023,
+          "lower": 1.17709
         },
         "moving_average": {
-          "value": 1.17998
+          "value": 1.18113
         },
         "parabolic_sar": {
-          "value": 1.17846,
-          "trend": "UPTREND"
+          "value": 1.18289,
+          "trend": "DOWNTREND"
         },
         "ichimoku": {
-          "tenkan_sen": 1.18078,
-          "kijun_sen": 1.1794
+          "tenkan_sen": 1.1816,
+          "kijun_sen": 1.17999
         }
       },
       "signals": {
@@ -159,234 +151,266 @@
         "ai_enabled": true,
         "model": "gpt-5-nano",
         "symbol": "EURUSD",
-        "timestamp": "2026-02-26T03:23:44.154504+03:00",
+        "timestamp": "2026-02-26T07:55:01.818505+03:00",
         "web_search_used": true,
-        "ai_response": "## News Summary\n- U.S. dollar eases modestly; euro strengthens to around 1.1805 per USD in today\u2019s trade, with the dollar index (DXY) dipping about 0.15%. This aligns with EURUSD hovering near the 1.18 area as markets digest risk and policy expectations. Source reports put EUR around 1.1805 and DXY around 97.7 at press time. ([china.org.cn](https://www.china.org.cn/world/Off_the_Wire/2026-02/26/content_118346569.shtml?utm_source=openai))\n- Central bank context today: no fresh major policy announcements dated Feb 26, 2026 were found in the sources I checked. The ECB\u2019s last policy communications were in early February 2026, and today\u2019s data release does not show an immediate ECB decision. For reference, the ECB\u2019s policy decision page shows the most recent meeting content around early February 2026. ([ecb.europa.eu](https://www.ecb.europa.eu/press/press_conference/html/index.en.html?utm_source=openai))\n- Market outlook from analysts (February 2026 focus): long\u2011horizon forecasts continue to place EURUSD in the broadly 1.18 range with some upside versus the dollar depending on rate expectations. BNP Paribas\u2019 February 2026 currencies brief notes a 3\u2011month target near 1.18 for EURUSD, with longer\u2011term targets around 1.24. This provides a baseline for near\u2011term consistency around today\u2019s level. ([wealthmanagement.bnpparibas](https://wealthmanagement.bnpparibas/middleeast/en/insights/market-strategy/currencies-focus-february-2026.html?utm_source=openai))\n- Short\u2011term forecast snapshots for late February 2026 place EURUSD around the 1.18\u20131.19 area in various model/producer notes, suggesting range\u2011bound trading with cautious upside in a positive macro setup. One forecast indicated 1.1865 for Feb 26, 2026 in a contemporary projection set. ([midforex.com](https://midforex.com/forex/eur-to-usd-forecast?utm_source=openai))\n\n## Sentiment\n- Mixed/neutral overall. The currency backdrop shows mild euro strength against the dollar today, but forecasts from reputable banks show EURUSD generally anchored around 1.18 with potential for limited upside. This points to a cautious, range\u2011bound stance rather than a clear breakout in the very short term.\n\n## AI RECOMMENDATION: NEUTRAL\n**Reasoning**: Today\u2019s activity centers on a modestly firmer euro and a softer USD, but there are no fresh central bank announcements on Feb 26, 2026 to push a directional move. Analyst forecasts cluster around roughly 1.18 in the near term, with modest upside possible but not a strong conviction one\u2011way move. This supports a neutral stance rather than a clear bullish or bearish trend.\n\n**Confidence Level**: MEDIUM\n\nIf you\u2019d like, I can keep monitoring and update this with any new Feb 26, 2026\u2011dated reports from Reuters, Bloomberg, CNBC, or other major outlets as they appear.",
+        "ai_response": "## News Summary\n- ActionForex MarketPulse (Feb 25\u201326, 2026): EURUSD around the 1.1800 area as euro-area inflation cooled to 1.7% in January 2026. Markets await further central-bank commentary to define the next directional push. ([actionforex.com](https://www.actionforex.com/contributors/fundamental-analysis/631105-eur-usd-trapped-at-1-1800-as-euro-area-inflation-cools-significantly-what-next/))\n- Emirates NBD Research Daily Outlook (Feb 25, 2026): EURUSD eased to about 1.1772 as tariffs and U.S. policy developments weighed on the dollar; the focus remained on U.S. data and Fed commentary. ([emiratesnbdresearch.com](https://www.emiratesnbdresearch.com/en/articles/daily-outlook-25-february-2026))\n- ECB references (Feb 2026 context): ECB official materials explain holding policy steady with inflation near target and ongoing data-dependence; the ECB reiterated that rates were kept at current levels as inflation converges to 2%. ([ecb.europa.eu](https://www.ecb.europa.eu/press/press_conference/visual-mps/2026/html/mopo_statement_explained_february.en.html?utm_source=openai))\n- Euro area inflation data backdrop (Feb 4\u2013Feb 25, 2026): Eurostat/Central-bank communications show January inflation at 1.7% (headline), with core around 2.2%, supporting the narrative of a stabilizing price path in the euro area. ([ec.europa.eu](https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-04022026-ap?utm_source=openai))\n\n## Sentiment\n- Mixed/neutral. Short-term price action sits around the 1.18 area as inflation cools and central banks emphasize data-dependence, while U.S. tariff news and Fed expectations add headline-driven risk. The overall mood remains cautious about a near-term breakout.\n\n## AI RECOMMENDATION: NEUTRAL\n**Reasoning**: The window shows a tug-of-war between euro strength from soft euro-area inflation and dollar-supportive headlines from U.S. tariffs/Fed expectations. With ECB signaling data-dependent stance and inflation converging toward target, there is no clear, sustained bullish or bearish impulse for EURUSD in the immediate 24-hour frame. Current price around 1.1815 fits a consolidation zone rather than a definable trend. ([actionforex.com](https://www.actionforex.com/contributors/fundamental-analysis/631105-eur-usd-trapped-at-1-1800-as-euro-area-inflation-cools-significantly-what-next/))  \n**Confidence Level**: MEDIUM\n\nNotes:\n- The user-provided current price is 1.18155; the cited articles place EURUSD in the 1.177\u20131.182 range around Feb 25\u201326, 2026, consistent with a tight, range-bound session amid inflation data and central-bank communications. If you\u2019d like, I can widen the window to include the latest data beyond Feb 26 or focus strictly on Reuters/Bloomberg for higher-tier coverage.",
         "ai_recommendation": "NEUTRAL",
         "ai_recommendation_reasoning": "",
         "confidence": "MEDIUM",
         "sources": [
           {
-            "url": "https://www.china.org.cn/world/Off_the_Wire/2026-02/26/content_118346569.shtml?utm_source=openai",
-            "title": "U.S. dollar ticks down"
+            "url": "https://www.actionforex.com/contributors/fundamental-analysis/631105-eur-usd-trapped-at-1-1800-as-euro-area-inflation-cools-significantly-what-next/",
+            "title": "EUR/USD: Trapped at 1.1800 as Euro Area Inflation Cools Significantly\u2026 What Next? - ActionForex"
           },
           {
-            "url": "https://www.ecb.europa.eu/press/press_conference/html/index.en.html?utm_source=openai",
-            "title": "Webcasts: ECB monetary policy decisions"
+            "url": "https://www.emiratesnbdresearch.com/en/articles/daily-outlook-25-february-2026",
+            "title": "Daily Outlook 25 February 2026 | Emirates NBD Research"
           },
           {
-            "url": "https://wealthmanagement.bnpparibas/middleeast/en/insights/market-strategy/currencies-focus-february-2026.html?utm_source=openai",
-            "title": "Currencies Focus - February 2026"
+            "url": "https://www.ecb.europa.eu/press/press_conference/visual-mps/2026/html/mopo_statement_explained_february.en.html?utm_source=openai",
+            "title": "Our monetary policy statement at a glance - February 2026"
           },
           {
-            "url": "https://midforex.com/forex/eur-to-usd-forecast?utm_source=openai",
-            "title": "EUR/USD Forecast: 2026, 2027 & Long-Term AI Predictions"
+            "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-04022026-ap?utm_source=openai",
+            "title": "Euro area annual inflation down to 1.7% - Euro indicators - Eurostat"
           }
         ],
         "citations": [
           {
-            "url": "https://www.china.org.cn/world/Off_the_Wire/2026-02/26/content_118346569.shtml?utm_source=openai",
-            "title": "U.S. dollar ticks down"
+            "url": "https://www.actionforex.com/contributors/fundamental-analysis/631105-eur-usd-trapped-at-1-1800-as-euro-area-inflation-cools-significantly-what-next/",
+            "title": "EUR/USD: Trapped at 1.1800 as Euro Area Inflation Cools Significantly\u2026 What Next? - ActionForex"
           },
           {
-            "url": "https://www.ecb.europa.eu/press/press_conference/html/index.en.html?utm_source=openai",
-            "title": "Webcasts: ECB monetary policy decisions"
+            "url": "https://www.emiratesnbdresearch.com/en/articles/daily-outlook-25-february-2026",
+            "title": "Daily Outlook 25 February 2026 | Emirates NBD Research"
           },
           {
-            "url": "https://wealthmanagement.bnpparibas/middleeast/en/insights/market-strategy/currencies-focus-february-2026.html?utm_source=openai",
-            "title": "Currencies Focus - February 2026"
+            "url": "https://www.ecb.europa.eu/press/press_conference/visual-mps/2026/html/mopo_statement_explained_february.en.html?utm_source=openai",
+            "title": "Our monetary policy statement at a glance - February 2026"
           },
           {
-            "url": "https://midforex.com/forex/eur-to-usd-forecast?utm_source=openai",
-            "title": "EUR/USD Forecast: 2026, 2027 & Long-Term AI Predictions"
+            "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-04022026-ap?utm_source=openai",
+            "title": "Euro area annual inflation down to 1.7% - Euro indicators - Eurostat"
+          },
+          {
+            "url": "https://www.actionforex.com/contributors/fundamental-analysis/631105-eur-usd-trapped-at-1-1800-as-euro-area-inflation-cools-significantly-what-next/",
+            "title": "EUR/USD: Trapped at 1.1800 as Euro Area Inflation Cools Significantly\u2026 What Next? - ActionForex"
           }
         ],
         "recommendation_based_on_search": true
       }
     },
     {
-      "timestamp": "2026-02-26T03:23:44.163406+03:00",
+      "timestamp": "2026-02-26T07:55:01.827833+03:00",
       "symbol": "GBPUSD",
       "timeframe": "H1",
       "price": {
-        "bid": 1.35553,
-        "ask": 1.35558,
+        "bid": 1.3556599999999999,
+        "ask": 1.35571,
         "last": 0.0
       },
-      "sentiment": "STRONG_BULLISH",
-      "analysis": "Market shows strong upward momentum. RSI: 70.9, MFI: 76.6, Stochastic: 68.9",
+      "sentiment": "STRONG_BEARISH",
+      "analysis": "Market shows strong downward pressure. RSI: 70.9, MFI: 66.2, Stochastic: 33.7",
       "indicators": {
         "rsi": {
-          "value": 70.89,
+          "value": 70.92,
           "condition": "OVERBOUGHT"
         },
         "mfi": {
-          "value": 76.62,
+          "value": 66.19,
           "condition": "NEUTRAL"
         },
         "stochastic": {
-          "main": 68.88,
+          "main": 33.67,
           "condition": "NEUTRAL"
         },
         "macd": {
-          "main": 0.00135,
-          "signal": 0.00117,
-          "trend": "BULLISH"
+          "main": 0.00131,
+          "signal": 0.00132,
+          "trend": "BEARISH"
         },
         "bollinger_bands": {
-          "upper": 1.35733,
-          "middle": 1.3535,
-          "lower": 1.34967
+          "upper": 1.35856,
+          "middle": 1.35434,
+          "lower": 1.35012
         },
         "moving_average": {
-          "value": 1.35415
+          "value": 1.35558
         },
         "parabolic_sar": {
-          "value": 1.35174,
-          "trend": "UPTREND"
+          "value": 1.35754,
+          "trend": "DOWNTREND"
         },
         "ichimoku": {
-          "tenkan_sen": 1.35486,
-          "kijun_sen": 1.35282
+          "tenkan_sen": 1.35614,
+          "kijun_sen": 1.35332
         }
       },
       "signals": {
-        "primary": "BUY",
+        "primary": "SELL",
         "strength": "STRONG",
-        "recommendation": "ENTER_LONG"
+        "recommendation": "ENTER_SHORT"
       },
       "ai_web_research": {
         "ai_enabled": true,
         "model": "gpt-5-nano",
         "symbol": "GBPUSD",
-        "timestamp": "2026-02-26T03:24:35.285868+03:00",
+        "timestamp": "2026-02-26T07:56:10.550139+03:00",
         "web_search_used": true,
-        "ai_response": "## News Summary\n- I could not locate any GBPUSD-specific news articles published today (February 26, 2026) from major outlets (e.g., Reuters, Bloomberg, CNBC, FT, MarketWatch) in the search results available to me. If you want, I can widen the search to include more niche outlets or regional feeds. \n- Contextual background relevant to today\u2019s GBPUSD moves:\n  - The Bank of England\u2019s February 2026 Monetary Policy Summary and Minutes show Bank Rate at 3.75% with a closely split view on near-term easing; the next policy meeting is scheduled for March 19, 2026. This document is dated February 5, 2026. ([bankofengland.co.uk](https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/february-2026?utm_source=openai))\n  - UK inflation eased toward the 2% target in early 2026, with January 2026 inflation reported around 3.0% in mid-February, helping to frame the BoE path (although this data was released earlier in the month). ([investing.com](https://www.investing.com/news/economy-news/uk-inflation-falls-to-30-in-january-4510107?utm_source=openai))\n- Current price reference: GBPUSD has been quoted around the mid-1.35s, with a live quote showing about 1.3550\u20131.3555 in recent feeds (your number 1.35553 matches the general level seen around Feb 25\u201326). ([bloomberg.com](https://www.bloomberg.com/quote/GBPUSD%3ACUR/?utm_source=openai))\n\n## Sentiment\n- Market mood: Neutral to cautiously stabilized. With no new GBPUSD-specific headlines today and the BoE\u2019s near-term policy path still debated, traders are likely waiting for clearer data or a major catalyst.\n\n## AI RECOMMENDATION: NEUTRAL\n**Reasoning**: There were no GBPUSD-specific headlines or central-bank announcements published today to provide a fresh directional cue. The most relevant near-term catalysts (BoE March decision on Mar 19, 2026) remain in the calendar, but without new data today, the price action is likely to stay range-bound around the 1.35 area. Contextual background from BoE materials and UK inflation data keeps the risk balanced rather than skewed clearly bullish or bearish. The current level around 1.3555 aligns with a wait-and-see stance rather than a decisive move.\n**Confidence Level**: MEDIUM",
+        "ai_response": "## News Summary\n- FX.co: GBP/USD Forecast on February 25, 2026. The piece describes GBP/USD trading in a narrow sideways range around 1.3437\u20131.3539 with a bearish tilt overall; forecasts suggest potential upside to about 1.3595\u20131.3620 if resistance around 1.3526\u20131.3539 is broken, otherwise risk remains to the downside toward 1.3391 and potentially 1.3222 if selling persists. The article also notes a generally weak pound news backdrop and no major events scheduled that week. ([fx.co](https://www.fx.co/en/analysis/439012))\n- RoboForex: Daily technical analysis and forecast for February 25, 2026. For GBPUSD, the forecast notes that price has broken above 1.3500 and is targeting around 1.3536 in the near term, with a possible path toward 1.3391 and, if broken, eventually to 1.3222. The analysis also mentions a potential move toward 1.3560 before downturns resume. ([roboforex.com](https://roboforex.com/beginners/analytics/forex-forecast/forex-technical-analysis/technical-forecast-daily-2026-02-25/))\n- FreshForex: GBPUSD: SELL 1.3480, TP 1.3390 (February 25, 2026). The call points to a soft pound backdrop with a focus on a near-term pullback, citing parliamentary hearings around the Bank of England\u2019s Monetary Policy Report and other U.S. data as drivers. The recommended trade is a short entry around 1.3480 with a target toward 1.3390. ([freshforex.com](https://freshforex.com/analitics/fresh-forecast/fa/issue_339193.html))\n- Price context (historical intra-window perspective): The PoundSterlingLive GBP/USD history page shows actual daily levels around this window:\n  - February 25, 2026: Open 1.3488, Close 1.3559, High 1.3566, Low 1.3488 (mid around 1.3527). \n  - February 26, 2026: Open 1.3559, Close 1.3571, High 1.3574, Low 1.3552 (mid around 1.3563). \n  This indicates the pair traded roughly in the 1.349\u20131.357 area across the two days in this window. ([poundsterlinglive.com](https://www.poundsterlinglive.com/history/GBP-USD-2026))\n\nCurrent price noted by you: 1.35566. In the window\u2019s actual price data, the pair hovered near that level, closing the 25\u201326 February stretch around 1.3559\u20131.3571. ([poundsterlinglive.com](https://www.poundsterlinglive.com/history/GBP-USD-2026))\n\n## Sentiment\n- Mixed/unclear. While some forecasts hint at near-term upside targets for GBPUSD (e.g., toward 1.3536\u20131.3560 or higher), others imply potential downside moves back toward 1.339\u20131.322 if resistance fails. No major, widely reported central-bank announcements appear in this exact Feb 25\u201326 window from top-tier outlets, so broader directional clarity is limited in this narrow 24-hour span. ([roboforex.com](https://roboforex.com/beginners/analytics/forex-forecast/forex-technical-analysis/technical-forecast-daily-2026-02-25/))\n\n## AI RECOMMENDATION: NEUTRAL\n**Reasoning**: In the 24-hour window (Feb 25\u201326, 2026), GBPUSD exhibits mixed signals across sources. Forecasts show potential upside (to around 1.3560\u20131.3620) from some analysts, but other forecasts call for ongoing or renewed downside toward the 1.3390\u20131.3220 area. The price is oscillating near 1.356 with no confirmed breakout in either direction, and there were no clear, major central-bank announcements within the window to decisively steer the pair. The evidence points to a balanced risk environment rather than a clear up or down trend. ([fx.co](https://www.fx.co/en/analysis/439012))\n**Confidence Level**: MEDIUM",
         "ai_recommendation": "NEUTRAL",
         "ai_recommendation_reasoning": "",
         "confidence": "MEDIUM",
         "sources": [
           {
-            "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/february-2026?utm_source=openai",
-            "title": "Bank Rate maintained at 3.75% - February 2026 Monetary Policy Summary and Minutes | Bank of England"
+            "url": "https://www.fx.co/en/analysis/439012",
+            "title": "FX.co - GBP/USD Forecast on February 25, 2026"
           },
           {
-            "url": "https://www.investing.com/news/economy-news/uk-inflation-falls-to-30-in-january-4510107?utm_source=openai",
-            "title": "UK inflation falls to 3.0% in January By Reuters"
+            "url": "https://roboforex.com/beginners/analytics/forex-forecast/forex-technical-analysis/technical-forecast-daily-2026-02-25/",
+            "title": "Daily technical analysis & forecast for 25 February 2026 (EURUSD, XAUUSD, USDJPY, GBPUSD, AUDUSD, USDCAD, and Brent) - RoboForex"
           },
           {
-            "url": "https://www.bloomberg.com/quote/GBPUSD%3ACUR/?utm_source=openai",
-            "title": "GBP to USD Exchange Rate"
+            "url": "https://freshforex.com/analitics/fresh-forecast/fa/issue_339193.html",
+            "title": "Forex market news - Fundamental Analysis on GBP/USD 25 February 2026 | FreshForex"
+          },
+          {
+            "url": "https://www.poundsterlinglive.com/history/GBP-USD-2026",
+            "title": "British Pound-U.S. Dollar History: 2026"
           }
         ],
         "citations": [
           {
-            "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/february-2026?utm_source=openai",
-            "title": "Bank Rate maintained at 3.75% - February 2026 Monetary Policy Summary and Minutes | Bank of England"
+            "url": "https://www.fx.co/en/analysis/439012",
+            "title": "FX.co - GBP/USD Forecast on February 25, 2026"
           },
           {
-            "url": "https://www.investing.com/news/economy-news/uk-inflation-falls-to-30-in-january-4510107?utm_source=openai",
-            "title": "UK inflation falls to 3.0% in January By Reuters"
+            "url": "https://roboforex.com/beginners/analytics/forex-forecast/forex-technical-analysis/technical-forecast-daily-2026-02-25/",
+            "title": "Daily technical analysis & forecast for 25 February 2026 (EURUSD, XAUUSD, USDJPY, GBPUSD, AUDUSD, USDCAD, and Brent) - RoboForex"
           },
           {
-            "url": "https://www.bloomberg.com/quote/GBPUSD%3ACUR/?utm_source=openai",
-            "title": "GBP to USD Exchange Rate"
+            "url": "https://freshforex.com/analitics/fresh-forecast/fa/issue_339193.html",
+            "title": "Forex market news - Fundamental Analysis on GBP/USD 25 February 2026 | FreshForex"
+          },
+          {
+            "url": "https://www.poundsterlinglive.com/history/GBP-USD-2026",
+            "title": "British Pound-U.S. Dollar History: 2026"
+          },
+          {
+            "url": "https://www.poundsterlinglive.com/history/GBP-USD-2026",
+            "title": "British Pound-U.S. Dollar History: 2026"
+          },
+          {
+            "url": "https://roboforex.com/beginners/analytics/forex-forecast/forex-technical-analysis/technical-forecast-daily-2026-02-25/",
+            "title": "Daily technical analysis & forecast for 25 February 2026 (EURUSD, XAUUSD, USDJPY, GBPUSD, AUDUSD, USDCAD, and Brent) - RoboForex"
+          },
+          {
+            "url": "https://www.fx.co/en/analysis/439012",
+            "title": "FX.co - GBP/USD Forecast on February 25, 2026"
           }
         ],
         "recommendation_based_on_search": true
       }
     },
     {
-      "timestamp": "2026-02-26T03:24:35.303192+03:00",
+      "timestamp": "2026-02-26T07:56:10.571865+03:00",
       "symbol": "USDJPY",
       "timeframe": "H1",
       "price": {
-        "bid": 156.051,
-        "ask": 156.055,
+        "bid": 155.941,
+        "ask": 155.945,
         "last": 0.0
       },
-      "sentiment": "BULLISH",
-      "analysis": "Market shows positive momentum. RSI: 16.5, MFI: 18.7, Stochastic: 14.0",
+      "sentiment": "STRONG_BEARISH",
+      "analysis": "Market shows strong downward pressure. RSI: 21.4, MFI: 26.4, Stochastic: 33.1",
       "indicators": {
         "rsi": {
-          "value": 16.53,
+          "value": 21.4,
           "condition": "OVERSOLD"
         },
         "mfi": {
-          "value": 18.74,
-          "condition": "OVERSOLD"
+          "value": 26.4,
+          "condition": "NEUTRAL"
         },
         "stochastic": {
-          "main": 13.98,
-          "condition": "OVERSOLD"
+          "main": 33.12,
+          "condition": "NEUTRAL"
         },
         "macd": {
-          "main": 0.10599,
-          "signal": 0.17995,
+          "main": -0.00629,
+          "signal": 0.08349,
           "trend": "BEARISH"
         },
         "bollinger_bands": {
-          "upper": 156.99117,
-          "middle": 156.34035,
-          "lower": 155.68953
+          "upper": 156.93632,
+          "middle": 156.34285,
+          "lower": 155.74938
         },
         "moving_average": {
-          "value": 156.42464
+          "value": 156.1965
         },
         "parabolic_sar": {
-          "value": 156.606,
+          "value": 156.539,
           "trend": "DOWNTREND"
         },
         "ichimoku": {
-          "tenkan_sen": 156.289,
+          "tenkan_sen": 156.1175,
           "kijun_sen": 156.0855
         }
       },
       "signals": {
-        "primary": "BUY",
-        "strength": "MODERATE",
-        "recommendation": "CONSIDER_LONG"
+        "primary": "SELL",
+        "strength": "STRONG",
+        "recommendation": "ENTER_SHORT"
       },
       "ai_web_research": {
         "ai_enabled": true,
         "model": "gpt-5-nano",
         "symbol": "USDJPY",
-        "timestamp": "2026-02-26T03:25:29.555071+03:00",
+        "timestamp": "2026-02-26T07:57:47.848854+03:00",
         "web_search_used": true,
-        "ai_response": "## News Summary\n- FreshForex: USDJPY forecast published today (26 February 2026) with a BUY recommendation at 156.00, stop-loss 155.70 and take-profit 156.90. The note references the persistence of US-dollar strength cues from Fed minutes and officials\u2019 remarks, and notes yen sensitivity to BoJ policy signals. Current price mentioned by you is 156.051. Source: FreshForex (26 February 2026). ([freshforex.com](https://freshforex.com/analitics/fresh-forecast/fa/issue_339209.html?utm_source=openai))\n- Central bank announcements today: no major, widely-cited central-bank policy decision or press conference for USD/JPY today. The Bank of Japan\u2019s official calendar shows scheduled releases and upcoming meeting dates, rather than a fresh policy decision today. Source: Bank of Japan release schedule. ([boj.or.jp](https://www.boj.or.jp/en/announcements/calendar/index.htm/?utm_source=openai))\n- Market actions related to Japan\u2019s liquidity context today: Ministry of Finance liquidity operations and related JGB auction activity have been scheduled around late February (not a BoJ policy decision today but relevant to yen liquidity dynamics). Source: MOF liquidity auction announcements (February 18 update noting an auction on February 25\u201326). ([mof.go.jp](https://www.mof.go.jp/english/policy/jgbs/auction/calendar/announcement/auct20260218e.htm?utm_source=openai))\n\nNote: I focused on sources that clearly indicate today\u2019s date (26 February 2026) for news or forecasts. If you\u2019d like, I can broaden to include quasi-treshhold forecasts or commentary from other outlets, but those may not be strictly \u201ctoday.\u201d\n\n## Sentiment\nNeutral-to-mixed. There isn\u2019t a clear, widely reported today-news catalyst driving USDJPY decisively in either direction. The price sits around 156.05, and markets appear to be awaiting more explicit signals from major central-bank communications or U.S. data. Fresh_forex\u2019s today forecast hints at near-term upside risk in USDJPY, but that is a single forecast and should be weighed against the cautious broader backdrop (no fresh BoJ decision today). ([freshforex.com](https://freshforex.com/analitics/fresh-forecast/fa/issue_339209.html?utm_source=openai))\n\n## AI RECOMMENDATION: NEUTRAL\n**Reasoning**: Today\u2019s news landscape for USDJPY is sparse beyond one forecast-oriented piece (FreshForex) and routine central-bank/government scheduling not providing a decisive trigger. With no new BoJ policy decision today and only forecast-level signals, there isn\u2019t a robust, verifiable case for a clear bullish or bearish stance. Price around 156.05 remains within a broad range established by recent data, and awaits clearer direction from upcoming U.S. data or BoJ communications. The presence of at least one today forecast keeping a bullish tilt adds some nuance, but not enough to warrant a decisive stance.\n**Confidence Level**: MEDIUM\n\nIf you\u2019d like, I can keep monitoring and return with a fresh, tighter update as soon as there are verifiable new articles from today (or shortly after market close) from Reuters/Bloomberg/FT or other major outlets.",
-        "ai_recommendation": "NEUTRAL",
+        "ai_response": "## News Summary\n- Feb 25, 2026: Yen hits a two-week low against the dollar after Japan\u2019s government named two academics seen as strong proponents of economic stimulus to the Bank of Japan\u2019s policy board. The move stoked concerns about the pace of BoJ tightening and weighed on the yen, with USD/JPY around the mid-150s. ([uk.marketscreener.com](https://uk.marketscreener.com/news/yen-hits-two-week-low-after-pro-stimulus-board-appointments-ce7e5cdbd08ff727))\n- Feb 26, 2026: Yen again trades near a two-week low against the dollar, with USD/JPY hovering around the 156 area as traders weigh BoJ policy paths and political developments. Analysts noted ongoing uncertainty about the BoJ\u2019s next steps. The market mood also reflected ongoing US rate expectations. USD/JPY was reported around 156.42 per dollar at points in the session. ([brecorder.com](https://www.brecorder.com/news/40408994/yen-hits-two-week-low-against-dollar))\n- Analyst color (embedded in Feb 26 coverage): Some analysts suggested there could be further moves in USD/JPY depending on how BoJ policy evolves and on domestic political signals. For example, Edward Jones\u2019 Angelo Kourkafas was quoted noting there is \u201cscope for appreciation\u201d in the context of the yen\u2019s movements amid policy uncertainty. ([brecorder.com](https://www.brecorder.com/news/40408994/yen-hits-two-week-low-against-dollar))\n\nCurrent price reference: The user-listed price is 155.941. In the latest coverage, USD/JPY traded near 156, i.e., the pair was hovering around the 156 level in these sessions. ([brecorder.com](https://www.brecorder.com/news/40408994/yen-hits-two-week-low-against-dollar))\n\n## Sentiment\n- Market mood is cautiously USD-positive with ongoing yen weakness, driven by BoJ policy-path uncertainties and recent political developments. Traders are watching for the BoJ\u2019s next steps and any potential intervention risk, while US rate expectations (and potential/ongoing Fed stance) also color the backdrop. ([uk.marketscreener.com](https://uk.marketscreener.com/news/yen-hits-two-week-low-after-pro-stimulus-board-appointments-ce7e5cdbd08ff727))\n\n## AI RECOMMENDATION: BULLISH\n**Reasoning**: \n- The yen weakened to around 156 per dollar in the latest sessions after the BoJ board-news and related policy-path uncertainty, signaling ongoing pressure on the JPY and potential for USD/JPY to move higher from current levels. The Feb 25\u201326 coverage notes a continued two-week-low backdrop for the yen, with the dollar showing relative strength as markets weigh US rate expectations. ([uk.marketscreener.com](https://uk.marketscreener.com/news/yen-hits-two-week-low-after-pro-stimulus-board-appointments-ce7e5cdbd08ff727))\n- Analysts cited in the coverage highlighted further potential for yen movement based on BoJ policy signals and political developments, implying more upside (in USD/JPY terms) if BoJ policy remains uncertain or hawkish expectations persist. ([brecorder.com](https://www.brecorder.com/news/40408994/yen-hits-two-week-low-against-dollar))\n\n**Confidence Level**: MEDIUM\n\nNotes:\n- If you want, I can pull more sources from the exact window (Feb 25\u201326, 2026) or focus on additional central-bank-related items (e.g., any BoJ communications or Fed commentary within that window) to refine the view.",
+        "ai_recommendation": "BULLISH",
         "ai_recommendation_reasoning": "",
         "confidence": "MEDIUM",
         "sources": [
           {
-            "url": "https://freshforex.com/analitics/fresh-forecast/fa/issue_339209.html?utm_source=openai",
-            "title": "Forex currency analysis - USD/JPY Fundamentals for 26 February 2026 | FreshForex"
+            "url": "https://uk.marketscreener.com/news/yen-hits-two-week-low-after-pro-stimulus-board-appointments-ce7e5cdbd08ff727",
+            "title": "Yen hits two-week low after pro-stimulus board appointments | MarketScreener UK"
           },
           {
-            "url": "https://www.boj.or.jp/en/announcements/calendar/index.htm/?utm_source=openai",
-            "title": "Release Schedule : \u65e5\u672c\u9280\u884c Bank of Japan"
-          },
-          {
-            "url": "https://www.mof.go.jp/english/policy/jgbs/auction/calendar/announcement/auct20260218e.htm?utm_source=openai",
-            "title": "Announcement of Liquidity Enhancement Auction on February 25, 2026: Ministry of Finance"
+            "url": "https://www.brecorder.com/news/40408994/yen-hits-two-week-low-against-dollar",
+            "title": "Yen hits two-week low against dollar - Markets - Business Recorder"
           }
         ],
         "citations": [
           {
-            "url": "https://freshforex.com/analitics/fresh-forecast/fa/issue_339209.html?utm_source=openai",
-            "title": "Forex currency analysis - USD/JPY Fundamentals for 26 February 2026 | FreshForex"
+            "url": "https://uk.marketscreener.com/news/yen-hits-two-week-low-after-pro-stimulus-board-appointments-ce7e5cdbd08ff727",
+            "title": "Yen hits two-week low after pro-stimulus board appointments | MarketScreener UK"
           },
           {
-            "url": "https://www.boj.or.jp/en/announcements/calendar/index.htm/?utm_source=openai",
-            "title": "Release Schedule : \u65e5\u672c\u9280\u884c Bank of Japan"
+            "url": "https://www.brecorder.com/news/40408994/yen-hits-two-week-low-against-dollar",
+            "title": "Yen hits two-week low against dollar - Markets - Business Recorder"
           },
           {
-            "url": "https://www.mof.go.jp/english/policy/jgbs/auction/calendar/announcement/auct20260218e.htm?utm_source=openai",
-            "title": "Announcement of Liquidity Enhancement Auction on February 25, 2026: Ministry of Finance"
+            "url": "https://www.brecorder.com/news/40408994/yen-hits-two-week-low-against-dollar",
+            "title": "Yen hits two-week low against dollar - Markets - Business Recorder"
           },
           {
-            "url": "https://freshforex.com/analitics/fresh-forecast/fa/issue_339209.html?utm_source=openai",
-            "title": "Forex currency analysis - USD/JPY Fundamentals for 26 February 2026 | FreshForex"
+            "url": "https://www.brecorder.com/news/40408994/yen-hits-two-week-low-against-dollar",
+            "title": "Yen hits two-week low against dollar - Markets - Business Recorder"
+          },
+          {
+            "url": "https://uk.marketscreener.com/news/yen-hits-two-week-low-after-pro-stimulus-board-appointments-ce7e5cdbd08ff727",
+            "title": "Yen hits two-week low after pro-stimulus board appointments | MarketScreener UK"
+          },
+          {
+            "url": "https://uk.marketscreener.com/news/yen-hits-two-week-low-after-pro-stimulus-board-appointments-ce7e5cdbd08ff727",
+            "title": "Yen hits two-week low after pro-stimulus board appointments | MarketScreener UK"
+          },
+          {
+            "url": "https://www.brecorder.com/news/40408994/yen-hits-two-week-low-against-dollar",
+            "title": "Yen hits two-week low against dollar - Markets - Business Recorder"
           }
         ],
         "recommendation_based_on_search": true
