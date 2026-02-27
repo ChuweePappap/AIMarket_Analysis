@@ -1,401 +1,409 @@
 {
-  "timestamp": "2026-02-27T04:31:04.000105+03:00",
+  "timestamp": "2026-02-27T09:16:03.738641+03:00",
   "timeframe": "H1",
   "total_symbols": 4,
   "ai_enabled": true,
   "analyses": [
     {
-      "timestamp": "2026-02-27T04:26:07.725880+03:00",
+      "timestamp": "2026-02-27T09:11:28.711511+03:00",
       "symbol": "XAUUSD",
       "timeframe": "H1",
       "price": {
-        "bid": 5177.98,
-        "ask": 5178.17,
+        "bid": 5197.39,
+        "ask": 5197.59,
         "last": 0.0
       },
-      "sentiment": "BULLISH",
-      "analysis": "Market shows positive momentum. RSI: 52.4, MFI: 50.9, Stochastic: 35.8",
+      "sentiment": "STRONG_BULLISH",
+      "analysis": "Market shows strong upward momentum. RSI: 54.8, MFI: 64.1, Stochastic: 75.4",
       "indicators": {
         "rsi": {
-          "value": 52.39,
+          "value": 54.83,
           "condition": "NEUTRAL"
         },
         "mfi": {
-          "value": 50.92,
+          "value": 64.12,
           "condition": "NEUTRAL"
         },
         "stochastic": {
-          "main": 35.83,
+          "main": 75.4,
           "condition": "NEUTRAL"
         },
         "macd": {
-          "main": -0.22263,
-          "signal": -0.26521,
+          "main": 2.69366,
+          "signal": 1.11804,
           "trend": "BULLISH"
         },
         "bollinger_bands": {
-          "upper": 5200.74322,
-          "middle": 5180.7435,
-          "lower": 5160.74378
+          "upper": 5202.74016,
+          "middle": 5181.612,
+          "lower": 5160.48384
         },
         "moving_average": {
-          "value": 5178.55714
+          "value": 5185.33071
         },
         "parabolic_sar": {
-          "value": 5130.72,
+          "value": 5166.96,
           "trend": "UPTREND"
         },
         "ichimoku": {
-          "tenkan_sen": 5180.785,
+          "tenkan_sen": 5183.855,
           "kijun_sen": 5168.1
         }
       },
       "signals": {
         "primary": "BUY",
-        "strength": "MODERATE",
-        "recommendation": "CONSIDER_LONG"
+        "strength": "STRONG",
+        "recommendation": "ENTER_LONG"
       },
       "ai_web_research": {
         "ai_enabled": true,
         "model": "gpt-5-nano",
         "symbol": "XAUUSD",
-        "timestamp": "2026-02-27T04:27:42.141650+03:00",
+        "timestamp": "2026-02-27T09:12:14.199247+03:00",
         "web_search_used": true,
-        "ai_response": "## News Summary\n- Feb 26, 2026: Gold rose modestly on a softer U.S. dollar as markets weighed tariff uncertainty and U.S.-Iran talks. Spot gold was reported around $5,184 per ounce (with U.S. futures near $5,200), reflecting safe-haven demand and a cautious tone ahead of further tariff news. ([uk.finance.yahoo.com](https://uk.finance.yahoo.com/news/gold-gains-softer-dollar-iran-014627916.html?utm_source=openai))\n- Feb 26, 2026: Market commentary noted that bullion hovered close to the $5,200 level as safe-haven demand persisted and investors priced in potential Fed policy signals, with several strategists signaling a continued range-bound pattern in the near term. ([tmgm.com](https://www.tmgm.com/en/analysis/market-news/article/gold-sticks-to-positive-bias-amid-softer-usd-safe-haven-buying-ahead-of-us-iran-talks-202602260339?utm_source=openai))\n\nNote: I did not find verifiable, widely published central-bank policy decisions dated Feb 27, 2026 during this 24-hour window. The prominent coverage within the window centers on the Feb 26 development above, with traders awaiting U.S. data and tariff/tariff-policy news that could influence gold's direction. The price references above align with Reuters-sourced reports republished by outlets like The Star and Business Recorder. ([brecorder.com](https://www.brecorder.com/news/40409084/gold-gains-on-softer-dollar-iran-us-talks-in-focus?utm_source=openai))\n\nCurrent price reference you gave: 5,177.98. The latest reported level in the window shows gold trading in the roughly $5,180\u2013$5,200 zone around Feb 26, 2026. ([uk.finance.yahoo.com](https://uk.finance.yahoo.com/news/gold-gains-softer-dollar-iran-014627916.html?utm_source=openai))\n\n## Sentiment\n- Mixed to mildly bullish for safe-haven assets in the near term, driven by geopolitical tensions (U.S.-Iran talks) and tariff uncertainty, but tempered by a still-strong U.S. dollar and ongoing questions about Fed policy. In short, sentiment is cautious with a bias toward consolidation in a tight range around the $5,180\u2013$5,200 area. ([uk.finance.yahoo.com](https://uk.finance.yahoo.com/news/gold-gains-softer-dollar-iran-014627916.html?utm_source=openai))\n\n## AI RECOMMENDATION: NEUTRAL\n**Reasoning**: News in this 24-hour window centers on softer dollar and geopolitical risk (U.S.-Iran talks) supporting a bounce near $5,200, but there is no clear breakout beyond the resistance zone. Traders appear to be awaiting fresh catalysts (tariff developments, Fed signals, or key data releases) before committing to a directional move. This points to a neutral stance rather than a robust bullish or bearish call. ([uk.finance.yahoo.com](https://uk.finance.yahoo.com/news/gold-gains-softer-dollar-iran-014627916.html?utm_source=openai))\n**Confidence Level**: MEDIUM",
+        "ai_response": "## News Summary\n- AP News (Feb 26, 2026) \u2013 Gold Futures on the COMEX showed active trading with high volume (about 143,260 contracts) and a notable reduction in open interest (about 419,687 contracts) as of 4:30 PM ET. The article focuses on futures activity rather than a single price print, indicating strong session momentum around gold that day. ([apnews.com](https://apnews.com/article/2585932804da5a2af47f762cd22313af?utm_source=openai))\n\n- Yahoo Finance (Feb 26, 2026) \u2013 Gold futures (GC=F) opened around $5,175.30 per ounce and traded near $5,200 intraday before pulling back. This aligns with ongoing safe-haven demand amid geopolitical and policy headlines. ([finance.yahoo.com](https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-thursday-february-26-gold-price-moderates-as-us-iran-talks-continue-124058098.html?utm_source=openai))\n\n- Money.com (Feb 26, 2026) \u2013 Gold futures opened around $5,184.29 per ounce, with the prior close at $5,226.20, pointing to modest intraday volatility within the roughly $5,150\u2013$5,200 zone that day. ([money.com](https://money.com/gold-prices-today-february-26-2026/?utm_source=openai))\n\n- JPMorgan forecast note (Feb 26, 2026) \u2013 Aggregated reporting (via AOL\u2019s summary of Reuters) indicated JPMorgan\u2019s long-run stance on gold remained bullish, including a long-term target around $4,500 and a year-end target of $6,300 for 2026, underscoring continued central-bank/investor demand as a driver. This is a secondary outlet recapping Reuters material; the underlying view references central-bank demand as a key catalyst. ([aol.com](https://www.aol.com/finance/jpmorgan-revamps-long-term-gold-010700265.html?utm_source=openai))\n\nNotes:\n- Within Feb 26\u201327, 2026, there isn\u2019t a clearly reported, stand-alone central-bank policy announcement about gold that we can verify from major outlets in this window. The pieces above reflect price action and investors\u2019 forecasts (not a formal central-bank policy release) that are relevant to XAUUSD during the period. If you\u2019d like, I can broaden the search to include any late-February coverage that mentions central-bank purchases or policy twists even if it\u2019s not a dedicated \u201cXAUUSD news\u201d item.\n\nCurrent price reference you gave: 5197.39 (XAUUSD). The day\u2019s activity in this window places gold in the roughly $5,150\u2013$5,200 area, consistent with the articles above. ([finance.yahoo.com](https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-thursday-february-26-gold-price-moderates-as-us-iran-talks-continue-124058098.html?utm_source=openai))\n\n## Sentiment\n- Market mood appears cautiously positive toward gold as a safe-haven and inflation hedge, with ongoing demand from investors and central banks referenced in forecast notes. However, within this exact 26\u201327 February window, there isn\u2019t a decisive, fresh central-bank action or policy surprise that clearly shifts momentum. The tone across sources indicates a continuation of elevated prices and volatility, not a dramatic breakout driven by new policy. ([finance.yahoo.com](https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-thursday-february-26-gold-price-moderates-as-us-iran-talks-continue-124058098.html?utm_source=openai))\n\n## AI RECOMMENDATION: NEUTRAL\n**Reasoning**: While price remains elevated and safe-haven demand persists, there\u2019s no new, verifiable central-bank action or data release in the Feb 26\u201327 window that decisively confirms a directional breakout. Most signals are illustrative of ongoing sentiment and forecast revisions rather than a concrete, near-term catalyst. The available coverage (AP/Yahoo/Money) shows activity and range-bound trading rather than a clear breakout cue. ([apnews.com](https://apnews.com/article/2585932804da5a2af47f762cd22313af?utm_source=openai))\n\n**Confidence Level**: MEDIUM\n\nWould you like me to expand the search to include broader sources (e.g., more feeds, regional outlets, or financial data services) or extend the date range to ensure we capture any late-February developments that mention central-bank activity or new forecasts?",
         "ai_recommendation": "NEUTRAL",
         "ai_recommendation_reasoning": "",
         "confidence": "MEDIUM",
         "sources": [
           {
-            "url": "https://uk.finance.yahoo.com/news/gold-gains-softer-dollar-iran-014627916.html?utm_source=openai",
-            "title": "Gold gains on softer dollar; Iran-US talks in focus"
+            "url": "https://apnews.com/article/2585932804da5a2af47f762cd22313af?utm_source=openai",
+            "title": "BC-Gold Futures"
           },
           {
-            "url": "https://www.tmgm.com/en/analysis/market-news/article/gold-sticks-to-positive-bias-amid-softer-usd-safe-haven-buying-ahead-of-us-iran-talks-202602260339?utm_source=openai",
-            "title": "Gold sticks to positive bias amid softer USD, safe-haven buying ahead of US-Iran talks"
+            "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-thursday-february-26-gold-price-moderates-as-us-iran-talks-continue-124058098.html?utm_source=openai",
+            "title": "Gold price today, Thursday, February 26: Gold price moderates as U.S.-Iran talks continue"
           },
           {
-            "url": "https://www.brecorder.com/news/40409084/gold-gains-on-softer-dollar-iran-us-talks-in-focus?utm_source=openai",
-            "title": "Gold gains on softer dollar; Iran-US talks in focus - Markets - Business Recorder"
+            "url": "https://money.com/gold-prices-today-february-26-2026/?utm_source=openai",
+            "title": "Today's Gold Prices: February 26, 2026 | Money"
+          },
+          {
+            "url": "https://www.aol.com/finance/jpmorgan-revamps-long-term-gold-010700265.html?utm_source=openai",
+            "title": "JPMorgan revamps long-term gold price target - AOL"
           }
         ],
         "citations": [
           {
-            "url": "https://uk.finance.yahoo.com/news/gold-gains-softer-dollar-iran-014627916.html?utm_source=openai",
-            "title": "Gold gains on softer dollar; Iran-US talks in focus"
+            "url": "https://apnews.com/article/2585932804da5a2af47f762cd22313af?utm_source=openai",
+            "title": "BC-Gold Futures"
           },
           {
-            "url": "https://www.tmgm.com/en/analysis/market-news/article/gold-sticks-to-positive-bias-amid-softer-usd-safe-haven-buying-ahead-of-us-iran-talks-202602260339?utm_source=openai",
-            "title": "Gold sticks to positive bias amid softer USD, safe-haven buying ahead of US-Iran talks"
+            "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-thursday-february-26-gold-price-moderates-as-us-iran-talks-continue-124058098.html?utm_source=openai",
+            "title": "Gold price today, Thursday, February 26: Gold price moderates as U.S.-Iran talks continue"
           },
           {
-            "url": "https://www.brecorder.com/news/40409084/gold-gains-on-softer-dollar-iran-us-talks-in-focus?utm_source=openai",
-            "title": "Gold gains on softer dollar; Iran-US talks in focus - Markets - Business Recorder"
+            "url": "https://money.com/gold-prices-today-february-26-2026/?utm_source=openai",
+            "title": "Today's Gold Prices: February 26, 2026 | Money"
           },
           {
-            "url": "https://uk.finance.yahoo.com/news/gold-gains-softer-dollar-iran-014627916.html?utm_source=openai",
-            "title": "Gold gains on softer dollar; Iran-US talks in focus"
+            "url": "https://www.aol.com/finance/jpmorgan-revamps-long-term-gold-010700265.html?utm_source=openai",
+            "title": "JPMorgan revamps long-term gold price target - AOL"
           },
           {
-            "url": "https://uk.finance.yahoo.com/news/gold-gains-softer-dollar-iran-014627916.html?utm_source=openai",
-            "title": "Gold gains on softer dollar; Iran-US talks in focus"
+            "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-thursday-february-26-gold-price-moderates-as-us-iran-talks-continue-124058098.html?utm_source=openai",
+            "title": "Gold price today, Thursday, February 26: Gold price moderates as U.S.-Iran talks continue"
           },
           {
-            "url": "https://uk.finance.yahoo.com/news/gold-gains-softer-dollar-iran-014627916.html?utm_source=openai",
-            "title": "Gold gains on softer dollar; Iran-US talks in focus"
+            "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-thursday-february-26-gold-price-moderates-as-us-iran-talks-continue-124058098.html?utm_source=openai",
+            "title": "Gold price today, Thursday, February 26: Gold price moderates as U.S.-Iran talks continue"
+          },
+          {
+            "url": "https://apnews.com/article/2585932804da5a2af47f762cd22313af?utm_source=openai",
+            "title": "BC-Gold Futures"
           }
         ],
         "recommendation_based_on_search": true
       }
     },
     {
-      "timestamp": "2026-02-27T04:27:42.161838+03:00",
+      "timestamp": "2026-02-27T09:12:14.216942+03:00",
       "symbol": "EURUSD",
       "timeframe": "H1",
       "price": {
-        "bid": 1.1795499999999999,
-        "ask": 1.17963,
+        "bid": 1.18102,
+        "ask": 1.1811,
         "last": 0.0
       },
-      "sentiment": "BEARISH",
-      "analysis": "Market shows negative pressure. RSI: 47.8, MFI: 46.4, Stochastic: 64.8",
+      "sentiment": "STRONG_BULLISH",
+      "analysis": "Market shows strong upward momentum. RSI: 60.2, MFI: 56.6, Stochastic: 87.3",
       "indicators": {
         "rsi": {
-          "value": 47.76,
+          "value": 60.2,
           "condition": "NEUTRAL"
         },
         "mfi": {
-          "value": 46.39,
+          "value": 56.63,
           "condition": "NEUTRAL"
         },
         "stochastic": {
-          "main": 64.77,
-          "condition": "NEUTRAL"
+          "main": 87.32,
+          "condition": "OVERBOUGHT"
         },
         "macd": {
-          "main": -0.00018,
-          "signal": -0.00014,
-          "trend": "BEARISH"
+          "main": 0.00012,
+          "signal": -5e-05,
+          "trend": "BULLISH"
         },
         "bollinger_bands": {
-          "upper": 1.18199,
-          "middle": 1.18,
-          "lower": 1.17802
+          "upper": 1.18185,
+          "middle": 1.17998,
+          "lower": 1.17811
         },
         "moving_average": {
-          "value": 1.17977
+          "value": 1.17983
         },
         "parabolic_sar": {
-          "value": 1.17739,
+          "value": 1.17873,
           "trend": "UPTREND"
         },
         "ichimoku": {
-          "tenkan_sen": 1.17897,
-          "kijun_sen": 1.18014
+          "tenkan_sen": 1.18003,
+          "kijun_sen": 1.17983
         }
       },
       "signals": {
-        "primary": "SELL",
-        "strength": "MODERATE",
-        "recommendation": "CONSIDER_SHORT"
+        "primary": "BUY",
+        "strength": "STRONG",
+        "recommendation": "ENTER_LONG"
       },
       "ai_web_research": {
         "ai_enabled": true,
         "model": "gpt-5-nano",
         "symbol": "EURUSD",
-        "timestamp": "2026-02-27T04:29:05.801320+03:00",
+        "timestamp": "2026-02-27T09:13:57.514236+03:00",
         "web_search_used": true,
-        "ai_response": "## News Summary\n- ECB/Lagarde signals and digital euro focus (Feb 26, 2026): ECB President Christine Lagarde reiterated that she intends to serve through her term (until Oct 2027) and highlighted the digital euro as a core, long-term project. This stance supports the euro's policy credibility and the euro\u2019s longer-term valuation narrative. ([investing.com](https://www.investing.com/news/economy-news/ecbs-lagarde-hints-again-at-completing-term-4526747))\n- Eurozone sentiment data support euro upside; ING's take on the euro\u2019s momentum: January eurozone economic sentiment rose to multi-year highs, and lending to households in January remained resilient. ING economist Bert Colijn flagged improving growth signals, helping underpin the euro\u2019s uptrend. The EURUSD was around 1.1795, with several data points reinforcing a constructive setup. ([poundsterlinglive.com](https://www.poundsterlinglive.com/eurusd/23006-euro-dollar-uptrend-to-extend-as-economic-sentiment-reaches-three-year-high))\n- Current EURUSD level and near-term setup: The pair traded near 1.1795 on Feb 26, 2026, with a pattern of higher lows that technicians view as supportive of a continuing upmove, albeit within a broad range. ([poundsterlinglive.com](https://www.poundsterlinglive.com/eurusd/23006-euro-dollar-uptrend-to-extend-as-economic-sentiment-reaches-three-year-high))\n- U.S. data backdrop (slightly supportive for the euro in the near term): Europe Roundup noting US data releases showed Initial Jobless Claims around 212k (vs. 217k forecast), and attention remained on how US data and tariff headlines could influence dollar strength or weakness. ([econotimes.com](https://www.econotimes.com/Europe-Roundup-Sterling-eases-against-dollar-European-shares-hit-record-highs-Oil-prices-slip-February-26th2026-1734823))\n- Analyst forecasts and trading signals around Feb 26, 2026: Several analysts/publishers published bullish or constructive EURUSD view in this window, with DailyForex signalling a bullish setup targeting 1.2000 and other forecasters outlining near-term upside resistance around 1.1830 and beyond. ([dailyforex.com](https://www.dailyforex.com/forex-technical-analysis/2026/02/eurusd-signal-26-february-2026/241721?utm_source=openai))\n\n## Sentiment\n- Market mood: Mixed but mildly constructive for the euro. News confirming the ECB\u2019s ongoing digital-euro focus and improving euro-area sentiment supports a bullish tilt, while trade/tariff headlines and US data risk keep the euro in a range-bound environment. Signals from multiple outlets in this window show EURUSD hovering around 1.179\u20131.183 with a bias toward higher lows, consistent with an orderly uptrend within a broader range. ([investing.com](https://www.investing.com/news/economy-news/ecbs-lagarde-hints-again-at-completing-term-4526747))\n\n## AI RECOMMENDATION: BULLISH\n**Reasoning**: \n- Lagarde\u2019s comments reinforce the ECB\u2019s commitment to the euro and long-term digital euro project, underpinning euro credibility and likely supporting euro-USD in the near term. ([investing.com](https://www.investing.com/news/economy-news/ecbs-lagarde-hints-again-at-completing-term-4526747))\n- A visible improvement in euro-area sentiment and a still-resilient lending environment in January point to constructive eurozone momentum, which tends to support EURUSD when US policy remains data-dependent. ([poundsterlinglive.com](https://www.poundsterlinglive.com/eurusd/23006-euro-dollar-uptrend-to-extend-as-economic-sentiment-reaches-three-year-high))\n- The EURUSD price action on Feb 26 shows a pattern of higher lows near 1.18, suggesting established technical support and potential for further upside within the current range. ([poundsterlinglive.com](https://www.poundsterlinglive.com/eurusd/23006-euro-dollar-uptrend-to-extend-as-economic-sentiment-reaches-three-year-high))\n- Some reputable FX outlets published bullish or constructive forecasts for EURUSD in this window (e.g., signals pointing toward a test of 1.20+ in the near term), aligning with a continuation of the uptrend from current levels. ([dailyforex.com](https://www.dailyforex.com/forex-technical-analysis/2026/02/eurusd-signal-26-february-2026/241721?utm_source=openai))\n\n**Confidence Level**: MEDIUM\n\nNotes:\n- If you\u2019d like, I can drill down to additional sources from this 24-hour window (Feb 26\u201327, 2026), or focus on any particular data releases (e.g., Lagarde\u2019s exact remarks, US initial jobless claims, or euro-area lending data) to refine the stance.",
-        "ai_recommendation": "BULLISH",
-        "ai_recommendation_reasoning": "",
-        "confidence": "MEDIUM",
-        "sources": [
-          {
-            "url": "https://www.investing.com/news/economy-news/ecbs-lagarde-hints-again-at-completing-term-4526747",
-            "title": "ECB\u2019s Lagarde hints again at completing term By Reuters"
-          },
-          {
-            "url": "https://www.poundsterlinglive.com/eurusd/23006-euro-dollar-uptrend-to-extend-as-economic-sentiment-reaches-three-year-high",
-            "title": "Euro-Dollar Uptrend to Extend as Economic Sentiment Reaches Three-Year High"
-          },
-          {
-            "url": "https://www.econotimes.com/Europe-Roundup-Sterling-eases-against-dollar-European-shares-hit-record-highs-Oil-prices-slip-February-26th2026-1734823",
-            "title": "Europe Roundup:  Sterling eases against dollar, European shares hit record highs, Oil prices slip   -February 26th,2026 - EconoTimes"
-          },
-          {
-            "url": "https://www.dailyforex.com/forex-technical-analysis/2026/02/eurusd-signal-26-february-2026/241721?utm_source=openai",
-            "title": "EUR/USD Forex Signal 26/02: Bullish Outlook as Bulls Target"
-          }
-        ],
-        "citations": [
-          {
-            "url": "https://www.investing.com/news/economy-news/ecbs-lagarde-hints-again-at-completing-term-4526747",
-            "title": "ECB\u2019s Lagarde hints again at completing term By Reuters"
-          },
-          {
-            "url": "https://www.poundsterlinglive.com/eurusd/23006-euro-dollar-uptrend-to-extend-as-economic-sentiment-reaches-three-year-high",
-            "title": "Euro-Dollar Uptrend to Extend as Economic Sentiment Reaches Three-Year High"
-          },
-          {
-            "url": "https://www.poundsterlinglive.com/eurusd/23006-euro-dollar-uptrend-to-extend-as-economic-sentiment-reaches-three-year-high",
-            "title": "Euro-Dollar Uptrend to Extend as Economic Sentiment Reaches Three-Year High"
-          },
-          {
-            "url": "https://www.econotimes.com/Europe-Roundup-Sterling-eases-against-dollar-European-shares-hit-record-highs-Oil-prices-slip-February-26th2026-1734823",
-            "title": "Europe Roundup:  Sterling eases against dollar, European shares hit record highs, Oil prices slip   -February 26th,2026 - EconoTimes"
-          },
-          {
-            "url": "https://www.dailyforex.com/forex-technical-analysis/2026/02/eurusd-signal-26-february-2026/241721?utm_source=openai",
-            "title": "EUR/USD Forex Signal 26/02: Bullish Outlook as Bulls Target"
-          },
-          {
-            "url": "https://www.investing.com/news/economy-news/ecbs-lagarde-hints-again-at-completing-term-4526747",
-            "title": "ECB\u2019s Lagarde hints again at completing term By Reuters"
-          },
-          {
-            "url": "https://www.investing.com/news/economy-news/ecbs-lagarde-hints-again-at-completing-term-4526747",
-            "title": "ECB\u2019s Lagarde hints again at completing term By Reuters"
-          },
-          {
-            "url": "https://www.poundsterlinglive.com/eurusd/23006-euro-dollar-uptrend-to-extend-as-economic-sentiment-reaches-three-year-high",
-            "title": "Euro-Dollar Uptrend to Extend as Economic Sentiment Reaches Three-Year High"
-          },
-          {
-            "url": "https://www.poundsterlinglive.com/eurusd/23006-euro-dollar-uptrend-to-extend-as-economic-sentiment-reaches-three-year-high",
-            "title": "Euro-Dollar Uptrend to Extend as Economic Sentiment Reaches Three-Year High"
-          },
-          {
-            "url": "https://www.dailyforex.com/forex-technical-analysis/2026/02/eurusd-signal-26-february-2026/241721?utm_source=openai",
-            "title": "EUR/USD Forex Signal 26/02: Bullish Outlook as Bulls Target"
-          }
-        ],
-        "recommendation_based_on_search": true
-      }
-    },
-    {
-      "timestamp": "2026-02-27T04:29:05.806852+03:00",
-      "symbol": "GBPUSD",
-      "timeframe": "H1",
-      "price": {
-        "bid": 1.34854,
-        "ask": 1.34864,
-        "last": 0.0
-      },
-      "sentiment": "BEARISH",
-      "analysis": "Market shows negative pressure. RSI: 39.3, MFI: 48.1, Stochastic: 68.6",
-      "indicators": {
-        "rsi": {
-          "value": 39.26,
-          "condition": "NEUTRAL"
-        },
-        "mfi": {
-          "value": 48.08,
-          "condition": "NEUTRAL"
-        },
-        "stochastic": {
-          "main": 68.63,
-          "condition": "NEUTRAL"
-        },
-        "macd": {
-          "main": -0.00147,
-          "signal": -0.00124,
-          "trend": "BEARISH"
-        },
-        "bollinger_bands": {
-          "upper": 1.35708,
-          "middle": 1.35094,
-          "lower": 1.3448
-        },
-        "moving_average": {
-          "value": 1.34979
-        },
-        "parabolic_sar": {
-          "value": 1.34453,
-          "trend": "UPTREND"
-        },
-        "ichimoku": {
-          "tenkan_sen": 1.34745,
-          "kijun_sen": 1.35102
-        }
-      },
-      "signals": {
-        "primary": "SELL",
-        "strength": "MODERATE",
-        "recommendation": "CONSIDER_SHORT"
-      },
-      "ai_web_research": {
-        "ai_enabled": true,
-        "model": "gpt-5-nano",
-        "symbol": "GBPUSD",
-        "timestamp": "2026-02-27T04:30:02.234711+03:00",
-        "web_search_used": true,
-        "ai_response": "## News Summary\n- FreshForex (Feb 26, 2026): GBPUSD forecast to sell at 1.3525 with a take-profit at 1.3435, stop at 1.3555. This is a bearish setup for the near term. ([freshforex.com](https://freshforex.com/analitics/fresh-forecast/fa/issue_339208.html?utm_source=openai))\n- RoboForex (Feb 26, 2026): GBPUSD forecast on the 4-hour chart targets a move to 1.3620, followed by a decline to 1.3460 (potential path to 1.3222 longer term). Indicates a near-term push higher before a retracement. ([roboforex.com](https://roboforex.com/beginners/analytics/forex-forecast/forex-technical-analysis/technical-forecast-daily-2026-02-26/?utm_source=openai))\n- FX.co (Feb 26, 2026): GBP/USD forecast notes sideways to slightly bullish tendencies but highlights resistance around 1.3595\u20131.3620 and support around 1.3437\u20131.3470; overall bearish tone in the short run based on wave structure. ([fx.co](https://www.fx.co/en/analysis/439130?utm_source=openai))\n- Market context: No widely reported central-bank announcements specifically dated Feb 26\u201327, 2026 from top outlets surfaced in this search window. The next major BoE event noted in market analysis is the Bank of England decision on March 19, 2026. ([ebc.com](https://www.ebc.com/forex/gbpusd-technical-analysis-trading-the-february-2026-pullback?utm_source=openai))\n\nNote: I focused on dated items within Feb 26\u201327, 2026. The strongest, verifiable \u201cnews\u201d items in mainstream outlets for that exact window were not clearly found; the items above come from forecast/analyst-style sources and indicate near-term technical bias rather than official central-bank statements.\n\nCurrent price cited by you: 1.34854.\n\n## Sentiment\n- Mixed to cautiously bearish in the near term. Several forecast articles within Feb 26\u201327 show potential for a dip toward the 1.3437\u20131.3470 area, while others suggest a short-lived move higher to around 1.3620 before any deeper pullback. This combination points to a polarized, uncertain near-term mood rather than a clear trend. ([fx.co](https://www.fx.co/en/analysis/439130?utm_source=openai))\n\n## AI RECOMMENDATION: NEUTRAL\n**Reasoning**: Within the Feb 26\u201327 window, the credible signals portray a lack of a single, strong directional catalyst. Technical forecasts point in opposing directions in the very near term (some bearish targets around 1.343\u20131.347, some upside toward 1.3620 before a retrace). Without a confirmed breakout or a central-bank surprise, the bias remains uncertain. Current price near 1.3485 sits in a zone debated by several forecasts, supporting a neutral stance until a clearer signal emerges. ([fx.co](https://www.fx.co/en/analysis/439130?utm_source=openai))\n\n**Reasoning (expanded)**:\n- Bearish near-term setups exist (Sell targets around 1.3435\u20131.3470 from FreshForex and FX.co outlooks). ([freshforex.com](https://freshforex.com/analitics/fresh-forecast/fa/issue_339208.html?utm_source=openai))\n- Some forecasts anticipate a brief rally toward 1.3620 before weakness resumes, implying a pullback risk rather than a sustained upmove. ([roboforex.com](https://roboforex.com/beginners/analytics/forex-forecast/forex-technical-analysis/technical-forecast-daily-2026-02-26/?utm_source=openai))\n- No confirmed flagship central-bank trigger in this exact 26\u201327 Feb window in the major outlets found here, which often drives movement in GBPUSD; lack of a clear macro trigger supports a watchful stance. ([ebc.com](https://www.ebc.com/forex/gbpusd-technical-analysis-trading-the-february-2026-pullback?utm_source=openai))\n\n**Confidence Level**: MEDIUM\n\nWould you like me to keep monitoring for any official central-bank announcements or fresh top-tier coverage (Reuters/Bloomberg/CNBC) specifically dated Feb 26\u201327, 2026 and update the briefing? I can also widen the search to include more regional outlets or set up alerts for new GBPUSD news in this window.",
+        "ai_response": "## News Summary\n- ECB President Christine Lagarde testified before the European Parliament on February 26, 2026. She noted that euro-area inflation has fallen from its 2022 peak and was 1.7% in January, with euro-zone growth of about 0.3% in Q4 2025 (and about 1.5% for 2025 overall). She also emphasized a data-dependent policy stance and said they are not pre-committing to a specific rate path. ([ecb.europa.eu](https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260226~87d6c12449.pt.html))\n- Lagarde also underscored the ECB\u2019s digital euro initiative as a priority and indicated it will take until the end of her term to deliver and consolidate the mission (price stability, financial stability, and the digital euro). This was reported in Reuters\u2019 coverage of her remarks. ([investing.com](https://www.investing.com/news/economy-news/ecbs-lagarde-hints-again-at-completing-term-4526747))\n- Market snapshot: EURUSD was around 1.181 on February 26, 2026, with a reported intraday rise to about 1.181 as markets digested the ECB communications. This level is reflected in intra-day market notes. ([emiratesnbdresearch.com](https://www.emiratesnbdresearch.com/en/articles/daily-outlook-26-february-2026))\n- Analyst chatter and forecasts around the same window highlighted constructive euro sentiment amid improving euro-area data. For example, ING\u2019s Bert Colijn was quoted noting upbeat sentiment and the potential for higher EUR/USD as growth remains modestly positive. Some forecasts point to higher euro/dollar levels later in 2026, consistent with a broad, constructive euro view. ([poundsterlinglive.com](https://www.poundsterlinglive.com/eurusd/23006-euro-dollar-uptrend-to-extend-as-economic-sentiment-reaches-three-year-high))\n- Market view around the same day also framed EURUSD as range-bound in the near term, with a neutral bias in the immediate session as traders awaited clearer macro drivers. ([hw.online](https://hw.online/forex-news/market-view-thursday-february-25-2026/))\n\n## Sentiment\n- Market mood: Neutral to mildly constructive for the euro. The ECB\u2019s communication and Lagarde\u2019s remarks supported a steadier policy backdrop and a backbone for euro resilience, while tariff headlines and US policy uncertainty keep upside in check in the near term. The euro was seen trading in the 1.18 area, with upside potential limited by near-term policy and data risk. ([ecb.europa.eu](https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260226~87d6c12449.pt.html))\n\n## AI RECOMMENDATION: NEUTRAL\n**Reasoning**: The latest ECB communications (Lagarde\u2019s appearance before the European Parliament) reinforce a data-dependent and cautious stance, with inflation cooling and growth improving but not accelerating decisively. The digital euro remains a long-term project, but policy path remains unclear in the near term, which supports a balanced, range-bound setup for EURUSD around 1.18 rather than a clear bullish breakout. Analyst commentary also leans into a constructive but cautious euro outlook, with some forecasts suggesting higher levels later in 2026, not immediate spikes. ([ecb.europa.eu](https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260226~87d6c12449.pt.html))\n**Confidence Level**: MEDIUM\n\nNotes and data points used:\n- Inflation and growth details from ECB press material of February 26, 2026 (inflation 1.7% in January; growth 0.3% in Q4 2025; 1.5% in 2025; data-dependent stance). ([ecb.europa.eu](https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260226~87d6c12449.pt.html))\n- Lagarde\u2019s digital euro emphasis and term-limits messaging (Reuters summary via Investing.com). ([investing.com](https://www.investing.com/news/economy-news/ecbs-lagarde-hints-again-at-completing-term-4526747))\n- Actual EURUSD level around 1.181 on Feb 26, 2026 (Emirates NBD Daily Outlook). ([emiratesnbdresearch.com](https://www.emiratesnbdresearch.com/en/articles/daily-outlook-26-february-2026))\n- Analyst color and upside forecasts (ING commentary; mid-2026 upside targets discussed by PoundSterlingLive). ([poundsterlinglive.com](https://www.poundsterlinglive.com/eurusd/23006-euro-dollar-uptrend-to-extend-as-economic-sentiment-reaches-three-year-high))\n- Near-term market bias and neutral range around 1.18 (Headway Market View). ([hw.online](https://hw.online/forex-news/market-view-thursday-february-25-2026/))\n\nIf you\u2019d like, I can pull additional sources from Reuters/Bloomberg or assemble a quick 1-pageImpact note with potential EURUSD scenarios for first half of March 2026.",
         "ai_recommendation": "NEUTRAL",
         "ai_recommendation_reasoning": "",
         "confidence": "MEDIUM",
         "sources": [
           {
-            "url": "https://freshforex.com/analitics/fresh-forecast/fa/issue_339208.html?utm_source=openai",
-            "title": "Forex Fundamental review of GBP/USD - Market prediction 26 February 2026 | FreshForex"
+            "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260226~87d6c12449.pt.html",
+            "title": "Hearing of the Committee on Economic and Monetary Affairs of the European Parliament"
           },
           {
-            "url": "https://roboforex.com/beginners/analytics/forex-forecast/forex-technical-analysis/technical-forecast-daily-2026-02-26/?utm_source=openai",
-            "title": "Daily technical analysis & forecast for 26 February 2026 (EURUSD, XAUUSD, USDJPY, GBPUSD, AUDUSD, USDCAD, and Brent) - RoboForex"
+            "url": "https://www.investing.com/news/economy-news/ecbs-lagarde-hints-again-at-completing-term-4526747",
+            "title": "ECB\u2019s Lagarde hints again at completing term By Reuters"
           },
           {
-            "url": "https://www.fx.co/en/analysis/439130?utm_source=openai",
-            "title": "FX.co - GBP/USD Forecast on February 26, 2026"
+            "url": "https://www.emiratesnbdresearch.com/en/articles/daily-outlook-26-february-2026",
+            "title": "Daily Outlook 26 February 2026 | Emirates NBD Research"
           },
           {
-            "url": "https://www.ebc.com/forex/gbpusd-technical-analysis-trading-the-february-2026-pullback?utm_source=openai",
-            "title": "GBPUSD Technical Analysis: Trading The February 2026 Pullback | EBC Financial Group"
+            "url": "https://www.poundsterlinglive.com/eurusd/23006-euro-dollar-uptrend-to-extend-as-economic-sentiment-reaches-three-year-high",
+            "title": "Euro-Dollar Uptrend to Extend as Economic Sentiment Reaches Three-Year High"
+          },
+          {
+            "url": "https://hw.online/forex-news/market-view-thursday-february-25-2026/",
+            "title": "Market View: February 26 | Headway"
           }
         ],
         "citations": [
           {
-            "url": "https://freshforex.com/analitics/fresh-forecast/fa/issue_339208.html?utm_source=openai",
-            "title": "Forex Fundamental review of GBP/USD - Market prediction 26 February 2026 | FreshForex"
+            "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260226~87d6c12449.pt.html",
+            "title": "Hearing of the Committee on Economic and Monetary Affairs of the European Parliament"
           },
           {
-            "url": "https://roboforex.com/beginners/analytics/forex-forecast/forex-technical-analysis/technical-forecast-daily-2026-02-26/?utm_source=openai",
-            "title": "Daily technical analysis & forecast for 26 February 2026 (EURUSD, XAUUSD, USDJPY, GBPUSD, AUDUSD, USDCAD, and Brent) - RoboForex"
+            "url": "https://www.investing.com/news/economy-news/ecbs-lagarde-hints-again-at-completing-term-4526747",
+            "title": "ECB\u2019s Lagarde hints again at completing term By Reuters"
           },
           {
-            "url": "https://www.fx.co/en/analysis/439130?utm_source=openai",
-            "title": "FX.co - GBP/USD Forecast on February 26, 2026"
+            "url": "https://www.emiratesnbdresearch.com/en/articles/daily-outlook-26-february-2026",
+            "title": "Daily Outlook 26 February 2026 | Emirates NBD Research"
           },
           {
-            "url": "https://www.ebc.com/forex/gbpusd-technical-analysis-trading-the-february-2026-pullback?utm_source=openai",
-            "title": "GBPUSD Technical Analysis: Trading The February 2026 Pullback | EBC Financial Group"
+            "url": "https://www.poundsterlinglive.com/eurusd/23006-euro-dollar-uptrend-to-extend-as-economic-sentiment-reaches-three-year-high",
+            "title": "Euro-Dollar Uptrend to Extend as Economic Sentiment Reaches Three-Year High"
           },
           {
-            "url": "https://www.fx.co/en/analysis/439130?utm_source=openai",
-            "title": "FX.co - GBP/USD Forecast on February 26, 2026"
+            "url": "https://hw.online/forex-news/market-view-thursday-february-25-2026/",
+            "title": "Market View: February 26 | Headway"
           },
           {
-            "url": "https://www.fx.co/en/analysis/439130?utm_source=openai",
-            "title": "FX.co - GBP/USD Forecast on February 26, 2026"
+            "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260226~87d6c12449.pt.html",
+            "title": "Hearing of the Committee on Economic and Monetary Affairs of the European Parliament"
           },
           {
-            "url": "https://freshforex.com/analitics/fresh-forecast/fa/issue_339208.html?utm_source=openai",
-            "title": "Forex Fundamental review of GBP/USD - Market prediction 26 February 2026 | FreshForex"
+            "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260226~87d6c12449.pt.html",
+            "title": "Hearing of the Committee on Economic and Monetary Affairs of the European Parliament"
           },
           {
-            "url": "https://roboforex.com/beginners/analytics/forex-forecast/forex-technical-analysis/technical-forecast-daily-2026-02-26/?utm_source=openai",
-            "title": "Daily technical analysis & forecast for 26 February 2026 (EURUSD, XAUUSD, USDJPY, GBPUSD, AUDUSD, USDCAD, and Brent) - RoboForex"
+            "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260226~87d6c12449.pt.html",
+            "title": "Hearing of the Committee on Economic and Monetary Affairs of the European Parliament"
           },
           {
-            "url": "https://www.ebc.com/forex/gbpusd-technical-analysis-trading-the-february-2026-pullback?utm_source=openai",
-            "title": "GBPUSD Technical Analysis: Trading The February 2026 Pullback | EBC Financial Group"
+            "url": "https://www.investing.com/news/economy-news/ecbs-lagarde-hints-again-at-completing-term-4526747",
+            "title": "ECB\u2019s Lagarde hints again at completing term By Reuters"
+          },
+          {
+            "url": "https://www.emiratesnbdresearch.com/en/articles/daily-outlook-26-february-2026",
+            "title": "Daily Outlook 26 February 2026 | Emirates NBD Research"
+          },
+          {
+            "url": "https://www.poundsterlinglive.com/eurusd/23006-euro-dollar-uptrend-to-extend-as-economic-sentiment-reaches-three-year-high",
+            "title": "Euro-Dollar Uptrend to Extend as Economic Sentiment Reaches Three-Year High"
+          },
+          {
+            "url": "https://hw.online/forex-news/market-view-thursday-february-25-2026/",
+            "title": "Market View: February 26 | Headway"
           }
         ],
         "recommendation_based_on_search": true
       }
     },
     {
-      "timestamp": "2026-02-27T04:30:02.259713+03:00",
-      "symbol": "USDJPY",
+      "timestamp": "2026-02-27T09:13:57.523424+03:00",
+      "symbol": "GBPUSD",
       "timeframe": "H1",
       "price": {
-        "bid": 155.896,
-        "ask": 155.905,
+        "bid": 1.34859,
+        "ask": 1.3486799999999999,
         "last": 0.0
       },
-      "sentiment": "STRONG_BEARISH",
-      "analysis": "Market shows strong downward pressure. RSI: 43.5, MFI: 53.0, Stochastic: 32.8",
+      "sentiment": "NEUTRAL",
+      "analysis": "Market shows balanced conditions. RSI: 44.8, MFI: 42.6, Stochastic: 57.5",
       "indicators": {
         "rsi": {
-          "value": 43.49,
+          "value": 44.81,
           "condition": "NEUTRAL"
         },
         "mfi": {
-          "value": 52.98,
+          "value": 42.61,
           "condition": "NEUTRAL"
         },
         "stochastic": {
-          "main": 32.83,
+          "main": 57.45,
           "condition": "NEUTRAL"
         },
         "macd": {
-          "main": -0.03235,
-          "signal": -0.00289,
-          "trend": "BEARISH"
+          "main": -0.00112,
+          "signal": -0.00124,
+          "trend": "BULLISH"
         },
         "bollinger_bands": {
-          "upper": 156.34954,
-          "middle": 156.06805,
-          "lower": 155.78656
+          "upper": 1.35484,
+          "middle": 1.34971,
+          "lower": 1.34457
         },
         "moving_average": {
-          "value": 156.087
+          "value": 1.34832
         },
         "parabolic_sar": {
-          "value": 156.432,
+          "value": 1.35013,
           "trend": "DOWNTREND"
         },
         "ichimoku": {
-          "tenkan_sen": 156.0515,
-          "kijun_sen": 156.0515
+          "tenkan_sen": 1.34884,
+          "kijun_sen": 1.35039
+        }
+      },
+      "signals": {
+        "primary": "NEUTRAL",
+        "strength": "MODERATE",
+        "recommendation": "OBSERVE"
+      },
+      "ai_web_research": {
+        "ai_enabled": true,
+        "model": "gpt-5-nano",
+        "symbol": "GBPUSD",
+        "timestamp": "2026-02-27T09:14:51.386942+03:00",
+        "web_search_used": true,
+        "ai_response": "## News Summary\n- US jobs data watch: Ahead of the US initial jobless claims release on Feb 26, 2026, market commentary emphasized how a resilient U.S. labor market could keep dollar strength intact and influences the USD/GDP path. FreshForex notes the key event at 15:30 EET on Feb 26 and frames GBP/USD under pressure as markets parse higher US rates and inflation dynamics. ([freshforex.com](https://freshforex.com/analitics/fresh-forecast/fa/issue_339224.html?utm_source=openai))\n- BoE policy expectations intact but skewing dovish: Within this window, forecasts and analyst notes highlighted that traders are pricing in possible Bank of England easing in coming months, with the next big catalyst being the March 19, 2026 meeting. FreshForex points to a scenario where BoE cuts could come earlier than the Fed, weighing on sterling. ([freshforex.com](https://freshforex.com/analitics/fresh-forecast/fa/issue_339224.html?utm_source=openai))\n- Technical/forecast setup for GBPUSD: FX.co published a forecast around Feb 26-27 showing a bearish setup in GBPUSD, with a move higher toward 1.3595\u20131.3620 on the intraday chart but a expected slide toward 1.3437\u20131.3470 if bears take control. This aligns with the general near-term downside bias in the window. ([fx.co](https://www.fx.co/en/analysis/439130?utm_source=openai))\n- Aligned near-term trading view: FreshForex (Feb 27) and related forecasts illustrate a cautious-to-bearish stance for GBPUSD in this window, including specific sell ideas around 1.3560 with targets toward 1.3480, reinforcing the sense of limited upside near current levels. ([freshforex.com](https://freshforex.com/analitics/fresh-forecast/fa/issue_339224.html?utm_source=openai))\n\nCurrent price (provided): 1.34859\n\n## Sentiment\n- Bearish tilt in the near term. Market positioning across forecasts suggests the USD could stay supported on data, while UK policy expectations push for potential BoE easing ahead of the Fed, which tends to pressure GBPUSD after rallies. This aligns with the published forecasts calling for limited upside and potential downside into the 1.3437\u20131.3470 area. ([freshforex.com](https://freshforex.com/analitics/fresh-forecast/fa/issue_339224.html?utm_source=openai))\n\n## AI RECOMMENDATION: BEARISH\n**Reasoning**: The latest window of forecasts points to continued downside risk for GBPUSD:\n- A US data backdrop that could keep the dollar bid firm around the 26\u201327 Feb window, with investors watching unemployment claims and other data. ([freshforex.com](https://freshforex.com/analitics/fresh-forecast/fa/issue_339224.html?utm_source=openai))\n- Analysts expect BoE easing possibly starting earlier than the Fed, which tends to weigh on the pound in near-term trading. ([freshforex.com](https://freshforex.com/analitics/fresh-forecast/fa/issue_339224.html?utm_source=openai))\n- Technical forecasts in this window point to a bearish setup for GBPUSD, with suggested targets near 1.3437\u20131.3470 and further downside if 1.3470 breaks. ([fx.co](https://www.fx.co/en/analysis/439130?utm_source=openai))\n\n**Confidence Level**: MEDIUM\n\nIf you\u2019d like, I can broaden the search to include mainstream outlets (Reuters, Bloomberg, CNBC, FT) for direct news items from Feb 26\u201327, 2026 to supplement these forecasts with official reporting.",
+        "ai_recommendation": "BEARISH",
+        "ai_recommendation_reasoning": "",
+        "confidence": "MEDIUM",
+        "sources": [
+          {
+            "url": "https://freshforex.com/analitics/fresh-forecast/fa/issue_339224.html?utm_source=openai",
+            "title": "Forex analysis for GBP/USD - Fundamental insights on 27 February 2026 | FreshForex"
+          },
+          {
+            "url": "https://www.fx.co/en/analysis/439130?utm_source=openai",
+            "title": "FX.co - GBP/USD Forecast on February 26, 2026"
+          }
+        ],
+        "citations": [
+          {
+            "url": "https://freshforex.com/analitics/fresh-forecast/fa/issue_339224.html?utm_source=openai",
+            "title": "Forex analysis for GBP/USD - Fundamental insights on 27 February 2026 | FreshForex"
+          },
+          {
+            "url": "https://freshforex.com/analitics/fresh-forecast/fa/issue_339224.html?utm_source=openai",
+            "title": "Forex analysis for GBP/USD - Fundamental insights on 27 February 2026 | FreshForex"
+          },
+          {
+            "url": "https://www.fx.co/en/analysis/439130?utm_source=openai",
+            "title": "FX.co - GBP/USD Forecast on February 26, 2026"
+          },
+          {
+            "url": "https://freshforex.com/analitics/fresh-forecast/fa/issue_339224.html?utm_source=openai",
+            "title": "Forex analysis for GBP/USD - Fundamental insights on 27 February 2026 | FreshForex"
+          },
+          {
+            "url": "https://freshforex.com/analitics/fresh-forecast/fa/issue_339224.html?utm_source=openai",
+            "title": "Forex analysis for GBP/USD - Fundamental insights on 27 February 2026 | FreshForex"
+          },
+          {
+            "url": "https://freshforex.com/analitics/fresh-forecast/fa/issue_339224.html?utm_source=openai",
+            "title": "Forex analysis for GBP/USD - Fundamental insights on 27 February 2026 | FreshForex"
+          },
+          {
+            "url": "https://freshforex.com/analitics/fresh-forecast/fa/issue_339224.html?utm_source=openai",
+            "title": "Forex analysis for GBP/USD - Fundamental insights on 27 February 2026 | FreshForex"
+          },
+          {
+            "url": "https://www.fx.co/en/analysis/439130?utm_source=openai",
+            "title": "FX.co - GBP/USD Forecast on February 26, 2026"
+          }
+        ],
+        "recommendation_based_on_search": true
+      }
+    },
+    {
+      "timestamp": "2026-02-27T09:14:51.397617+03:00",
+      "symbol": "USDJPY",
+      "timeframe": "H1",
+      "price": {
+        "bid": 155.793,
+        "ask": 155.802,
+        "last": 0.0
+      },
+      "sentiment": "STRONG_BEARISH",
+      "analysis": "Market shows strong downward pressure. RSI: 39.8, MFI: 40.3, Stochastic: 44.7",
+      "indicators": {
+        "rsi": {
+          "value": 39.78,
+          "condition": "NEUTRAL"
+        },
+        "mfi": {
+          "value": 40.27,
+          "condition": "NEUTRAL"
+        },
+        "stochastic": {
+          "main": 44.68,
+          "condition": "NEUTRAL"
+        },
+        "macd": {
+          "main": -0.08907,
+          "signal": -0.05399,
+          "trend": "BEARISH"
+        },
+        "bollinger_bands": {
+          "upper": 156.41738,
+          "middle": 156.00555,
+          "lower": 155.59372
+        },
+        "moving_average": {
+          "value": 155.9785
+        },
+        "parabolic_sar": {
+          "value": 156.151,
+          "trend": "DOWNTREND"
+        },
+        "ichimoku": {
+          "tenkan_sen": 155.8405,
+          "kijun_sen": 155.9855
         }
       },
       "signals": {
@@ -407,62 +415,74 @@
         "ai_enabled": true,
         "model": "gpt-5-nano",
         "symbol": "USDJPY",
-        "timestamp": "2026-02-27T04:31:03.999995+03:00",
+        "timestamp": "2026-02-27T09:16:03.738457+03:00",
         "web_search_used": true,
-        "ai_response": "## News Summary\n- Emirates NBD Research (Daily Outlook, Feb 26, 2026): USD/JPY around 156.37, with the dollar gaining while the yen faced policy uncertainty. The note flags that BoJ policy signals (rate path) are a key driver in the near term. ([emiratesnbdresearch.com](https://www.emiratesnbdresearch.com/en/articles/daily-outlook-26-february-2026))\n- RoboForex (USDJPY forecast, Feb 26, 2026): USDJPY quoted near 156.10, with a hawkish BoJ tilt and a stated forecast target of around 157.45 if the upward move resumes. The piece highlights that BoJ policy expectations and U.S. data drive the pair. ([roboforex.com](https://roboforex.com/beginners/analytics/forex-forecast/currencies/usd-jpy-forecast-2026-02-26/))\n- FreshForex (USDJPY forecast, Feb 26, 2026): USD/JPY holding roughly in the 155.8\u2013156.0 area; Fed minutes and officials\u2019 remarks suggest no early rate cuts, supporting USD strength. Trading idea: Buy around 156.00 with a 155.70 stop and 156.90 target. ([freshforex.com](https://freshforex.com/analitics/fresh-forecast/fa/issue_339209.html))\n- FXEmpire (Japanese Yen Forecast, Feb 27, 2026): Tokyo CPI beats forecasts, sending USD/JPY under 156 as BoJ rate-hike expectations re-emerge; confirms a recent 12-day high of about 156.823 on Feb 26 and notes US PPI data could sway Fed expectations. Indicates a complex near-term dynamic with a potential pullback near 156. ([fxempire.com](https://www.fxempire.com/forecasts/article/japanese-yen-forecast-usd-jpy-weakens-before-us-ppi-data-1582312))\n- AutoRebateForeX (Market Analysis, Feb 26, 2026): USD/JPY is seen with a bullish tilt in a range, with key levels around 155.34 (support) and 156.27 (resistance); overall forecast bias is bullish as policy divergence remains a driver. ([autorebateforex.com](https://autorebateforex.com/market-news/market-analysis-and-forecast-for-february-26-2026/))\n\nNote: Current price cited by you is 155.896, and the window here covers Feb 26\u2013Feb 27, 2026. The sources above are within that window and focus on latest moves, central-bank signals (notably BoJ policy expectations), and analyst forecasts.\n\n## Sentiment\n- Market mood is mixed but with a mild bullish tilt. Some notes show the USDJPY near-term upside potential toward 156\u2013157 as BoJ policy expectations and U.S. data evolve, while others point to near-term pullbacks (sub-156) on incoming inflation data and shifting odds for U.S. Fed/BoJ policy paths. Overall, the tone is cautious, not one-sided bullish or bearish. ([emiratesnbdresearch.com](https://www.emiratesnbdresearch.com/en/articles/daily-outlook-26-february-2026))\n\n## AI RECOMMENDATION: NEUTRAL\n**Reasoning**: Within the 24-hour window, there are credible forecasts signaling upside toward 156\u2013157 (RoboForex, FreshForex, AutoRebateForex, Emirates NBD), but FXEmpire highlights near-term downside risk if U.S. PPI data and BoJ expectations drive a pullback below the 156 level, creating a conflicted setup. The price is around 155.90\u2014close to support/resistance nodes\u2014making a clear directional call less reliable in this window. ([roboforex.com](https://roboforex.com/beginners/analytics/forex-forecast/currencies/usd-jpy-forecast-2026-02-26/))\n**Confidence Level**: MEDIUM\n\nIf you\u2019d like, I can monitor for any fresh BoJ statements or U.S. data releases that could tilt the edge decisively one way or another and update the take with concrete, date-stamped changes.",
-        "ai_recommendation": "NEUTRAL",
+        "ai_response": "## News Summary\n- 2026-02-26: Yen strengthens modestly after BoJ signals potential near-term rate hikes; USD/JPY hovered around the mid-156 handle (about 156.0) as investors weighed BoJ Governor Ueda\u2019s comments on data at March/April meetings. Nvidia earnings also influenced risk sentiment that day. Source: Reuters via MarketScreener (Yen reclaims some ground after BOJ leaves door open for near-term rate hikes). ([marketscreener.com](https://www.marketscreener.com/news/yen-reclaims-some-ground-after-boj-leaves-door-open-for-near-term-rate-hikes-ce7e5cd9dd8cf42d))\n\n- 2026-02-26: FX research houses noted ongoing yen pressure from BoJ policy dynamics, with USD/JPY dipping below 156 after peaking near 156.8 earlier in the session. Market commentary highlighted that BoJ policy talks continued to tilt hawkish but with caution around timing. Source: MUFG FX Daily Snapshot. ([mufgresearch.com](https://www.mufgresearch.com/fx/fx-daily-snapshot-26-february-2026/?utm_source=openai))\n\n- 2026-02-26: U.S. dollar broadly viewed as stabilizing; USD/JPY\u2019s response to BoJ signals remained nuanced as markets priced in potential policy moves while Todays data kept expectations in flux. Source: State Street currency commentary (USD to stabilize; JPY largely unresponsive to BoJ signals). ([ssga.com](https://www.ssga.com/sg/en/institutional/insights/currency-commentary-february-2026?utm_source=openai))\n\n- 2026-02-27: Tokyo CPI and related domestic data beat forecasts, reviving expectations for a hawkish BoJ stance and keeping the yen well-supported; USD/JPY traded below the 156 level as bets for near-term tightening resurfaced. Source: FX Empire (Japanese Yen Forecast: USD/JPY Weakens Before US PPI Data). ([fxempire.com](https://www.fxempire.com/forecasts/article/japanese-yen-forecast-usd-jpy-weakens-before-us-ppi-data-1582312?utm_source=openai))\n\n- 2026-02-27: BoJ chief reportedly flagged a chance of March or April rate hikes, per Yomiuri reports echoed by other outlets, reinforcing expectations of a tighter path and yen strength in the coming weeks. Source: BusinessWorld Online (BoJ chief flags March, April rate hike chance). ([bworldonline.com](https://www.bworldonline.com/banking-finance/2026/02/27/733049/boj-chief-flags-march-april-rate-hike-chance/?utm_source=openai))\n\n- 2026-02-26/27: Analyst forecasts circulated suggesting USDJPY could test the 156\u2013158 area in the near term depending on BoJ timing and US data; some forecast paths implied higher odds of a hawkish BoJ, which would support the yen. Examples include RoboForex forecasts and other intraday setups. Source: RoboForex USDJPY forecast (Feb 26, 2026). ([roboforex.com](https://roboforex.com/beginners/analytics/forex-forecast/currencies/usd-jpy-forecast-2026-02-26/?utm_source=openai))\n\nNotes:\n- Price reference in user prompt: 155.793 USD/JPY is near the lower end of recent ranges, consistent with the yen showing some strength on hawkish BoJ expectations. Recent reporting shows USD/JPY hovering in the mid-155s to around 156 in these sessions. See sources above for context. ([marketscreener.com](https://www.marketscreener.com/news/yen-reclaims-some-ground-after-boj-leaves-door-open-for-near-term-rate-hikes-ce7e5cd9dd8cf42d))\n\n## Sentiment\n- Market mood appears cautious and data-dependent, with a tilt toward the yen strengthening on BoJ hawkish signals and domestic data (Tokyo CPI) supporting near-term rate hike expectations. The USD has faced headwinds from these dynamics, while Nvidia earnings and other risk signals have added volatility but not shifted the overall range. Overall: cautiously bullish for the JPY against the USD in the near term; range-bound for USDJPY as traders await more clarity on BoJ timing and Fed policy. ([marketscreener.com](https://www.marketscreener.com/news/yen-reclaims-some-ground-after-boj-leaves-door-open-for-near-term-rate-hikes-ce7e5cd9dd8cf42d))\n\n## AI RECOMMENDATION: BEARISH\n**Reasoning**: Across the past 24 hours, central-bank signals from the BoJ (potential near-term hikes) and stronger domestic data (Tokyo CPI) have supported yen strength and pushed USDJPY lower toward the 155\u2013156 area. If the BoJ maintains a hawkish tilt and data continues to point to tighter policy, the yen could further appreciate, pressuring USDJPY lower. The current price (155.793) sits near resistance bands and could Slip further if BoJ timing aligns with hawkish bets. This aligns with several analyst forecasts and multiple news pieces in the window. ([marketscreener.com](https://www.marketscreener.com/news/yen-reclaims-some-ground-after-boj-leaves-door-open-for-near-term-rate-hikes-ce7e5cd9dd8cf42d))\n**Confidence Level**: MEDIUM",
+        "ai_recommendation": "BEARISH",
         "ai_recommendation_reasoning": "",
         "confidence": "MEDIUM",
         "sources": [
           {
-            "url": "https://www.emiratesnbdresearch.com/en/articles/daily-outlook-26-february-2026",
-            "title": "Daily Outlook 26 February 2026 | Emirates NBD Research"
+            "url": "https://www.marketscreener.com/news/yen-reclaims-some-ground-after-boj-leaves-door-open-for-near-term-rate-hikes-ce7e5cd9dd8cf42d",
+            "title": "Yen reclaims some ground after BOJ leaves door open for near-term rate hikes | MarketScreener"
           },
           {
-            "url": "https://roboforex.com/beginners/analytics/forex-forecast/currencies/usd-jpy-forecast-2026-02-26/",
-            "title": "USDJPY price forecast and analysis for today, 26 February 2026 - RoboForex"
+            "url": "https://www.mufgresearch.com/fx/fx-daily-snapshot-26-february-2026/?utm_source=openai",
+            "title": "FX Daily Snapshot - MUFG Research"
           },
           {
-            "url": "https://freshforex.com/analitics/fresh-forecast/fa/issue_339209.html",
-            "title": "Forex currency analysis - USD/JPY Fundamentals for 26 February 2026 | FreshForex"
+            "url": "https://www.ssga.com/sg/en/institutional/insights/currency-commentary-february-2026?utm_source=openai",
+            "title": "USD to stabilize; JPY unresponsive to BoJ | State Street"
           },
           {
-            "url": "https://www.fxempire.com/forecasts/article/japanese-yen-forecast-usd-jpy-weakens-before-us-ppi-data-1582312",
+            "url": "https://www.fxempire.com/forecasts/article/japanese-yen-forecast-usd-jpy-weakens-before-us-ppi-data-1582312?utm_source=openai",
             "title": "Japanese Yen Forecast: USD/JPY Weakens Before US PPI Data | FXEmpire"
           },
           {
-            "url": "https://autorebateforex.com/market-news/market-analysis-and-forecast-for-february-26-2026/",
-            "title": "Market Analysis and Forecast for February 26, 2026 \u2022 AutoRebateForeX"
+            "url": "https://www.bworldonline.com/banking-finance/2026/02/27/733049/boj-chief-flags-march-april-rate-hike-chance/?utm_source=openai",
+            "title": "BoJ chief flags March, April rate hike chance - BusinessWorld Online"
+          },
+          {
+            "url": "https://roboforex.com/beginners/analytics/forex-forecast/currencies/usd-jpy-forecast-2026-02-26/?utm_source=openai",
+            "title": "USDJPY price forecast and analysis for today, 26 February 2026 - RoboForex"
           }
         ],
         "citations": [
           {
-            "url": "https://www.emiratesnbdresearch.com/en/articles/daily-outlook-26-february-2026",
-            "title": "Daily Outlook 26 February 2026 | Emirates NBD Research"
+            "url": "https://www.marketscreener.com/news/yen-reclaims-some-ground-after-boj-leaves-door-open-for-near-term-rate-hikes-ce7e5cd9dd8cf42d",
+            "title": "Yen reclaims some ground after BOJ leaves door open for near-term rate hikes | MarketScreener"
           },
           {
-            "url": "https://roboforex.com/beginners/analytics/forex-forecast/currencies/usd-jpy-forecast-2026-02-26/",
-            "title": "USDJPY price forecast and analysis for today, 26 February 2026 - RoboForex"
+            "url": "https://www.mufgresearch.com/fx/fx-daily-snapshot-26-february-2026/?utm_source=openai",
+            "title": "FX Daily Snapshot - MUFG Research"
           },
           {
-            "url": "https://freshforex.com/analitics/fresh-forecast/fa/issue_339209.html",
-            "title": "Forex currency analysis - USD/JPY Fundamentals for 26 February 2026 | FreshForex"
+            "url": "https://www.ssga.com/sg/en/institutional/insights/currency-commentary-february-2026?utm_source=openai",
+            "title": "USD to stabilize; JPY unresponsive to BoJ | State Street"
           },
           {
-            "url": "https://www.fxempire.com/forecasts/article/japanese-yen-forecast-usd-jpy-weakens-before-us-ppi-data-1582312",
+            "url": "https://www.fxempire.com/forecasts/article/japanese-yen-forecast-usd-jpy-weakens-before-us-ppi-data-1582312?utm_source=openai",
             "title": "Japanese Yen Forecast: USD/JPY Weakens Before US PPI Data | FXEmpire"
           },
           {
-            "url": "https://autorebateforex.com/market-news/market-analysis-and-forecast-for-february-26-2026/",
-            "title": "Market Analysis and Forecast for February 26, 2026 \u2022 AutoRebateForeX"
+            "url": "https://www.bworldonline.com/banking-finance/2026/02/27/733049/boj-chief-flags-march-april-rate-hike-chance/?utm_source=openai",
+            "title": "BoJ chief flags March, April rate hike chance - BusinessWorld Online"
           },
           {
-            "url": "https://www.emiratesnbdresearch.com/en/articles/daily-outlook-26-february-2026",
-            "title": "Daily Outlook 26 February 2026 | Emirates NBD Research"
-          },
-          {
-            "url": "https://roboforex.com/beginners/analytics/forex-forecast/currencies/usd-jpy-forecast-2026-02-26/",
+            "url": "https://roboforex.com/beginners/analytics/forex-forecast/currencies/usd-jpy-forecast-2026-02-26/?utm_source=openai",
             "title": "USDJPY price forecast and analysis for today, 26 February 2026 - RoboForex"
+          },
+          {
+            "url": "https://www.marketscreener.com/news/yen-reclaims-some-ground-after-boj-leaves-door-open-for-near-term-rate-hikes-ce7e5cd9dd8cf42d",
+            "title": "Yen reclaims some ground after BOJ leaves door open for near-term rate hikes | MarketScreener"
+          },
+          {
+            "url": "https://www.marketscreener.com/news/yen-reclaims-some-ground-after-boj-leaves-door-open-for-near-term-rate-hikes-ce7e5cd9dd8cf42d",
+            "title": "Yen reclaims some ground after BOJ leaves door open for near-term rate hikes | MarketScreener"
+          },
+          {
+            "url": "https://www.marketscreener.com/news/yen-reclaims-some-ground-after-boj-leaves-door-open-for-near-term-rate-hikes-ce7e5cd9dd8cf42d",
+            "title": "Yen reclaims some ground after BOJ leaves door open for near-term rate hikes | MarketScreener"
           }
         ],
         "recommendation_based_on_search": true
