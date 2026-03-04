@@ -1,53 +1,53 @@
 {
-  "timestamp": "2026-03-03T09:34:47.743343+03:00",
+  "timestamp": "2026-03-04T03:53:25.363335+03:00",
   "timeframe": "H1",
   "total_symbols": 4,
   "ai_enabled": true,
   "analyses": [
     {
-      "timestamp": "2026-03-03T09:29:29.046766+03:00",
+      "timestamp": "2026-03-04T03:49:03.668580+03:00",
       "symbol": "XAUUSD",
       "timeframe": "H1",
       "price": {
-        "bid": 5315.65,
-        "ask": 5315.83,
+        "bid": 5124.59,
+        "ask": 5124.76,
         "last": 0.0
       },
       "sentiment": "BEARISH",
-      "analysis": "Market shows negative pressure. RSI: 50.1, MFI: 66.1, Stochastic: 38.9",
+      "analysis": "Market shows negative pressure. RSI: 38.1, MFI: 38.7, Stochastic: 52.4",
       "indicators": {
         "rsi": {
-          "value": 50.08,
+          "value": 38.14,
           "condition": "NEUTRAL"
         },
         "mfi": {
-          "value": 66.13,
+          "value": 38.67,
           "condition": "NEUTRAL"
         },
         "stochastic": {
-          "main": 38.93,
+          "main": 52.41,
           "condition": "NEUTRAL"
         },
         "macd": {
-          "main": 6.45387,
-          "signal": 11.79692,
+          "main": -54.68557,
+          "signal": -53.35054,
           "trend": "BEARISH"
         },
         "bollinger_bands": {
-          "upper": 5406.69123,
-          "middle": 5343.9085,
-          "lower": 5281.12577
+          "upper": 5384.55265,
+          "middle": 5183.47,
+          "lower": 4982.38735
         },
         "moving_average": {
-          "value": 5333.11143
+          "value": 5127.11071
         },
         "parabolic_sar": {
-          "value": 5379.86,
-          "trend": "DOWNTREND"
+          "value": 4996.22,
+          "trend": "UPTREND"
         },
         "ichimoku": {
-          "tenkan_sen": 5329.78,
-          "kijun_sen": 5340.01
+          "tenkan_sen": 5072.43,
+          "kijun_sen": 5188.04
         }
       },
       "signals": {
@@ -59,123 +59,415 @@
         "ai_enabled": true,
         "model": "gpt-5-nano",
         "symbol": "XAUUSD",
-        "timestamp": "2026-03-03T09:30:43.832151+03:00",
+        "timestamp": "2026-03-04T03:50:31.882853+03:00",
         "web_search_used": true,
-        "ai_response": "## News Summary\n- Geopolitical tensions in the Middle East (notably US/Israel actions around Iran) have reignited safe-haven demand for gold, with COMEX gold futures showing heavy trading activity on March 2, 2026. (AP News summary of March 2 COMEX activity) ([apnews.com](https://apnews.com/article/0304689d18724cab44574ec5095214fa?utm_source=openai))\n- Reports across major markets indicate gold moved sharply higher in response to the Iran-Israel-US developments, with headlines noting a rise in international and local gold prices as investors seek safety. For example, NDTV and Guardian coverage highlight gold strengthening into the $5,300s per ounce region amid the flare\u2011up. ([ndtv.com](https://www.ndtv.com/india-news/gold-silver-prices-today-march-2-2026-gold-silver-surge-as-iran-conflict-deepens-check-prices-in-your-city-11156544?utm_source=openai))\n- Indian media also reported notable gold price moves on March 2, 2026, tied to geopolitical risk and safe-haven demand, reinforcing the global trend. ([ndtv.com](https://www.ndtv.com/india-news/gold-silver-prices-today-march-2-2026-gold-silver-surge-as-iran-conflict-deepens-check-prices-in-your-city-11156544?utm_source=openai))\n- A Market Minute piece framed the day as a surge in gold futures tied to the Middle East tensions, describing the rally as a major move for gold and related markets. ([markets.chroniclejournal.com](https://markets.chroniclejournal.com/chroniclejournal/article/marketminute-2026-3-2-gold-shatters-records-as-middle-east-conflict-ignites-5400-futures-rally?utm_source=openai))\n- Analyst forecasts around the period continued to paint a constructive (bullish) backdrop for gold in 2026, with UBS (and other banks) pushing higher targets for end-March 2026 and beyond, reflecting strong investment demand and central-bank buying. (UBS note cited in TradingView/Reuters summaries) ([tradingview.com](https://www.tradingview.com/news/reuters.com%2C2025%3Anewsml_L1N3UA0QR%3A0-ubs-raises-gold-target-price-for-end-march-2026-by-100-to-3-600-oz/?utm_source=openai))\n- From the official economic calendar perspective, the MQL5 Economic Calendar shows March 2\u20133, 2026 events across major economies, including ECB remarks (Lagarde/Elderson), BoE communications, and European/North American data releases that can influence risk sentiment and FX/gold pricing. Key entries include ECB speeches and BoE Ramsden remarks on March 2, and a suite of European data releases (CPI, unemployment) plus U.S./global events on March 3. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n\nNotes on price context: You reported current price around 5315.65. Market coverage from that same period places gold in the low-to-mid 5,300s USD/oz range, consistent with the 5,200\u20135,400 zone reported in several outlets during March 2\u20133, 2026. ([theguardian.com](https://www.theguardian.com/business/live/2026/mar/02/oil-price-us-israel-iran-war-100-dollars-a-barrel-stock-markets-drop-travel-news-updates?utm_source=openai))\n\n## Sentiment\n- Market mood: Bullish\n- Rationale: The onset or intensification of Middle East tensions around Iran, Israel, and the U.S. has driven a pronounced risk-off bid into gold, with multiple outlets noting price strength in the $5,300s per ounce and heavy futures activity. In addition, banks and brokers published bullish gold forecasts for 2026 (e.g., UBS revising targets higher for end-March 2026), reinforcing a bullish narrative. ([apnews.com](https://apnews.com/article/0304689d18724cab44574ec5095214fa?utm_source=openai))\n\n## AI RECOMMENDATION: BULLISH\n**Reasoning**: \n- The news flow shows a clear safe-haven bid for gold driven by geopolitical risk in the Middle East, with prices moving into the $5,300s per ounce and high COMEX activity. This kind of environment tends to sustain a bullish bias for XAUUSD in the short-to-medium term. Central-bank/institutional demand signals (e.g., UBS and other banks revising higher targets) support a constructive longer-term stance as well. ([apnews.com](https://apnews.com/article/0304689d18724cab44574ec5095214fa?utm_source=openai))\n**Confidence Level**: MEDIUM\n\nIf you\u2019d like, I can filter to only headlines referencing XAUUSD in USD terms, or pull exact price levels reported in each item (with timestamps) to quantify intraday moves more precisely.",
-        "ai_recommendation": "BULLISH",
+        "ai_response": "## News Summary\n- Gold climbs on safe-haven bids as Middle East tensions escalate. Spot gold traded around $5,362.90/oz (04:52 GMT) as investors sought safety amid US-Israel strikes on Iran. ([dawn.com](https://www.dawn.com/news/1977812/gold-extends-gains-as-middle-east-war-prompts-flight-to-safety))\n- On the same day, gold later traded higher to about $5,388.59/oz (12:55 GMT) as strikes and risk-off sentiment persisted. ([brecorder.com](https://www.brecorder.com/news/40409810/gold-prices-jump-as-strikes-on-iran-trigger-rush-to-safe-havens?utm_source=openai))\n- Another major take: gold dipped earlier in the session as the dollar strengthened, with prices around $5,049/oz (10:20 a.m. ET), highlighting near-term volatility and a strong dollar headwind. ([forbes.com](https://www.forbes.com/sites/conormurray/2026/03/03/gold-silver-prices-plunge-as-iran-conflict-sparks-inflation-concerns-strengthens-dollar/?utm_source=openai))\n- Swiss National Bank event on tap tomorrow (March 4, 2026): SNB News Conference scheduled for 09:30; potential impact on gold via currency/monetary policy channels. ([snb.ch](https://www.snb.ch/en/services-events/digital-services/webtv?utm_source=openai))\n- U.S. data calendar for March 4 includes ADP Nonfarm Employment Change (13:15), ISM Non-Manufacturing PMI and components (15:00), and the Fed Beige Book (19:00), all of which can influence near-term gold moves. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n\nEconomy/Events context from the day-by-day calendar\n- March 4, 2026: SNB News Conference (9:30 UTC) and Fed Beige Book (19:00 UTC) are listed in the current-week calendar; ISM services data also on the slate that day. These events are visible on the MQL5 economic calendar page. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n- The same calendar shows other March 4 items such as S&P Global PMI series and U.S. ISM Non-Manufacturing metrics that can affect risk appetite and gold pricing. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n\nNote: Current price you gave for XAUUSD is 5124.59.\n\nCentral bank announcements (within window)\n- SNB News Conference scheduled for March 4, 2026 at 09:30 UTC. Source: SNB official events page. ([snb.ch](https://www.snb.ch/en/services-events/digital-services/webtv?utm_source=openai))\n- Fed Beige Book release noted for March 4, 2026 (2:00 p.m. local-ish release timing cited in calendars; U.S. Beige Book summarises current economic conditions). Source: Federal Reserve pages and calendar references. ([federalreserve.gov](https://www.federalreserve.gov/monetarypolicy/publications/beige-book-default.htm?utm_source=openai))\n\nAnalyst forecasts (contextual, around early March 2026)\n- Goldman Sachs raised its end-2026 gold price forecast to $5,400/oz (reported in Reuters-related channels in January 2026; widely cited in market outlets around this period). This provides a backdrop for near-term upside expectations. ([investing.com](https://www.investing.com/news/stock-market-news/factboxgoldman-sachs-raises-2026end-gold-price-forecast-to-5400oz-4459246?utm_source=openai))\n- JP Morgan raised its long-term gold price forecast to around $4,500/oz (late February 2026). This is part of a broader set of bullish calls from major banks on gold in 2026. ([investing.com](https://www.investing.com/news/economy-news/factboxjp-morgan-raises-longterm-gold-price-forecast-15-to-4500-an-ounce-4523574?utm_source=openai))\n- ING Think (via Capital.com roundup, early March 2026) projects a multi-quarter path in gold with a 2026 average seen around the mid-to-high $4,000s, trending higher as central banks diversify into gold. This helps frame near-term risk-on/risk-off dynamics for XAUUSD. ([capital.com](https://capital.com/en-int/market-updates/gold-price-forecast-03-03-2026?utm_source=openai))\n\nNotes on sources\n- Key gold-price events on March 3\u20134, 2026 are reported by Reuters and Reuters-derived outlets (e.g., Marketscreener and DAWN republishing Reuters copy). Examples include: 5,362.90/oz at 04:52 GMT (Mar 3) and 5,388.59/oz at 12:55 GMT (Mar 3). ([dawn.com](https://www.dawn.com/news/1977812/gold-extends-gains-as-middle-east-war-prompts-flight-to-safety))\n- The March 4 calendar items and times come directly from the MQL5 economic calendar page (and SNB\u2019s own event listings). ([mql5.com](https://www.mql5.com/en/economic-calendar))\n\nSentiment\n- Mixed-to-bullish longer term: safe-haven demand supported higher gold levels during risk spikes, but near-term moves were choppy due to a stronger dollar and evolving geopolitical news. Market chatter around central-bank demand for gold and elevated energy tensions suggests a risk-balanced environment with potential for further upside if the conflict persists or widens. Current price impression around the mid-$5,000s aligns with that risk premium, but intraday reversals are plausible if dollar strength returns or if there\u2019s any de-escalation in the Middle East tensions. ([dawn.com](https://www.dawn.com/news/1977812/gold-extends-gains-as-middle-east-war-prompts-flight-to-safety))\n\nAI RECOMMENDATION: NEUTRAL\nReasoning: The windowed news mix (strong safe-haven bid in early Mar, followed by dollar strength pressure) plus important upcoming calendar events (SNB press conference, Fed Beige Book, ADP/ISM on Mar 4) creates a volatile but structurally supportive backdrop for gold. Bullish targets from major banks exist (e.g., Goldman Sachs at $5,400 end-2026; JP Morgan around $4,500 long-term), but immediate price action shows pullbacks are possible when USD rallies or geopolitical headlines shift. The balance of signals today favors cautious positioning rather than a clear directional bet in the next 24\u201348 hours. ([investing.com](https://www.investing.com/news/stock-market-news/factboxgoldman-sachs-raises-2026end-gold-price-forecast-to-5400oz-4459246?utm_source=openai))\n- Confidence Level: MEDIUM\n\nIf you want, I can tighten this to only headlines from a single outlet (e.g., Reuters) or pull live updates from the MQL5 calendar for exact times and event names as they come in.",
+        "ai_recommendation": "NEUTRAL",
         "ai_recommendation_reasoning": "",
         "confidence": "MEDIUM",
         "sources": [
           {
-            "url": "https://apnews.com/article/0304689d18724cab44574ec5095214fa?utm_source=openai",
-            "title": "BC-Gold Futures"
+            "url": "https://www.dawn.com/news/1977812/gold-extends-gains-as-middle-east-war-prompts-flight-to-safety",
+            "title": "Gold extends gains as Middle East war prompts flight to safety - Business - DAWN.COM"
           },
           {
-            "url": "https://www.ndtv.com/india-news/gold-silver-prices-today-march-2-2026-gold-silver-surge-as-iran-conflict-deepens-check-prices-in-your-city-11156544?utm_source=openai",
-            "title": "Gold, Silver Prices Today March 2, 2026: Gold, Silver Surge As Iran Conflict Deepens, Check Prices In Your City"
+            "url": "https://www.brecorder.com/news/40409810/gold-prices-jump-as-strikes-on-iran-trigger-rush-to-safe-havens?utm_source=openai",
+            "title": "Gold prices jump as strikes on Iran trigger rush to safe havens - Markets - Business Recorder"
           },
           {
-            "url": "https://markets.chroniclejournal.com/chroniclejournal/article/marketminute-2026-3-2-gold-shatters-records-as-middle-east-conflict-ignites-5400-futures-rally?utm_source=openai",
-            "title": "User | chroniclejournal.com - Gold shatters records as Middle East conflict ignites $5,400 futures rally"
+            "url": "https://www.forbes.com/sites/conormurray/2026/03/03/gold-silver-prices-plunge-as-iran-conflict-sparks-inflation-concerns-strengthens-dollar/?utm_source=openai",
+            "title": "Gold And Silver Prices Plunge Amid Iran Conflict"
           },
           {
-            "url": "https://www.tradingview.com/news/reuters.com%2C2025%3Anewsml_L1N3UA0QR%3A0-ubs-raises-gold-target-price-for-end-march-2026-by-100-to-3-600-oz/?utm_source=openai",
-            "title": "UBS raises gold target price for end-March 2026 by $100 to $3,600/oz \u2014 TradingView News"
+            "url": "https://www.snb.ch/en/services-events/digital-services/webtv?utm_source=openai",
+            "title": "Web TV: SNB events"
           },
           {
             "url": "https://www.mql5.com/en/economic-calendar",
             "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
           },
           {
-            "url": "https://www.theguardian.com/business/live/2026/mar/02/oil-price-us-israel-iran-war-100-dollars-a-barrel-stock-markets-drop-travel-news-updates?utm_source=openai",
-            "title": "FTSE 100 share index records biggest fall since November as Iran war drives up oil and gas prices - as it happened"
+            "url": "https://www.federalreserve.gov/monetarypolicy/publications/beige-book-default.htm?utm_source=openai",
+            "title": "Federal Reserve Board - Beige Book"
+          },
+          {
+            "url": "https://www.investing.com/news/stock-market-news/factboxgoldman-sachs-raises-2026end-gold-price-forecast-to-5400oz-4459246?utm_source=openai",
+            "title": "Factbox-Goldman Sachs raises 2026-end gold price forecast to $5,400/oz By Reuters"
+          },
+          {
+            "url": "https://www.investing.com/news/economy-news/factboxjp-morgan-raises-longterm-gold-price-forecast-15-to-4500-an-ounce-4523574?utm_source=openai",
+            "title": "Factbox-JP Morgan raises long-term gold price forecast 15% to $4,500 an ounce By Reuters"
+          },
+          {
+            "url": "https://capital.com/en-int/market-updates/gold-price-forecast-03-03-2026?utm_source=openai",
+            "title": "Gold Price Forecast | US\u2013Israel Strikes, Oil Supply Concerns | Capital.com"
           }
         ],
         "citations": [
           {
-            "url": "https://apnews.com/article/0304689d18724cab44574ec5095214fa?utm_source=openai",
-            "title": "BC-Gold Futures"
+            "url": "https://www.dawn.com/news/1977812/gold-extends-gains-as-middle-east-war-prompts-flight-to-safety",
+            "title": "Gold extends gains as Middle East war prompts flight to safety - Business - DAWN.COM"
           },
           {
-            "url": "https://www.ndtv.com/india-news/gold-silver-prices-today-march-2-2026-gold-silver-surge-as-iran-conflict-deepens-check-prices-in-your-city-11156544?utm_source=openai",
-            "title": "Gold, Silver Prices Today March 2, 2026: Gold, Silver Surge As Iran Conflict Deepens, Check Prices In Your City"
+            "url": "https://www.brecorder.com/news/40409810/gold-prices-jump-as-strikes-on-iran-trigger-rush-to-safe-havens?utm_source=openai",
+            "title": "Gold prices jump as strikes on Iran trigger rush to safe havens - Markets - Business Recorder"
           },
           {
-            "url": "https://www.ndtv.com/india-news/gold-silver-prices-today-march-2-2026-gold-silver-surge-as-iran-conflict-deepens-check-prices-in-your-city-11156544?utm_source=openai",
-            "title": "Gold, Silver Prices Today March 2, 2026: Gold, Silver Surge As Iran Conflict Deepens, Check Prices In Your City"
+            "url": "https://www.forbes.com/sites/conormurray/2026/03/03/gold-silver-prices-plunge-as-iran-conflict-sparks-inflation-concerns-strengthens-dollar/?utm_source=openai",
+            "title": "Gold And Silver Prices Plunge Amid Iran Conflict"
           },
           {
-            "url": "https://markets.chroniclejournal.com/chroniclejournal/article/marketminute-2026-3-2-gold-shatters-records-as-middle-east-conflict-ignites-5400-futures-rally?utm_source=openai",
-            "title": "User | chroniclejournal.com - Gold shatters records as Middle East conflict ignites $5,400 futures rally"
-          },
-          {
-            "url": "https://www.tradingview.com/news/reuters.com%2C2025%3Anewsml_L1N3UA0QR%3A0-ubs-raises-gold-target-price-for-end-march-2026-by-100-to-3-600-oz/?utm_source=openai",
-            "title": "UBS raises gold target price for end-March 2026 by $100 to $3,600/oz \u2014 TradingView News"
+            "url": "https://www.snb.ch/en/services-events/digital-services/webtv?utm_source=openai",
+            "title": "Web TV: SNB events"
           },
           {
             "url": "https://www.mql5.com/en/economic-calendar",
             "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
           },
           {
-            "url": "https://www.theguardian.com/business/live/2026/mar/02/oil-price-us-israel-iran-war-100-dollars-a-barrel-stock-markets-drop-travel-news-updates?utm_source=openai",
-            "title": "FTSE 100 share index records biggest fall since November as Iran war drives up oil and gas prices - as it happened"
+            "url": "https://www.mql5.com/en/economic-calendar",
+            "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
           },
           {
-            "url": "https://apnews.com/article/0304689d18724cab44574ec5095214fa?utm_source=openai",
-            "title": "BC-Gold Futures"
+            "url": "https://www.mql5.com/en/economic-calendar",
+            "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
           },
           {
-            "url": "https://apnews.com/article/0304689d18724cab44574ec5095214fa?utm_source=openai",
-            "title": "BC-Gold Futures"
+            "url": "https://www.snb.ch/en/services-events/digital-services/webtv?utm_source=openai",
+            "title": "Web TV: SNB events"
+          },
+          {
+            "url": "https://www.federalreserve.gov/monetarypolicy/publications/beige-book-default.htm?utm_source=openai",
+            "title": "Federal Reserve Board - Beige Book"
+          },
+          {
+            "url": "https://www.investing.com/news/stock-market-news/factboxgoldman-sachs-raises-2026end-gold-price-forecast-to-5400oz-4459246?utm_source=openai",
+            "title": "Factbox-Goldman Sachs raises 2026-end gold price forecast to $5,400/oz By Reuters"
+          },
+          {
+            "url": "https://www.investing.com/news/economy-news/factboxjp-morgan-raises-longterm-gold-price-forecast-15-to-4500-an-ounce-4523574?utm_source=openai",
+            "title": "Factbox-JP Morgan raises long-term gold price forecast 15% to $4,500 an ounce By Reuters"
+          },
+          {
+            "url": "https://capital.com/en-int/market-updates/gold-price-forecast-03-03-2026?utm_source=openai",
+            "title": "Gold Price Forecast | US\u2013Israel Strikes, Oil Supply Concerns | Capital.com"
+          },
+          {
+            "url": "https://www.dawn.com/news/1977812/gold-extends-gains-as-middle-east-war-prompts-flight-to-safety",
+            "title": "Gold extends gains as Middle East war prompts flight to safety - Business - DAWN.COM"
+          },
+          {
+            "url": "https://www.mql5.com/en/economic-calendar",
+            "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
+          },
+          {
+            "url": "https://www.dawn.com/news/1977812/gold-extends-gains-as-middle-east-war-prompts-flight-to-safety",
+            "title": "Gold extends gains as Middle East war prompts flight to safety - Business - DAWN.COM"
+          },
+          {
+            "url": "https://www.investing.com/news/stock-market-news/factboxgoldman-sachs-raises-2026end-gold-price-forecast-to-5400oz-4459246?utm_source=openai",
+            "title": "Factbox-Goldman Sachs raises 2026-end gold price forecast to $5,400/oz By Reuters"
           }
         ],
         "recommendation_based_on_search": true
       }
     },
     {
-      "timestamp": "2026-03-03T09:30:43.866040+03:00",
+      "timestamp": "2026-03-04T03:50:31.920577+03:00",
       "symbol": "EURUSD",
       "timeframe": "H1",
       "price": {
-        "bid": 1.16689,
-        "ask": 1.16697,
+        "bid": 1.15955,
+        "ask": 1.15965,
         "last": 0.0
       },
-      "sentiment": "BEARISH",
-      "analysis": "Market shows negative pressure. RSI: 46.8, MFI: 38.8, Stochastic: 43.4",
+      "sentiment": "BULLISH",
+      "analysis": "Market shows positive momentum. RSI: 53.8, MFI: 53.1, Stochastic: 38.1",
       "indicators": {
         "rsi": {
-          "value": 46.82,
+          "value": 53.79,
           "condition": "NEUTRAL"
         },
         "mfi": {
-          "value": 38.76,
+          "value": 53.06,
           "condition": "NEUTRAL"
         },
         "stochastic": {
-          "main": 43.39,
+          "main": 38.09,
           "condition": "NEUTRAL"
         },
         "macd": {
-          "main": -0.00191,
-          "signal": -0.00215,
+          "main": -0.00204,
+          "signal": -0.0026,
           "trend": "BULLISH"
         },
         "bollinger_bands": {
-          "upper": 1.17378,
-          "middle": 1.17033,
-          "lower": 1.16688
+          "upper": 1.16625,
+          "middle": 1.1611,
+          "lower": 1.15594
         },
         "moving_average": {
-          "value": 1.16954
+          "value": 1.16014
         },
         "parabolic_sar": {
-          "value": 1.17134,
+          "value": 1.15302,
+          "trend": "UPTREND"
+        },
+        "ichimoku": {
+          "tenkan_sen": 1.15976,
+          "kijun_sen": 1.16186
+        }
+      },
+      "signals": {
+        "primary": "BUY",
+        "strength": "MODERATE",
+        "recommendation": "CONSIDER_LONG"
+      },
+      "ai_web_research": {
+        "ai_enabled": true,
+        "model": "gpt-5-nano",
+        "symbol": "EURUSD",
+        "timestamp": "2026-03-04T03:51:42.356245+03:00",
+        "web_search_used": true,
+        "ai_response": "## News Summary\n- USD strength driven by safe-haven demand amid Middle East tensions; EURUSD has been under pressure and traded around the 1.16 area in the window. Economies.com notes a bearish bias for EURUSD on March 3, 2026, with intraday moves off 1.1670 and a focus on potential declines. ([economies.com](https://www.economies.com/forex/eur-usd-analysis/eurusd-price-is-rising-after-reaching-our-expected-target--analysis-03-03-2026-125236))\n- EURUSD briefly dipped below 1.1600 as risk-off sentiment intensified, with technicals signaling potential further downside on March 3, 2026 (FinanceFeeds' summary of the day\u2019s action). ([financefeeds.com](https://financefeeds.com/eur-usd-plunges-amid-geopolitical-turmoil-3-march-2026/?utm_source=openai))\n- Market commentators highlighted a crisis-driven backdrop pressuring the euro, reinforcing a dollar-friendly environment in early March 2026. FXPro\u2019s Market Overview on March 3, 2026, describes euro downside amid crisis fears and energy-price dynamics. ([fxpro.news](https://fxpro.news/market-overview/euro-spooked-by-crisis-20260303/?utm_source=openai))\n- Analyst forecasts around this window show a bearish tilt in the near term, with RoboForex suggesting the dollar\u2019s strength could keep EURUSD under pressure in the 2\u20136 March 2026 period. ([roboforex.com](https://roboforex.com/beginners/analytics/forex-forecast/currencies/eur-usd-weekly-forecast-2026-03-02/?utm_source=openai))\n- Key economic calendar and central-bank-driven events on March 4, 2026 include: SNB News Conference (CHF) at 09:30; Euro area ECB Vice President de Guindos speaking at 13:30; ECB Executive Board Member Balz speaking at 17:00; and Eurozone macro releases (GDP, PPI, unemployment, etc.) around 10:00 and 11:00. These are listed in the MQL5 Economic Calendar for today (March 4, 2026). ([mql5.com](https://www.mql5.com/en/economic-calendar))\n\n## Sentiment\n- Market mood appears risk-off for EURUSD in the near term, with the USD benefiting from safe-haven demand amid geopolitical tensions and energy-price pressures. The day\u2019s central-bank communications and euro-area data could inject volatility, but the overarching tone in the window leans bearish for EURUSD. Sources show bearish bias in forecasts and caution around ECB speak/monetary policy signals. ([economies.com](https://www.economies.com/forex/eur-usd-analysis/eurusd-price-is-rising-after-reaching-our-expected-target--analysis-03-03-2026-125236))\n\n## AI RECOMMENDATION: BEARISH\n**Reasoning**: In the past 24 hours (March 3\u20134, 2026), multiple analyses point to a softening EURUSD near current levels, with bearish signals highlighted by Economies.com around 03-03-2026 and a general risk-off backdrop supported by FX commentary. The presence of key euro-area data releases and ECB speakers on March 4 adds volatility, but the prevailing narrative during this window is USD strength pressuring EURUSD. ([economies.com](https://www.economies.com/forex/eur-usd-analysis/forecast-update-for-eurusd--03-03-2026.-125255))\n**Confidence Level**: MEDIUM",
+        "ai_recommendation": "BEARISH",
+        "ai_recommendation_reasoning": "",
+        "confidence": "MEDIUM",
+        "sources": [
+          {
+            "url": "https://www.economies.com/forex/eur-usd-analysis/eurusd-price-is-rising-after-reaching-our-expected-target--analysis-03-03-2026-125236",
+            "title": "EURUSD price is rising after reaching our expected target- Analysis-03-03-2026"
+          },
+          {
+            "url": "https://financefeeds.com/eur-usd-plunges-amid-geopolitical-turmoil-3-march-2026/?utm_source=openai",
+            "title": "EUR/USD Plunges Amid Geopolitical Turmoil \u2014 3 March 2026 - FinanceFeeds"
+          },
+          {
+            "url": "https://fxpro.news/market-overview/euro-spooked-by-crisis-20260303/?utm_source=openai",
+            "title": "Forex - Euro spooked by crisis | Market Overview March 3, 2026"
+          },
+          {
+            "url": "https://roboforex.com/beginners/analytics/forex-forecast/currencies/eur-usd-weekly-forecast-2026-03-02/?utm_source=openai",
+            "title": "EURUSD weekly price forecast and analysis for 2\u20136 March 2026 - RoboForex"
+          },
+          {
+            "url": "https://www.mql5.com/en/economic-calendar",
+            "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
+          },
+          {
+            "url": "https://www.economies.com/forex/eur-usd-analysis/forecast-update-for-eurusd--03-03-2026.-125255",
+            "title": "Forecast update for EURUSD -03-03-2026."
+          }
+        ],
+        "citations": [
+          {
+            "url": "https://www.economies.com/forex/eur-usd-analysis/eurusd-price-is-rising-after-reaching-our-expected-target--analysis-03-03-2026-125236",
+            "title": "EURUSD price is rising after reaching our expected target- Analysis-03-03-2026"
+          },
+          {
+            "url": "https://financefeeds.com/eur-usd-plunges-amid-geopolitical-turmoil-3-march-2026/?utm_source=openai",
+            "title": "EUR/USD Plunges Amid Geopolitical Turmoil \u2014 3 March 2026 - FinanceFeeds"
+          },
+          {
+            "url": "https://fxpro.news/market-overview/euro-spooked-by-crisis-20260303/?utm_source=openai",
+            "title": "Forex - Euro spooked by crisis | Market Overview March 3, 2026"
+          },
+          {
+            "url": "https://roboforex.com/beginners/analytics/forex-forecast/currencies/eur-usd-weekly-forecast-2026-03-02/?utm_source=openai",
+            "title": "EURUSD weekly price forecast and analysis for 2\u20136 March 2026 - RoboForex"
+          },
+          {
+            "url": "https://www.mql5.com/en/economic-calendar",
+            "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
+          },
+          {
+            "url": "https://www.economies.com/forex/eur-usd-analysis/eurusd-price-is-rising-after-reaching-our-expected-target--analysis-03-03-2026-125236",
+            "title": "EURUSD price is rising after reaching our expected target- Analysis-03-03-2026"
+          },
+          {
+            "url": "https://www.economies.com/forex/eur-usd-analysis/forecast-update-for-eurusd--03-03-2026.-125255",
+            "title": "Forecast update for EURUSD -03-03-2026."
+          }
+        ],
+        "recommendation_based_on_search": true
+      }
+    },
+    {
+      "timestamp": "2026-03-04T03:51:42.419376+03:00",
+      "symbol": "GBPUSD",
+      "timeframe": "H1",
+      "price": {
+        "bid": 1.3330899999999999,
+        "ask": 1.3332,
+        "last": 0.0
+      },
+      "sentiment": "BULLISH",
+      "analysis": "Market shows positive momentum. RSI: 7.5, MFI: 14.8, Stochastic: 10.4",
+      "indicators": {
+        "rsi": {
+          "value": 7.48,
+          "condition": "OVERSOLD"
+        },
+        "mfi": {
+          "value": 14.8,
+          "condition": "OVERSOLD"
+        },
+        "stochastic": {
+          "main": 10.43,
+          "condition": "OVERSOLD"
+        },
+        "macd": {
+          "main": -0.00328,
+          "signal": -0.00211,
+          "trend": "BEARISH"
+        },
+        "bollinger_bands": {
+          "upper": 1.34709,
+          "middle": 1.33743,
+          "lower": 1.32776
+        },
+        "moving_average": {
+          "value": 1.33599
+        },
+        "parabolic_sar": {
+          "value": 1.34125,
           "trend": "DOWNTREND"
         },
         "ichimoku": {
-          "tenkan_sen": 1.1696,
-          "kijun_sen": 1.17338
+          "tenkan_sen": 1.33366,
+          "kijun_sen": 1.33472
+        }
+      },
+      "signals": {
+        "primary": "BUY",
+        "strength": "MODERATE",
+        "recommendation": "CONSIDER_LONG"
+      },
+      "ai_web_research": {
+        "ai_enabled": true,
+        "model": "gpt-5-nano",
+        "symbol": "GBPUSD",
+        "timestamp": "2026-03-04T03:52:33.346008+03:00",
+        "web_search_used": true,
+        "ai_response": "## News Summary\n- GBPUSD fell to around 1.3300 on March 3, 2026 as Middle East tensions boosted the USD and BoE rate-cut odds collapsed (from about 75% to 28%). This marked a risk-off intraday move for Cable. ([fxstreet.com](https://www.fxstreet.com/amp/news/gbp-usd-slides-to-13300-as-middle-east-tensions-lift-us-dollar-202603031550/?utm_source=openai))\n- The pound briefly hit a 2026 low near $1.33 amid broader risk-off and geopolitical headlines, with analysts noting the rapid shift in BoE cut expectations. ([theguardian.com](https://www.theguardian.com/business/live/2026/mar/03/spring-forecast-rachel-reeves-statement-economic-plan-obr-oil-gas-stock-markets-live-updates?utm_source=openai))\n- UK investor sentiment deteriorated as fears that Iran-related developments could slow growth pushed UK borrowing costs higher and pressured gilts, weighing on sterling. ([theguardian.com](https://www.theguardian.com/business/2026/mar/03/uk-borrowing-costs-jump-again-on-fears-iran-conflict-will-curb-growth?utm_source=openai))\n- UK economic calendar and central-bank signals for the window include the Spring Forecast Statement for GBP on March 3, 2026 at 10:00 (part of the UK Spring Forecast) which provides the government\u2019s near-term outlook. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n- On March 4, 2026, upcoming or released GBP-related macro data include S&P Global/CIPS Services PMI and S&P Global/CIPS Composite PMI for the UK (scheduled around 09:30). These PMIs are key near-term drivers for GBP direction. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n- The U.S. side includes the Fed Beige Book release on March 4, 2026 (evening local time), which can influence USD strength and GBPUSD moves through risk sentiment and rate expectations. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n- Analyst outlook: MUFG published a March 3, 2026 note forecasting GBPUSD around 1.37 in 12 months, underscoring divergent policy paths and a bullish medium-term view for the dollar vs the pound in the near term. ([exchangerates.org.uk](https://www.exchangerates.org.uk/news/45385/2026-03-03-mufg-pound-to-dollar-forecast-gbp-usd-see-1-37-in-12-months-timeframe.html?utm_source=openai))\n\nNotes:\n- Current price cited by you: 1.3330899999999999. The day\u2019s reporting alongside the above items shows GBPUSD behavior around the 1.33 level amid geopolitical and policy-event risk. ([fxstreet.com](https://www.fxstreet.com/amp/news/gbp-usd-slides-to-13300-as-middle-east-tensions-lift-us-dollar-202603031550/?utm_source=openai))\n\n## Sentiment\n- The market mood in the window appears risk-off for the pound, with safe-haven demand lifting the dollar and market expectations for UK rate cuts pulling back. The combination of Middle East-related risk, lower BoE cut odds, and upcoming UK PMI data has kept GBP under pressure near 1.33. In the near term, sentiment remains cautious to negative for GBP, though PMI releases could spark volatility in either direction.\n\n## AI RECOMMENDATION: BEARISH\n**Reasoning**: \n- Multiple pieces of news within the window point to a risk-off stance for GBP: the GBPUSD slide to around 1.3300 on March 3 as BoE rate-cut odds tumbled, and a broader move into safe-haven USD due to geopolitical tensions. This environment tends to weigh on sterling in the immediate term. ([fxstreet.com](https://www.fxstreet.com/amp/news/gbp-usd-slides-to-13300-as-middle-east-tensions-lift-us-dollar-202603031550/?utm_source=openai))\n- UK-specific factors (Iran-related macro risk, higher gilt yields, and falling rate-cut expectations) support a weaker pound in the near term. ([theguardian.com](https://www.theguardian.com/business/2026/mar/03/uk-borrowing-costs-jump-again-on-fears-iran-conflict-will-curb-growth?utm_source=openai))\n- While the March 4 S&P Global/CIPS PMIs for the UK are due and could surprise, the prevailing narrative in the window was risk-off and policy-dovishness bets weighing on GBP, with a major long-term forecast (MUFG) still skewing to a weaker pound in the near term. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n\n**Confidence Level**: MEDIUM\n\nIf you\u2019d like, I can pull direct quotes from each article and format a quick one-page briefing with explicit timestamps for each item.",
+        "ai_recommendation": "BEARISH",
+        "ai_recommendation_reasoning": "",
+        "confidence": "MEDIUM",
+        "sources": [
+          {
+            "url": "https://www.fxstreet.com/amp/news/gbp-usd-slides-to-13300-as-middle-east-tensions-lift-us-dollar-202603031550/?utm_source=openai",
+            "title": "GBP/USD slides to 1.3300 as Middle East war lifts US Dollar"
+          },
+          {
+            "url": "https://www.theguardian.com/business/live/2026/mar/03/spring-forecast-rachel-reeves-statement-economic-plan-obr-oil-gas-stock-markets-live-updates?utm_source=openai",
+            "title": "Iran conflict could have 'very significant' impact on UK economy, OBR warns; FTSE 100's biggest fall in 11 months - as it happened"
+          },
+          {
+            "url": "https://www.theguardian.com/business/2026/mar/03/uk-borrowing-costs-jump-again-on-fears-iran-conflict-will-curb-growth?utm_source=openai",
+            "title": "UK borrowing costs jump again on fears Iran conflict will curb growth"
+          },
+          {
+            "url": "https://www.mql5.com/en/economic-calendar",
+            "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
+          },
+          {
+            "url": "https://www.exchangerates.org.uk/news/45385/2026-03-03-mufg-pound-to-dollar-forecast-gbp-usd-see-1-37-in-12-months-timeframe.html?utm_source=openai",
+            "title": "MUFG Pound To Dollar Forecast: GBP/USD To See 1.37 In 12 Months Timeframe"
+          }
+        ],
+        "citations": [
+          {
+            "url": "https://www.fxstreet.com/amp/news/gbp-usd-slides-to-13300-as-middle-east-tensions-lift-us-dollar-202603031550/?utm_source=openai",
+            "title": "GBP/USD slides to 1.3300 as Middle East war lifts US Dollar"
+          },
+          {
+            "url": "https://www.theguardian.com/business/live/2026/mar/03/spring-forecast-rachel-reeves-statement-economic-plan-obr-oil-gas-stock-markets-live-updates?utm_source=openai",
+            "title": "Iran conflict could have 'very significant' impact on UK economy, OBR warns; FTSE 100's biggest fall in 11 months - as it happened"
+          },
+          {
+            "url": "https://www.theguardian.com/business/2026/mar/03/uk-borrowing-costs-jump-again-on-fears-iran-conflict-will-curb-growth?utm_source=openai",
+            "title": "UK borrowing costs jump again on fears Iran conflict will curb growth"
+          },
+          {
+            "url": "https://www.mql5.com/en/economic-calendar",
+            "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
+          },
+          {
+            "url": "https://www.mql5.com/en/economic-calendar",
+            "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
+          },
+          {
+            "url": "https://www.mql5.com/en/economic-calendar",
+            "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
+          },
+          {
+            "url": "https://www.exchangerates.org.uk/news/45385/2026-03-03-mufg-pound-to-dollar-forecast-gbp-usd-see-1-37-in-12-months-timeframe.html?utm_source=openai",
+            "title": "MUFG Pound To Dollar Forecast: GBP/USD To See 1.37 In 12 Months Timeframe"
+          },
+          {
+            "url": "https://www.fxstreet.com/amp/news/gbp-usd-slides-to-13300-as-middle-east-tensions-lift-us-dollar-202603031550/?utm_source=openai",
+            "title": "GBP/USD slides to 1.3300 as Middle East war lifts US Dollar"
+          },
+          {
+            "url": "https://www.fxstreet.com/amp/news/gbp-usd-slides-to-13300-as-middle-east-tensions-lift-us-dollar-202603031550/?utm_source=openai",
+            "title": "GBP/USD slides to 1.3300 as Middle East war lifts US Dollar"
+          },
+          {
+            "url": "https://www.theguardian.com/business/2026/mar/03/uk-borrowing-costs-jump-again-on-fears-iran-conflict-will-curb-growth?utm_source=openai",
+            "title": "UK borrowing costs jump again on fears Iran conflict will curb growth"
+          },
+          {
+            "url": "https://www.mql5.com/en/economic-calendar",
+            "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
+          }
+        ],
+        "recommendation_based_on_search": true
+      }
+    },
+    {
+      "timestamp": "2026-03-04T03:52:33.369203+03:00",
+      "symbol": "USDJPY",
+      "timeframe": "H1",
+      "price": {
+        "bid": 157.582,
+        "ask": 157.591,
+        "last": 0.0
+      },
+      "sentiment": "BEARISH",
+      "analysis": "Market shows negative pressure. RSI: 41.4, MFI: 52.5, Stochastic: 41.4",
+      "indicators": {
+        "rsi": {
+          "value": 41.42,
+          "condition": "NEUTRAL"
+        },
+        "mfi": {
+          "value": 52.45,
+          "condition": "NEUTRAL"
+        },
+        "stochastic": {
+          "main": 41.35,
+          "condition": "NEUTRAL"
+        },
+        "macd": {
+          "main": 0.15605,
+          "signal": 0.20636,
+          "trend": "BEARISH"
+        },
+        "bollinger_bands": {
+          "upper": 157.66978,
+          "middle": 157.3575,
+          "lower": 157.04522
+        },
+        "moving_average": {
+          "value": 157.32693
+        },
+        "parabolic_sar": {
+          "value": 157.598,
+          "trend": "DOWNTREND"
+        },
+        "ichimoku": {
+          "tenkan_sen": 157.3875,
+          "kijun_sen": 157.1385
         }
       },
       "signals": {
@@ -186,371 +478,79 @@
       "ai_web_research": {
         "ai_enabled": true,
         "model": "gpt-5-nano",
-        "symbol": "EURUSD",
-        "timestamp": "2026-03-03T09:32:21.552209+03:00",
-        "web_search_used": true,
-        "ai_response": "## News Summary\n- Euro zone manufacturing PMI rose to 50.8 in February (above 50 signals expansion), a Reuters report summarized by MarketScreener. This suggests more resilient euro-area demand into early March. Source: Reuters via MarketScreener. ([marketscreener.com](https://www.marketscreener.com/news/euro-zone-factory-growth-hit-44-month-high-in-february-pmi-shows-ce7e5cdcdf8fff21))\n- Euro area retail sales rose 1.2% m/m and 2.5% y/y in February, signaling stronger domestic demand ahead of March euro-area data releases. Source: MQL5 economic calendar (EUR Retail Sales m/m and y/y). ([mql5.com](https://www.mql5.com/en/economic-calendar))\n- Euro zone S&P Global Manufacturing PMI readings were reported across several euro-area releases in the morning, with readings around the high 49s to low 50s (mix of sub-indices). This points to tentative strengths in manufacturing activity around the start of March. Source: MQL5 calendar items (S&P Global Manufacturing PMI readings). ([mql5.com](https://www.mql5.com/en/economic-calendar))\n- ECB Executive Board member Elderson was listed for a speech on March 2, 2026, indicating continued ECB communications activity but not an outright policy decision on that day. Source: MQL5 calendar (ECB Executive Board Member Elderson Speech). ([mql5.com](https://www.mql5.com/en/economic-calendar))\n- Bundesbank President Nagel and ECB President Lagarde were both scheduled to speak at 14:00 on March 2, signaling potential market-interest themes around inflation, growth, and policy settings, but no immediate rate move on that day. Sources: MQL5 calendar pages for Nagel and Lagarde speeches. ([mql5.com](https://www.mql5.com/en/economic-calendar/germany/bbk-president-nagel-speech))\n- US ISM Manufacturing PMI at 15:00 showed actual 52.4 versus a 53.0 forecast, indicating continued expansion but a softer print than expectations. Market impact depends on positioning, but a softer-than-expected print can weigh on the USD in the near term. Source: MQL5 calendar (ISM Manufacturing PMI). ([mql5.com](https://www.mql5.com/en/economic-calendar))\n- Bank of England communications were present with Ramsden speaking at 15:30, contributing to cross-asset interest rate expectations around UK policy dynamics on the same day. Source: MQL5 calendar (BoE Deputy Governor Ramsden Speech). ([mql5.com](https://www.mql5.com/en/economic-calendar))\n- Government debt management events included 3-month, 6-month, and 12-month euro area bond/bTF auctions around 13:56, reflecting euro-area funding operations rather than policy announcements but still relevant for euro liquidity and rates. Source: MQL5 calendar (BTF Auctions). ([mql5.com](https://www.mql5.com/en/economic-calendar))\n- Euro area New Car Registrations for March reported at 17:00 (m/m 12.7%, y/y -14.7%), adding to the euro-area consumer/auto sentiment backdrop that can influence euro demand in the near term. Source: MQL5 calendar (New Car Registrations). ([mql5.com](https://www.mql5.com/en/economic-calendar))\n\nNotes:\n- The above events and figures come from the MQL5 Economic Calendar for 2026-03-02, with US ISM and euro-area data also reflected there. If you\u2019d like, I can pull direct links to the primary sources (ECB/Lagarde/Nagel speeches, ISM release, etc.) for deeper quotes. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n\n## Sentiment\n- Market mood appears mixed-to-positive for the euro on balance, with euro-area retail sales and PMI prints suggesting domestic strength, while a softer than expected US ISM print leaves some room for USD weakness near term. The current price you gave (1.16689) sits around a level that could trend higher if euro-area data remains firm and the USD softens further. Overall tone: cautiously bullish for EURUSD in the near term, but sensitive to any ECB communications and U.S. data surprises. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n\n## AI RECOMMENDATION: BULLISH\n**Reasoning**: \n- The euro-area data mix on March 2 shows strengthening domestic demand (Retail Sales +1.2% m/m; +2.5% y/y) and a PMI backdrop clustering around expansion (50.6\u201350.9 range in the S&P Global PMI readings), which supports a firmer euro relative to the USD. At the same time, the US ISM Manufacturing PMI came in below the forecast (52.4 vs 53.0), which can weigh on the USD in the near term. Add in ECB communications (Nagel and Lagarde speeches) without an imminent rate move, and there\u2019s room for the euro to gain modest ground versus the dollar. Current price action around 1.16689 aligns with a modest upside potential if euro data holds. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n- Key euro-area data and central-bank communications scheduled on March 2 fed a narrative of data-dependence, with no immediate ECB policy shift announced that day, potentially allowing EURUSD to push higher on firm domestic data and softer USD receipts. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n\n**Confidence Level**: MEDIUM\n\nNotes:\n- The recommendation uses the March 2, 2026 calendar data as the basis. If you want, I can monitor March 3 data (USD ISM Non-Manufacturing, European services PMI, etc.) to adjust the stance in real time.",
-        "ai_recommendation": "BULLISH",
-        "ai_recommendation_reasoning": "",
-        "confidence": "MEDIUM",
-        "sources": [
-          {
-            "url": "https://www.marketscreener.com/news/euro-zone-factory-growth-hit-44-month-high-in-february-pmi-shows-ce7e5cdcdf8fff21",
-            "title": "Euro zone factory growth hit 44-month high in February, PMI shows | MarketScreener"
-          },
-          {
-            "url": "https://www.mql5.com/en/economic-calendar",
-            "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
-          },
-          {
-            "url": "https://www.mql5.com/en/economic-calendar/germany/bbk-president-nagel-speech",
-            "title": "Bbk President Nagel Speech - economic data from Germany"
-          }
-        ],
-        "citations": [
-          {
-            "url": "https://www.marketscreener.com/news/euro-zone-factory-growth-hit-44-month-high-in-february-pmi-shows-ce7e5cdcdf8fff21",
-            "title": "Euro zone factory growth hit 44-month high in February, PMI shows | MarketScreener"
-          },
-          {
-            "url": "https://www.mql5.com/en/economic-calendar",
-            "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
-          },
-          {
-            "url": "https://www.mql5.com/en/economic-calendar",
-            "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
-          },
-          {
-            "url": "https://www.mql5.com/en/economic-calendar",
-            "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
-          },
-          {
-            "url": "https://www.mql5.com/en/economic-calendar/germany/bbk-president-nagel-speech",
-            "title": "Bbk President Nagel Speech - economic data from Germany"
-          },
-          {
-            "url": "https://www.mql5.com/en/economic-calendar",
-            "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
-          },
-          {
-            "url": "https://www.mql5.com/en/economic-calendar",
-            "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
-          },
-          {
-            "url": "https://www.mql5.com/en/economic-calendar",
-            "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
-          },
-          {
-            "url": "https://www.mql5.com/en/economic-calendar",
-            "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
-          },
-          {
-            "url": "https://www.mql5.com/en/economic-calendar",
-            "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
-          },
-          {
-            "url": "https://www.mql5.com/en/economic-calendar",
-            "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
-          },
-          {
-            "url": "https://www.mql5.com/en/economic-calendar",
-            "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
-          },
-          {
-            "url": "https://www.mql5.com/en/economic-calendar",
-            "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
-          }
-        ],
-        "recommendation_based_on_search": true
-      }
-    },
-    {
-      "timestamp": "2026-03-03T09:32:21.567152+03:00",
-      "symbol": "GBPUSD",
-      "timeframe": "H1",
-      "price": {
-        "bid": 1.33637,
-        "ask": 1.33647,
-        "last": 0.0
-      },
-      "sentiment": "STRONG_BEARISH",
-      "analysis": "Market shows strong downward pressure. RSI: 41.4, MFI: 36.9, Stochastic: 8.0",
-      "indicators": {
-        "rsi": {
-          "value": 41.44,
-          "condition": "NEUTRAL"
-        },
-        "mfi": {
-          "value": 36.85,
-          "condition": "NEUTRAL"
-        },
-        "stochastic": {
-          "main": 8.03,
-          "condition": "OVERSOLD"
-        },
-        "macd": {
-          "main": -0.00121,
-          "signal": -0.00099,
-          "trend": "BEARISH"
-        },
-        "bollinger_bands": {
-          "upper": 1.34332,
-          "middle": 1.33983,
-          "lower": 1.33634
-        },
-        "moving_average": {
-          "value": 1.34001
-        },
-        "parabolic_sar": {
-          "value": 1.34253,
-          "trend": "DOWNTREND"
-        },
-        "ichimoku": {
-          "tenkan_sen": 1.33896,
-          "kijun_sen": 1.33765
-        }
-      },
-      "signals": {
-        "primary": "SELL",
-        "strength": "STRONG",
-        "recommendation": "ENTER_SHORT"
-      },
-      "ai_web_research": {
-        "ai_enabled": true,
-        "model": "gpt-5-nano",
-        "symbol": "GBPUSD",
-        "timestamp": "2026-03-03T09:33:32.611290+03:00",
-        "web_search_used": true,
-        "ai_response": "## News Summary\n- GBPUSD retreat on March 2, 2026 as risk-off mood supported USD and oil-related headlines. Economies.com notes GBPUSD pushed lower, testing support around 1.335\u20131.340 after a dip from earlier levels, with a bullish setup in the near term being limited by the bearish backdrop. Current price around 1.336 was cited in their analysis. ([economies.com](https://www.economies.com/forex/gbp-usd-analysis/gbpusd-price-reaches-our-expected-target--analysis--02-03-2026-125205))\n- UK data flow on March 2 included a batch of BoE-related releases (Consumer Credit, M4 Money Supply, Mortgage Approvals, Mortgage Lending, Net Lending to Individuals) plus the S&P Global/CIPS Manufacturing PMI. The Market/Calendar listing shows all of these BoE metrics reported in the morning session. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n- BoE communications on March 2 included a speech by Deputy Governor Jon Ramsden (Markets and Banking) at 15:30 UTC, featured in the same economic calendar entry. This adds to near-term guidance context for sterling. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n- UK macro guidance for the next policy step appeared in the March 3 calendar item: the Spring Forecast Statement scheduled for 10:00 (GMT), which is a notable central-bank\u2011adjacent event shaping expectations for the BoE path. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n- The BoE\u2019s next clearly scheduled policy decision remains March 19, 2026 (MPC meeting). Markets and analysts will be watching for how the new forecasts interact with inflation and growth data ahead of that meeting. ([bankofengland.co.uk](https://www.bankofengland.co.uk/monetary-policy/upcoming-mpc-dates?utm_source=openai))\n- Analyst forecasts around this window have signaled continued expectations of easier policy from the BoE later in 2026 (e.g., Goldman Sachs had flagged 25 bp cuts in March, June and September 2026 in a note from December 2025), underscoring a bearish tilt on the pound if UK data remains soft relative to expectations. ([investinglive.com](https://investinglive.com/centralbank/goldman-sachs-expects-the-boe-to-cut-rates-by-25bp-in-march-june-and-september-2026-20251219//?utm_source=openai))\n- A Bank of England policy reference: the February 2026 MPC decision (the last completed before March) kept Bank Rate at 3.75% with a narrow 5\u20134 vote; this backdrop is relevant for interpreting the March/FY2026 trajectory. Next big BoE meeting is March 19, 2026. ([bankofengland.co.uk](https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/february-2026?utm_source=openai))\n\n## Sentiment\n- The mood for GBPUSD in the March 2\u20133 window looks cautious to slightly risk-off. A clash between safer-dollar impulses (amid oil/headline risk) and still-uncertain BoE easing expectations has kept gains in GBP muted, with price hovering around the 1.336 area in the window you cited. The March 3 calendar\u2019s Spring Forecast Statement adds further potential for volatility as the UK outlook is updated. ([economies.com](https://www.economies.com/forex/gbp-usd-analysis/gbpusd-price-reaches-our-expected-target--analysis--02-03-2026-125205))\n- Central-bank communications (BoE Ramsden speech and the Spring Forecast) suggest the path of policy remains data-dependent, with the market leaning toward some easing in 2026 if inflation trends cool and growth softens. This tilt is often negative for the pound in the near term if USD strength or risk-off conditions persist. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n\n## AI RECOMMENDATION: BEARISH\n**Reasoning**: \n- The immediate window (Mar 2\u20133) includes a heavy UK data/communications backdrop (BoE money-supply metrics and consumer credit data, plus Ramsden speech and the Spring Forecast on Mar 3). The calendar readings point to a cautious-to-dovish BoE stance ahead, with investors already pricing in further easing later in 2026. Analyst notes (e.g., Goldman Sachs\u2019 prior forecast of multiple 25 bp BoE cuts in 2026) reinforce a structural bias toward a weaker pound if UK data stay soft relative to the U.S. trajectory. The price action around 1.336 in the window aligns with a softer bias rather than a strong rally banner. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n\n**Confidence Level**: MEDIUM\n\nNotes and next steps (if you want more precision)\n- If you\u2019d like, I can pull additional items from the March 2\u20133 window (e.g., exact BoE debt/credit data numbers, and the text of Ramsden\u2019s speech) and map them to potential GBPUSD moves.\n- I can also fetch any Reuters or Bloomberg pieces specifically dated March 2\u20133, 2026 to broaden the \u201clatest news\u201d set and cross-check the interpretation against those outlets.",
-        "ai_recommendation": "BEARISH",
-        "ai_recommendation_reasoning": "",
-        "confidence": "MEDIUM",
-        "sources": [
-          {
-            "url": "https://www.economies.com/forex/gbp-usd-analysis/gbpusd-price-reaches-our-expected-target--analysis--02-03-2026-125205",
-            "title": "GBPUSD price reaches our expected target- Analysis- 02-03-2026"
-          },
-          {
-            "url": "https://www.mql5.com/en/economic-calendar",
-            "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
-          },
-          {
-            "url": "https://www.bankofengland.co.uk/monetary-policy/upcoming-mpc-dates?utm_source=openai",
-            "title": "Monetary Policy Committee dates for 2026 and 2027 | Bank of England"
-          },
-          {
-            "url": "https://investinglive.com/centralbank/goldman-sachs-expects-the-boe-to-cut-rates-by-25bp-in-march-june-and-september-2026-20251219//?utm_source=openai",
-            "title": "Goldman Sachs expects the BoE to cut rates by 25bp in March, June and September 2026 | investingLive"
-          },
-          {
-            "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/february-2026?utm_source=openai",
-            "title": "Bank Rate maintained at 3.75% - February 2026 Monetary Policy Summary and Minutes | Bank of England"
-          }
-        ],
-        "citations": [
-          {
-            "url": "https://www.economies.com/forex/gbp-usd-analysis/gbpusd-price-reaches-our-expected-target--analysis--02-03-2026-125205",
-            "title": "GBPUSD price reaches our expected target- Analysis- 02-03-2026"
-          },
-          {
-            "url": "https://www.mql5.com/en/economic-calendar",
-            "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
-          },
-          {
-            "url": "https://www.mql5.com/en/economic-calendar",
-            "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
-          },
-          {
-            "url": "https://www.mql5.com/en/economic-calendar",
-            "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
-          },
-          {
-            "url": "https://www.bankofengland.co.uk/monetary-policy/upcoming-mpc-dates?utm_source=openai",
-            "title": "Monetary Policy Committee dates for 2026 and 2027 | Bank of England"
-          },
-          {
-            "url": "https://investinglive.com/centralbank/goldman-sachs-expects-the-boe-to-cut-rates-by-25bp-in-march-june-and-september-2026-20251219//?utm_source=openai",
-            "title": "Goldman Sachs expects the BoE to cut rates by 25bp in March, June and September 2026 | investingLive"
-          },
-          {
-            "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/february-2026?utm_source=openai",
-            "title": "Bank Rate maintained at 3.75% - February 2026 Monetary Policy Summary and Minutes | Bank of England"
-          },
-          {
-            "url": "https://www.economies.com/forex/gbp-usd-analysis/gbpusd-price-reaches-our-expected-target--analysis--02-03-2026-125205",
-            "title": "GBPUSD price reaches our expected target- Analysis- 02-03-2026"
-          },
-          {
-            "url": "https://www.mql5.com/en/economic-calendar",
-            "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
-          },
-          {
-            "url": "https://www.mql5.com/en/economic-calendar",
-            "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
-          }
-        ],
-        "recommendation_based_on_search": true
-      }
-    },
-    {
-      "timestamp": "2026-03-03T09:33:32.637975+03:00",
-      "symbol": "USDJPY",
-      "timeframe": "H1",
-      "price": {
-        "bid": 157.323,
-        "ask": 157.332,
-        "last": 0.0
-      },
-      "sentiment": "STRONG_BEARISH",
-      "analysis": "Market shows strong downward pressure. RSI: 41.5, MFI: 39.9, Stochastic: 19.3",
-      "indicators": {
-        "rsi": {
-          "value": 41.48,
-          "condition": "NEUTRAL"
-        },
-        "mfi": {
-          "value": 39.92,
-          "condition": "NEUTRAL"
-        },
-        "stochastic": {
-          "main": 19.3,
-          "condition": "OVERSOLD"
-        },
-        "macd": {
-          "main": 0.18462,
-          "signal": 0.24059,
-          "trend": "BEARISH"
-        },
-        "bollinger_bands": {
-          "upper": 157.72031,
-          "middle": 157.2987,
-          "lower": 156.87709
-        },
-        "moving_average": {
-          "value": 157.37164
-        },
-        "parabolic_sar": {
-          "value": 157.598,
-          "trend": "DOWNTREND"
-        },
-        "ichimoku": {
-          "tenkan_sen": 157.357,
-          "kijun_sen": 156.956
-        }
-      },
-      "signals": {
-        "primary": "SELL",
-        "strength": "STRONG",
-        "recommendation": "ENTER_SHORT"
-      },
-      "ai_web_research": {
-        "ai_enabled": true,
-        "model": "gpt-5-nano",
         "symbol": "USDJPY",
-        "timestamp": "2026-03-03T09:34:47.743213+03:00",
+        "timestamp": "2026-03-04T03:53:25.363214+03:00",
         "web_search_used": true,
-        "ai_response": "## News Summary\n- Yen Weakens as Dollar Gains on Iran Conflict (March 2, 2026)\n  - The USD/JPY moved toward the mid-157s as the U.S. and Israel strikes on Iran fed safe-haven demand for the dollar and raised political risk concerns. The yen weakened toward 157 per dollar and market attention turned to Japan\u2019s policy path as BoJ officials signaled a willingness to hike if inflation persists. Source: TradingEconomics news stream (Mar 2, 2026). ([tradingeconomics.com](https://tradingeconomics.com/japan/currency/news/529339))\n- Yen Holds Decline on Energy Concerns (March 3, 2026)\n  - The yen remained under pressure, with USD/JPY around the 157.4 area as energy costs and Middle East tensions weighed on Japan\u2019s outlook. Market participants awaited remarks from BoJ Governor Ueda and continued to digest potential policy moves. Source: TradingEconomics news stream (Mar 3, 2026). ([tradingeconomics.com](https://tradingeconomics.com/japan/currency/news/529831))\n- Current price vicinity\n  - USD/JPY has been trading near 157.32\u2013157.40 in this window. The TradingEconomics feed shows the quote around 157.33\u2013157.40 during Mar 2\u20133, 2026. For reference, a live-ish quote on Mar 3 shows 157.3280 in the stream. This aligns with your given level around 157.32. ([tradingeconomics.com](https://tradingeconomics.com/japan/currency))\n\nBonus: Market backdrop snippets from the window\n- Iran conflict and energy prices continued to drive safe-haven and currency moves, with the dollar strengthening and the yen under pressure as BoJ policy expectations remained in play. Source: Reuters-derived items syndicated via TradingEconomics (Mar 2\u20133, 2026). ([tradingeconomics.com](https://tradingeconomics.com/japan/currency/news/529339))\n\nEconomic calendar items from today (MQL5)\n- March 2, 2026\n  - 23:30 JPY Unemployment Rate: Actual 2.7% (Forecast 2.6%, Previous 2.6%). ([mql5.com](https://www.mql5.com/en/economic-calendar))\n  - 23:50 JPY BoJ Monetary Base y/y: Actual -10.6% (Forecast -9.8%, Previous -9.5%). ([mql5.com](https://www.mql5.com/en/economic-calendar))\n- March 2, 2026 (USD data and other markets)\n  - 15:00 USD ISM Manufacturing PMI: Actual 52.4 (Forecast 53.0, Previous 52.6). ([mql5.com](https://www.mql5.com/en/economic-calendar))\n  - 15:00 USD ISM Manufacturing Prices Paid: Actual 70.5 (Forecast 62.2, Previous 59.0). ([mql5.com](https://www.mql5.com/en/economic-calendar))\n  - 15:00 USD ISM Manufacturing Employment: Actual 48.8 (Forecast 45.4, Previous 48.1). ([mql5.com](https://www.mql5.com/en/economic-calendar))\n  - 16:30 USD 3-Month Bill Auction (Actual 3.610%, Previous 3.590%) and 16:30 USD 6-Month Bill Auction (Actual 3.535%, Previous 3.525%). ([mql5.com](https://www.mql5.com/en/economic-calendar))\n\nCentral bank and analyst context during the window\n- BoJ policy path remains a focal point; market chatter around possible hikes in 2026 was prominent, with reports suggesting the BoJ could hike as early as March or multiple times this year if inflation persists. This backdrop supports a lens of continued yen weakness against the dollar in the near term. Source: Reuters-linked coverage summarized by market outlets. ([investing.com](https://www.investing.com/news/economy-news/boj-could-hike-rates-as-early-as-march-up-to-3-times-in-2026-mizuho-executive-says-4501720?utm_source=openai))\n- Analyst forecasts you might see referenced around this window include scenarios where USDJPY could push toward 160 if political developments in Japan strengthen expectations for tighter BoJ policy (TD Securities notes, cited in FXStreet briefs). This feeds the appetite for potential upside in USDJPY on the policy path and geopolitical risk. Source: FXStreet FX Insights piece (Feb 5, 2026). ([fxstreet.com](https://www.fxstreet.com/amp/news/usdjpy-potential-for-significant-movement-td-securities-202602051012/?utm_source=openai))\n\n## Sentiment\n- Market mood: Bullish for USDJPY in the near term. Safe-haven demand and geopolitically driven USD strength, combined with ongoing BoJ policy-path uncertainty, pushed USD/JPY into the 157 area during this window. Yen under performance vs the dollar was the dominant theme on both March 2 and March 3, 2026. ([tradingeconomics.com](https://tradingeconomics.com/japan/currency/news/529339))\n\n## AI RECOMMENDATION: BULLISH\n**Reasoning**: \n- The window shows consistent USD strength against the JPY driven by Middle East tensions and higher energy costs, with USD/JPY trading around 157.3\u2013157.4. BoJ policy-path debates kept the yen\u2019s path uncertain, but market tone leaned toward potential BoJ tightening, which would still benefit USDJPY if U.S. data continue to support the Fed staying on hold or delaying cuts. This setup has favored a higher USDJPY on balance during March 2\u20133, 2026. ([tradingeconomics.com](https://tradingeconomics.com/japan/currency/news/529339))\n**Confidence Level**: MEDIUM\n\nNotes and how I used sources\n- News items directly within the requested window (Mar 2\u2013Mar 3, 2026) and current quote level come from TradingEconomics\u2019 USDJPY News Stream, which aggregates Reuters content and provides the on-the-ground price context for those dates. Examples: \u201cYen Weakens as Dollar Gains on Iran Conflict\u201d (Mar 2) and \u201cYen Holds Decline on Energy Concerns\u201d (Mar 3). ([tradingeconomics.com](https://tradingeconomics.com/japan/currency/news/529339))\n- The MQL5 Economic Calendar page was checked for today\u2019s events, showing the JPY unemployment rate and BoJ monetary base data (and USD data releases) on March 2, 2026, which helps label the calendar context you asked for. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n- The current price cue you provided (157.323) aligns with the window\u2019s data: USDJPY trading around the mid-157 area, with quotes near 157.32\u2013157.40 during March 2\u20133, 2026. The TradingEconomics quote page shows around 157.3280 in the feed. ([tradingeconomics.com](https://tradingeconomics.com/japan/currency))\n- For analyst forecasts, I\u2019ve included a representative forecast note from TD Securities via FXStreet (early February 2026) to reflect the kind of forecast context analysts were offering around this period (USDJPY toward 160 under certain political scenarios). This complements the window\u2019s central-bank and geopolitical narrative. ([fxstreet.com](https://www.fxstreet.com/amp/news/usdjpy-potential-for-significant-movement-td-securities-202602051012/?utm_source=openai))\n\nIf you\u2019d like, I can also pull more March 2\u20133, 2026 USDJPY news from other outlets (Bloomberg, Reuters, CNBC) and add them with exact timestamps to broaden the headlines list.",
+        "ai_response": "## News Summary\n- USDJPY technical view ( Mar 3, 2026 ): The pair was seen lifting into bullish momentum but pulling back from resistance around 157.30, with support from the 50-day EMA. A bullish setup remained in play, pointing toward a potential move to the next resistance near 157.75. ([economies.com](https://www.economies.com/forex/usd-jpy-analysis/the-usdjpy-is-experiencing-a-well-deserved-profit-taking-analysis-03-03-2026-125242?utm_source=openai))\n- USDJPY intraday outlook ( Mar 3, 2026 ): Traders noted a pause amid strong moves, with the rate near 157.20\u2013157.40 and a key upside level at 157.75. Breakouts above that level were cited as a path toward higher targets. ([roboforex.com](https://roboforex.com/beginners/analytics/forex-forecast/currencies/usd-jpy-forecast-2026-03-03/?utm_source=openai))\n- Analyst forecasts ( around Mar 3\u20134, 2026 ): Several technical-leaning reports forecast a push toward 157.75 as a near-term ceiling, with potential follow-through to roughly 158.50 if 157.75 is breached. ([roboforex.com](https://roboforex.com/beginners/analytics/forex-forecast/currencies/usd-jpy-forecast-2026-03-03/?utm_source=openai))\n- Economic calendar \u2013 today\u2019s US data and Fed signal ( Mar 4, 2026 ): MQL5\u2019s economic calendar lists key US releases for Mar 4 including ADP Nonfarm Employment Change (13:15 UTC) and ISM Non-Manufacturing PMI (15:00 UTC), along with the Fed Beige Book release (19:00 UTC). These events can influence USD strength and USDJPY direction. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n- Central bank events ( Mar 4, 2026 ): Swiss National Bank (SNB) is scheduled to hold a News Conference on Mar 4, 2026, a potential driver for FX pairs including USDJPY via risk sentiment and USD/JPY carry dynamics. ([snb.ch](https://www.snb.ch/en/services-events/digital-services/webtv?utm_source=openai))\n- Fed communications ( Mar 4, 2026 ): The Fed Beige Book is scheduled for March 4, 2026, providing qualitative insights into current US activity and hiring conditions that traders watch for hints on policy stance and rate expectations. ([federalreserve.gov](https://www.federalreserve.gov/newsevents/2026-march.htm?utm_source=openai))\n\nNote: Current price cited by you: 157.582. Reported levels in the sources above indicate a near-term test of the 157.75 area as a key waypoint.\n\n## Sentiment\n- Mixed-to-bullish USD bias in the near term. The price is flirting with a notable resistance around 157.75, with several technical notes pointing to a breakout as a possible near-term catalyst. Headlines around US data (ADP, ISM services/non-manufacturing) and the Fed Beige Book could push the dollar higher if results reinforce hawkish expectations. At the same time, ongoing central-bank communications (including SNB events) can inject volatility and affect risk sentiment, potentially limiting clear directional moves in USDJPY. ([roboforex.com](https://roboforex.com/beginners/analytics/forex-forecast/currencies/usd-jpy-forecast-2026-03-03/?utm_source=openai))\n\n## AI RECOMMENDATION: BULLISH\n**Reasoning**: \n- The near-term setup suggests a test of the 157.75 resistance, with a bullish path if it breaks, aligning with forecast-driven calls that a break above 157.75 could extend toward around 158.50. This is supported by multiple technical analyses cited in recent coverage. ([roboforex.com](https://roboforex.com/beginners/analytics/forex-forecast/currencies/usd-jpy-forecast-2026-03-03/?utm_source=openai))\n- Key US data and the Fed Beige Book on Mar 4 could reinforce dollar strength if outcomes are stronger\u2011than\u2011expected or reveal resilience in activity, which would support USDJPY upside. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n- SNB event risk on Mar 4 could add volatility but is less likely to derail a USD-led move if US data remains supportive; traders will be watching for cross-market cues. ([snb.ch](https://www.snb.ch/en/services-events/digital-services/event-schedule?utm_source=openai))\n\n**Confidence Level**: MEDIUM\n\nIf you\u2019d like, I can pull more precise intraday updates or set up alerts around key levels (e.g., 157.75 break, 158.50 target) and attach live sources as they come in.",
         "ai_recommendation": "BULLISH",
         "ai_recommendation_reasoning": "",
         "confidence": "MEDIUM",
         "sources": [
           {
-            "url": "https://tradingeconomics.com/japan/currency/news/529339",
-            "title": "\n\tYen Weakens as Dollar Gains on Iran Conflict\n"
+            "url": "https://www.economies.com/forex/usd-jpy-analysis/the-usdjpy-is-experiencing-a-well-deserved-profit-taking-analysis-03-03-2026-125242?utm_source=openai",
+            "title": "The USDJPY is experiencing a well-deserved profit-taking-Analysis-03-03-2026"
           },
           {
-            "url": "https://tradingeconomics.com/japan/currency/news/529831",
-            "title": "\n\tYen Holds Decline on Energy Concerns\n"
-          },
-          {
-            "url": "https://tradingeconomics.com/japan/currency",
-            "title": "\n\tJapanese Yen - Quote - Chart - Historical Data - News\n"
+            "url": "https://roboforex.com/beginners/analytics/forex-forecast/currencies/usd-jpy-forecast-2026-03-03/?utm_source=openai",
+            "title": "USDJPY price forecast and analysis for today, 3 March 2026 - RoboForex"
           },
           {
             "url": "https://www.mql5.com/en/economic-calendar",
             "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
           },
           {
-            "url": "https://www.investing.com/news/economy-news/boj-could-hike-rates-as-early-as-march-up-to-3-times-in-2026-mizuho-executive-says-4501720?utm_source=openai",
-            "title": "BOJ could hike rates as early as March, up to 3 times in 2026, Mizuho executive says By Reuters"
+            "url": "https://www.snb.ch/en/services-events/digital-services/webtv?utm_source=openai",
+            "title": "Web TV: SNB events"
           },
           {
-            "url": "https://www.fxstreet.com/amp/news/usdjpy-potential-for-significant-movement-td-securities-202602051012/?utm_source=openai",
-            "title": "USDJPY: Potential for significant movement \u2013 TD Securities"
+            "url": "https://www.federalreserve.gov/newsevents/2026-march.htm?utm_source=openai",
+            "title": "Federal Reserve Board - Calendar: March 2026"
+          },
+          {
+            "url": "https://www.snb.ch/en/services-events/digital-services/event-schedule?utm_source=openai",
+            "title": "Time schedule and past appearances by Governing Board members"
           }
         ],
         "citations": [
           {
-            "url": "https://tradingeconomics.com/japan/currency/news/529339",
-            "title": "\n\tYen Weakens as Dollar Gains on Iran Conflict\n"
+            "url": "https://www.economies.com/forex/usd-jpy-analysis/the-usdjpy-is-experiencing-a-well-deserved-profit-taking-analysis-03-03-2026-125242?utm_source=openai",
+            "title": "The USDJPY is experiencing a well-deserved profit-taking-Analysis-03-03-2026"
           },
           {
-            "url": "https://tradingeconomics.com/japan/currency/news/529831",
-            "title": "\n\tYen Holds Decline on Energy Concerns\n"
+            "url": "https://roboforex.com/beginners/analytics/forex-forecast/currencies/usd-jpy-forecast-2026-03-03/?utm_source=openai",
+            "title": "USDJPY price forecast and analysis for today, 3 March 2026 - RoboForex"
           },
           {
-            "url": "https://tradingeconomics.com/japan/currency",
-            "title": "\n\tJapanese Yen - Quote - Chart - Historical Data - News\n"
-          },
-          {
-            "url": "https://tradingeconomics.com/japan/currency/news/529339",
-            "title": "\n\tYen Weakens as Dollar Gains on Iran Conflict\n"
+            "url": "https://roboforex.com/beginners/analytics/forex-forecast/currencies/usd-jpy-forecast-2026-03-03/?utm_source=openai",
+            "title": "USDJPY price forecast and analysis for today, 3 March 2026 - RoboForex"
           },
           {
             "url": "https://www.mql5.com/en/economic-calendar",
             "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
           },
           {
-            "url": "https://www.mql5.com/en/economic-calendar",
-            "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
+            "url": "https://www.snb.ch/en/services-events/digital-services/webtv?utm_source=openai",
+            "title": "Web TV: SNB events"
+          },
+          {
+            "url": "https://www.federalreserve.gov/newsevents/2026-march.htm?utm_source=openai",
+            "title": "Federal Reserve Board - Calendar: March 2026"
+          },
+          {
+            "url": "https://roboforex.com/beginners/analytics/forex-forecast/currencies/usd-jpy-forecast-2026-03-03/?utm_source=openai",
+            "title": "USDJPY price forecast and analysis for today, 3 March 2026 - RoboForex"
+          },
+          {
+            "url": "https://roboforex.com/beginners/analytics/forex-forecast/currencies/usd-jpy-forecast-2026-03-03/?utm_source=openai",
+            "title": "USDJPY price forecast and analysis for today, 3 March 2026 - RoboForex"
           },
           {
             "url": "https://www.mql5.com/en/economic-calendar",
             "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
           },
           {
-            "url": "https://www.mql5.com/en/economic-calendar",
-            "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
-          },
-          {
-            "url": "https://www.mql5.com/en/economic-calendar",
-            "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
-          },
-          {
-            "url": "https://www.mql5.com/en/economic-calendar",
-            "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
-          },
-          {
-            "url": "https://www.investing.com/news/economy-news/boj-could-hike-rates-as-early-as-march-up-to-3-times-in-2026-mizuho-executive-says-4501720?utm_source=openai",
-            "title": "BOJ could hike rates as early as March, up to 3 times in 2026, Mizuho executive says By Reuters"
-          },
-          {
-            "url": "https://www.fxstreet.com/amp/news/usdjpy-potential-for-significant-movement-td-securities-202602051012/?utm_source=openai",
-            "title": "USDJPY: Potential for significant movement \u2013 TD Securities"
-          },
-          {
-            "url": "https://tradingeconomics.com/japan/currency/news/529339",
-            "title": "\n\tYen Weakens as Dollar Gains on Iran Conflict\n"
-          },
-          {
-            "url": "https://tradingeconomics.com/japan/currency/news/529339",
-            "title": "\n\tYen Weakens as Dollar Gains on Iran Conflict\n"
-          },
-          {
-            "url": "https://tradingeconomics.com/japan/currency/news/529339",
-            "title": "\n\tYen Weakens as Dollar Gains on Iran Conflict\n"
-          },
-          {
-            "url": "https://www.mql5.com/en/economic-calendar",
-            "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
-          },
-          {
-            "url": "https://tradingeconomics.com/japan/currency",
-            "title": "\n\tJapanese Yen - Quote - Chart - Historical Data - News\n"
-          },
-          {
-            "url": "https://www.fxstreet.com/amp/news/usdjpy-potential-for-significant-movement-td-securities-202602051012/?utm_source=openai",
-            "title": "USDJPY: Potential for significant movement \u2013 TD Securities"
+            "url": "https://www.snb.ch/en/services-events/digital-services/event-schedule?utm_source=openai",
+            "title": "Time schedule and past appearances by Governing Board members"
           }
         ],
         "recommendation_based_on_search": true
