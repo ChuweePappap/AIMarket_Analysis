@@ -1,53 +1,53 @@
 {
-  "timestamp": "2026-03-18T10:11:43.353797+03:00",
+  "timestamp": "2026-03-25T11:00:33.163025+03:00",
   "timeframe": "H1",
   "total_symbols": 4,
   "ai_enabled": true,
   "analyses": [
     {
-      "timestamp": "2026-03-18T10:06:54.868580+03:00",
+      "timestamp": "2026-03-25T10:55:43.243904+03:00",
       "symbol": "XAUUSD",
       "timeframe": "H1",
       "price": {
-        "bid": 5010.03,
-        "ask": 5010.18,
+        "bid": 4543.84,
+        "ask": 4544.02,
         "last": 0.0
       },
       "sentiment": "STRONG_BULLISH",
-      "analysis": "Market shows strong upward momentum. RSI: 58.2, MFI: 57.3, Stochastic: 67.4",
+      "analysis": "Market shows strong upward momentum. RSI: 70.7, MFI: 67.0, Stochastic: 16.6",
       "indicators": {
         "rsi": {
-          "value": 58.16,
-          "condition": "NEUTRAL"
+          "value": 70.69,
+          "condition": "OVERBOUGHT"
         },
         "mfi": {
-          "value": 57.32,
+          "value": 67.04,
           "condition": "NEUTRAL"
         },
         "stochastic": {
-          "main": 67.44,
-          "condition": "NEUTRAL"
+          "main": 16.55,
+          "condition": "OVERSOLD"
         },
         "macd": {
-          "main": -5.41953,
-          "signal": -10.99285,
+          "main": 42.24043,
+          "signal": 36.19327,
           "trend": "BULLISH"
         },
         "bollinger_bands": {
-          "upper": 5033.40782,
-          "middle": 5004.3495,
-          "lower": 4975.29118
+          "upper": 4644.71089,
+          "middle": 4481.6365,
+          "lower": 4318.56211
         },
         "moving_average": {
-          "value": 5008.345
+          "value": 4515.34357
         },
         "parabolic_sar": {
-          "value": 4973.99,
+          "value": 4456.1,
           "trend": "UPTREND"
         },
         "ichimoku": {
-          "tenkan_sen": 5006.73,
-          "kijun_sen": 5004.075
+          "tenkan_sen": 4537.485,
+          "kijun_sen": 4461.06
         }
       },
       "signals": {
@@ -59,121 +59,113 @@
         "ai_enabled": true,
         "model": "gpt-5-nano",
         "symbol": "XAUUSD",
-        "timestamp": "2026-03-18T10:08:15.594439+03:00",
+        "timestamp": "2026-03-25T10:57:05.695570+03:00",
         "web_search_used": true,
-        "ai_response": "## News Summary\n- Central bank events in the window:\n  - Federal Reserve: The FOMC meeting is scheduled for March 17\u201318, 2026, with the FOMC Statement, the monetary projections, and the Fed Interest Rate Decision due on March 18 at 18:00 UTC, followed by a press conference at 18:30 UTC. This scheduling is shown in the official economic calendar. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n  - Bank of Canada: BoC Interest Rate Decision and BoC Rate Statement are also on March 18, 2026 (13:45 UTC). ([mql5.com](https://www.mql5.com/en/economic-calendar))\n\n- Key economic calendar events (global data that can influence XAUUSD in the session around the Fed decision):\n  - China: Foreign Direct Investment Year-over-Year at 01:00 (Mar 18) local time. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n  - Australia: RBA Rate Statement at 04:30 (Mar 18) and RBA Interest Rate Decision at 04:30 (Mar 18). ([mql5.com](https://www.mql5.com/en/economic-calendar))\n  - Europe: Euro area Core CPI m/m, CPI m/m, and related measures around 10:00 (Mar 18). ([mql5.com](https://www.mql5.com/en/economic-calendar))\n  - United States (data releases ahead of the Fed decision): PPI m/m, PPI y/y, Factory Orders m/m, and related releases around 12:30\u201314:00 UTC. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n  - U.S. energy data: EIA Crude Oil Stocks Change and related energy stats at 14:30 UTC. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n  - New Zealand: GDP (q/q) and GDP (y/y) releases at 21:45 UTC. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n\n- Current price context: XAU/USD is shown at approximately 5,010.03 per ounce in your note.\n\n- Note on \u201clatest\u201d news in this window: I\u2019m listing items that the official calendar and widely reported market activity point to within March 17\u201318, 2026. If you want, I can run a broader news sweep specifically for Reuters/Bloomberg/ CNBC within these exact two dates and pull in any on-the-spot market moves or quotes.\n\nCitations: Economic calendar items and timestamps are from the MQL5 Economic Calendar page (March 2026 data including FOMC, BoC, and US/EU/Asia releases). ([mql5.com](https://www.mql5.com/en/economic-calendar))\n\n## Sentiment\n- Mixed/unclear ahead of the Fed decision. Market sensitivity is high around the March 18 FOMC outcome (rate hold vs. potential cuts) and BoC signaling, with safe-haven demand for gold often rising on Fed/photo-risk events. The schedule-matched data releases (PPI, Factory Orders, EIA energy data, CPI/PPI in Europe) add to short-term volatility risk around the FOMC communication.\n\n- Immediate near-term drivers in this window are the Fed/BoC decisions and the related press conferences, rather than standalone gold-specific headlines. Expect choppiness around 18:00\u201318:30 UTC on March 18 as the Fed releases its statement and the press conference follows. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n\n## AI RECOMMENDATION: NEUTRAL\n**Reasoning**: The window is dominated by a major monetary policy event (the Fed\u2019s March 17\u201318 meeting) and a BoC decision, with a full slate of U.S. and European data releases around that event. Gold (XAUUSD) tends to swing on policy signals and real-yield/dollar moves around such meetings. Without a confirmed policy outcome in the window yet, and given the potential for high volatility at 18:00 UTC, a neutral stance minimizes risk of a premature directional call.\n\n**Confidence Level**: MEDIUM\n\nIf you\u2019d like, I can:\n- pull in Reuters/Bloomberg/CNBC coverage specifically for March 17\u201318, 2026 and extract any gold-related quotes or price moves,\n- summarize the Fed BoC outcomes immediately after the announcements,\n- and update the sentiment and recommendation in light of the actual Fed/BoC decisions.",
+        "ai_response": "## News Summary\n- AP News: Gold futures (BC-Gold Futures) price reporting session around March 24, 2026 (coverage notes prices as of 4:30 PM local time on March 24). This provides market context for XAUUSD moves within the window but is not a standalone market-moving headline. ([apnews.com](https://apnews.com/article/15cb39dabbac726804edd6737e6273ea?utm_source=openai))\n\n- In the same window, the market was focused on a slate of daily economic data and central-bank commentary (as summarized by the MQL5 Economic Calendar below). The calendar highlights several key speeches and releases that could influence XAUUSD through March 24\u201325, including BoE, ECB, and BoJ communications, as well as U.S. data releases. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n\nNote: I could not find a broad array of standalone Reuters/Bloomberg headlines dedicated solely to XAUUSD within the 24-hour window of March 24\u201325, 2026 in my current pass. The strongest corroboration for what moved or could move XAUUSD in that window comes from the AP price-reporting note and the central-bank/economy calendar items below.\n\n## Sentiment\n- Market mood: Mixed/unclear. The window contains a batch of central-bank communications (ECB, BoE, BoJ, SNB) and U.S. macro data that can inject volatility and skew the near-term trend either way. With the price quoted around 4,543.84 (per your input) and analysts forecasting a range of outcomes for 2026, near-term direction is ambivalent and highly data-/news-driven. The tone is more about possible volatility around events than a clear trending signal.\n\n## AI RECOMMENDATION: NEUTRAL\n**Reasoning**: \n- The 24-hour window includes significant central-bank communications (ECB Lagarde and Lane speeches, BoE Pill speech, SNB Bulletin, BoJ meeting minutes) and U.S./EU macro data that can swing gold either higher or lower depending on surprises. That breadth of potential catalysts supports a neutral stance rather than a clear bullish or bearish bet in the very near term. The current price you provided (4543.84) sits near the middle of a wide historical range and is not obviously tipped toward an immediate breakout or breakdown based on the most recent headlines in this window.\n- Analyst forecasts for 2026 span roughly from the mid-4,000s to near 4,800+ per ounce (e.g., Morgan Stanley\u2019s 2026 call around 4,400; other notes up to 4,800 by Q4 2026). This dispersion reinforces a balanced view rather than a strong directional cue in the immediate term. ([morganstanley.com](https://www.morganstanley.com/insights/articles/gold-price-forecast-rally-into-2026?utm_source=openai))\n**Confidence Level**: MEDIUM\n\nWhat I used and where to verify\n- Economic calendar (central-bank announcements and key data for Mar 24\u201325, 2026): MQL5 Economic Calendar page, showing items like BoE Pill Speech (GBP), SNB Quarterly Bulletin (CHF), ECB Lagarde/Lane speeches (EUR), Riksbank Minutes (SEK), and U.S. data/releases (12:30 Nonfarm Productivity, 12:30 Unit Labor Costs, etc.). ([mql5.com](https://www.mql5.com/en/economic-calendar))\n- Latest price-linked context and market reporting within window: AP News price reporting on Gold Futures (BC-Gold Futures) for March 24, 2026. This provides a contemporaneous market-data snapshot relevant to XAUUSD moves in the window. ([apnews.com](https://apnews.com/article/15cb39dabbac726804edd6737e6273ea?utm_source=openai))\n- Analyst forecasts (contextual backdrop for 2026): Morgan Stanley forecast coverage noting 2026 targets around 4,400/oz; Morgan Stanley reporting as well as related Reuters/StreetInsider summaries citing mid\u20112026 targets around 4,500!/oz and up to 4,800/oz by Q4 2026. These give a sense of range and expectations shaping trader views during the window. ([morganstanley.com](https://www.morganstanley.com/insights/articles/gold-price-forecast-rally-into-2026?utm_source=openai))\n\nIf you\u2019d like, I can:\n- Drill into more sources for March 24\u201325, 2026 specifically (Reuters/Bloomberg/MarketWatch-type outlets) to pull any additional XAUUSD-focused news from that exact 24-hour window.\n- Filter the analyst-forecast set to include only forecasts from a given subset of banks (e.g., Morgan Stanley, Goldman Sachs, Deutsche Bank) with precise dates.",
         "ai_recommendation": "NEUTRAL",
         "ai_recommendation_reasoning": "",
         "confidence": "MEDIUM",
         "sources": [
           {
+            "url": "https://apnews.com/article/15cb39dabbac726804edd6737e6273ea?utm_source=openai",
+            "title": "BC-Gold Futures"
+          },
+          {
             "url": "https://www.mql5.com/en/economic-calendar",
             "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
+          },
+          {
+            "url": "https://www.morganstanley.com/insights/articles/gold-price-forecast-rally-into-2026?utm_source=openai",
+            "title": "Gold Price Forecast: Rally Expected to Accelerate into 2026 | Morgan Stanley"
           }
         ],
         "citations": [
           {
-            "url": "https://www.mql5.com/en/economic-calendar",
-            "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
+            "url": "https://apnews.com/article/15cb39dabbac726804edd6737e6273ea?utm_source=openai",
+            "title": "BC-Gold Futures"
           },
           {
             "url": "https://www.mql5.com/en/economic-calendar",
             "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
           },
           {
-            "url": "https://www.mql5.com/en/economic-calendar",
-            "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
+            "url": "https://www.morganstanley.com/insights/articles/gold-price-forecast-rally-into-2026?utm_source=openai",
+            "title": "Gold Price Forecast: Rally Expected to Accelerate into 2026 | Morgan Stanley"
           },
           {
             "url": "https://www.mql5.com/en/economic-calendar",
             "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
           },
           {
-            "url": "https://www.mql5.com/en/economic-calendar",
-            "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
+            "url": "https://apnews.com/article/15cb39dabbac726804edd6737e6273ea?utm_source=openai",
+            "title": "BC-Gold Futures"
           },
           {
-            "url": "https://www.mql5.com/en/economic-calendar",
-            "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
-          },
-          {
-            "url": "https://www.mql5.com/en/economic-calendar",
-            "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
-          },
-          {
-            "url": "https://www.mql5.com/en/economic-calendar",
-            "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
-          },
-          {
-            "url": "https://www.mql5.com/en/economic-calendar",
-            "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
-          },
-          {
-            "url": "https://www.mql5.com/en/economic-calendar",
-            "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
+            "url": "https://www.morganstanley.com/insights/articles/gold-price-forecast-rally-into-2026?utm_source=openai",
+            "title": "Gold Price Forecast: Rally Expected to Accelerate into 2026 | Morgan Stanley"
           }
         ],
         "recommendation_based_on_search": true
       }
     },
     {
-      "timestamp": "2026-03-18T10:08:15.679367+03:00",
+      "timestamp": "2026-03-25T10:57:05.776791+03:00",
       "symbol": "EURUSD",
       "timeframe": "H1",
       "price": {
-        "bid": 1.15435,
-        "ask": 1.15443,
+        "bid": 1.16013,
+        "ask": 1.16022,
         "last": 0.0
       },
-      "sentiment": "NEUTRAL",
-      "analysis": "Market shows balanced conditions. RSI: 60.5, MFI: 52.2, Stochastic: 30.1",
+      "sentiment": "STRONG_BEARISH",
+      "analysis": "Market shows strong downward pressure. RSI: 46.4, MFI: 41.8, Stochastic: 37.9",
       "indicators": {
         "rsi": {
-          "value": 60.52,
+          "value": 46.4,
           "condition": "NEUTRAL"
         },
         "mfi": {
-          "value": 52.24,
+          "value": 41.83,
           "condition": "NEUTRAL"
         },
         "stochastic": {
-          "main": 30.06,
+          "main": 37.92,
           "condition": "NEUTRAL"
         },
         "macd": {
-          "main": 0.00095,
-          "signal": 0.00096,
+          "main": 0.00017,
+          "signal": 0.00048,
           "trend": "BEARISH"
         },
         "bollinger_bands": {
-          "upper": 1.15323,
-          "middle": 1.14864,
-          "lower": 1.14404
+          "upper": 1.16165,
+          "middle": 1.15923,
+          "lower": 1.15682
         },
         "moving_average": {
-          "value": 1.14984
+          "value": 1.15876
         },
         "parabolic_sar": {
-          "value": 1.15249,
-          "trend": "UPTREND"
+          "value": 1.16177,
+          "trend": "DOWNTREND"
         },
         "ichimoku": {
-          "tenkan_sen": 1.15057,
-          "kijun_sen": 1.14696
+          "tenkan_sen": 1.15924,
+          "kijun_sen": 1.16034
         }
       },
       "signals": {
-        "primary": "NEUTRAL",
-        "strength": "MODERATE",
-        "recommendation": "OBSERVE"
+        "primary": "SELL",
+        "strength": "STRONG",
+        "recommendation": "ENTER_SHORT"
       },
       "ai_web_research": {
         "ai_enabled": true,
         "model": "gpt-5-nano",
         "symbol": "EURUSD",
-        "timestamp": "2026-03-18T10:09:14.336369+03:00",
+        "timestamp": "2026-03-25T10:58:20.483484+03:00",
         "web_search_used": true,
-        "ai_response": "## News Summary\n- Euro area inflation data released on March 17, 2026 showed softer readings vs expectations:\n  - CPI monthly (m/m) = 0.7% (forecast 0.8%)\n  - CPI year-over-year (y/y) = 1.5% (forecast 1.6%)\n  - HICP monthly (m/m) = 0.5% (forecast 0.6%)\n  - HICP year-over-year (y/y) = 1.5% (forecast 1.6%)\n  - CPI excluding food and energy (FOI ex. tobacco) = 0.5% (forecast 0.1% for the related measure)\n  Source: Euro-area CPI/HICP data schedule for March 17, 2026 (Economics calendar details for EUR data). ([mql5.com](https://www.mql5.com/en/economic-calendar))\n\n- The European Central Bank\u2019s March 2026 policy meeting is scheduled for March 18\u201319, 2026, with the ECB deposit facility rate decision and a press conference planned around March 19, 2026. This is an upcoming euro-area policy event that markets will be watching closely for guidance on the trajectory of rates. ([bancaditalia.it](https://www.bancaditalia.it/media/agenda/2026-03-18_governing-council-of-the-ecb-monetary-policy-meeting/))\n\n- In the United States, the Federal Reserve\u2019s FOMC meeting is set for March 17\u201318, 2026, with markets eyeing the policy statement released on March 18, 2026. The week also features the US Producer Price Index (PPI) release on March 18, 2026, which will influence inflation expectations and rate expectations. ([ifcmfx.com](https://www.ifcmfx.com/en/next-week-calendar/eurusd-economic-calendar-2026-03-09))\n\n- EURUSD-focused calendars also note other relevant euro-area data for the window (e.g., CPI backstop readings for March 18, 2026 forecast in the calendar). These data points are expected to drive short-term moves in EURUSD as traders reassess the ECB\u2019s policy path around the March meeting. ([ifcmfx.com](https://www.ifcmfx.com/en/next-week-calendar/eurusd-economic-calendar-2026-03-09))\n\n- Analyst forecasts and outlooks for EURUSD in 2026 put the pair in a broad 1.17\u20131.19 range in the near term, with longer-run calls suggesting potential upside as ECB policy paths diverge from the U.S. trajectory. Notable forecasts include: EURUSD around 1.17\u20131.18 for early 2026 and 1.19\u20131.20 later in 2026. ([corpaycurrencyresearch.com](https://corpaycurrencyresearch.com/wp-content/uploads/2026/01/202600115-OUTLOOK.pdf?utm_source=openai))\n\nNote: The current price you provided for EURUSD is 1.15435, which sits near the middle of the recent range given the data in this window.\n\n## Sentiment\n- Neutral to mildly constructive for EUR in the near term. The Euro area inflation prints on March 17 were softer than forecasts, which could be supportive of the euro if the ECB signals a measured approach in March and hints at a stabilizing growth/inflation path. However, the market is also awaiting the ECB\u2019s March policy decision and the Fed\u2019s guidance from its March meeting, which could introduce material volatility and bias moves either higher or lower in EURUSD depending on the policy stance and macro surprises. Overall, data and event risk point to a risk-balanced, event-driven environment rather than a clear, one-sided directional bias. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n\n## AI RECOMMENDATION: NEUTRAL\n**Reasoning**: The window contains major, potentially market-moving events (ECB policy decision around March 18\u201319; Fed FOMC decision around March 18; euro-area inflation readings on March 17). Softer euro-zone inflation supports the euro on a fundamental basis, but risk events (ECB decision signals, Fed guidance) create mixed short-term impulses. Given the current price around 1.154 and a balance of euro-positive data with ongoing policy uncertainty, a neutral stance aligns with the near-term risk/reward. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n\n**Confidence Level**: MEDIUM\n\nIf you\u2019d like, I can monitor live feeds for any new Reuters/Bloomberg/AP reports on the ECB/FOMC outcomes and update the summary with exact post-announcement moves and revised forecasts.",
+        "ai_response": "## News Summary\n- Eurozone PMIs released on March 24, 2026 showed a mixed picture. Early readings (08:15) had Manufacturing PMI at 50.2, Services PMI at 48.3, and Composite PMI at 48.3. A revision at 09:00 showed Manufacturing PMI up to 51.7, Services 51.2, Composite 51.9, indicating divergent momentum across sectors. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n- March 24, 2026: German Bundesbank President Nagel spoke at 15:00 and ECB Governing Council member Christine Lagarde\u2019s colleague Lane spoke at 15:45 (both euro-area-related events). These are part of ongoing ECB communications around the data cycle. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n- March 25, 2026: ECB President Christine Lagarde was scheduled to speak (08:45), with ECB Executive Board member Lane also delivering a speech (09:15). These events can influence euro direction around the release of euro-area price and output data. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n- Euro-area inflation/producer prices: PPI year-over-year for the euro area was on the calendar for March 25 at 08:00 (Forecast -4.0%, Previous -2.9%), a potential wildcard for EURUSD depending on the actual print. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n- US data related to the euro/dollar ecosystem: Current Account (12:30) and Import/Export Price Index (12:30) are scheduled, with further energy data (EIA Crude Oil Stocks Change, Distillates, etc.) later in the day, which could impact USD strength and thus EURUSD moves. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n- Additional euro-area speakers: ECB Supervisory Board Member Tuominen is set to speak at 14:00, and Tuominen\u2019s input adds depth to euro-area policy/regulatory discourse that can subtly affect FX sentiment. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n\nNote: The above items are pulled from the MQL5 Economic Calendar (today and upcoming events) as shown on their page. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n\nCurrent price (provided): 1.16013\n\nAnalyst forecasts and related commentary (recent notes aligned with the 2026 window):\n- Corpay Currency Research (forecast table, Jan 2026 outlook) shows EURUSD broadly in the 1.17\u20131.19 area over 2026, with quarterly sketches that imply continued euro strength if USD softness persists. This provides a backdrop for the near-term bias around 1.16\u20131.18 depending on data flow. ([corpaycurrencyresearch.com](https://corpaycurrencyresearch.com/wp-content/uploads/2026/01/202600115-OUTLOOK.pdf?utm_source=openai))\n- Morgan Stanley has flagged scenarios where euro/dollar could dip toward the 1.13 area on energy/inflation risks, highlighting that mixed euro-area data and dollar dynamics can produce outsized moves if energy or policy shifts surprise. This is a cautionary, risk-aware view for the period. ([uk.finance.yahoo.com](https://uk.finance.yahoo.com/news/energy-shock-risks-pushing-eur-124810107.html?utm_source=openai))\n- Morgan Stanley also indicated, in Reuters-linked coverage, that ECB easing could be limited through 2026, which would be USD-supportive vs EUR if confirmed. This feeds a cautious near-term bias for EURUSD in the absence of a clear ECB policy signal. ([investing.com](https://www.investing.com/news/economy-news/morgan-stanley-sees-no-more-ecb-easing-in-2026-as-mideast-crisis-lifts-inflation-risks-4543030?utm_source=openai))\n\n## Sentiment\n- Mixed-to-cautious. Euro-area PMIs suggest some manufacturing resilience while services/overall momentum remain nuanced, which tempers a strong directional bet. ECB communications (Lane and Lagarde speeches) plus euro-area PPI data add event-risk flavor for the euro. At the same time, US data and energy/fiscal dynamics could cap a sharp move in either direction. The price around 1.1600 sits in a zone that could offer light intra-day moves on data prints and central-bank commentary. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n\n## AI RECOMMENDATION: NEUTRAL\n**Reasoning**: The latest euro-area PMI readings show a split: improving manufacturing (supportive for EUR) but softer services and composite readings (limiting upside). With Lagarde and Lane speeches on tap and euro-area PPI data due, there\u2019s both upside risk (data supportive for the euro) and downside risk (ECB policy expectations, US data, energy dynamics). Forecasts from Corpay point to mid-1.17s to around 1.19 for 2026 as a broader path, which implies some upside potential but not a sure breakout from the current range. Morgan Stanley\u2019s cautions about energy/inflation risk and possible ECB easing constraints add to the uncertainty. Given the mixed data and event risk today, a Neutral stance is appropriate. ([corpaycurrencyresearch.com](https://corpaycurrencyresearch.com/wp-content/uploads/2026/01/202600115-OUTLOOK.pdf?utm_source=openai))\n**Confidence Level**: MEDIUM\n\nIf you\u2019d like, I can pull exact article links for any one of the events listed in the calendar, or expand with live price action and a short intraday chart analysis around today\u2019s key data prints.",
         "ai_recommendation": "NEUTRAL",
         "ai_recommendation_reasoning": "",
         "confidence": "MEDIUM",
@@ -183,16 +175,16 @@
             "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
           },
           {
-            "url": "https://www.bancaditalia.it/media/agenda/2026-03-18_governing-council-of-the-ecb-monetary-policy-meeting/",
-            "title": "Banca d\u2019Italia - Governing Council of the ECB: Monetary policy meeting"
-          },
-          {
-            "url": "https://www.ifcmfx.com/en/next-week-calendar/eurusd-economic-calendar-2026-03-09",
-            "title": "Key Economic Events for the Week Ahead: from March 16th to 20th | IFCM"
-          },
-          {
             "url": "https://corpaycurrencyresearch.com/wp-content/uploads/2026/01/202600115-OUTLOOK.pdf?utm_source=openai",
             "title": "2026 CURRENCY MARKET OUTLOOK"
+          },
+          {
+            "url": "https://uk.finance.yahoo.com/news/energy-shock-risks-pushing-eur-124810107.html?utm_source=openai",
+            "title": "Energy shock risks pushing EUR/USD toward 1.13 floor, says Morgan Stanley"
+          },
+          {
+            "url": "https://www.investing.com/news/economy-news/morgan-stanley-sees-no-more-ecb-easing-in-2026-as-mideast-crisis-lifts-inflation-risks-4543030?utm_source=openai",
+            "title": "Morgan Stanley sees no more ECB easing in 2026 as Mideast crisis lifts inflation risks By Reuters"
           }
         ],
         "citations": [
@@ -201,91 +193,111 @@
             "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
           },
           {
-            "url": "https://www.bancaditalia.it/media/agenda/2026-03-18_governing-council-of-the-ecb-monetary-policy-meeting/",
-            "title": "Banca d\u2019Italia - Governing Council of the ECB: Monetary policy meeting"
+            "url": "https://www.mql5.com/en/economic-calendar",
+            "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
           },
           {
-            "url": "https://www.ifcmfx.com/en/next-week-calendar/eurusd-economic-calendar-2026-03-09",
-            "title": "Key Economic Events for the Week Ahead: from March 16th to 20th | IFCM"
+            "url": "https://www.mql5.com/en/economic-calendar",
+            "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
           },
           {
-            "url": "https://www.ifcmfx.com/en/next-week-calendar/eurusd-economic-calendar-2026-03-09",
-            "title": "Key Economic Events for the Week Ahead: from March 16th to 20th | IFCM"
+            "url": "https://www.mql5.com/en/economic-calendar",
+            "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
+          },
+          {
+            "url": "https://www.mql5.com/en/economic-calendar",
+            "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
+          },
+          {
+            "url": "https://www.mql5.com/en/economic-calendar",
+            "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
+          },
+          {
+            "url": "https://www.mql5.com/en/economic-calendar",
+            "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
           },
           {
             "url": "https://corpaycurrencyresearch.com/wp-content/uploads/2026/01/202600115-OUTLOOK.pdf?utm_source=openai",
             "title": "2026 CURRENCY MARKET OUTLOOK"
           },
           {
-            "url": "https://www.mql5.com/en/economic-calendar",
-            "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
+            "url": "https://uk.finance.yahoo.com/news/energy-shock-risks-pushing-eur-124810107.html?utm_source=openai",
+            "title": "Energy shock risks pushing EUR/USD toward 1.13 floor, says Morgan Stanley"
+          },
+          {
+            "url": "https://www.investing.com/news/economy-news/morgan-stanley-sees-no-more-ecb-easing-in-2026-as-mideast-crisis-lifts-inflation-risks-4543030?utm_source=openai",
+            "title": "Morgan Stanley sees no more ECB easing in 2026 as Mideast crisis lifts inflation risks By Reuters"
           },
           {
             "url": "https://www.mql5.com/en/economic-calendar",
             "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
+          },
+          {
+            "url": "https://corpaycurrencyresearch.com/wp-content/uploads/2026/01/202600115-OUTLOOK.pdf?utm_source=openai",
+            "title": "2026 CURRENCY MARKET OUTLOOK"
           }
         ],
         "recommendation_based_on_search": true
       }
     },
     {
-      "timestamp": "2026-03-18T10:09:14.377921+03:00",
+      "timestamp": "2026-03-25T10:58:20.543447+03:00",
       "symbol": "GBPUSD",
       "timeframe": "H1",
       "price": {
-        "bid": 1.33677,
-        "ask": 1.33687,
+        "bid": 1.33898,
+        "ask": 1.33908,
         "last": 0.0
       },
-      "sentiment": "NEUTRAL",
-      "analysis": "Market shows balanced conditions. RSI: 48.4, MFI: 61.7, Stochastic: 46.2",
+      "sentiment": "BULLISH",
+      "analysis": "Market shows positive momentum. RSI: 43.6, MFI: 55.9, Stochastic: 14.7",
       "indicators": {
         "rsi": {
-          "value": 48.38,
+          "value": 43.59,
           "condition": "NEUTRAL"
         },
         "mfi": {
-          "value": 61.7,
+          "value": 55.87,
           "condition": "NEUTRAL"
         },
         "stochastic": {
-          "main": 46.17,
-          "condition": "NEUTRAL"
+          "main": 14.73,
+          "condition": "OVERSOLD"
         },
         "macd": {
-          "main": 0.00093,
-          "signal": 0.00097,
+          "main": -0.00155,
+          "signal": -0.00131,
           "trend": "BEARISH"
         },
         "bollinger_bands": {
-          "upper": 1.33441,
-          "middle": 1.32992,
-          "lower": 1.32543
+          "upper": 1.33787,
+          "middle": 1.33283,
+          "lower": 1.32779
         },
         "moving_average": {
-          "value": 1.33104
+          "value": 1.33219
         },
         "parabolic_sar": {
-          "value": 1.334,
+          "value": 1.33431,
           "trend": "UPTREND"
         },
         "ichimoku": {
-          "tenkan_sen": 1.33178,
-          "kijun_sen": 1.32852
+          "tenkan_sen": 1.332,
+          "kijun_sen": 1.33669
         }
       },
       "signals": {
-        "primary": "NEUTRAL",
+        "primary": "BUY",
         "strength": "MODERATE",
-        "recommendation": "OBSERVE"
+        "recommendation": "CONSIDER_LONG"
       },
       "ai_web_research": {
         "ai_enabled": true,
         "model": "gpt-5-nano",
         "symbol": "GBPUSD",
-        "timestamp": "2026-03-18T10:10:30.983554+03:00",
+        "timestamp": "2026-03-25T10:59:35.161444+03:00",
         "web_search_used": true,
-        "ai_response": "## News Summary\n- GBP gilt auction: The UK 5-Year Treasury Gilt Auction occurred on March 17, 2026, at 10:30 (GBP currency). This is a visible near-term UK fiscal/market event that can influence GBP strength in the hours ahead. Source: MQL5 Economic Calendar (GBP entry for 2026-03-17) ([mql5.com](https://www.mql5.com/en/economic-calendar))\n- US FOMC meeting: The Federal Reserve\u2019s March 17\u201318, 2026 FOMC meeting is in focus, with a policy statement/decision due on March 18 (and a subsequent press conference). This is a major driver for USD and can impact GBP/USD. Source: MQL5 Economic Calendar (FOMC events listed for 3/18) ([mql5.com](https://www.mql5.com/en/economic-calendar))\n- US PPI data on March 18: The calendar shows US PPI data (PPI m/m, PPI y/y, and related measures) released around the March 18 window, adding to price action risk around GBPUSD. Source: MQL5 Economic Calendar (PPI entries on 2026-03-18) ([mql5.com](https://www.mql5.com/en/economic-calendar))\n- BoE event pipeline: BoE policy event risk remains on the near horizon with MPC Minutes/Decisions due around March 19; markets are watching for clarity on rate paths. Source: MQL5 Economic Calendar (GBP entries near 3/19) ([mql5.com](https://www.mql5.com/en/economic-calendar))\n\nAnalyst consensus / forecasts to watch (as context around the GBPUSD path):\n- Morgan Stanley: Has projected the pound higher vs the dollar in 2026, with a mid-2026 target around 1.45 (bullish scenario for GBP). Source: Bloomberg article cited by other outlets. ([bloomberg.com](https://www.bloomberg.com/news/articles/2025-10-03/morgan-stanley-is-betting-pound-hits-post-brexit-high-next-year?utm_source=openai))\n- UBS: Forecasts GBPUSD around 1.40 by September 2026 (bullish for GBP vs USD in the forecast). Source: Investing/FX coverage. ([investing.com](https://www.investing.com/news/forex-news/pound-to-dollar-outlook-ubs-sees-gbpusd-rising-to-140-4203860?utm_source=openai))\n- Corpay (Currency Research): Forecasts around 1.34 for GBPUSD in early 2026 (more modest/neutral view). Source: Corpay 2026 outlook. ([corpaycurrencyresearch.com](https://corpaycurrencyresearch.com/wp-content/uploads/2026/01/202600115-OUTLOOK.pdf?utm_source=openai))\n- Markets pricing (view on Fed path): Some market-and-projections research suggests a hold on rates at the March 18 FOMC meeting with ongoing expectations of easing later in 2026; this feeds into USD dynamics around GBPUSD. Source: MLQ.ai / market-watch notes. ([mlq.ai](https://mlq.ai/prediction/brief/fed/fed-markets-lean-on-pause-as-march-decision-looms-with-99-no-change-odds-2026-03-09/?utm_source=openai))\n\nNote on today\u2019s calendar data: The above items reflect the last-24-hours calendar and news activity as captured by the MQL5 Economic Calendar and current market commentary references. For real-time confirmation, you may want to open the MQL5 calendar page directly and/or check live Reuters/Bloomberg/FXStreet updates as they publish post-event results. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n\n## Sentiment\n- Mixed/uncertain. Near-term catalyst risk from the Fed (March 18) and BoE policy path (Mar 19) plus the UK gilt auction on Mar 17 keeps GBPUSD range-bound around the 1.33\u20131.34 area in the very near term. The upcoming inflation data and central bank commentary could tilt the pair one way or the other depending on USD strength post-FOMC and UK inflation/BoE guidance. The calendar shows both US and UK events driving volatility in the next 24 hours. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n\n## AI RECOMMENDATION: NEUTRAL\n**Reasoning**: \n- The 24-hour window includes a significant USD catalyst (the Fed\u2019s March 18 FOMC decision and press conference) and UK fiscal/monetary events (Mar 17 gilt auction; BoE decisions looming on Mar 19). With USD trajectory highly data dependent around the Fed decision and UK outlook still subject to BoE guidance, the GBPUSD path is highly data- and event-driven in the short run. Forecasts are mixed among major institutions (some bullish for GBP by late 2026, some more neutral around 1.34\u20131.40), reinforcing the lack of a clear directional edge in the immediate term. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n- The current price level (around 1.3367) sits near short-term support/resistance clusters, and a decisive Fed outcome could trigger a sharper move either higher or lower depending on the tone (hawkish vs. dovish). Until that signal emerges, a neutral stance makes sense. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n\nConfidence Level: MEDIUM\n\nIf you\u2019d like, I can pull exact post-FOMC quotes and real-time price moves from Reuters/Bloomberg/FXStreet for the March 18, 2026 announcements and update the sentiment and forecast angles accordingly.",
+        "ai_response": "## News Summary\n- Current price: 1.33898\n- UK PMIs for March 24, 2026 were released: Manufacturing 51.4, Services 51.2, Composite 51.0 (all above 50, signaling expansion). This suggests the domestic economy remains in growth territory as the data flow continues to shape BoE expectations. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n- Bank of England: BoE MPC Member Pill gave a speech on March 24, 2026 (GBP mention). Such speeches are watched for signals on the policy path, especially ahead of any potential guidance changes. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n- UK House Price Index (HPI) y/y data due on March 25, 2026 is on the calendar: forecast 1.7% (previous 2.4%). A softer housing figure could influence inflation expectations and BoE rate-path pricing. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n- EUR-related event: ECB President Lagarde is scheduled to speak on March 25, 2026, which could impact EUR moves and, by extension, GBP/EUR cross dynamics that feed into GBP/USD. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n- U.S. data window (to influence USD direction and GBP/USD flows): Current Account, Import/Export Price Index figures are on the US calendar for March 25, with additional items like EIA energy stock data coming later. These releases can sway dollar strength and intraday volatility in GBPUSD. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n\nNote: The above items come from the official economic calendar for the United Kingdom and major economies (including the March 24\u201325, 2026 window) as listed by the MQL5 economic calendar. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n\n## Sentiment\n- Mixed but cautiously constructive for GBP in the very near term:\n  - UK PMIs above 50 indicate ongoing private\u2011sector expansion, which tends to support the pound against the dollar in the short run. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n  - Softer UK housing data (HPI y/y forecast at 1.7% versus 2.4% prior) could temper inflation pressures and influence BoE policy expectations, introducing caution for sterling bulls. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n  - Finanical event flow includes a BoE official (Pill) speaking on the policy outlook, plus ECB commentary (Lagarde) that may shift risk sentiment and cross\u2011rates, affecting GBP/USD indirectly. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n  - US data and energy inventory releases add another layer of uncertainty, keeping the dollar\u2019s path somewhat data\u2011dependent in the near term. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n\n## AI RECOMMENDATION: NEUTRAL\n**Reasoning**: The data show a tug-of-war for GBP. UK PMIs point to modest expansion (friendly for GBP), while housing data and evolving BoE rate\u2011path expectations inject caution. ECB commentary and US data risk add cross\u2011market volatility that can cap or briefly push GBP/USD in either direction. Given these mixed signals within the same 24\u2011hour window, a neutral stance fits current evidence. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n\n**Confidence Level**: MEDIUM",
         "ai_recommendation": "NEUTRAL",
         "ai_recommendation_reasoning": "",
         "confidence": "MEDIUM",
@@ -293,22 +305,6 @@
           {
             "url": "https://www.mql5.com/en/economic-calendar",
             "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
-          },
-          {
-            "url": "https://www.bloomberg.com/news/articles/2025-10-03/morgan-stanley-is-betting-pound-hits-post-brexit-high-next-year?utm_source=openai",
-            "title": "Morgan Stanley Bets on Post-Brexit Pound High in 2026 - Bloomberg"
-          },
-          {
-            "url": "https://www.investing.com/news/forex-news/pound-to-dollar-outlook-ubs-sees-gbpusd-rising-to-140-4203860?utm_source=openai",
-            "title": "Pound to dollar outlook: UBS sees GBP/USD rising to 1.40 By Investing.com"
-          },
-          {
-            "url": "https://corpaycurrencyresearch.com/wp-content/uploads/2026/01/202600115-OUTLOOK.pdf?utm_source=openai",
-            "title": "2026 CURRENCY MARKET OUTLOOK"
-          },
-          {
-            "url": "https://mlq.ai/prediction/brief/fed/fed-markets-lean-on-pause-as-march-decision-looms-with-99-no-change-odds-2026-03-09/?utm_source=openai",
-            "title": "MLQ.ai | AI for investors"
           }
         ],
         "citations": [
@@ -329,20 +325,16 @@
             "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
           },
           {
-            "url": "https://www.bloomberg.com/news/articles/2025-10-03/morgan-stanley-is-betting-pound-hits-post-brexit-high-next-year?utm_source=openai",
-            "title": "Morgan Stanley Bets on Post-Brexit Pound High in 2026 - Bloomberg"
+            "url": "https://www.mql5.com/en/economic-calendar",
+            "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
           },
           {
-            "url": "https://www.investing.com/news/forex-news/pound-to-dollar-outlook-ubs-sees-gbpusd-rising-to-140-4203860?utm_source=openai",
-            "title": "Pound to dollar outlook: UBS sees GBP/USD rising to 1.40 By Investing.com"
+            "url": "https://www.mql5.com/en/economic-calendar",
+            "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
           },
           {
-            "url": "https://corpaycurrencyresearch.com/wp-content/uploads/2026/01/202600115-OUTLOOK.pdf?utm_source=openai",
-            "title": "2026 CURRENCY MARKET OUTLOOK"
-          },
-          {
-            "url": "https://mlq.ai/prediction/brief/fed/fed-markets-lean-on-pause-as-march-decision-looms-with-99-no-change-odds-2026-03-09/?utm_source=openai",
-            "title": "MLQ.ai | AI for investors"
+            "url": "https://www.mql5.com/en/economic-calendar",
+            "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
           },
           {
             "url": "https://www.mql5.com/en/economic-calendar",
@@ -365,49 +357,49 @@
       }
     },
     {
-      "timestamp": "2026-03-18T10:10:31.012262+03:00",
+      "timestamp": "2026-03-25T10:59:35.187349+03:00",
       "symbol": "USDJPY",
       "timeframe": "H1",
       "price": {
-        "bid": 158.737,
-        "ask": 158.746,
+        "bid": 159.132,
+        "ask": 159.141,
         "last": 0.0
       },
       "sentiment": "NEUTRAL",
-      "analysis": "Market shows balanced conditions. RSI: 65.6, MFI: 67.7, Stochastic: 83.9",
+      "analysis": "Market shows balanced conditions. RSI: 55.7, MFI: 64.5, Stochastic: 48.5",
       "indicators": {
         "rsi": {
-          "value": 65.6,
+          "value": 55.7,
           "condition": "NEUTRAL"
         },
         "mfi": {
-          "value": 67.74,
+          "value": 64.51,
           "condition": "NEUTRAL"
         },
         "stochastic": {
-          "main": 83.88,
-          "condition": "OVERBOUGHT"
+          "main": 48.55,
+          "condition": "NEUTRAL"
         },
         "macd": {
-          "main": -0.00454,
-          "signal": -0.04295,
-          "trend": "BULLISH"
+          "main": 0.20334,
+          "signal": 0.20899,
+          "trend": "BEARISH"
         },
         "bollinger_bands": {
-          "upper": 159.48326,
-          "middle": 159.196,
-          "lower": 158.90874
+          "upper": 159.70461,
+          "middle": 159.29625,
+          "lower": 158.88789
         },
         "moving_average": {
-          "value": 159.20193
+          "value": 159.38036
         },
         "parabolic_sar": {
-          "value": 158.914,
-          "trend": "DOWNTREND"
+          "value": 159.016,
+          "trend": "UPTREND"
         },
         "ichimoku": {
-          "tenkan_sen": 159.195,
-          "kijun_sen": 159.246
+          "tenkan_sen": 159.3365,
+          "kijun_sen": 158.958
         }
       },
       "signals": {
@@ -419,20 +411,16 @@
         "ai_enabled": true,
         "model": "gpt-5-nano",
         "symbol": "USDJPY",
-        "timestamp": "2026-03-18T10:11:43.353673+03:00",
+        "timestamp": "2026-03-25T11:00:33.162908+03:00",
         "web_search_used": true,
-        "ai_response": "## News Summary\n- FOMC decision and communications scheduled for March 18, 2026 (the Federal Reserve\u2019s policy statement, projections, and rate decision, plus a Powell press conference at 2:30 PM ET). This event is likely to drive USD dynamics and, in turn, USD/JPY moves. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n- U.S. economic calibration ahead of the FOMC: PPI (producer price index) and core PPI, along with Factory Orders and related shipments, are on the calendar for March 18, 2026. These releases can influence the dollar\u2019s near-term path and USD/JPY volatility. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n- U.S. data calendar also includes EIA oil data (crude stocks, gasoline, and related indicators) around 2:30 PM ET, which can impact risk sentiment and USD/JPY intraday moves. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n- Bank of Japan policy events are expected later in March (BoJ Monetary Policy Statement and BoJ Interest Rate Decision on March 19, 2026), which are a key JPY driver and can influence USD/JPY beyond today\u2019s session. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n- Analyst forecasts for USD/JPY: MUFG\u2019s March 2026 FX Outlook suggests USD/JPY targets of around 156 in Q1 2026, easing toward roughly 148 by end-2026, i.e., a softer dollar/yen path than current levels. This implies a bearish tilt for the USD/JPY pair over the balance of 2026. ([mufgresearch.com](https://www.mufgresearch.com/fx/monthly-foreign-exchange-outlook-march-2026/))\n\nNotes:\n- The above items are drawn from the MQL5 Economic Calendar (dates, times, and event types) for the March 17\u201318, 2026 window, including FOMC events and U.S./Japanese data releases. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n- MUFG\u2019s forecast is included as representative analyst commentary on USD/JPY for 2026. ([mufgresearch.com](https://www.mufgresearch.com/fx/monthly-foreign-exchange-outlook-march-2026/))\n\nCurrent price reference used: 158.737 (USD/JPY) during this window.\n\n## Sentiment\n- Cautious to neutral ahead of the key FOMC decision today, with the potential for heightened intraday volatility around the U.S. data prints and the Fed\u2019s statements. The yen may remain sensitive to BoJ expectations ahead of the March 19 meeting, adding two-way risk to USD/JPY. The market mood is functionally data- and event-driven as major central-bank signals approach. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n\n## AI RECOMMENDATION: BEARISH\n**Reasoning**: \n- The MUFG March 2026 FX Outlook presents a down-trend path for USD/JPY over 2026 (USD/JPY around 156 in Q1 2026, then toward 148 by year-end), signaling potential pressure on the pair from the yen side as Japanese policy normalization progresses. If the Fed\u2019s March outcome is not hawkish enough to sustain elevated USD momentum, USD/JPY could drift lower toward the forecast path. ([mufgresearch.com](https://www.mufgresearch.com/fx/monthly-foreign-exchange-outlook-march-2026/))\n- With BoJ policy signals coming on March 19 and ongoing expectations of policy tightening relative to the U.S., the yield differential could compress further, which tends to weigh on USD/JPY in the near term after the FOMC event. The calendar confirms BoJ actions loom on March 19, outside today\u2019s session but relevant for the medium term. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n- Near-term drivers today include high-impact U.S. releases (PPI, Factory Orders) and the FOMC decision/press conference; the direction of the dollar post-FOMC will be crucial for USD/JPY\u2019s immediate trajectory, with current price around 158.7 already near the upper end of recent ranges. The combination of a potentially softer dollar path and BoJ expectations supports a bearish stance on the pair into the coming sessions. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n\n**Confidence Level**: MEDIUM\n\nIf you\u2019d like, I can pull in additional sources (e.g., other banks\u2019 forecasts or live Fed/BoJ statement summaries) to further triangulate the forecast and refine the stance.",
-        "ai_recommendation": "BEARISH",
+        "ai_response": "## News Summary\n- BoJ Monetary Policy Meeting Minutes released on March 24, 2026 at 23:50 JST showed policymakers were divided on the pace/timing of additional rate hikes, signaling uncertainty about when and how aggressively policy could tighten. This underpinning connects to the USD/JPY dynamic around the 160 area. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n- Japanese data for March 25, 2026 included Coincident Index, Coincident Index m/m, Leading Index, and Leading Index m/m (all reported around 05:00 JST). These releases can influence USD/JPY as markets weigh Japan\u2019s domestic momentum versus interest-rate expectations. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n- U.S. data in the window included Nonfarm Productivity q/q (actual 1.8%), Unit Labor Costs q/q (actual 4.4%), and the Richmond Fed Manufacturing Index/Shipments data (both released on March 24). These figures can affect dollar strength and thus USD/JPY moves in the near term. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n- Fed-related communications: Barr (Fed Vice Chair for Supervision) delivered a speech on March 24, 2026, which can feed into expectations for U.S. policy path and dollar trajectory. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n\nNote: The above calendar entries come from the MQL5 Economic Calendar page for March 24\u201325, 2026. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n\nCurrent price (as provided): 159.132 USD/JPY.\n\n## Sentiment\n- Market mood appears to be cautious and range-trading around the 159\u2013160 zone as markets digest BoJ policy deliberations and a mix of domestic Japanese data plus U.S. data. The BoJ minutes highlight internal debate about the timing of hikes, which adds to the sidewise or choppy posture for USD/JPY in the near term. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n\n## AI RECOMMENDATION: NEUTRAL\n**Reasoning**: \n- The latest notable USD/JPY catalysts in the window are BoJ minutes showing policy timing debate and several Japanese data releases that are not dramatically altering the balance of risks. This context tends to keep USD/JPY in a holding pattern rather than a clear directional move. The current price around 159.13 sits near a well-watched resistance zone around 160, where intervention risk has historically appeared, but there\u2019s no definitive breakout signal from the latest batch of news/data. BoJ minutes emphasize uncertainty about the pace of hikes, which argues for caution rather than a clear bullish or bearish stance for the dollar vs. yen. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n- US data in the window was mixed (softer productivity despite higher unit labor costs, along with downstream Fed commentary). This reduces a clean, one-sided impulse for USD strength. ([mql5.com](https://www.mql5.com/en/economic-calendar))\n\n**Confidence Level**: MEDIUM\n\nIf you\u2019d like, I can broaden the search to include more regional outlets, social feeds, or additional calendars to see if any further USD/JPY-specific updates appeared outside the main sources.",
+        "ai_recommendation": "NEUTRAL",
         "ai_recommendation_reasoning": "",
         "confidence": "MEDIUM",
         "sources": [
           {
             "url": "https://www.mql5.com/en/economic-calendar",
             "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
-          },
-          {
-            "url": "https://www.mufgresearch.com/fx/monthly-foreign-exchange-outlook-march-2026/",
-            "title": "Monthly Foreign Exchange Outlook - MUFG Research"
           }
         ],
         "citations": [
@@ -453,24 +441,12 @@
             "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
           },
           {
-            "url": "https://www.mufgresearch.com/fx/monthly-foreign-exchange-outlook-march-2026/",
-            "title": "Monthly Foreign Exchange Outlook - MUFG Research"
-          },
-          {
             "url": "https://www.mql5.com/en/economic-calendar",
             "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
           },
           {
-            "url": "https://www.mufgresearch.com/fx/monthly-foreign-exchange-outlook-march-2026/",
-            "title": "Monthly Foreign Exchange Outlook - MUFG Research"
-          },
-          {
             "url": "https://www.mql5.com/en/economic-calendar",
             "title": "Economic Calendar | Financial & Forex News | World Economy Events in Real-Time"
-          },
-          {
-            "url": "https://www.mufgresearch.com/fx/monthly-foreign-exchange-outlook-march-2026/",
-            "title": "Monthly Foreign Exchange Outlook - MUFG Research"
           },
           {
             "url": "https://www.mql5.com/en/economic-calendar",
